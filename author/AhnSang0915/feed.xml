@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://ahnsang0915.github.io/author/AhnSang0915/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-02-27T03:22:06+09:00</updated>
+  <updated>2022-02-27T12:47:47+09:00</updated>
   <id>https://ahnsang0915.github.io/author/AhnSang0915/feed.xml</id>
 
   
@@ -105,6 +105,40 @@
 
       
         <summary type="html">Python Practice Python 첫번쨰 Python 두번째</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Javascript - JavaScript 사용</title>
+      <link href="https://ahnsang0915.github.io/javascript-basic2" rel="alternate" type="text/html" title="Javascript - JavaScript 사용" />
+      <published>2022-02-26T18:27:00+09:00</published>
+      <updated>2022-02-26T18:27:00+09:00</updated>
+      <id>https://ahnsang0915.github.io/javascript-basic2</id>
+      <content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic2">&lt;p&gt;이글은 javascript basic입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>AhnSang0915</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">이글은 javascript basic입니다.</summary>
       
 
       
