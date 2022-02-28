@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-02-27T17:20:37+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Javascript - JavaScript 사용</title><link href="https://ahnsang0915.github.io/javascript-basic2" rel="alternate" type="text/html" title="Javascript - JavaScript 사용" /><published>2022-02-27T13:33:00+09:00</published><updated>2022-02-27T13:33:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic2</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic2">&lt;p&gt;이글은 javascript basic 두번쨰 입니다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">이글은 javascript basic 두번쨰 입니다.</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://ahnsang0915.github.io/python-st" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2022-02-27T02:57:00+09:00</published><updated>2022-02-27T02:57:00+09:00</updated><id>https://ahnsang0915.github.io/python-st</id><content type="html" xml:base="https://ahnsang0915.github.io/python-st">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python Practice&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-02-28T22:42:05+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Javascript - JavaScript 기본</title><link href="https://ahnsang0915.github.io/javascript-basic" rel="alternate" type="text/html" title="Javascript - JavaScript 기본" /><published>2022-02-28T21:34:00+09:00</published><updated>2022-02-28T21:34:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic">&lt;h1 id=&quot;javascript-기본&quot;&gt;JavaScript 기본&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-주석-comment&quot;&gt;1. 주석 (Comment)&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다.&lt;br /&gt;
+코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;javascript주석의-코드-사용-방법&quot;&gt;&lt;strong&gt;JavaScript주석의 코드 사용 방법&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;한줄 주석의 경우 - // 내용&lt;br /&gt;
+여러 줄의 경우 - /* 내용 */ 로 사용한다&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 한줄 주석 사용시&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/* 
+    여러줄 
+    주석 
+    사용시
+*/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-줄바꿈과-여백&quot;&gt;2. 줄바꿈과 여백&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;JavaScript의 경우 명령이 끝났다는걸 알려주기 위해 ;를 표시해준다 &lt;br /&gt;
+줄바꿈을 할 경우엔 JavaScript에서 자동으로 명령이 끝났다고 판단하지만 한줄에 여러 명령을 쓸 경우가 있어 명령어 뒤엔 ;를 붙여주는게 좋다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;text/javascript&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//;을 안넣어도 줄이 바뀌면 명령이 끝났다고 인식한다&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+위 코드에서 ;기호를 없애도 줄바꿈을 했기 때문에 명령이 끝났다고 인식할 것 이다.
+하지만
+&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;text/javascript&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//;가 없다면 var a = 1alert(a) 가 될것이다.&lt;/span&gt;
+        
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+이런 경우엔 ;가 없다면 하나의 명령이 될 것이다.( var 뒤 띄어쓰기를 해야 하고 =양쪽엔 하지 않아도 된다.)
+&lt;br /&gt;&lt;br /&gt;
+그리고 코드를 썼는데 코드가 다닥다닥 붙어 있다면 코드를 보기 힘들 것이다.&lt;br /&gt;
+&lt;u&gt; 가독성이 좋지 않다는 말이다. &lt;/u&gt;&lt;br /&gt;
+Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋게 하는 게 좋을 것이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 기본</summary></entry><entry><title type="html">Javascript - JavaScript 사용</title><link href="https://ahnsang0915.github.io/javascript-basic2" rel="alternate" type="text/html" title="Javascript - JavaScript 사용" /><published>2022-02-27T13:33:00+09:00</published><updated>2022-02-27T13:33:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic2</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic2">&lt;p&gt;이글은 javascript basic 두번쨰 입니다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">이글은 javascript basic 두번쨰 입니다.</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://ahnsang0915.github.io/python-st" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2022-02-27T02:57:00+09:00</published><updated>2022-02-27T02:57:00+09:00</updated><id>https://ahnsang0915.github.io/python-st</id><content type="html" xml:base="https://ahnsang0915.github.io/python-st">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python Practice&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 첫번쨰&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 두번째&lt;/a&gt;&lt;/li&gt;
@@ -161,7 +225,7 @@ exclude:
   - _posts/economy&lt;/pre&gt;&lt;/noscript&gt;
 &lt;script src=&quot;https://gist.github.com/AhnSang0915/283d7050dd411831cd4f0b7e9ecff301.js&quot;&gt; &lt;/script&gt;
 
-&lt;!-- &lt;script src=&quot;https://gist.github.com/AhnSang0915/283d7050dd411831cd4f0b7e9ecff301.js&quot;&gt;&lt;/script&gt; --&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Practice Python 첫번쨰 Python 두번째</summary></entry><entry><title type="html">Javascript - JavaScript 기본</title><link href="https://ahnsang0915.github.io/javascript-basic" rel="alternate" type="text/html" title="Javascript - JavaScript 기본" /><published>2022-02-26T18:27:00+09:00</published><updated>2022-02-26T18:27:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic">&lt;p&gt;이글은 javascript basic입니다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">이글은 javascript basic입니다.</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://ahnsang0915.github.io/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2022-02-26T18:27:00+09:00</published><updated>2022-02-26T18:27:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python Practice&lt;/span&gt;&lt;/p&gt;
+&lt;!-- &lt;script src=&quot;https://gist.github.com/AhnSang0915/283d7050dd411831cd4f0b7e9ecff301.js&quot;&gt;&lt;/script&gt; --&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Practice Python 첫번쨰 Python 두번째</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://ahnsang0915.github.io/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2022-02-26T18:27:00+09:00</published><updated>2022-02-26T18:27:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python Practice&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 첫번쨰&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 두번째&lt;/a&gt;&lt;/li&gt;

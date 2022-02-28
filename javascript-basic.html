@@ -57,19 +57,17 @@
     <meta property="og:site_name" content="My Coding Practice Gym" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Javascript - JavaScript 기본" />
-    <meta property="og:description" content="이글은 javascript basic입니다.
-" />
+    <meta property="og:description" content="JavaScript 기본 1. 주석 (Comment) 주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다. 코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다. JavaScript주석의 코드 사용 방법 한줄 주석의 경우 - // 내용 여러 줄의 경우 - /* 내용 */ 로 사용한다 // 한줄 주석 사용시" />
     <meta property="og:url" content="https://AhnSang0915.github.io/javascript-basic" />
     <meta property="og:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-02-26T18:27:00+09:00" />
-    <meta property="article:modified_time" content="2022-02-26T18:27:00+09:00" />
+    <meta property="article:published_time" content="2022-02-28T21:34:00+09:00" />
+    <meta property="article:modified_time" content="2022-02-28T21:34:00+09:00" />
     <meta property="article:tag" content="Javascript" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Javascript - JavaScript 기본" />
-    <meta name="twitter:description" content="이글은 javascript basic입니다.
-" />
+    <meta name="twitter:description" content="JavaScript 기본 1. 주석 (Comment) 주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다. 코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다. JavaScript주석의 코드 사용 방법 한줄 주석의 경우 - // 내용 여러 줄의 경우 - /* 내용 */ 로 사용한다 // 한줄 주석 사용시" />
     <meta name="twitter:url" content="https://AhnSang0915.github.io/" />
     <meta name="twitter:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -101,8 +99,7 @@
         "@type": "WebPage",
         "@id": "https://AhnSang0915.github.io/javascript-basic"
     },
-    "description": "이글은 javascript basic입니다.
-"
+    "description": "JavaScript 기본 1. 주석 (Comment) 주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다. 코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다. JavaScript주석의 코드 사용 방법 한줄 주석의 경우 - // 내용 여러 줄의 경우 - /* 내용 */ 로 사용한다 // 한줄 주석 사용시"
 }
     </script>
 
@@ -176,7 +173,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="26 February 2022">26 February 2022</time>
+                    <time class="post-full-meta-date" datetime="28 February 2022">28 February 2022</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -196,7 +193,72 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p>이글은 javascript basic입니다.</p>
+                    <h1 id="javascript-기본">JavaScript 기본</h1>
+
+<p><br />
+<br />
+<br /></p>
+
+<h2 id="1-주석-comment">1. 주석 (Comment)</h2>
+<p><br />
+<br /></p>
+
+<p>주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다.<br />
+코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다.<br /></p>
+
+<hr />
+
+<h3 id="javascript주석의-코드-사용-방법"><strong>JavaScript주석의 코드 사용 방법</strong></h3>
+
+<p><br />
+<br /></p>
+
+<p>한줄 주석의 경우 - // 내용<br />
+여러 줄의 경우 - /* 내용 */ 로 사용한다</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 한줄 주석 사용시</span>
+
+<span class="cm">/* 
+    여러줄 
+    주석 
+    사용시
+*/</span>
+</code></pre></div></div>
+<p><br />
+<br /></p>
+<h2 id="2-줄바꿈과-여백">2. 줄바꿈과 여백</h2>
+<p><br />
+<br /></p>
+
+<p>JavaScript의 경우 명령이 끝났다는걸 알려주기 위해 ;를 표시해준다 <br />
+줄바꿈을 할 경우엔 JavaScript에서 자동으로 명령이 끝났다고 판단하지만 한줄에 여러 명령을 쓸 경우가 있어 명령어 뒤엔 ;를 붙여주는게 좋다.
+<br />
+<br /></p>
+
+<hr />
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="dl">"</span><span class="s2">text/javascript</span><span class="dl">"</span><span class="o">&gt;</span>
+        <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">//;을 안넣어도 줄이 바뀌면 명령이 끝났다고 인식한다</span>
+        <span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span>
+    <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre></div></div>
+<p><br />
+위 코드에서 ;기호를 없애도 줄바꿈을 했기 때문에 명령이 끝났다고 인식할 것 이다.
+하지만
+<br /></p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="dl">"</span><span class="s2">text/javascript</span><span class="dl">"</span><span class="o">&gt;</span>
+        <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span> <span class="c1">//;가 없다면 var a = 1alert(a) 가 될것이다.</span>
+        
+    <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre></div></div>
+
+<p><br />
+이런 경우엔 ;가 없다면 하나의 명령이 될 것이다.( var 뒤 띄어쓰기를 해야 하고 =양쪽엔 하지 않아도 된다.)
+<br /><br />
+그리고 코드를 썼는데 코드가 다닥다닥 붙어 있다면 코드를 보기 힘들 것이다.<br />
+<u> 가독성이 좋지 않다는 말이다. </u><br />
+Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋게 하는 게 좋을 것이다.</p>
+
 
                 </div>
             </section>
@@ -307,6 +369,10 @@ into the {body} of the default.hbs template -->
                                 
                                   
                                     
+                                  
+                                
+                                  
+                                    
                                         
                                         
                                             <li><a href="/javascript-basic2">Javascript - JavaScript 사용</a></li>
@@ -316,10 +382,6 @@ into the {body} of the default.hbs template -->
                                 
                                   
                                 
-                                  
-                                
-                                  
-                                    
                                   
                                 
                                   
@@ -339,35 +401,33 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
                 
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/python-basic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
+            <a class="post-card-image-link" href="/javascript-basic2">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/javascript-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic">
+            <a class="post-card-content-link" href="/javascript-basic2">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Python</span>
+                                <span class="post-card-tags">Javascript</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Python 강좌(1) - Python 기본</h2>
+                    <h2 class="post-card-title">Javascript - JavaScript 사용</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>Python Practice
-
-    Python 첫번쨰
-    Python 두번째
-
-
+                        <p>이글은 javascript basic 두번쨰 입니다.
 </p>
                     
                 </section>
@@ -381,47 +441,6 @@ into the {body} of the default.hbs template -->
                         <span class="post-card-author">
                             <a href="/author/AhnSang0915/">AhnSang0915</a>
                         </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
-
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/gettysburg-address">
-                <div class="post-card-image" style="background-image: url(/assets/images/bus.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/gettysburg-address">
-                <header class="post-card-header">
-                    
-
-                    <h2 class="post-card-title">Gettysburg Address</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
                     
                 
                 <span class="reading-time">
