@@ -182,21 +182,21 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "javascript-basic2": {
+        "title": "Javascript - JavaScript - 숫자와 문자",
+            "author": "AhnSang0915",
+            "category": "",
+            "content": "JavaScript 숫자와 문자1. 수의 표현 javascript는 큰따옴표나 작은 따옴표가 붙지 않은 숫자는 숫자로 인식한다.정수, 자연수, 실수 모두 사용가능하고 모두 숫자로 인식한다.javascript에선 포괄적으로 number라고 부르고 다른 프로그래밍 언어들 보다 덜 엄격한 편이다.수식으로는 더하기는 + 빼기는 - 나누기는 / 곱셈은 * 으로 표현한다.2. 수의 연산javascript는 계산 기능이 있는데 우리가 흔히 쓰는 수식과는 조금 다르기 때문에 그 방법을 알아두는게 좋겠다.아래 코드에 아직 배우지 않은 부분이 있는데 뒤에서 자세히 배워볼 예정이다.Math.pow(3,2);       // 9,   3의 2승 Math.round(10.6);    // 11,  10.6을 반올림Math.ceil(10.2);     // 11,  10.2를 올림Math.floor(10.6);    // 10,  10.6을 내림Math.sqrt(9);        // 3,   3의 제곱근Math.random();       // 0부터 1.0 사이의 랜덤한 숫자3. 문자””,’‘내에 들어가는 내용은 javascript가 문자로 인식한다.데이터를 입력하면 javascript는 문자와 숫자를 인식하게 된다.숫자를 “A”나 ‘A’로 감싸면 문자로 인식하게 된다.우리가 작성한 데이터 값은 typeof 라는 명령을 사용하면 데이터의 형식을 알수있다.문자는 string 숫자는 number라는 결과가 나온다.alert(typeof \"1\") //결과 : string \"내용' 이런식의 기입은 할수 없음을 알아두자.여러줄로 표시하기 위해서는 \\n을 사용할 수 있다.alert(\"왔냐.\\n 코딩 연습장이다\")또한 데이터를 입력하다 보면 ‘이나 “ ex)alert(‘egoing’s coding everyday’) 등을 사용 해야할 때가 이있는데 이럴땐 \\뒤에 해당 기호를 넣어 문자로 인식하게 할수 있다.alert(\"egoing's coding everyday\") // \"\"사이에 '가 들어 있기 때문에 사용 가능하다.arlert('egoing\\'s coding everyday')// 역슬래쉬 \\뒤의 어떠한 기호는 문자로 해석된다. escape라고 한다.4. 문자의 연산1+1은 2이다 하지만 “1”+”1”은 “11”이된다. 숫자와 문자의 연산은 전혀 다르다.문자를 더하는 표현은 아래와 같다.alert(\"Ahns\"+\" Coding Gym\") //결과 : Ahns Coding Gym문자의 길이를 구할때는 문자 뒤에 .length를 붙여준다.alert(\"Ahns Coding Gym\".length) //결과 : 15 ",
+        "url": "/javascript-basic2"
+    }
+    ,
+    
     "javascript-basic": {
         "title": "Javascript - JavaScript 기본",
             "author": "AhnSang0915",
             "category": "",
             "content": "JavaScript 기본1. 주석 (Comment)주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다.코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다.JavaScript주석의 코드 사용 방법한줄 주석의 경우 - // 내용여러 줄의 경우 - /* 내용 */ 로 사용한다// 한줄 주석 사용시/*     여러줄     주석     사용시*/2. 줄바꿈과 여백JavaScript의 경우 명령이 끝났다는걸 알려주기 위해 ;를 표시해준다 줄바꿈을 할 경우엔 JavaScript에서 자동으로 명령이 끝났다고 판단하지만 한줄에 여러 명령을 쓸 경우가 있어 명령어 뒤엔 ;를 붙여주는게 좋다.    &lt;script type=\"text/javascript\"&gt;        var a = 1; //;을 안넣어도 줄이 바뀌면 명령이 끝났다고 인식한다        alert(a);    &lt;/script&gt;위 코드에서 ;기호를 없애도 줄바꿈을 했기 때문에 명령이 끝났다고 인식할 것 이다.하지만    &lt;script type=\"text/javascript\"&gt;        var a = 1; alert(a); //;가 없다면 var a = 1alert(a) 가 될것이다.            &lt;/script&gt;이런 경우엔 ;가 없다면 하나의 명령이 될 것이다.( var 뒤 띄어쓰기를 해야 하고 =양쪽엔 하지 않아도 된다.)그리고 코드를 썼는데 코드가 다닥다닥 붙어 있다면 코드를 보기 힘들 것이다. 가독성이 좋지 않다는 말이다. Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋게 하는 게 좋을 것이다.",
         "url": "/javascript-basic"
-    }
-    ,
-    
-    "javascript-basic2": {
-        "title": "Javascript - JavaScript 사용",
-            "author": "AhnSang0915",
-            "category": "",
-            "content": "이글은 javascript basic 두번쨰 입니다.",
-        "url": "/javascript-basic2"
     }
     ,
     

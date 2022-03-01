@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-02-28T22:42:05+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Javascript - JavaScript 기본</title><link href="https://ahnsang0915.github.io/javascript-basic" rel="alternate" type="text/html" title="Javascript - JavaScript 기본" /><published>2022-02-28T21:34:00+09:00</published><updated>2022-02-28T21:34:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic">&lt;h1 id=&quot;javascript-기본&quot;&gt;JavaScript 기본&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-03-01T21:11:14+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Javascript - JavaScript - 숫자와 문자</title><link href="https://ahnsang0915.github.io/javascript-basic2" rel="alternate" type="text/html" title="Javascript - JavaScript - 숫자와 문자" /><published>2022-03-01T21:06:00+09:00</published><updated>2022-03-01T21:06:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic2</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic2">&lt;h1 id=&quot;javascript-숫자와-문자&quot;&gt;JavaScript 숫자와 문자&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-수의-표현&quot;&gt;1. 수의 표현&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt; 
+javascript는 큰따옴표나 작은 따옴표가 붙지 않은 숫자는 숫자로 인식한다.
+&lt;br /&gt;
+정수, 자연수, 실수 모두 사용가능하고 모두 숫자로 인식한다.
+&lt;br /&gt;
+javascript에선 포괄적으로 number라고 부르고 다른 프로그래밍 언어들 보다 덜 엄격한 편이다.
+&lt;br /&gt;
+수식으로는 더하기는 + 빼기는 - 나누기는 / 곱셈은 * 으로 표현한다.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-수의-연산&quot;&gt;2. 수의 연산&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+javascript는 계산 기능이 있는데 우리가 흔히 쓰는 수식과는 조금 다르기 때문에 그 방법을 알아두는게 좋겠다.
+&lt;br /&gt;
+&lt;br /&gt;
+아래 코드에 아직 배우지 않은 부분이 있는데 뒤에서 자세히 배워볼 예정이다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;// 9,   3의 2승 &lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;10.6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// 11,  10.6을 반올림&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ceil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;10.2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// 11,  10.2를 올림&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;floor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;10.6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// 10,  10.6을 내림&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;// 3,   3의 제곱근&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;// 0부터 1.0 사이의 랜덤한 숫자&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-문자&quot;&gt;3. 문자&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;””,’‘내에 들어가는 내용은 javascript가 문자로 인식한다.&lt;br /&gt;
+데이터를 입력하면 javascript는 문자와 숫자를 인식하게 된다.&lt;br /&gt;
+숫자를 “A”나 ‘A’로 감싸면 문자로 인식하게 된다.&lt;br /&gt;
+우리가 작성한 데이터 값은 typeof 라는 명령을 사용하면 데이터의 형식을 알수있다.&lt;br /&gt;
+문자는 string 숫자는 number라는 결과가 나온다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//결과 : string &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;u&gt;&quot;내용' 이런식의 기입은 할수 없음을 알아두자.&lt;/u&gt;
+&lt;br /&gt;
+여러줄로 표시하기 위해서는 \n을 사용할 수 있다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;왔냐.&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; 코딩 연습장이다&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;또한 데이터를 입력하다 보면 ‘이나 “ ex)alert(‘egoing’s coding everyday’) 등을 사용 해야할 때가 이있는데 이럴땐 \뒤에 해당 기호를 넣어 문자로 인식하게 할수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;egoing's coding everyday&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &quot;&quot;사이에 '가 들어 있기 때문에 사용 가능하다.&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;arlert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;egoing&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;s coding everyday&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;// 역슬래쉬 \뒤의 어떠한 기호는 문자로 해석된다. escape라고 한다.&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-문자의-연산&quot;&gt;4. 문자의 연산&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1+1은 2이다 하지만 “1”+”1”은 “11”이된다. 숫자와 문자의 연산은 전혀 다르다.
+문자를 더하는 표현은 아래와 같다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Ahns&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; Coding Gym&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//결과 : Ahns Coding Gym&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;문자의 길이를 구할때는 문자 뒤에 .length를 붙여준다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Ahns Coding Gym&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//결과 : 15 &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 숫자와 문자</summary></entry><entry><title type="html">Javascript - JavaScript 기본</title><link href="https://ahnsang0915.github.io/javascript-basic" rel="alternate" type="text/html" title="Javascript - JavaScript 기본" /><published>2022-02-28T21:34:00+09:00</published><updated>2022-02-28T21:34:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic">&lt;h1 id=&quot;javascript-기본&quot;&gt;JavaScript 기본&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -62,7 +154,7 @@
 &lt;br /&gt;&lt;br /&gt;
 그리고 코드를 썼는데 코드가 다닥다닥 붙어 있다면 코드를 보기 힘들 것이다.&lt;br /&gt;
 &lt;u&gt; 가독성이 좋지 않다는 말이다. &lt;/u&gt;&lt;br /&gt;
-Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋게 하는 게 좋을 것이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 기본</summary></entry><entry><title type="html">Javascript - JavaScript 사용</title><link href="https://ahnsang0915.github.io/javascript-basic2" rel="alternate" type="text/html" title="Javascript - JavaScript 사용" /><published>2022-02-27T13:33:00+09:00</published><updated>2022-02-27T13:33:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic2</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic2">&lt;p&gt;이글은 javascript basic 두번쨰 입니다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">이글은 javascript basic 두번쨰 입니다.</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://ahnsang0915.github.io/python-st" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2022-02-27T02:57:00+09:00</published><updated>2022-02-27T02:57:00+09:00</updated><id>https://ahnsang0915.github.io/python-st</id><content type="html" xml:base="https://ahnsang0915.github.io/python-st">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python Practice&lt;/span&gt;&lt;/p&gt;
+Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋게 하는 게 좋을 것이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 기본</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://ahnsang0915.github.io/python-st" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2022-02-27T02:57:00+09:00</published><updated>2022-02-27T02:57:00+09:00</updated><id>https://ahnsang0915.github.io/python-st</id><content type="html" xml:base="https://ahnsang0915.github.io/python-st">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python Practice&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 첫번쨰&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 두번째&lt;/a&gt;&lt;/li&gt;
