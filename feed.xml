@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-03-02T20:55:35+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Javascript - JavaScript 변수, 비교</title><link href="https://ahnsang0915.github.io/javascript-basic3" rel="alternate" type="text/html" title="Javascript - JavaScript 변수, 비교" /><published>2022-03-02T19:58:00+09:00</published><updated>2022-03-02T19:58:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic3</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic3">&lt;h1 id=&quot;javascript-변수-비교&quot;&gt;JavaScript 변수, 비교&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-03-02T21:00:08+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Javascript - JavaScript 변수, 비교</title><link href="https://ahnsang0915.github.io/javascript-basic3" rel="alternate" type="text/html" title="Javascript - JavaScript 변수, 비교" /><published>2022-03-02T19:58:00+09:00</published><updated>2022-03-02T19:58:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic3</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic3">&lt;h1 id=&quot;javascript-변수-비교&quot;&gt;JavaScript 변수, 비교&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -137,7 +137,7 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;4부정과-부등호&quot;&gt;4.부정과 부등호\&lt;/h2&gt;
+&lt;h2 id=&quot;4부정과-부등호&quot;&gt;4.부정과 부등호&lt;/h2&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
