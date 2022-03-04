@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://ahnsang0915.github.io/author/AhnSang0915/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-03-04T19:17:03+09:00</updated>
+  <updated>2022-03-04T19:21:18+09:00</updated>
   <id>https://ahnsang0915.github.io/author/AhnSang0915/feed.xml</id>
 
   
@@ -217,7 +217,8 @@ continue는 지정된 부분에선 반복을 중단하고 반복을 재시작할
 &lt;h3 id=&quot;디버거&quot;&gt;디버거&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
-우리가 만든 코드의 버그를 확인하고 코드 실행 순서를 볼 수 있는 기능을 알아보자. F12키를 눌러 개발자도구를 열고 console로 들어가&lt;/p&gt;
+우리가 만든 코드의 버그를 확인하고 코드 실행 순서를 볼 수 있는 기능을 알아보자. F12키를 눌러 개발자도구를 열고 console로 들어가 보고자 하는 줄의 코드를 선택하고 F5를 눌러 새로고침한다.
+그리고 버튼을 활용해 실행 순서를 확인해 보자.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../javascript/loop.jpg&quot; alt=&quot;디버거&quot; /&gt;&lt;/p&gt;</content>
 
