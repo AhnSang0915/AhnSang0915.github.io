@@ -11,7 +11,7 @@
 
 
 
-    <title>Javascript - JavaScript 변수, 비교</title>
+    <title>Javascript - JavaScript 객체(Object)</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -50,24 +50,24 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Learn Coding" />
     <link rel="shortcut icon" href="https://AhnSang0915.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://AhnSang0915.github.io/javascript-basic3" />
+    <link rel="canonical" href="https://AhnSang0915.github.io/javascript-basic8" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="My Coding Practice Gym" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Javascript - JavaScript 변수, 비교" />
-    <meta property="og:description" content="JavaScript 변수, 비교 변수 1. 변수의 사용법 변수(Variable)는 문자나 숫자같은 값을 담는 컨테이너로 값을 유지할 필요가 있을때 사용한다. 담겨진 값은 다른 값으로 바꿀수 있고 var로 변수를 선언할수 있다. 생략도 가능하지만 var의 의미를 명확하게 이해하기 전에는 var를 사용하는 것이 좋겠다. 예제를 보자. var a = 1; alert(a+1); //2 var a =" />
-    <meta property="og:url" content="https://AhnSang0915.github.io/javascript-basic3" />
+    <meta property="og:title" content="Javascript - JavaScript 객체(Object)" />
+    <meta property="og:description" content="JavaScript 객체(Object) 1. 객체의 소개와 문법 배열은 연관되어 있는 데이터들을 담아내기 위한 그릇이다. 마찬가지로 객체도 연관된 데이터를 담아내는 것에 있어서 유사하다. 하지만 똑같은 그릇이 있다고 쳤을 때 객체도 그릇에 담아내는 것은 같지만 index의 값으로 숫자나 문자를 쓸 수도 있지만, 인덱스로 우리가 원하는 데이터를 지정할 수 있다는 것이 둘의 차이점이라고 할" />
+    <meta property="og:url" content="https://AhnSang0915.github.io/javascript-basic8" />
     <meta property="og:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-03-02T19:58:00+09:00" />
-    <meta property="article:modified_time" content="2022-03-02T19:58:00+09:00" />
+    <meta property="article:published_time" content="2022-03-07T22:32:00+09:00" />
+    <meta property="article:modified_time" content="2022-03-07T22:32:00+09:00" />
     <meta property="article:tag" content="Javascript" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Javascript - JavaScript 변수, 비교" />
-    <meta name="twitter:description" content="JavaScript 변수, 비교 변수 1. 변수의 사용법 변수(Variable)는 문자나 숫자같은 값을 담는 컨테이너로 값을 유지할 필요가 있을때 사용한다. 담겨진 값은 다른 값으로 바꿀수 있고 var로 변수를 선언할수 있다. 생략도 가능하지만 var의 의미를 명확하게 이해하기 전에는 var를 사용하는 것이 좋겠다. 예제를 보자. var a = 1; alert(a+1); //2 var a =" />
+    <meta name="twitter:title" content="Javascript - JavaScript 객체(Object)" />
+    <meta name="twitter:description" content="JavaScript 객체(Object) 1. 객체의 소개와 문법 배열은 연관되어 있는 데이터들을 담아내기 위한 그릇이다. 마찬가지로 객체도 연관된 데이터를 담아내는 것에 있어서 유사하다. 하지만 똑같은 그릇이 있다고 쳤을 때 객체도 그릇에 담아내는 것은 같지만 index의 값으로 숫자나 문자를 쓸 수도 있지만, 인덱스로 우리가 원하는 데이터를 지정할 수 있다는 것이 둘의 차이점이라고 할" />
     <meta name="twitter:url" content="https://AhnSang0915.github.io/" />
     <meta name="twitter:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -88,7 +88,7 @@
         "name": "My Coding Practice Gym",
         "logo": "https://AhnSang0915.github.io/"
     },
-    "url": "https://AhnSang0915.github.io/javascript-basic3",
+    "url": "https://AhnSang0915.github.io/javascript-basic8",
     "image": {
         "@type": "ImageObject",
         "url": "https://AhnSang0915.github.io/assets/built/images/javascript-logo.png",
@@ -97,9 +97,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://AhnSang0915.github.io/javascript-basic3"
+        "@id": "https://AhnSang0915.github.io/javascript-basic8"
     },
-    "description": "JavaScript 변수, 비교 변수 1. 변수의 사용법 변수(Variable)는 문자나 숫자같은 값을 담는 컨테이너로 값을 유지할 필요가 있을때 사용한다. 담겨진 값은 다른 값으로 바꿀수 있고 var로 변수를 선언할수 있다. 생략도 가능하지만 var의 의미를 명확하게 이해하기 전에는 var를 사용하는 것이 좋겠다. 예제를 보자. var a = 1; alert(a+1); //2 var a ="
+    "description": "JavaScript 객체(Object) 1. 객체의 소개와 문법 배열은 연관되어 있는 데이터들을 담아내기 위한 그릇이다. 마찬가지로 객체도 연관된 데이터를 담아내는 것에 있어서 유사하다. 하지만 똑같은 그릇이 있다고 쳤을 때 객체도 그릇에 담아내는 것은 같지만 index의 값으로 숫자나 문자를 쓸 수도 있지만, 인덱스로 우리가 원하는 데이터를 지정할 수 있다는 것이 둘의 차이점이라고 할"
 }
     </script>
 
@@ -112,7 +112,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Javascript - JavaScript 변수, 비교" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Javascript - JavaScript 객체(Object)" href="/feed.xml" />
 
 
 </head>
@@ -173,7 +173,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime=" 2 March 2022"> 2 March 2022</time>
+                    <time class="post-full-meta-date" datetime=" 7 March 2022"> 7 March 2022</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -183,7 +183,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Javascript - JavaScript 변수, 비교</h1>
+                <h1 class="post-full-title">Javascript - JavaScript 객체(Object)</h1>
             </header>
 
             
@@ -193,186 +193,171 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <h1 id="javascript-변수-비교">JavaScript 변수, 비교</h1>
+                    <h1 id="javascript-객체object">JavaScript 객체(Object)</h1>
 
 <p><br />
 <br />
 <br /></p>
 
-<h1 id="변수">변수</h1>
-
-<p><br />
-<br /></p>
-
-<h2 id="1-변수의-사용법">1. 변수의 사용법</h2>
+<h2 id="1-객체의-소개와-문법">1. 객체의 소개와 문법</h2>
 <p><br />
 <br />
-변수(Variable)는 문자나 숫자같은 값을 담는 컨테이너로 값을 유지할 필요가 있을때 사용한다. 담겨진 값은 다른 값으로 바꿀수 있고 var로 변수를 선언할수 있다. 생략도 가능하지만 var의 의미를 명확하게 이해하기 전에는 var를 사용하는 것이 좋겠다. 예제를 보자.
+배열은 연관되어 있는 데이터들을 담아내기 위한 그릇이다. 마찬가지로 객체도 연관된 데이터를 담아내는 것에 있어서 유사하다. 하지만 똑같은 그릇이 있다고 쳤을 때 객체도 그릇에 담아내는 것은 같지만 index의 값으로 숫자나 문자를 쓸 수도 있지만, 인덱스로 우리가 원하는 데이터를 지정할 수 있다는 것이 둘의 차이점이라고 할 수 있다. 다른 언어에서는 연관배열(associative array) 또는 맵(map), 딕셔너리(Dictionary)라는 데이터 타입이 객체에 해당한다.
 <br />
 <br /></p>
+
+<h3 id="객체의-생성">객체의 생성</h3>
+<p><br />
+<br />
+객체를 만드는 법을 알아보자. 배열은 대괄호로 시작해 대괄호로 끝나지만,객체는 중괄호로 시작해 중괄호로 끝나게 된다. 아래는 데이터값으로 숫자를 썻지만 문자나 다른 데이터를 할당하는 것도 가능하다. 아래 예제에서 ansang은 key(index)가 되고 10은 value(데이터 값)가 된다.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span>  <span class="c1">//2</span>
+<span class="kd">var</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sanghyun</span><span class="dl">'</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="dl">'</span><span class="s1">ansanghyun</span><span class="dl">'</span><span class="p">:</span> <span class="mi">80</span><span class="p">};</span>
+            <span class="c1">// key : value  key : value  key : value</span>
  
-<span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span>  <span class="c1">//3</span>
+</code></pre></div></div>
+
+<p>위의 상태에서 객체를 대표하는 변수를 grades로 지정하고 grades를 호출하면 아래와 같은 값이 나오게 된다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nx">grades</span>
+
+<span class="nx">odject</span> <span class="p">{</span><span class="nl">ansang</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="nx">sanghyun</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="nx">ansanghyun</span><span class="p">:</span> <span class="mi">80</span><span class="p">}</span>
 
 </code></pre></div></div>
+
+<p>아래는 객체를 만드는 다른 방법이다.</p>
+
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">var</span> <span class="nx">first</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">coding</span><span class="dl">"</span><span class="p">;</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">first</span><span class="o">+</span><span class="dl">"</span><span class="s2"> everybody</span><span class="dl">"</span><span class="p">);</span> <span class="c1">//coding everyday</span>
+<span class="kd">var</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{};</span>
+<span class="nx">grades</span><span class="p">[</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span> <span class="c1">//key는 ansang value는 10</span>
+<span class="nx">grades</span><span class="p">[</span><span class="dl">'</span><span class="s1">sanghyun</span><span class="dl">'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span> <span class="c1">//key는 sanghyun value는 6</span>
+<span class="nx">grades</span><span class="p">[</span><span class="dl">'</span><span class="s1">ansanghyun</span><span class="dl">'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">80</span><span class="p">;</span> <span class="c1">//key는 ansanghyun value는 80</span>
 
 </code></pre></div></div>
+
+<p>위에선 객체를 호출하는 방법은 아래와 같다. 아무래도 garade.ansang가 간편하지만, 프로그래밍 적인 기재가 불가능하다 이 경우 garade.’an’+’sang’로 호출하게 되면 SyntaxError가 나오게 된다. 즉 . 뒤의 내용을 프로그래밍 적으로 만들 수 없다. []안에 들어가는 값은 프로그래밍 적으로 생성이 가능하기 때문에 필요에 따라 대괄호 안에 작성하는 게 편리하거나 써야만 하는 상황이 있을 수 있다.</p>
+
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="c1">//변수 a에 coding ,변수 b에 everybody를 활당하는 방법은 아래와 같다.</span>
-<span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">coding</span><span class="dl">'</span><span class="p">,</span> <span class="nx">b</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">everybody</span><span class="dl">'</span><span class="p">;</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">b</span><span class="p">);</span>
+<span class="nx">grades</span><span class="p">[</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">]</span> <span class="c1">//value 10</span>
+<span class="nx">garade</span><span class="p">.</span><span class="nx">ansang</span> <span class="c1">//value 10</span>
+<span class="nx">grades</span><span class="p">[</span><span class="dl">'</span><span class="s1">an</span><span class="dl">'</span><span class="o">+</span><span class="dl">'</span><span class="s1">sang</span><span class="dl">'</span><span class="p">]</span> <span class="c1">//value 10</span>
+
 </code></pre></div></div>
+
 <hr />
 
-<h2 id="2-변수의-효용">2. 변수의 효용</h2>
+<h2 id="2객체와-반복문-for-in">2.객체와 반복문 for in</h2>
 <p><br />
 <br />
-변수는 코드의 재활용성을 높여준다. 반복해서 100에서 10을 빼고 더하고 나누는 계산을 해야하는 코드가 있다고 가정해보고 변수가 없다면 100에관한 숫자 데이터를 모두 수정해야 할것이다. 여기서 변수를 적용하면 변수 값만 바꿔주면 된다.
-<br /></p>
+객체에 저장된 데이터를 기준으로 반복하는 작업을 알아보자. 배열은 저장된 데이터들이 순서를 가지고 있다. 그래서 배열에선 순서 자체가 중요한 정보이다. 하지만 객체엔 순서가 없고, key와 value로 이루어져 있기 때문에 저장된 순서는 없기 때문에 저장된 값이 순서에 따라서 나오지 않을 것 이라는 걸 인지해야 한다.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="c1">//변수를 쓰기 전</span>
+<span class="kd">var</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sanghyun</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="dl">'</span><span class="s1">ansanghynu</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">80</span><span class="p">}</span>
+<span class="k">for</span><span class="p">(</span><span class="nx">key</span> <span class="k">in</span> <span class="nx">grandes</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">"</span><span class="s2">key : </span><span class="dl">"</span><span class="o">+</span><span class="nx">key</span><span class="o">+</span><span class="dl">"</span><span class="s2"> value : </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">grades</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">+</span> <span class="dl">"</span><span class="s2">&lt;br /&gt;</span><span class="dl">"</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="cm">/*출력
+key : ansang value : 10
+key : snaghyun value : 6
+key : ansanghyun value : 80
+*/</span>
 
-<span class="nx">alert</span><span class="p">(</span><span class="mi">100</span><span class="o">+</span><span class="mi">10</span><span class="p">);</span>
-<span class="nx">alert</span><span class="p">((</span><span class="mi">100</span><span class="o">+</span><span class="mi">10</span><span class="p">)</span><span class="o">/</span><span class="mi">10</span><span class="p">);</span>
-<span class="nx">alert</span><span class="p">(((</span><span class="mi">100</span><span class="o">+</span><span class="mi">10</span><span class="p">)</span><span class="o">/</span><span class="mi">10</span><span class="p">)</span><span class="o">-</span><span class="mi">10</span><span class="p">);</span>
-<span class="nx">alert</span><span class="p">((((</span><span class="mi">100</span><span class="o">+</span><span class="mi">10</span><span class="p">)</span><span class="o">/</span><span class="mi">10</span><span class="p">)</span><span class="o">-</span><span class="mi">10</span><span class="p">)</span><span class="o">*</span><span class="mi">10</span><span class="p">);</span>
-
-<span class="c1">// 변수 사용 후</span>
-
-<span class="nx">a</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span> <span class="c1">//변할수 있는</span>
-<span class="nx">a</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">+</span> <span class="mi">10</span><span class="p">;</span> <span class="c1">//변하지 않는</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span>
-<span class="nx">a</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">/</span> <span class="mi">10</span><span class="p">;</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span>
-<span class="nx">a</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">-</span> <span class="mi">10</span><span class="p">;</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span>
-<span class="nx">a</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">*</span> <span class="mi">10</span><span class="p">;</span>      
-<span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span>
 </code></pre></div></div>
+<p>또는 key부분을 변수로 바꿔도 된다. 아래는 var name으로 바꿔보았다.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">var</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sanghyun</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="dl">'</span><span class="s1">ansanghynu</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">80</span><span class="p">}</span>
+<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="nx">grandes</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">"</span><span class="s2">key : </span><span class="dl">"</span><span class="o">+</span><span class="nx">name</span><span class="o">+</span><span class="dl">"</span><span class="s2"> value : </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">grades</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">+</span> <span class="dl">"</span><span class="s2">&lt;br /&gt;</span><span class="dl">"</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="cm">/*출력
+key : ansang value : 10
+key : snaghyun value : 6
+key : ansanghyun value : 80
+*/</span>
 
-<p>변수를 쓰지 않은 코드보다 쓴 코드가 더 길기때문에 비효율 적으로 보일수 있으나 코드가 천줄 만줄이라고 생각하면 변수를 쓰는게 좋을것이다.<br />
-코딩을 할때 위의 주석처럼 구획을 나누어 놓는게 좋다. 변할수 있는 부분이 군데군데 들어가 있다면 그것을 찾아서 수정해야한다. 그럴경우 유지보수가 힘들어진다.</p>
-
-<hr />
-
-<h1 id="비교">비교</h1>
-
-<p><br />
-<br /></p>
-
-<h2 id="1연산자">1.연산자</h2>
-<p><br />
-<br /></p>
-
-<p>비교는 조건문을 쓸때 꼭 필요하다. 비교 기능 자체는 효용이 크지 않지만 조건문을 사용하기 위해 꼭 필요하다.<br />
-연산자란 간단하게 말해 = 이다. 변수에 값을 대입할때 사용한다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">a</span><span class="o">=</span><span class="mi">1</span> <span class="c1">//변수 대입연산자 값</span>
 </code></pre></div></div>
+<p>더 보기 편하게 리스트 형태로 만들어보자. html에서의 ul태그와 li태그를 사용해본다.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  <span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+        <span class="kd">var</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sanghyun</span><span class="dl">'</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="dl">'</span><span class="s1">ansanghynu</span><span class="dl">'</span><span class="p">:</span> <span class="mi">80</span><span class="p">};</span>
+            <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="nx">grades</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">"</span><span class="s2">&lt;li&gt;key : </span><span class="dl">"</span><span class="o">+</span><span class="nx">name</span><span class="o">+</span><span class="dl">"</span><span class="s2"> value : </span><span class="dl">"</span><span class="o">+</span><span class="nx">grades</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span><span class="o">+</span><span class="dl">"</span><span class="s2">&lt;/li&gt;</span><span class="dl">"</span><span class="p">);</span>
+            <span class="p">}</span>    
+    <span class="nt">&lt;/script&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
 
-<hr />
-
-<h2 id="2-비교-연산자-과">2. 비교 연산자 (==과===)</h2>
-
-<p><br />
-<br /></p>
-
-<p>비교 연산자는 말그대로 비교하고 판별할때 사용한다. 좌항과 우항중 뭐가 작고 큰지 또는 같은지 등을 판별한다. 비교연산자의 결과는 true나 false둘중 하나다. true와 false형식을 블린 데이터라고 부르고 역시 조건문에서 중요하게 사용한다.</p>
-
-<p><u>==</u> <br />
-==는 동등연산자로 좌항과 우항의 값이 같다면 true 다르다면 false가 된다.=와 ==는 전혀 다르기 때문에 주의해야한다.</p>
+        /* 출력
+        -key : ansang value : 10
+        -key : snaghyun value : 6
+        -key : ansanghyun value : 80
+        */
+</code></pre></div></div>
+<p>배열도 for in문으로 사용할수 있다. 배열에선 var name으로 지정한 값이 index가 됨으로 console.log(name)에서 012라는 index가 추출되고 console.log(arr[name])에선 abc라는 데이터가 출력된다.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">A</span><span class="o">==</span><span class="nx">B</span><span class="p">)</span>             <span class="c1">//false</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">A</span><span class="o">==</span><span class="nx">A</span><span class="p">)</span>             <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">one</span><span class="dl">"</span><span class="o">==</span><span class="dl">"</span><span class="s2">two</span><span class="dl">"</span><span class="p">)</span>     <span class="c1">//false </span>
-<span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">one</span><span class="dl">"</span><span class="o">==</span><span class="dl">"</span><span class="s2">one</span><span class="dl">"</span><span class="p">)</span>     <span class="c1">//true</span>
+<span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">a</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">b</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">c</span><span class="dl">'</span><span class="p">]</span>
+<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">//출력 </span>
+<span class="c1">//0</span>
+<span class="c1">//1</span>
+<span class="c1">//2</span>
+<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">olg</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">name</span><span class="p">]);</span>
+<span class="p">}</span>
 
-</code></pre></div></div>
-
-<p><u>===</u> <br />
-=== 일치 연산자라고 하고 좌항과 우항이 정확하게 같을때 같다면 true 다르다면 false가 된다. 여기서 정확하게는 아래 코드처럼 형식까지 일치해야 한다는 말이다. 1과 ‘1’은 숫자와 숫자를 문자화시킨 데이터이다. 결론은 ==보다 ===를 쓰는것이 좋겠다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">1</span><span class="o">==</span><span class="dl">'</span><span class="s1">1</span><span class="dl">'</span><span class="p">);</span>              <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">1</span><span class="o">===</span><span class="dl">'</span><span class="s1">1</span><span class="dl">'</span><span class="p">);</span>             <span class="c1">//false</span>
 
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="3를-사용하자">3.===를 사용하자</h2>
+<h2 id="3-객체-지향-프로그래밍">3. 객체 지향 프로그래밍</h2>
 <p><br />
 <br />
-null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라는 코드를 쓰고 alert(a); 를 하면 undefined라는 경고창이 나온다. 값이 정의되지 않았다는 뜻이다. 그리고 var a=null; alert(a);를 하면null이라는 경고창이 나온다. 이말은 작성한사람이 의도적으로 값이 없다는것을 지정한것이다.
-이말은 프로그래밍에서 의도한것과 의도하지 않은것은 전혀 다른것이다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nx">alert</span><span class="p">(</span><span class="kc">null</span> <span class="o">==</span> <span class="kc">undefined</span><span class="p">);</span>       <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="kc">null</span> <span class="o">===</span> <span class="kc">undefined</span><span class="p">);</span>      <span class="c1">//false</span>
-<span class="nx">alert</span><span class="p">(</span><span class="kc">true</span> <span class="o">==</span> <span class="mi">1</span><span class="p">);</span>               <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="kc">true</span> <span class="o">===</span> <span class="mi">1</span><span class="p">);</span>              <span class="c1">//false</span>
-<span class="nx">alert</span><span class="p">(</span><span class="kc">true</span> <span class="o">==</span> <span class="dl">'</span><span class="s1">1</span><span class="dl">'</span><span class="p">);</span>             <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="kc">true</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">1</span><span class="dl">'</span><span class="p">);</span>            <span class="c1">//false</span>
- 
-<span class="nx">alert</span><span class="p">(</span><span class="mi">0</span> <span class="o">===</span> <span class="o">-</span><span class="mi">0</span><span class="p">);</span>                <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="kc">NaN</span> <span class="o">===</span> <span class="kc">NaN</span><span class="p">);</span>             <span class="c1">//false NaN(Not-a-Number)은 이값은 숫자가 아님을 의미한다.</span>
-                   <span class="c1">//그래서 NaN생성의 가능성이 있는 코드는 비교 연산을 실행하면 안되겠다.</span>
-
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="4부정과-부등호">4.부정과 부등호</h2>
-
-<p><br />
+객체 지향 프로그래밍이란 서로 연관되어있는 데이터와 처리형식을 하나의 그릇안에 그룹핑 해놓은 프로그래밍을 객체 지향 프로그래밍 이라한다.
+<br />
 <br /></p>
 
-<h3>!=</h3>
-
-<p>!는 부정을 의미한다. 1==2는 false다 하지만 1!=2는 true가 된다. 같지 않은게 사실이기 때문이다.</p>
+<p>객체에 담길 수 있는 값이 무엇지에 대해 알아보자. 아래 예제는 객체 안에 객체와 함수를 담았다. list라는 key 값에 {‘ansang’ : 10, ‘sanghyun’ : 8, ‘ansanghyun’ : 80}라는 value를 넣었고 이 value는 객체이다. show라는 key값에 function(){ alert(‘Hello World’)}; 라는 value를 담았다. javascript에서는 함수도 일종의 값이고 함수도 변수에 저장될 수 있기 때문에 마찬가지로 값으로서의 함수도 객체 안에 저장될 수 있다(고하는데 아직 뭔 소린지 모르겠음).grades에 담긴</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">1</span><span class="o">!=</span><span class="mi">2</span><span class="p">);</span>            <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">1</span><span class="o">!=</span><span class="mi">1</span><span class="p">);</span>            <span class="c1">//false</span>
-<span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">one</span><span class="dl">"</span><span class="o">!=</span><span class="dl">"</span><span class="s2">two</span><span class="dl">"</span><span class="p">);</span>    <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">one</span><span class="dl">"</span><span class="o">!=</span><span class="dl">"</span><span class="s2">one</span><span class="dl">"</span><span class="p">);</span>    <span class="c1">//false</span>
+<span class="kd">var</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="dl">'</span><span class="s1">list</span><span class="dl">'</span> <span class="p">:</span> <span class="p">{</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sanghyun</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">8</span><span class="p">,</span> <span class="dl">'</span><span class="s1">ansanghyun</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">80</span><span class="p">},</span>
+    <span class="dl">'</span><span class="s1">show</span><span class="dl">'</span> <span class="p">:</span> <span class="kd">function</span><span class="p">(){</span>
+        <span class="nx">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello World</span><span class="dl">'</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">alert</span><span class="p">(</span><span class="nx">grades</span><span class="p">[</span><span class="dl">'</span><span class="s1">list</span><span class="dl">'</span><span class="p">][</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">]);</span> <span class="c1">//ansang이라는 key가 갖고있는 10이라는 value에 접근</span>
+<span class="nx">alert</span><span class="p">(</span><span class="nx">grades</span><span class="p">[</span><span class="dl">'</span><span class="s1">show</span><span class="dl">'</span><span class="p">]);</span> <span class="c1">// 함수에 접근</span>
+</code></pre></div></div>
+<p>this라는 키워드를 알아보자. this라는 것은 javascript에서 약속되어있는 변수이다. this 변수는 함수가 속해있는 객체를 가르치는 변수이다. 함수가 소속되어있는 객체를 가르친다는 말이다.아래 예제는 grades라는 객체가 갖고있는 key 값 중 show를 호출해 show 함수가 가진 this변수로 list객체{‘ansang’ : 10, ‘sanghyun’ : 8, ‘ansanghyun’ : 80}를 출력하게 된다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">var</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="dl">'</span><span class="s1">list</span><span class="dl">'</span> <span class="p">:</span> <span class="p">{</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sanghyun</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">8</span><span class="p">,</span> <span class="dl">'</span><span class="s1">ansanghyun</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">80</span><span class="p">},</span>
+    <span class="dl">'</span><span class="s1">show</span><span class="dl">'</span> <span class="p">:</span> <span class="kd">function</span><span class="p">(){</span>
+        <span class="nx">alert</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">list</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">grades</span><span class="p">[</span><span class="dl">'</span><span class="s1">show</span><span class="dl">'</span><span class="p">]();</span>
 
 </code></pre></div></div>
-
-<h3 id="-1">!==</h3>
-<p>!==는 ===에 부정을 부여한 것으로 정확하게 같지 않다는 의미이다.</p>
-
-<p><br />
-<br /></p>
-
-<h3 id="-2">&gt;</h3>
-<p>좌항과 우항을 비교해주는 연산자로 좌항이 더 크다는것을 의미한다. 더크면 true 작으면 false이다.<br />
-&lt;는 반대의 의미이다.</p>
+<p>이번엔 개발자 도구에서 console.log(name, this.list[name]);를 사용해 key와 value를 호출해보자. value를 호출하는 방법은 위에서 배웠듯,  grades[‘ansang’] , garade.ansang 두가지가 있다. for in 문을 사용했기 때문에 list[name]을 사용하면 value 값을 불러올 수 있다.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">10</span><span class="o">&gt;</span><span class="mi">20</span><span class="p">);</span>   <span class="c1">//false</span>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">10</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">);</span>    <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">10</span><span class="o">&gt;</span><span class="mi">10</span><span class="p">);</span>   <span class="c1">//false</span>
-</code></pre></div></div>
+<span class="kd">var</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="dl">'</span><span class="s1">list</span><span class="dl">'</span> <span class="p">:</span> <span class="p">{</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sanghyun</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">8</span><span class="p">,</span> <span class="dl">'</span><span class="s1">ansanghyun</span><span class="dl">'</span> <span class="p">:</span> <span class="mi">80</span><span class="p">},</span>
+    <span class="dl">'</span><span class="s1">show</span><span class="dl">'</span> <span class="p">:</span> <span class="kd">function</span><span class="p">(){</span>
+        <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="k">this</span><span class="p">.</span><span class="nx">list</span><span class="p">){</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">list</span><span class="p">[</span><span class="nx">name</span><span class="p">]);</span> <span class="c1">// ,를 쓰게되면 여러 값을 출력할 수 있다.</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">grades</span><span class="p">.</span><span class="nx">show</span><span class="p">();</span>
 
-<h3 id="-3">&gt;=</h3>
-
-<p>좌항이 우항보다 크거나 같다는 의미이다. &lt;=는 반대의 의미이고 =&gt;, =&lt;식의 표현은 불가하다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">10</span><span class="o">&gt;=</span><span class="mi">20</span><span class="p">);</span>      <span class="c1">//false</span>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">10</span><span class="o">&gt;=</span><span class="mi">1</span><span class="p">);</span>       <span class="c1">//true</span>
-<span class="nx">alert</span><span class="p">(</span><span class="mi">10</span><span class="o">&gt;=</span><span class="mi">10</span><span class="p">);</span>      <span class="c1">//true</span>
 </code></pre></div></div>
 
                 </div>
@@ -437,9 +422,9 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            var this_page_url = 'https://AhnSang0915.github.io/javascript-basic3';
-                            var this_page_identifier = '/javascript-basic3';
-                            var this_page_title = 'Javascript - JavaScript 변수, 비교';
+                            var this_page_url = 'https://AhnSang0915.github.io/javascript-basic8';
+                            var this_page_identifier = '/javascript-basic8';
+                            var this_page_title = 'Javascript - JavaScript 객체(Object)';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -484,11 +469,6 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/javascript-basic8">Javascript - JavaScript 객체(Object)</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -513,6 +493,8 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
                                     
                                         
                                         
+                                            <li><a href="/javascript-basic5">Javascript - JavaScript 반복문</a></li>
+                                        
                                     
                                   
                                 
@@ -524,6 +506,9 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
                                   
                                 
                                   
+                                    
+                                        
+                                        
                                     
                                   
                                 
@@ -562,57 +547,6 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/javascript-basic4">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/javascript-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/javascript-basic4">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Javascript</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Javascript - JavaScript 조건문</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>JavaScript 조건문
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.jpg" alt="AhnSang0915" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/AhnSang0915/">AhnSang0915</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      3 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -620,12 +554,12 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/javascript-basic2">
+            <a class="post-card-image-link" href="/javascript-basic7">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/javascript-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/javascript-basic2">
+            <a class="post-card-content-link" href="/javascript-basic7">
                 <header class="post-card-header">
                     
                         
@@ -635,11 +569,11 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
                         
                     
 
-                    <h2 class="post-card-title">Javascript - JavaScript 숫자와 문자</h2>
+                    <h2 class="post-card-title">Javascript - JavaScript 배열</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>JavaScript 숫자와 문자
+                        <p>JavaScript 배열
 
 </p>
                     
@@ -659,7 +593,7 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
                 <span class="reading-time">
                     
                     
-                      1 min read
+                      5 min read
                     
                 </span>
             </footer>
@@ -681,18 +615,18 @@ null과 undefined는 값이 없다는 의미의 데이터 형이다. var a; 라�
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Javascript - JavaScript 변수, 비교</div>
+    <div class="floating-header-title">Javascript - JavaScript 객체(Object)</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Javascript+-+JavaScript+%EB%B3%80%EC%88%98%2C+%EB%B9%84%EA%B5%90&amp;url=https://AhnSang0915.github.iojavascript-basic3"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Javascript+-+JavaScript+%EA%B0%9D%EC%B2%B4%28Object%29&amp;url=https://AhnSang0915.github.iojavascript-basic8"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iojavascript-basic3"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iojavascript-basic8"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
