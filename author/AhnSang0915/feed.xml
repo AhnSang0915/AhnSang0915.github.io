@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://ahnsang0915.github.io/author/AhnSang0915/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-03-08T23:58:59+09:00</updated>
+  <updated>2022-03-09T17:58:05+09:00</updated>
   <id>https://ahnsang0915.github.io/author/AhnSang0915/feed.xml</id>
 
   
@@ -30,6 +30,86 @@
   
   
 
+  
+    <entry>
+      <title type="html">Javascript - JavaScript UI와 API</title>
+      <link href="https://ahnsang0915.github.io/javascript-basic10" rel="alternate" type="text/html" title="Javascript - JavaScript UI와 API" />
+      <published>2022-03-09T17:55:00+09:00</published>
+      <updated>2022-03-09T17:55:00+09:00</updated>
+      <id>https://ahnsang0915.github.io/javascript-basic10</id>
+      <content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic10">&lt;h1 id=&quot;javascript-ui와-api&quot;&gt;JavaScript UI와 API&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-ui란&quot;&gt;1. UI란?&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+UI(User Interface)는 컴퓨터의 시스템과 사용자의 접점에 존재하며 중개자에 해당하는 것을 UI라고 한다. 사용자를 대면하는 접점을 하는 지점을 UI라고하고 물리적, 하드웨어적 UI가 있고 소프트웨어적 UI가 있다. 노트북이나 키보드에 있는 버튼이 하드웨어적 UI라 할수있고 브라우저의 각종 버튼이 소프트웨어적 UI라 할수 있겠다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-api란&quot;&gt;2. API란?&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+API란 Application Programming Interface의 약자로 프로그램이 동작하는 환경을 제어하기 위해서 환경에서 제공되는 조작 장치이다. 이 조작 장치는 프로그래밍 언어를 통해서 조작할 수 있다. 일반 사용자는 UI를 사용해 원하는 결과를 얻고 개발자는 API를 이용해 자신이 하고자하는 프로그래밍을 하게된다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;javascript의-api&quot;&gt;Javascript의 API&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+Javascript의 API는 크게 Javascript 자체의 API와 Javascript가 동작하는 호스트 환경의 API로 구분된다. 현재 우리가 공부하는건 Javascript자체의 API이고 앞으로 나아가 더 공부를 하게되면 호스트 환경에서의 API도 공부해야한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;javascript-api-문서&quot;&gt;Javascript API 문서&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+Javascript가 제공하는 기본적인 API를 볼수있는 사이트이다. 여기서 필요한 API를 찾아 사용하면 된다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ecma-international.org/publications-and-standards/standards/ecma-262/&quot;&gt;ECMAScript&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://opentutorials.org/course/50&quot;&gt;Javascript사전&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference&quot;&gt;Javascript 레퍼런스 MDN&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/ko-kr/previous-versions/visualstudio/visual-studio-2010/z688wt03(v=vs.100)?redirectedfrom=MSDN&quot;&gt;jscript 레퍼런스&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;호스트-환경의-api-문서&quot;&gt;호스트 환경의 API 문서&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+호스트 환경에서의 API를 볼수있는 사이트이다. 지금 우리는 기본적인 Javascript의 API를 공부하고 있어 당장은 필요하지 않지만 앞으로 심화과정에 들어가면 사용할 일이 있을것이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API&quot;&gt;웹브라우저 API&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nodejs.org/api/&quot;&gt;Node.js API&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/apps-script/&quot;&gt;Google Apps Script API&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>AhnSang0915</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">JavaScript UI와 API</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Javascript - JavaScript 모듈</title>
@@ -2167,203 +2247,6 @@ Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋�
 
       
         <summary type="html">JavaScript 기본</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="https://ahnsang0915.github.io/python-st" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
-      <published>2022-02-27T02:57:00+09:00</published>
-      <updated>2022-02-27T02:57:00+09:00</updated>
-      <id>https://ahnsang0915.github.io/python-st</id>
-      <content type="html" xml:base="https://ahnsang0915.github.io/python-st">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python Practice&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 첫번쨰&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 두번째&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이글은 Python basic입니다.!!&lt;/p&gt;
-
-&lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-# kramdown : markdown의 개조판.
-# markdown에서 불편한 사항을 개선한 형태.
-
-# MyData
-owner:
-  name:           SangHyun Ahn
-  avatar:         photo.jpg
-  bio:            &amp;quot;Junior&amp;quot;
-  email:          tmqjf4921@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  facebook:
-  github: https://github.com/AhnSang0915
-  stackexchange:
-  linkedin:
-  instagram:
-  flickr:
-  tumblr:
-  # google plus id, include the &amp;#39;+&amp;#39;, eg +mmistakes
-  google_plus:
-
-highlighter: rouge
-# text highlighter로 rouge이용
-# 2016.02월 이후로 syntax highlighter는 rouge만 지원.
-# Pygments 사용불가.
-
-paginate: 20
-# 작성한 모든 post를 하나의 페이지에 열거할 수 없으니
-# pagination이 필요하고 몇개의 post를 하나의 page에서
-# 보여줄 건지를 설정.
-
-language: &amp;#39;en-uk&amp;#39;
-# 언어 설정
-
-url: https://AhnSang0915.github.io
-# Google Search Console에서 사용하는 sitemap.xml 생성시
-# 이 url key값이 존재하지 않으면 sitemap.xml이
-# 정상적으로 생성되지 않는다.
-# 또한 disqus(댓글시스템)를 이용하기 위해서도 필요.
-# 자신의 github page url을 입력
-# ( https://your_github_id.github.io 형식 )
-
-baseurl: /
-
-# Website info
-title: My Coding Practice Gym
-# 자신의 blog title.
-
-description: Learn Coding
-# blog home에 표시될 blog에 대한 전반적인 설명.
-
-cover: assets/built/images/blog-cover1.jpg
-# blog home에 표시될 blog cover image.
-
-logo:
-logo_dark:
-
-favicon: assets/built/images/favicon.png
-# favicon으로 사용할 image
-
-production_url: https://AhnSang0915.github.io
-# 최종적으로 blog가 운영될 url
-
-source_url: 
-# blogmaker(jekyll source folder)에 대한 github repository
-
-# Social info
-navigation: True
-# Navigation bar link를 보여줄건지 여부
-
-subscribers: True
-# subscriber 기능을 사용할건지의 여부
-# 저는 약간의 수정을 통해 subscriber 기능대신
-# lunr.js를 이용한 검색 기능으로 대체 사용했습니다.
-# 검색기능으로 대체하기 위해서
-# `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
-
-twitter:
-facebook:
-# 만약 twitter와 facebook을 이용하면 username을 입력
-
-# Disqus
-disqus: True
-disqus_shortname: xxxxxxxx
-# disqus는 온라인 댓글 시스템. 댓글 기능을 사용하기 위해
-# disqus를 이용할 것인지 여부와 만약 사용하면
-# disqus shortname을 입력 ( disqus username이 아님 )
-
-
-# Google Analytics
-google_analytics: UA-xxxxxxxx-x # replace with your GA tracking identifier
-# Google Analytics을 사용할 경우 GA tracking identifier를 입력
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:title
-# 각각의 post에 고정주소를 어떤 방식으로 할당할 것인지를 결정
-# 이 값을 바꾸면 작성한 포스트의 저장위치나 파일이름이 변경된다.
-
-# gems and other configs
-plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
-
-feed:
-  path: feed.xml
-
-# Travis-CI 설정입니다.
-safe: False
-lsi: False
-
-username: moon9342
-repo: GitHubPageMaker
-# username : travis-ci와 연동하는 github의 username
-# repo: travis-ci와 연동하는 github의 repository이름
-# https://github.com/&amp;lt;username&amp;gt;/&amp;lt;repository&amp;gt;
-
-branch: master
-# 사용할 branch명
-
-relative_source:
-
-destination: ../[GitHubPage]/
-# compile된 결과가 생성되는 폴더
-# 이 폴더안의 내용이 우리가 운영하는 블로그 내용이 컴파일되서 들어간다.
-# 이 폴더안의 내용을 github repository(https://username.github.io)에 push
-# 만약 Travis-CI를 이용할 예정이면 이 부분을 git submodule로
-# github repository(https://username.github.io)에 연결해야 한다.
-
-
-# exclude는 Jekyll컴파일 시 destination에 포함될 필요가
-# 없는것들을 명시한다. (node_modules와 필요없는 것들은 제외)
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - vendor
-  - .travis.yml
-  - node_modules
-  - assets/css
-  - assets/images
-  - _posts/angular
-  - _posts/et-cetera
-#  - _posts/python
-  - _posts/typescript
-#  - _posts/jekyll
-  - _posts/iot
-  - _posts/r
-  - _posts/economy&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/AhnSang0915/283d7050dd411831cd4f0b7e9ecff301.js&quot;&gt; &lt;/script&gt;
-
-&lt;!-- &lt;script src=&quot;https://gist.github.com/AhnSang0915/283d7050dd411831cd4f0b7e9ecff301.js&quot;&gt;&lt;/script&gt; --&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>AhnSang0915</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">Python Practice Python 첫번쨰 Python 두번째</summary>
       
 
       
