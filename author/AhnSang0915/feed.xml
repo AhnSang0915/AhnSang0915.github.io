@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://ahnsang0915.github.io/author/AhnSang0915/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-03-10T23:16:44+09:00</updated>
+  <updated>2022-03-10T23:21:05+09:00</updated>
   <id>https://ahnsang0915.github.io/author/AhnSang0915/feed.xml</id>
 
   
@@ -201,7 +201,7 @@ i는 대소문자 구분을 없애주는 역할을 한다.&lt;/p&gt;
 &lt;h2 id=&quot;6-치환&quot;&gt;6. 치환&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
-아래 코드는 본문 중의 URL을 링크 html 태그로 교체한다. \b는 단어를 식별한다. ?:로 https를 캡쳐로 지정하지 않고 뒤에 ?로 https, http가 모두 해당되게 한다. 뒤에 //는 escape를 사용해 문자화 시켰고 그뒤의 a-z는 a부터 z까지 0-9 는 0에서 9까지 그리고 그뒤에 주소에 들어갈만한 특수문자들 까지 해당되게 해줬다. replace라는 메소드가 실행될때 urlPattern해당되는 텍스트를 찾을때마다 두번째인자로 전달된 함수가 replace라는 메소드 내부로 호출된다. 호출될때 javascript는 호출된 시점에서 검색된 문자열을 첫번째 인자(url)로 전달되게 약속되어있다. 그리고 그 텍스트를 가공을하고 리턴을 해주면 우리가 변경하고싶은 내용으로 변경되게 된다.&lt;/p&gt;
+아래 코드는 본문 중의 URL을 링크 html 태그로 교체한다. \b는 단어를 식별한다. ?:로 https를 캡쳐로 지정하지 않고 뒤에 ?로 https, http가 모두 해당되게 했다. 뒤에 //는 escape를 사용해 문자화 시켰고 그뒤의 a-z는 a부터 z까지 0-9 는 0에서 9까지 그리고 그뒤에 주소에 들어갈만한 특수문자들 까지 해당되게 해줬다. 그리고 replace라는 메소드가 실행될때 urlPattern해당되는 텍스트를 찾을때마다 두번째인자로 전달된 함수가 replace라는 메소드 내부로 호출된다. 호출될때 javascript는 호출된 시점에서 검색된 문자열을 첫번째 인자(url)로 전달되게 약속되어있다. 그리고 그 텍스트를 가공을하고 리턴을 해주면 우리가 변경하고싶은 내용으로 변경되게 된다.&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;urlPattern&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\b(?:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;?)&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\/\/[&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;a-z0-9-+&amp;amp;@#&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\/&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;%?=~_|!:,.;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;*/gim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
