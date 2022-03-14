@@ -11,7 +11,7 @@
 
 
 
-    <title>Javascript - JavaScript 함수지향 - 유효범위</title>
+    <title>Javascript - JavaScript 함수지향 - arguments</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -50,24 +50,24 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Learn Coding" />
     <link rel="shortcut icon" href="https://AhnSang0915.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://AhnSang0915.github.io/javascript-basic12" />
+    <link rel="canonical" href="https://AhnSang0915.github.io/javascript-basic15" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="My Coding Practice Gym" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Javascript - JavaScript 함수지향 - 유효범위" />
-    <meta property="og:description" content="JavaScript 함수지향 - 유효범위 1. 전역변수와 지역변수 유효범위(Scope)는 변수의 수명을 의미한다. 아래의 예제를 보자. vscope라는 변수에 global이라는 데이터를 할당했다. fscope라는 함수는 함수 안에 선언되어 있지 않은, 함수 바깥쪽에 선언되어있는 vscope에 접근할 수 있다. 결과는 global이다. var vscope = 'global'; function fscope(){ alert(vscope); } fscope(); 아래를 실행하게 되면 결과는 ‘함수안 local’과" />
-    <meta property="og:url" content="https://AhnSang0915.github.io/javascript-basic12" />
+    <meta property="og:title" content="Javascript - JavaScript 함수지향 - arguments" />
+    <meta property="og:description" content="JavaScript 함수지향 - arguments 1. arguments 소개 arguments객체는 배열과 유사하다. arguments는 함수안에서 사용할 수 있도록 그 이름이나 특성이 약속되어 있는 일종의 배열이다. 몇개의 인자가 들어올지 모를떄 인자를 정의하지 않고 그함수 안에 arguments를 사용하여 결과를 알아내면 되겠다. 아래의 예제는 매개변수가 없는 sum이라는 함수가 있다. javacsript는 관대한 언어이다. 매개변수가 없거나, 인자의 수와" />
+    <meta property="og:url" content="https://AhnSang0915.github.io/javascript-basic15" />
     <meta property="og:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-03-11T01:20:00+09:00" />
-    <meta property="article:modified_time" content="2022-03-11T01:20:00+09:00" />
+    <meta property="article:published_time" content="2022-03-13T22:10:00+09:00" />
+    <meta property="article:modified_time" content="2022-03-13T22:10:00+09:00" />
     <meta property="article:tag" content="Javascript" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Javascript - JavaScript 함수지향 - 유효범위" />
-    <meta name="twitter:description" content="JavaScript 함수지향 - 유효범위 1. 전역변수와 지역변수 유효범위(Scope)는 변수의 수명을 의미한다. 아래의 예제를 보자. vscope라는 변수에 global이라는 데이터를 할당했다. fscope라는 함수는 함수 안에 선언되어 있지 않은, 함수 바깥쪽에 선언되어있는 vscope에 접근할 수 있다. 결과는 global이다. var vscope = 'global'; function fscope(){ alert(vscope); } fscope(); 아래를 실행하게 되면 결과는 ‘함수안 local’과" />
+    <meta name="twitter:title" content="Javascript - JavaScript 함수지향 - arguments" />
+    <meta name="twitter:description" content="JavaScript 함수지향 - arguments 1. arguments 소개 arguments객체는 배열과 유사하다. arguments는 함수안에서 사용할 수 있도록 그 이름이나 특성이 약속되어 있는 일종의 배열이다. 몇개의 인자가 들어올지 모를떄 인자를 정의하지 않고 그함수 안에 arguments를 사용하여 결과를 알아내면 되겠다. 아래의 예제는 매개변수가 없는 sum이라는 함수가 있다. javacsript는 관대한 언어이다. 매개변수가 없거나, 인자의 수와" />
     <meta name="twitter:url" content="https://AhnSang0915.github.io/" />
     <meta name="twitter:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -88,7 +88,7 @@
         "name": "My Coding Practice Gym",
         "logo": "https://AhnSang0915.github.io/"
     },
-    "url": "https://AhnSang0915.github.io/javascript-basic12",
+    "url": "https://AhnSang0915.github.io/javascript-basic15",
     "image": {
         "@type": "ImageObject",
         "url": "https://AhnSang0915.github.io/assets/built/images/javascript-logo.png",
@@ -97,9 +97,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://AhnSang0915.github.io/javascript-basic12"
+        "@id": "https://AhnSang0915.github.io/javascript-basic15"
     },
-    "description": "JavaScript 함수지향 - 유효범위 1. 전역변수와 지역변수 유효범위(Scope)는 변수의 수명을 의미한다. 아래의 예제를 보자. vscope라는 변수에 global이라는 데이터를 할당했다. fscope라는 함수는 함수 안에 선언되어 있지 않은, 함수 바깥쪽에 선언되어있는 vscope에 접근할 수 있다. 결과는 global이다. var vscope = 'global'; function fscope(){ alert(vscope); } fscope(); 아래를 실행하게 되면 결과는 ‘함수안 local’과"
+    "description": "JavaScript 함수지향 - arguments 1. arguments 소개 arguments객체는 배열과 유사하다. arguments는 함수안에서 사용할 수 있도록 그 이름이나 특성이 약속되어 있는 일종의 배열이다. 몇개의 인자가 들어올지 모를떄 인자를 정의하지 않고 그함수 안에 arguments를 사용하여 결과를 알아내면 되겠다. 아래의 예제는 매개변수가 없는 sum이라는 함수가 있다. javacsript는 관대한 언어이다. 매개변수가 없거나, 인자의 수와"
 }
     </script>
 
@@ -112,7 +112,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Javascript - JavaScript 함수지향 - 유효범위" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Javascript - JavaScript 함수지향 - arguments" href="/feed.xml" />
 
 
 </head>
@@ -173,7 +173,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="11 March 2022">11 March 2022</time>
+                    <time class="post-full-meta-date" datetime="13 March 2022">13 March 2022</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -183,7 +183,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Javascript - JavaScript 함수지향 - 유효범위</h1>
+                <h1 class="post-full-title">Javascript - JavaScript 함수지향 - arguments</h1>
             </header>
 
             
@@ -193,193 +193,64 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <h1 id="javascript-함수지향---유효범위">JavaScript 함수지향 - 유효범위</h1>
+                    <h1 id="javascript-함수지향---arguments">JavaScript 함수지향 - arguments</h1>
 
+<h2 id="1-arguments-소개">1. arguments 소개</h2>
 <p><br />
+<br />
+arguments객체는 배열과 유사하다. arguments는 함수안에서 사용할 수 있도록 그 이름이나 특성이 약속되어 있는 일종의 배열이다. 몇개의 인자가 들어올지 모를떄 인자를 정의하지 않고 그함수 안에 arguments를 사용하여 결과를 알아내면 되겠다.
+<br />
+<br />
+아래의 예제는 매개변수가 없는 sum이라는 함수가 있다. javacsript는 관대한 언어이다. 매개변수가 없거나, 인자의 수와 매개변수의 수가 다르더라도 문제가 생기지 않는다.아래 for문에서의 arguments는 Javascript와 약속되어있는 특수한 이름의 변수명이다. arguments라는 배열이 담겨져 있다. 이 배열의 역할을 사용자가 전달한 인자(1,2,3,4)를 담는것이다. 그래서arguments.length는 4가되고 4만큼 for문이 반복되게된다. 
+ document.write(i+’ : ‘+arguments[i]+’<br />’);는 0 : 1(인덱스0) 부터 차례로 표시하게되고, 그후 _sum의 변수에 +=(a+=1;는a=a+1;과 같다) arguments[i];를 담았다. 이말은 (1,2,3,4)의 값을 
+_sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 것이다. _sum의 초기값은 0이기 때문에 10이된다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	
+<span class="kd">function</span> <span class="nx">sum</span><span class="p">(){</span>
+    <span class="kd">var</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">_sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>     <span class="c1">// i 루프를 위한 변수 _sum 출력할 결과를 담아낼 변수</span>
+    <span class="k">for</span><span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span> 
+      <span class="c1">//arguments javascript와 약속되어있는 특수한 이름의 변수명</span>
+        <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="dl">'</span><span class="s1"> : </span><span class="dl">'</span><span class="o">+</span><span class="nx">arguments</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">+</span><span class="dl">'</span><span class="s1">&lt;br /&gt;</span><span class="dl">'</span><span class="p">);</span>
+        <span class="nx">_sum</span> <span class="o">+=</span> <span class="nx">arguments</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+    <span class="p">}</span>   
+    <span class="k">return</span> <span class="nx">_sum</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">'</span><span class="s1">result : </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">));</span> 
+
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="2-매개변수의-수---function-length">2. 매개변수의 수 - function length</h2>
+<p><br />
+<br />
+함수명.length는 몇개의 매개변수를 갖고있는지 알려주고, arguments.length는 함수를 호출할때 몇개의 인자, 몇개의 arguments를 담고있는지의 정보를 담고있다.
+<br />
 <br /></p>
 
-<hr />
-
-<h2 id="1-전역변수와-지역변수">1. 전역변수와 지역변수</h2>
-<p><br />
-<br />
-유효범위(Scope)는 변수의 수명을 의미한다. 아래의 예제를 보자. vscope라는 변수에 global이라는 데이터를 할당했다. fscope라는 함수는 함수 안에 선언되어 있지 않은, 함수 바깥쪽에 선언되어있는 vscope에 접근할 수 있다. 결과는 global이다.</p>
-
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">var</span> <span class="nx">vscope</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">global</span><span class="dl">'</span><span class="p">;</span>
-<span class="kd">function</span> <span class="nx">fscope</span><span class="p">(){</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="nx">vscope</span><span class="p">);</span>
+<span class="kd">function</span> <span class="nx">zero</span><span class="p">(){</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
+        <span class="dl">'</span><span class="s1">zero.length</span><span class="dl">'</span><span class="p">,</span> <span class="nx">zero</span><span class="p">.</span><span class="nx">length</span><span class="p">,</span>
+        <span class="dl">'</span><span class="s1">arguments</span><span class="dl">'</span><span class="p">,</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">length</span>
+    <span class="p">);</span>
 <span class="p">}</span>
-<span class="nx">fscope</span><span class="p">();</span>
-
-</code></pre></div></div>
-
-<p>아래를 실행하게 되면 결과는 ‘함수안 local’과 ‘함수밖 global’이 출력된다. fscope 함수안에 vscope라는 변수가 할당되어 있기 때문에 vscope는 자기자신과 가까이에 있는 vscope를 가르키기 때문에 ‘local’이라는 값을 출력하게 된다. 함수안의 fscope 함수안에 정의 되어 있는 vscope는 지역변수(local variables) 이고, 함수밖에  정의되어 있는 vscope변수는 전역변수(global variables)라고 한다.즉 지역변수의 유효범위는 함수 안이고, 전역변수의 유효범위는 에플리케이션 전역인데, 같은 이름의 지역변수와 전역변수가 동시에 정의되어 있다면 지역변수가 우선한다는 것을 알 수 있다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">var</span> <span class="nx">vscope</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">global</span><span class="dl">'</span><span class="p">;</span>
-<span class="kd">function</span> <span class="nx">fscope</span><span class="p">(){</span>
-    <span class="kd">var</span> <span class="nx">vscope</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">local</span><span class="dl">'</span><span class="p">;</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">함수안 </span><span class="dl">'</span><span class="o">+</span><span class="nx">vscope</span><span class="p">);</span>
+<span class="kd">function</span> <span class="nx">one</span><span class="p">(</span><span class="nx">arg1</span><span class="p">){</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
+        <span class="dl">'</span><span class="s1">one.length</span><span class="dl">'</span><span class="p">,</span> <span class="nx">one</span><span class="p">.</span><span class="nx">length</span><span class="p">,</span>
+        <span class="dl">'</span><span class="s1">arguments</span><span class="dl">'</span><span class="p">,</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">length</span>
+    <span class="p">);</span>
 <span class="p">}</span>
-<span class="nx">fscope</span><span class="p">();</span>
-<span class="nx">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">함수밖 </span><span class="dl">'</span><span class="o">+</span><span class="nx">vscope</span><span class="p">);</span>
-
-</code></pre></div></div>
-
-<p>var을 쓴것과 쓰지않은것의 차이점을 알아보자. var을쓰면 전역변수를 호출하게되고 var을 쓰지않으면 vscope가 지역변수가 되어 global을 local로 변경하게된다. 즉,  var을 사용하지 않은 지역변수는 전역변수가 된다. fscope라는 함수에 var쓰고 변수를 지정하게 되면 fscope함수에 지역변수를 지정한것이다. 그렇기 때문에 전역 변수의 값이 local로 변경 된 것이다. 그렇기 때문에 출력은 local이 되게 된다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">var</span> <span class="nx">vscope</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">global</span><span class="dl">'</span><span class="p">;</span>
-<span class="kd">function</span> <span class="nx">fscope</span><span class="p">(){</span>
-    <span class="kd">var</span> <span class="nx">vscope</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">local</span><span class="dl">'</span><span class="p">;</span>
-   
+<span class="kd">function</span> <span class="nx">two</span><span class="p">(</span><span class="nx">arg1</span><span class="p">,</span> <span class="nx">arg2</span><span class="p">){</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
+        <span class="dl">'</span><span class="s1">two.length</span><span class="dl">'</span><span class="p">,</span> <span class="nx">two</span><span class="p">.</span><span class="nx">length</span><span class="p">,</span>
+        <span class="dl">'</span><span class="s1">arguments</span><span class="dl">'</span><span class="p">,</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">length</span>
+    <span class="p">);</span>
 <span class="p">}</span>
-<span class="nx">fscope</span><span class="p">();</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">vscope</span><span class="p">);</span>
-<span class="c1">// var을 쓸때 global</span>
-<span class="c1">// var을 쓰지 않을때 local</span>
-</code></pre></div></div>
+<span class="nx">zero</span><span class="p">();</span> <span class="c1">// zero.length 0 arguments 0 </span>
+<span class="nx">one</span><span class="p">(</span><span class="dl">'</span><span class="s1">val1</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">val2</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">// one.length 1 arguments 2 </span>
+<span class="nx">two</span><span class="p">(</span><span class="dl">'</span><span class="s1">val1</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">// two.length 2 arguments 1</span>
 
-<p>아래 예제는 어떻게 될까? 마찬가지로 global을 출력하게 된다. 이유는 이미 var vscope으로 인해 지역변수가 생성이되었다. 그렇기 때문에 vscope를 사용해도 지역변수가 되는것이지 전역변수가 변경되지는 않는다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">var</span> <span class="nx">vscope</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">global</span><span class="dl">'</span><span class="p">;</span>
-<span class="kd">function</span> <span class="nx">fscope</span><span class="p">(){</span>
-    <span class="kd">var</span> <span class="nx">vscope</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">local</span><span class="dl">'</span><span class="p">;</span>
-    <span class="nx">vscope</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">local</span><span class="dl">'</span><span class="p">;</span>   
-<span class="p">}</span>
-<span class="nx">fscope</span><span class="p">();</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">vscope</span><span class="p">);</span>
-<span class="c1">// global</span>
-
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="2-유효범위의-효용">2. 유효범위의 효용</h2>
-<p><br />
-<br />
-아래 두개의 예제는 변수 i를 지역변수로 사용했을 때와 전역변수로 사용했을 때의 차이점을 보여준다. 전역변수는 각기 다른 로직에서 사용하는 같은 이름의 변수값을 변경시켜서 의도하지 않은 문제를 발생시킨다.
-<br />
-<br />
-같은 이름을 사용했지만 var을 사용하는것과 사용하지 않는것의 차이가 있다. for문 안에들어있는 i의 값이 선언된것은 어떤 함수에 소속되지 않은 것이다. 그렇기 때문에 전역변수이고 함수 a를 호출하게 되면 변수 i의 값을 0으로 바꿔주고 있다. 그런데 var을 붙이지 않은것은 전역변수를 의미하게 된다. a함수와 for문이 가르키고 있는 i가 같기때문에 a가 실행될때마다 i의값이 매번 0으로 초기화된다. 따라서 무한반복하는 현상이 나타나고 같은이름의 변수를 중복해서 사용했지만 각각의 취지가 다를 때 이런현상이 일어난다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">function</span> <span class="nx">a</span> <span class="p">(){</span>
-    <span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">//결과 01234</span>
-    <span class="c1">// i=0; // 결과 무한반복</span>
-<span class="p">}</span>
-<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span>
-    <span class="nx">a</span><span class="p">();</span>
-    <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
-<span class="p">}</span>
-
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="3-전역변수를-사용하는-법">3. 전역변수를 사용하는 법</h2>
-<p><br />
-<br />
-불가피하게 전역변수를 사용해야 하는 경우는 하나의 객체를 전역변수로 만들고 객체의 속성으로 변수를 관리하는 방법을 사용한다.</p>
-
-<p><br />
-<br />
-아래의 예제는 MYAPP이라는 전역변수 하나를 만들어서 속성을 지정해 만들었다. 이처럼 전역변수 하나만을 만들고 나머지 다른 전역변수들은 바로 그 전역변수의 소속에 해당되게 만들면 변수의 이름이 충돌할 가능성이 낮아진다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">var</span> <span class="nx">MYAPP</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span> <span class="o">=</span> <span class="p">{</span> <span class="c1">//calculator 속성</span>
-    <span class="dl">'</span><span class="s1">left</span><span class="dl">'</span> <span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
-    <span class="dl">'</span><span class="s1">right</span><span class="dl">'</span> <span class="p">:</span> <span class="kc">null</span>
-<span class="p">}</span>
-<span class="nx">MYAPP</span><span class="p">.</span><span class="nx">coordinate</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="dl">'</span><span class="s1">left</span><span class="dl">'</span> <span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
-    <span class="dl">'</span><span class="s1">right</span><span class="dl">'</span> <span class="p">:</span> <span class="kc">null</span>
-<span class="p">}</span>
- 
-<span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
-<span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span><span class="p">.</span><span class="nx">right</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
-<span class="kd">function</span> <span class="nx">sum</span><span class="p">(){</span>
-    <span class="k">return</span> <span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span><span class="p">.</span><span class="nx">left</span> <span class="o">+</span> <span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span><span class="p">.</span><span class="nx">right</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">sum</span><span class="p">());</span>
-
-</code></pre></div></div>
-
-<p>아래의 예제는 함수안에 변수를 지정해 함수의 지역변수로 만들었다. 함수를 정의하고 바로 호출하는 기법을 익명함수라고 한다. 이러한 기법을 이용해 전역변수가 하나도 존재하지않는 방식을 사용할 수도있다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
-    <span class="kd">var</span> <span class="nx">MYAPP</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="dl">'</span><span class="s1">left</span><span class="dl">'</span> <span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
-        <span class="dl">'</span><span class="s1">right</span><span class="dl">'</span> <span class="p">:</span> <span class="kc">null</span>
-    <span class="p">}</span>
-    <span class="nx">MYAPP</span><span class="p">.</span><span class="nx">coordinate</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="dl">'</span><span class="s1">left</span><span class="dl">'</span> <span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
-        <span class="dl">'</span><span class="s1">right</span><span class="dl">'</span> <span class="p">:</span> <span class="kc">null</span>
-    <span class="p">}</span>
-    <span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
-    <span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span><span class="p">.</span><span class="nx">right</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
-    <span class="kd">function</span> <span class="nx">sum</span><span class="p">(){</span>
-        <span class="k">return</span> <span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span><span class="p">.</span><span class="nx">left</span> <span class="o">+</span> <span class="nx">MYAPP</span><span class="p">.</span><span class="nx">calculator</span><span class="p">.</span><span class="nx">right</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">sum</span><span class="p">());</span>
-<span class="p">}())</span>
-
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="4-유효범위의-대상">4. 유효범위의 대상</h2>
-<p><br />
-<br />
-Javascript는 함수에 대한 유효범위만을 제공한다. 다시말해 Javascript 에선 for문이나 if문에서 중괄호 안에서 선언된 변수는 지역변수로서의 의미를 갖지 않는다. 많은 언어들이 블록(대체로 {,})에 대한 유효범위를 제공하는 것과 다른 점이다. 아래 예제의 결과는 coding everybody이다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span>
-    <span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">coding everybody</span><span class="dl">'</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span>
-
-</code></pre></div></div>
-
-<p>자바에서는 아래의 코드는 허용되지 않는다. name은 지역변수로 for 문 안에서 선언 되었는데 이를 for문 밖에서 호출하고 있기 때문이다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">for</span><span class="p">(</span><span class="nx">int</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span>
-    <span class="nb">String</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">egoing</span><span class="dl">"</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nx">System</span><span class="p">.</span><span class="nx">out</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span>
-
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="5-정적-유효범위">5. 정적 유효범위</h2>
-<p><br />
-<br />
-자바스크립트는 함수가 선언된 시점에서의 유효범위를 갖는다. 이러한 유효범위의 방식을 정적 유효범위(static scoping), 혹은 렉시컬(lexical scoping)이라고 한다. 이는 이후에 살펴볼 클로저와 연관되어 있다.
-<br />
-<br />
-전역변수 var i = 5가 정의되어 있고 a 함수는 var i = 10이라는 지역변수를 정의하고 있다. a라고 하는 함수를 호출했을 때 함수의 내부적으로 i의 값이 10이 된다. 그 상태에서 b를 호출하게 되면 i는 b 함수 안에 i라고 하는 지역변수가 존재하는지 찾게 된다. 없다면 전역변수를 찾게 되는데 b를 호출하고 있는 함수는 a이다.그렇다면 a 함수에 정의된 변수 a를 호출하게 될까? 아니다. 왜냐하면, 함수 b가 선언된 시점에서 i의 전역변수가 사용되는 것이지 b가 호출된 시점에서 b가 담겨있는 함수의 지역변수가 사용되는 것이 아니다. 즉, 사용될 때 가 아니고 정의 될 때의 전역변수가 사용되게 된다는 말이다. 이러한 것을 정적 유효범위 또는 렉시컬(lexical scoping)유효범위라고 한다.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">// 전역변수</span>
- 
-<span class="kd">function</span> <span class="nx">a</span><span class="p">(){</span>
-    <span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span> <span class="c1">// 지역변수</span>
-    <span class="nx">b</span><span class="p">();</span>
-<span class="p">}</span>
- 
-<span class="kd">function</span> <span class="nx">b</span><span class="p">(){</span>
-    <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
-<span class="p">}</span>
- 
-<span class="nx">a</span><span class="p">();</span>
- <span class="c1">// 5</span>
 </code></pre></div></div>
 
 
@@ -445,9 +316,9 @@ Javascript는 함수에 대한 유효범위만을 제공한다. 다시말해 Jav
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            var this_page_url = 'https://AhnSang0915.github.io/javascript-basic12';
-                            var this_page_identifier = '/javascript-basic12';
-                            var this_page_title = 'Javascript - JavaScript 함수지향 - 유효범위';
+                            var this_page_url = 'https://AhnSang0915.github.io/javascript-basic15';
+                            var this_page_identifier = '/javascript-basic15';
+                            var this_page_title = 'Javascript - JavaScript 함수지향 - arguments';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -492,11 +363,6 @@ Javascript는 함수에 대한 유효범위만을 제공한다. 다시말해 Jav
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/javascript-basic15">Javascript - JavaScript 함수지향 - arguments</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -518,6 +384,11 @@ Javascript는 함수에 대한 유효범위만을 제공한다. 다시말해 Jav
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                            <li><a href="/javascript-basic12">Javascript - JavaScript 함수지향 - 유효범위</a></li>
+                                        
                                     
                                   
                                 
@@ -619,57 +490,6 @@ Javascript는 함수에 대한 유효범위만을 제공한다. 다시말해 Jav
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/javascript-basic13">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/javascript-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/javascript-basic13">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Javascript</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Javascript - JavaScript 함수지향 - 값으로서의 함수와 콜백</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>JavaScript 함수지향 - 값으로서의 함수와 콜백
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.jpg" alt="AhnSang0915" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/AhnSang0915/">AhnSang0915</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      3 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -677,12 +497,12 @@ Javascript는 함수에 대한 유효범위만을 제공한다. 다시말해 Jav
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/javascript-basic11">
+            <a class="post-card-image-link" href="/javascript-basic14">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/javascript-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/javascript-basic11">
+            <a class="post-card-content-link" href="/javascript-basic14">
                 <header class="post-card-header">
                     
                         
@@ -692,11 +512,11 @@ Javascript는 함수에 대한 유효범위만을 제공한다. 다시말해 Jav
                         
                     
 
-                    <h2 class="post-card-title">Javascript - JavaScript 정규표현식</h2>
+                    <h2 class="post-card-title">Javascript - JavaScript 함수지향 - 클로저</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>JavaScript 정규표현식
+                        <p>JavaScript 함수지향 - 클로저
 
 </p>
                     
@@ -716,7 +536,7 @@ Javascript는 함수에 대한 유효범위만을 제공한다. 다시말해 Jav
                 <span class="reading-time">
                     
                     
-                      2 min read
+                      4 min read
                     
                 </span>
             </footer>
@@ -738,18 +558,18 @@ Javascript는 함수에 대한 유효범위만을 제공한다. 다시말해 Jav
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Javascript - JavaScript 함수지향 - 유효범위</div>
+    <div class="floating-header-title">Javascript - JavaScript 함수지향 - arguments</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Javascript+-+JavaScript+%ED%95%A8%EC%88%98%EC%A7%80%ED%96%A5+-+%EC%9C%A0%ED%9A%A8%EB%B2%94%EC%9C%84&amp;url=https://AhnSang0915.github.iojavascript-basic12"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Javascript+-+JavaScript+%ED%95%A8%EC%88%98%EC%A7%80%ED%96%A5+-+arguments&amp;url=https://AhnSang0915.github.iojavascript-basic15"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iojavascript-basic12"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iojavascript-basic15"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
