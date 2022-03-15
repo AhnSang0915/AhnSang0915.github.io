@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://AhnSang0915.github.io/javascript-basic16.html</loc>
+        
+        <lastmod>2022-03-15T21:39:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://AhnSang0915.github.io/javascript-basic15.html</loc>
         
         <lastmod>2022-03-14T21:50:00+09:00</lastmod>
