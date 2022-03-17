@@ -4,9 +4,41 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://AhnSang0915.github.io/javascript-basic16.html</loc>
+        <loc>https://AhnSang0915.github.io/javascript-basic20.html</loc>
         
-        <lastmod>2022-03-15T21:39:00+09:00</lastmod>
+        <lastmod>2022-03-17T22:10:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://AhnSang0915.github.io/javascript-basic19.html</loc>
+        
+        <lastmod>2022-03-17T11:17:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://AhnSang0915.github.io/javascript-basic18.html</loc>
+        
+        <lastmod>2022-03-16T18:17:00+09:00</lastmod>
         
 
         
@@ -22,7 +54,23 @@
     <url>
         <loc>https://AhnSang0915.github.io/javascript-basic17.html</loc>
         
-        <lastmod>2022-03-15T17:17:00+09:00</lastmod>
+        <lastmod>2022-03-16T17:17:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://AhnSang0915.github.io/javascript-basic16.html</loc>
+        
+        <lastmod>2022-03-15T21:39:00+09:00</lastmod>
         
 
         

@@ -11,7 +11,7 @@
 
 
 
-    <title>Javascript - JavaScript 기본</title>
+    <title>Javascript - JavaScript 객체지향 - this</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -50,24 +50,24 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Learn Coding" />
     <link rel="shortcut icon" href="https://AhnSang0915.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://AhnSang0915.github.io/javascript-basic" />
+    <link rel="canonical" href="https://AhnSang0915.github.io/javascript-basic20" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="My Coding Practice Gym" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Javascript - JavaScript 기본" />
-    <meta property="og:description" content="JavaScript 기본 1. 주석 (Comment) 주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다. 코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다. JavaScript주석의 코드 사용 방법 한줄 주석의 경우 - // 내용 여러 줄의 경우 - /* 내용 */ 로 사용한다 // 한줄 주석 사용시" />
-    <meta property="og:url" content="https://AhnSang0915.github.io/javascript-basic" />
+    <meta property="og:title" content="Javascript - JavaScript 객체지향 - this" />
+    <meta property="og:description" content="JavaScript 객체지향 - this 1. 함수와 this this는 함수 내에서 함수 호출 맥락(context 어떠한 의미가 고정되어 있지 않고 사용되는 상황에따라 그의미가 달라질 수 있따.)를 의미한다. 맥락이라는 것은 상황에 따라서 달라진다는 의미인데 즉 함수를 어떻게 호출하느냐에 따라서 this가 가리키는 대상이 달라진다는 뜻이다. 함수와 객체의 관계가 느슨한 자바스크립트에서 this는 이 둘을 연결시켜주는" />
+    <meta property="og:url" content="https://AhnSang0915.github.io/javascript-basic20" />
     <meta property="og:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-02-28T21:34:00+09:00" />
-    <meta property="article:modified_time" content="2022-02-28T21:34:00+09:00" />
+    <meta property="article:published_time" content="2022-03-17T22:10:00+09:00" />
+    <meta property="article:modified_time" content="2022-03-17T22:10:00+09:00" />
     <meta property="article:tag" content="Javascript" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Javascript - JavaScript 기본" />
-    <meta name="twitter:description" content="JavaScript 기본 1. 주석 (Comment) 주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다. 코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다. JavaScript주석의 코드 사용 방법 한줄 주석의 경우 - // 내용 여러 줄의 경우 - /* 내용 */ 로 사용한다 // 한줄 주석 사용시" />
+    <meta name="twitter:title" content="Javascript - JavaScript 객체지향 - this" />
+    <meta name="twitter:description" content="JavaScript 객체지향 - this 1. 함수와 this this는 함수 내에서 함수 호출 맥락(context 어떠한 의미가 고정되어 있지 않고 사용되는 상황에따라 그의미가 달라질 수 있따.)를 의미한다. 맥락이라는 것은 상황에 따라서 달라진다는 의미인데 즉 함수를 어떻게 호출하느냐에 따라서 this가 가리키는 대상이 달라진다는 뜻이다. 함수와 객체의 관계가 느슨한 자바스크립트에서 this는 이 둘을 연결시켜주는" />
     <meta name="twitter:url" content="https://AhnSang0915.github.io/" />
     <meta name="twitter:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -88,7 +88,7 @@
         "name": "My Coding Practice Gym",
         "logo": "https://AhnSang0915.github.io/"
     },
-    "url": "https://AhnSang0915.github.io/javascript-basic",
+    "url": "https://AhnSang0915.github.io/javascript-basic20",
     "image": {
         "@type": "ImageObject",
         "url": "https://AhnSang0915.github.io/assets/built/images/javascript-logo.png",
@@ -97,9 +97,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://AhnSang0915.github.io/javascript-basic"
+        "@id": "https://AhnSang0915.github.io/javascript-basic20"
     },
-    "description": "JavaScript 기본 1. 주석 (Comment) 주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다. 코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다. JavaScript주석의 코드 사용 방법 한줄 주석의 경우 - // 내용 여러 줄의 경우 - /* 내용 */ 로 사용한다 // 한줄 주석 사용시"
+    "description": "JavaScript 객체지향 - this 1. 함수와 this this는 함수 내에서 함수 호출 맥락(context 어떠한 의미가 고정되어 있지 않고 사용되는 상황에따라 그의미가 달라질 수 있따.)를 의미한다. 맥락이라는 것은 상황에 따라서 달라진다는 의미인데 즉 함수를 어떻게 호출하느냐에 따라서 this가 가리키는 대상이 달라진다는 뜻이다. 함수와 객체의 관계가 느슨한 자바스크립트에서 this는 이 둘을 연결시켜주는"
 }
     </script>
 
@@ -112,7 +112,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Javascript - JavaScript 기본" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Javascript - JavaScript 객체지향 - this" href="/feed.xml" />
 
 
 </head>
@@ -173,7 +173,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="28 February 2022">28 February 2022</time>
+                    <time class="post-full-meta-date" datetime="17 March 2022">17 March 2022</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -183,7 +183,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Javascript - JavaScript 기본</h1>
+                <h1 class="post-full-title">Javascript - JavaScript 객체지향 - this</h1>
             </header>
 
             
@@ -193,72 +193,148 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <h1 id="javascript-기본">JavaScript 기본</h1>
+                    <h1 id="javascript-객체지향---this">JavaScript 객체지향 - this</h1>
 
+<h2 id="1-함수와-this">1. 함수와 this</h2>
 <p><br />
 <br />
-<br /></p>
+this는 함수 내에서 함수 호출 맥락(context 어떠한 의미가 고정되어 있지 않고 사용되는 상황에따라 그의미가 달라질 수 있따.)를 의미한다. 맥락이라는 것은 상황에 따라서 달라진다는 의미인데 즉 함수를 어떻게 호출하느냐에 따라서 this가 가리키는 대상이 달라진다는 뜻이다. 함수와 객체의 관계가 느슨한 자바스크립트에서 this는 이 둘을 연결시켜주는 실질적인 연결점의 역할을 한다.
+<br />
+<br />
+아래 코드는 조건문에서 window(전역객체)와 함수안에서의 this가 정확하게 일치한다면 window === this를 출력하는 코드이다. 개발자 도구 콘솔에서 실행시 아래와 같이 나온다. 아래 예제처럼 함수안에서의 this는 전역객체를 의미하는 window를 의미하는 것이다.</p>
 
-<h2 id="1-주석-comment">1. 주석 (Comment)</h2>
-<p><br />
-<br /></p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">function</span> <span class="nx">func</span><span class="p">(){</span>
+    <span class="k">if</span><span class="p">(</span><span class="nb">window</span> <span class="o">===</span> <span class="k">this</span><span class="p">){</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">window === this</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="kc">undefined</span>
+<span class="nx">func</span><span class="p">();</span>
+<span class="c1">// window === this</span>
 
-<p>주석은 JavaScript Code외의 우리가 쓰는 문자로 사용되는 내용을 말한다.<br />
-코드 내용에대한 부연설명이나 함수에 대한 기능을 작성할수 있고 불필요한 코드의 실행을 막을수 있다.<br /></p>
-
-<hr />
-
-<h3 id="javascript주석의-코드-사용-방법"><strong>JavaScript주석의 코드 사용 방법</strong></h3>
-
-<p><br />
-<br /></p>
-
-<p>한줄 주석의 경우 - // 내용<br />
-여러 줄의 경우 - /* 내용 */ 로 사용한다</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 한줄 주석 사용시</span>
-
-<span class="cm">/* 
-    여러줄 
-    주석 
-    사용시
-*/</span>
 </code></pre></div></div>
-<p><br />
-<br /></p>
-<h2 id="2-줄바꿈과-여백">2. 줄바꿈과 여백</h2>
-<p><br />
-<br /></p>
-
-<p>JavaScript의 경우 명령이 끝났다는걸 알려주기 위해 ;를 표시해준다 <br />
-줄바꿈을 할 경우엔 JavaScript에서 자동으로 명령이 끝났다고 판단하지만 한줄에 여러 명령을 쓸 경우가 있어 명령어 뒤엔 ;를 붙여주는게 좋다.
-<br />
-<br /></p>
 
 <hr />
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="dl">"</span><span class="s2">text/javascript</span><span class="dl">"</span><span class="o">&gt;</span>
-        <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">//;을 안넣어도 줄이 바뀌면 명령이 끝났다고 인식한다</span>
-        <span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span>
-    <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
-</span></code></pre></div></div>
+<h2 id="2-메소드와-this">2. 메소드와 this</h2>
 <p><br />
-위 코드에서 ;기호를 없애도 줄바꿈을 했기 때문에 명령이 끝났다고 인식할 것 이다.
-하지만
-<br /></p>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="dl">"</span><span class="s2">text/javascript</span><span class="dl">"</span><span class="o">&gt;</span>
-        <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">alert</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span> <span class="c1">//;가 없다면 var a = 1alert(a) 가 될것이다.</span>
-        
-    <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
-</span></code></pre></div></div>
+<br />
+객체의 소속인 메소드의 this는 그 객체를 가르킨다.
+<br />
+ o라고 하는 변수에 객체를 정의해서 할당했다. 그객체엔 func라는 프로퍼티가 있고 함수이기 때문에 메소드 이다. 함수의 내용은 변수o와 this가 정확하게 같다면 o === this를 출력하는 함수이다. 출력값은 o === this 이다.</p>
 
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">var</span> <span class="nx">o</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">func</span> <span class="p">:</span> <span class="kd">function</span><span class="p">(){</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">o</span> <span class="o">===</span> <span class="k">this</span><span class="p">){</span>
+            <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">"</span><span class="s2">o === this</span><span class="dl">"</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">o</span><span class="p">.</span><span class="nx">func</span><span class="p">();</span>   
+
+
+</code></pre></div></div>
+
+<h2 id="3-생성자-this">3. 생성자 this</h2>
 <p><br />
-이런 경우엔 ;가 없다면 하나의 명령이 될 것이다.( var 뒤 띄어쓰기를 해야 하고 =양쪽엔 하지 않아도 된다.)
-<br /><br />
-그리고 코드를 썼는데 코드가 다닥다닥 붙어 있다면 코드를 보기 힘들 것이다.<br />
-<u> 가독성이 좋지 않다는 말이다. </u><br />
-Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋게 하는 게 좋을 것이다.</p>
+<br />
+아래 코드는 함수를 호출했을 때와 new를 이용해서 생성자를 호출했을 때의 차이를 보여준다.<br />
+function Func()의 funcThis = this;는 지역변수로 지정하지 않았기 때문에 전역변수인 funcThis의 값이 this가 된다. 그렇기 때문에 if(function === window)는 true가 된다. 이말은 우리가 함수와 this에서 본 예제와 같이 함수안에서의 this는 전역객체 window를 의미하는 것이다. 
+<br />
+그아래 var o2 = new Func();는 new를 사용해 javascript내부적으로 비어있는 객체를 만들었다. 그비어있는 객체는 o2가된다. 그리고 var o2 = new Func();를 실행하면 생성자 function Func()가 실행이되고 this의 값이 funcThis가 되고 그값은 var = funcThis가 된다. 자 정리하자. 우리가 new생성자를 통해 o2에 빈객체를 만들었고 그 new생성자는 function Func(){funcThis = this;}이고 여기서의 funcThis는 var funcThis를 의미한다. 즉 우리가 생성자를 통해 만든 객체는 o2에 들어있고 그 생성자가 가르키는것이 var funcThis이기 때문에 if(funcThis === o2)는 true가 된다. 이것을 통해 알수 있는것은 생성자의 맥락으로, 똑같은 함수지만 생성자로 사용될 때에는 this의 값이 생성될 객체를 의미한다.</p>
 
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">var</span> <span class="nx">funcThis</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span> 
+ 
+<span class="kd">function</span> <span class="nx">Func</span><span class="p">(){</span>
+    <span class="nx">funcThis</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kd">var</span> <span class="nx">o1</span> <span class="o">=</span> <span class="nx">Func</span><span class="p">();</span>
+<span class="k">if</span><span class="p">(</span><span class="nx">funcThis</span> <span class="o">===</span> <span class="nb">window</span><span class="p">){</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">'</span><span class="s1">window &lt;br /&gt;</span><span class="dl">'</span><span class="p">);</span>
+<span class="p">}</span>
+ 
+<span class="kd">var</span> <span class="nx">o2</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Func</span><span class="p">();</span>
+<span class="k">if</span><span class="p">(</span><span class="nx">funcThis</span> <span class="o">===</span> <span class="nx">o2</span><span class="p">){</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">'</span><span class="s1">o2 &lt;br /&gt;</span><span class="dl">'</span><span class="p">);</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>위의 예제를 조금 바꿔봤다. if(o2 === this); 를 추가했는데 이렇게 되면 문제가 있다. 우리가 생성자를 호출하게 되면 생성자에대한 호출이 모두 끝나고난 뒤에 그때 비로소 o2라고하는 변수에 우리가 생성한 객체가 할당이 된다. 그전에 객체는 만들어져 있지만 o2라는 변수에 할당되어 있지 않기 때문에 우리는 객체를 할당할수 없다. 따라서 생성자 안에서 o2라는 변수와 this를 확인하면 o2라는 변수에 객체가 담겨있지 않기때문에 undefined이다. this라고 하는것은 객체에대한 초기화가 끝나서</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">var</span> <span class="nx">funcThis</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span> 
+ 
+<span class="kd">function</span> <span class="nx">Func</span><span class="p">(){</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">o2</span> <span class="o">===</span> <span class="k">this</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="kd">var</span> <span class="nx">o2</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Func</span><span class="p">();</span>
+<span class="k">if</span><span class="p">(</span><span class="nx">funcThis</span> <span class="o">===</span> <span class="nx">o2</span><span class="p">){</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">'</span><span class="s1">o2 &lt;br /&gt;</span><span class="dl">'</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">//undefined</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="4-객체로서의-함수">4. 객체로서의 함수</h2>
+<p><br />
+<br />
+이번엔 javascript가 얼마나 유연한지 극명하게 보여주는 주제를 알아보자.
+<br />
+아래 예제는 개발자도구에 입력한 내용이다. function sum(x,y) {return x+y;}는 sum이라고하는 함수 객체를 만든것이다. 그런데 우리가 new Function(‘x’,’y’,’return x+y;’);로 함수객체를 만드는것은 함수의 본문이 복잡하면 굉장히 힘들다. 그래서 함수를 쉽게작성할 수 있도록 function sum(x,y) {return x+y;} 이런식으로 작성하면 javascript해석기는 함수객체를 만들어주고 이런식의 작성을 함수 리터럴(literal)이라고 한다. 그리고 객체를 만들때  var a = {} 이런식으로 만드는것을 객체 리터럴, var a = []; 이런식을 배열 리터럴이라고 한다. 우리가 명시적으로  new Object, new array등으로 만들수도 있지만 보다 편리하게 어떤 값을 만들수있도록 해주는 처리를 리터럴(literal)이라고 한다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span><span class="nx">y</span><span class="p">)</span> <span class="p">{</span> 
+    <span class="k">return</span> <span class="nx">x</span><span class="o">+</span><span class="nx">y</span><span class="p">;}</span>
+<span class="kc">undefined</span>
+<span class="nx">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>
+<span class="mi">3</span>
+<span class="kd">var</span> <span class="nx">sum2</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">'</span><span class="s1">x</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">y</span><span class="dl">'</span><span class="p">,</span><span class="dl">'</span><span class="s1">return x+y;</span><span class="dl">'</span><span class="p">);</span> <span class="c1">// new를 통해서 function이라고하는 생성자함수를 호출한것이다. 앞의 두'x','y',는 함수를 정의할때 매개변수를 정의하는것과 같은 의미이고 마지막 'return x+y;' 가 본문{}에 해당되는 것이다.</span>
+<span class="kc">undefined</span>
+<span class="nx">sum2</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>
+<span class="mi">3</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="5-apply와this">5. apply와this</h2>
+<p><br />
+<br />
+함수가 가지고있는 프로퍼티중에 EcamaScript에서 정의하고있는 메소드중의 하나가 apply와 call이다.
+<br />
+switch는 괄호안의 어떤값이 들어가면 값과 같은 케이스 안에들어있는 구간이 break를 만날때까지 실행된다. if문과 대체제의 관계에 있고 이것은 for문과 while문이 대체제역할에 있는것과 같다.
+<br />
+함수를 apply를이용해 호출했을때 내부적으로 this의 값은 어떻게 변경되는지 알아보자. func();를 호출하게 되면 함수에서의 this의 값은 전역객체window를 의미하기 때문에 window를 실행하게 된다. func.apply(o);는 객체이기 때문에 프로퍼티를 가지고 있을수 있고 Ecmascript의 스펙으로 정의되어 있는 표준 메소드인 apply를 가지고있다. apply를 호출할때 첫번째 인자로 함수호출 컨테스트 o를 주게되면 func()함수가 실행되게 되면서 this의값이 o가된다. 그래서 o를실행하고 braek가되어 값을 반환하게된다. func.apply(p);도 마찬가지로 p를 반환할 것이다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">var</span> <span class="nx">o</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="kd">var</span> <span class="nx">p</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="kd">function</span> <span class="nx">func</span><span class="p">(){</span>
+    <span class="k">switch</span><span class="p">(</span><span class="k">this</span><span class="p">){</span>
+        <span class="k">case</span> <span class="nx">o</span><span class="p">:</span>
+            <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">'</span><span class="s1">o&lt;br /&gt;</span><span class="dl">'</span><span class="p">);</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="nx">p</span><span class="p">:</span>
+            <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">'</span><span class="s1">p&lt;br /&gt;</span><span class="dl">'</span><span class="p">);</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="nb">window</span><span class="p">:</span>
+            <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">'</span><span class="s1">window&lt;br /&gt;</span><span class="dl">'</span><span class="p">);</span>
+            <span class="k">break</span><span class="p">;</span>          
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">func</span><span class="p">();</span>
+<span class="nx">func</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">o</span><span class="p">);</span>
+<span class="nx">func</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">p</span><span class="p">);</span>
+
+</code></pre></div></div>
+
+<p>window, o, p라는 객체와 함수가 있었다. 함수를 어떻게 호출하느냐에 따라 즉 맥락에 따라 window에 소속되기도 하고 o와 p에 소속되기도 했다.</p>
 
                 </div>
             </section>
@@ -322,9 +398,9 @@ Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋�
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            var this_page_url = 'https://AhnSang0915.github.io/javascript-basic';
-                            var this_page_identifier = '/javascript-basic';
-                            var this_page_title = 'Javascript - JavaScript 기본';
+                            var this_page_url = 'https://AhnSang0915.github.io/javascript-basic20';
+                            var this_page_identifier = '/javascript-basic20';
+                            var this_page_title = 'Javascript - JavaScript 객체지향 - this';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -369,11 +445,6 @@ Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋�
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/javascript-basic20">Javascript - JavaScript 객체지향 - this</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -398,12 +469,7 @@ Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋�
                                     
                                         
                                         
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
+                                            <li><a href="/javascript-basic17">Javascript - JavaScript 객체지향 - 객체지향 프로그래밍 소개</a></li>
                                         
                                     
                                   
@@ -507,6 +573,16 @@ Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋�
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                     
                                   
                                 
@@ -531,16 +607,19 @@ Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋�
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
                 
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/javascript-basic2">
+            <a class="post-card-image-link" href="/javascript-basic19">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/javascript-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/javascript-basic2">
+            <a class="post-card-content-link" href="/javascript-basic19">
                 <header class="post-card-header">
                     
                         
@@ -550,11 +629,11 @@ Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋�
                         
                     
 
-                    <h2 class="post-card-title">Javascript - JavaScript 숫자와 문자</h2>
+                    <h2 class="post-card-title">Javascript - JavaScript 객체지향 - 전역객체</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>JavaScript 숫자와 문자
+                        <p>JavaScript 객체지향 - 전역객체
 
 </p>
                     
@@ -583,64 +662,6 @@ Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋�
 
             
 
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/python-st">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-st">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Python</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Python 강좌(1) - Python 기본</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python Practice
-
-    Python 첫번쨰
-    Python 두번째
-
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.jpg" alt="AhnSang0915" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/AhnSang0915/">AhnSang0915</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      2 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
-
         </div>
     </div>
 </aside>
@@ -654,18 +675,18 @@ Tap키를 명령어와 함수 사이에 적절히 사용해 좀 더 보기 좋�
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Javascript - JavaScript 기본</div>
+    <div class="floating-header-title">Javascript - JavaScript 객체지향 - this</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Javascript+-+JavaScript+%EA%B8%B0%EB%B3%B8&amp;url=https://AhnSang0915.github.iojavascript-basic"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Javascript+-+JavaScript+%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5+-+this&amp;url=https://AhnSang0915.github.iojavascript-basic20"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iojavascript-basic"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iojavascript-basic20"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
