@@ -11,7 +11,7 @@
 
 
 
-    <title>Javascript - JavaScript 함수지향 - arguments</title>
+    <title>Javascript - JavaScript 객체지향-Object</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -50,24 +50,24 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Learn Coding" />
     <link rel="shortcut icon" href="https://AhnSang0915.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://AhnSang0915.github.io/javascript-basic15" />
+    <link rel="canonical" href="https://AhnSang0915.github.io/javascript-basic23" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="My Coding Practice Gym" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Javascript - JavaScript 함수지향 - arguments" />
-    <meta property="og:description" content="JavaScript 함수지향 - arguments 1. arguments 소개 arguments객체는 배열과 유사하다. arguments는 함수안에서 사용할 수 있도록 그 이름이나 특성이 약속되어 있는 일종의 배열이다. 몇개의 인자가 들어올지 모를떄 인자를 정의하지 않고 그함수 안에 arguments를 사용하여 결과를 알아내면 되겠다. 아래의 예제는 매개변수가 없는 sum이라는 함수가 있다. javacsript는 관대한 언어이다. 매개변수가 없거나, 인자의 수와" />
-    <meta property="og:url" content="https://AhnSang0915.github.io/javascript-basic15" />
+    <meta property="og:title" content="Javascript - JavaScript 객체지향-Object" />
+    <meta property="og:description" content="JavaScript 객체지향-Object 1. Object란? Object객체는 객체의 가장 기본적인 형태를 가지고 있는 객체이다. 다시 말해서 아무것도 상속받지 않는 순수한 객체다. Javascript에서는 값을 지정하는 기본적인 단위로 Object를 사용한다. var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80}; 우리는 이전에 property에대해 배울 때 Ultra, Super, Sub라는 생성자 예제를 통해 상속에대해 알아보았다. Sub는 Super를" />
+    <meta property="og:url" content="https://AhnSang0915.github.io/javascript-basic23" />
     <meta property="og:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-03-14T21:50:00+09:00" />
-    <meta property="article:modified_time" content="2022-03-14T21:50:00+09:00" />
+    <meta property="article:published_time" content="2022-03-19T23:10:00+09:00" />
+    <meta property="article:modified_time" content="2022-03-19T23:10:00+09:00" />
     <meta property="article:tag" content="Javascript" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Javascript - JavaScript 함수지향 - arguments" />
-    <meta name="twitter:description" content="JavaScript 함수지향 - arguments 1. arguments 소개 arguments객체는 배열과 유사하다. arguments는 함수안에서 사용할 수 있도록 그 이름이나 특성이 약속되어 있는 일종의 배열이다. 몇개의 인자가 들어올지 모를떄 인자를 정의하지 않고 그함수 안에 arguments를 사용하여 결과를 알아내면 되겠다. 아래의 예제는 매개변수가 없는 sum이라는 함수가 있다. javacsript는 관대한 언어이다. 매개변수가 없거나, 인자의 수와" />
+    <meta name="twitter:title" content="Javascript - JavaScript 객체지향-Object" />
+    <meta name="twitter:description" content="JavaScript 객체지향-Object 1. Object란? Object객체는 객체의 가장 기본적인 형태를 가지고 있는 객체이다. 다시 말해서 아무것도 상속받지 않는 순수한 객체다. Javascript에서는 값을 지정하는 기본적인 단위로 Object를 사용한다. var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80}; 우리는 이전에 property에대해 배울 때 Ultra, Super, Sub라는 생성자 예제를 통해 상속에대해 알아보았다. Sub는 Super를" />
     <meta name="twitter:url" content="https://AhnSang0915.github.io/" />
     <meta name="twitter:image" content="https://AhnSang0915.github.io/assets/built/images/javascript-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -88,7 +88,7 @@
         "name": "My Coding Practice Gym",
         "logo": "https://AhnSang0915.github.io/"
     },
-    "url": "https://AhnSang0915.github.io/javascript-basic15",
+    "url": "https://AhnSang0915.github.io/javascript-basic23",
     "image": {
         "@type": "ImageObject",
         "url": "https://AhnSang0915.github.io/assets/built/images/javascript-logo.png",
@@ -97,9 +97,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://AhnSang0915.github.io/javascript-basic15"
+        "@id": "https://AhnSang0915.github.io/javascript-basic23"
     },
-    "description": "JavaScript 함수지향 - arguments 1. arguments 소개 arguments객체는 배열과 유사하다. arguments는 함수안에서 사용할 수 있도록 그 이름이나 특성이 약속되어 있는 일종의 배열이다. 몇개의 인자가 들어올지 모를떄 인자를 정의하지 않고 그함수 안에 arguments를 사용하여 결과를 알아내면 되겠다. 아래의 예제는 매개변수가 없는 sum이라는 함수가 있다. javacsript는 관대한 언어이다. 매개변수가 없거나, 인자의 수와"
+    "description": "JavaScript 객체지향-Object 1. Object란? Object객체는 객체의 가장 기본적인 형태를 가지고 있는 객체이다. 다시 말해서 아무것도 상속받지 않는 순수한 객체다. Javascript에서는 값을 지정하는 기본적인 단위로 Object를 사용한다. var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80}; 우리는 이전에 property에대해 배울 때 Ultra, Super, Sub라는 생성자 예제를 통해 상속에대해 알아보았다. Sub는 Super를"
 }
     </script>
 
@@ -112,7 +112,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Javascript - JavaScript 함수지향 - arguments" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Javascript - JavaScript 객체지향-Object" href="/feed.xml" />
 
 
 </head>
@@ -173,7 +173,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="14 March 2022">14 March 2022</time>
+                    <time class="post-full-meta-date" datetime="19 March 2022">19 March 2022</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -183,7 +183,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Javascript - JavaScript 함수지향 - arguments</h1>
+                <h1 class="post-full-title">Javascript - JavaScript 객체지향-Object</h1>
             </header>
 
             
@@ -193,65 +193,168 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <h1 id="javascript-함수지향---arguments">JavaScript 함수지향 - arguments</h1>
+                    <h1 id="javascript-객체지향-object">JavaScript 객체지향-Object</h1>
 
-<h2 id="1-arguments-소개">1. arguments 소개</h2>
+<h2 id="1-object란">1. Object란?</h2>
 <p><br />
 <br />
-arguments객체는 배열과 유사하다. arguments는 함수안에서 사용할 수 있도록 그 이름이나 특성이 약속되어 있는 일종의 배열이다. 몇개의 인자가 들어올지 모를떄 인자를 정의하지 않고 그함수 안에 arguments를 사용하여 결과를 알아내면 되겠다.
+Object객체는 객체의 가장 기본적인 형태를 가지고 있는 객체이다. 다시 말해서 아무것도 상속받지 않는 순수한 객체다. Javascript에서는 값을 지정하는 기본적인 단위로 Object를 사용한다. 
 <br />
-<br />
-아래의 예제는 매개변수가 없는 sum이라는 함수가 있다. javacsript는 관대한 언어이다. 매개변수가 없거나, 인자의 수와 매개변수의 수가 다르더라도 문제가 생기지 않는다.아래 for문에서의 arguments는 Javascript와 약속되어있는 특수한 이름의 변수명이다. arguments라는 배열이 담겨져 있다. 이 배열의 역할을 사용자가 전달한 인자(1,2,3,4)를 담는것이다. 그래서arguments.length는 4가되고 4만큼 for문이 반복되게된다.<br />document.write(i+’ : ‘+arguments[i]+’&lt;\br /&gt;’);는 0 : 1(인덱스0) 부터 차례로 표시하게되고, 그후 _sum의 변수에 +=(a+=1;는a=a+1;과 같다) arguments[i];를 담았다. 이말은 (1,2,3,4)의 값을 
-_sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 것이다. _sum의 초기값은 0이기 때문에 10이된다.</p>
+<br /></p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	
-<span class="kd">function</span> <span class="nx">sum</span><span class="p">(){</span>
-    <span class="kd">var</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">_sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>     <span class="c1">// i 루프를 위한 변수 _sum 출력할 결과를 담아낼 변수</span>
-    <span class="k">for</span><span class="p">(</span><span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span> 
-      <span class="c1">//arguments javascript와 약속되어있는 특수한 이름의 변수명</span>
-        <span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="dl">'</span><span class="s1"> : </span><span class="dl">'</span><span class="o">+</span><span class="nx">arguments</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">+</span><span class="dl">'</span><span class="s1">&lt;br /&gt;</span><span class="dl">'</span><span class="p">);</span>
-        <span class="nx">_sum</span> <span class="o">+=</span> <span class="nx">arguments</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
-    <span class="p">}</span>   
-    <span class="k">return</span> <span class="nx">_sum</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="dl">'</span><span class="s1">result : </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">));</span> 
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">var</span> <span class="nx">grades</span> <span class="o">=</span> <span class="p">{</span><span class="dl">'</span><span class="s1">egoing</span><span class="dl">'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="dl">'</span><span class="s1">k8805</span><span class="dl">'</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sorialgi</span><span class="dl">'</span><span class="p">:</span> <span class="mi">80</span><span class="p">};</span>
+
+</code></pre></div></div>
+
+<p>우리는 이전에 property에대해 배울 때 Ultra, Super, Sub라는 생성자 예제를 통해 상속에대해 알아보았다. Sub는 Super를 Super는 Ultra를 상속받았다. Ultra는 최상위에 있는것처럼 보이지만 암시적으로는 사실 Object라는 객체에 상속되어 있는것이다. Object라는 객체의 프로퍼티는 모든 객체가 갖고있는 프로퍼티가 되는것이다. 즉 Object의 prototype은 모든객체가 사용할 수 있는 prototype이 된다는 것이다. 우리가 모든 객체가 가지고 있었으면 하는 기능이 있다면 Object의 prototype에 우리가 직접 기능을 추가하는 것을 통해서 모든객체가 그기능을 갖게 할 수 있다는 것이다.</p>
+
+<hr />
+
+<h2 id="2-object-api사용법">2. Object API사용법</h2>
+<p><br />
+<br />
+Object.keys는 배열이 어떠한 인덱스값을 가지고 있는지 배열로 리턴하는 메소드이다. 따라서 첫번째 결과는 Object.keys(arr)[‘0’, ‘1’, ‘2’] 이된다. toString은 문자열을 리턴해준다고 생각하자. 중요한 것은 Object.keys()와 Object.prototype.toString()에서 prototype이 있고 없고의 차이가 뭔지 알아야한다. prototype이 있는 것은 어떠한 객체를 만든다. 그리고 그객체를 담고있는 식별자. toString이라고 한다. 그런데 prototype이 없는 Object.keys같은 경우에는 Object.keys(arr)처럼 어떠한 인자를 받아서 처리한다. 이러한 차이는 Object라고 하는 것이 생성자 함수인 것이다. 함수는 javascript에서 객체이기 때문에 프로퍼티를 가질수 있다. 그래서 Object.keys가 가능한 것이고 이렇게 정의되었을 것이다 Object.keys = function(){}. toString의 경우는 prototype의 프로퍼티이다. 즉 Object.prototype.toString = function(){} 로 정의되어 있다. 어떠한 메소드가 new Object를 실행을 시키는 순간에 어떠한 객체를 만들고 그객체는 prototype이라고 하는 특수한 프로퍼티에 저장되어있는 객체를 원형으로 하는 객체가 생성이 되는것이다. 그렇게 생성된 객체는 toString이라는 메소드를 사용할 수 있기 때문에 메소드로서 사용하게 되는것이다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1">//Object.keys()</span>
+<span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">c</span><span class="dl">"</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Object.keys(arr)</span><span class="dl">'</span><span class="p">,</span><span class="nb">Object</span><span class="p">.</span><span class="nx">keys</span><span class="p">(</span><span class="nx">arr</span><span class="p">));</span>
+
+<span class="c1">//Object.prototype.toString()</span>
+<span class="kd">var</span> <span class="nx">o</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Object</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">o.toString()</span><span class="dl">'</span><span class="p">,</span><span class="nx">o</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
+
+<span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">a.toString()</span><span class="dl">'</span><span class="p">),</span><span class="nx">a</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
+
 
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="2-매개변수의-수---function-length">2. 매개변수의 수 - function length</h2>
+<h2 id="3-object-확장">3. Object 확장</h2>
 <p><br />
 <br />
-함수명.length는 몇개의 매개변수를 갖고있는지 알려주고, arguments.length는 함수를 호출할때 몇개의 인자, 몇개의 arguments를 담고있는지의 정보를 담고있다.
+우리가 필요한 기능을 모든 객체에서 사용 가능한 Object를 만드는 방법을 알아보자.
 <br />
-<br /></p>
+<br />
+아래 배열과 객체에서 contain.(인자)메소드로 어떤 인자를 전달하게되면 인자가 해당 되는 값이 그 객체나 배열에 있다면 true 없다면 false를 리턴하게하는 코드를 만들어 보았다. 모든 객체의 부모는 Object이기 때문에 Object라고 적어주고, o와a모두 객체이다. 객체에 어떤 기능, 메소드를 갖도록 추가하고 싶다면 prototype이라고하는 프로퍼티안의 객체를 변경하면 된다. for in문으로 배열과 객체를 차례로 나열하여 값을 확인하는 코드를 작성했다. 아래 코드에서 메소드 안의 this는 그 메소드가 소속되어있는 객체를 의미한다. name에는 각각의 객체에대한 키값이 담기게 된다. 현재 열거되고 있는 value값을 가져오려면 this[name]으로 가져오고 그값과 neddle을 비교하여 두 값이 일치하면 true를 리턴한다. 마지막 value까지 나열했는데 일치하는 값이 없다면 false를 리턴한다.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">function</span> <span class="nx">zero</span><span class="p">(){</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
-        <span class="dl">'</span><span class="s1">zero.length</span><span class="dl">'</span><span class="p">,</span> <span class="nx">zero</span><span class="p">.</span><span class="nx">length</span><span class="p">,</span>
-        <span class="dl">'</span><span class="s1">arguments</span><span class="dl">'</span><span class="p">,</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">length</span>
-    <span class="p">);</span>
+<span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">contain</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">neddle</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="k">this</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">===</span> <span class="nx">neddle</span><span class="p">){</span>
+            <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
 <span class="p">}</span>
-<span class="kd">function</span> <span class="nx">one</span><span class="p">(</span><span class="nx">arg1</span><span class="p">){</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
-        <span class="dl">'</span><span class="s1">one.length</span><span class="dl">'</span><span class="p">,</span> <span class="nx">one</span><span class="p">.</span><span class="nx">length</span><span class="p">,</span>
-        <span class="dl">'</span><span class="s1">arguments</span><span class="dl">'</span><span class="p">,</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">length</span>
-    <span class="p">);</span>
-<span class="p">}</span>
-<span class="kd">function</span> <span class="nx">two</span><span class="p">(</span><span class="nx">arg1</span><span class="p">,</span> <span class="nx">arg2</span><span class="p">){</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
-        <span class="dl">'</span><span class="s1">two.length</span><span class="dl">'</span><span class="p">,</span> <span class="nx">two</span><span class="p">.</span><span class="nx">length</span><span class="p">,</span>
-        <span class="dl">'</span><span class="s1">arguments</span><span class="dl">'</span><span class="p">,</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">length</span>
-    <span class="p">);</span>
-<span class="p">}</span>
-<span class="nx">zero</span><span class="p">();</span> <span class="c1">// zero.length 0 arguments 0 </span>
-<span class="nx">one</span><span class="p">(</span><span class="dl">'</span><span class="s1">val1</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">val2</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">// one.length 1 arguments 2 </span>
-<span class="nx">two</span><span class="p">(</span><span class="dl">'</span><span class="s1">val1</span><span class="dl">'</span><span class="p">);</span>  <span class="c1">// two.length 2 arguments 1</span>
+<span class="kd">var</span> <span class="nx">o</span> <span class="o">=</span> <span class="p">{</span><span class="dl">'</span><span class="s1">name</span><span class="dl">'</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">city</span><span class="dl">'</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">suwon</span><span class="dl">'</span><span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">o</span><span class="p">.</span><span class="nx">contain</span><span class="p">(</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">));</span>
+<span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sang</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">hyun</span><span class="dl">'</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">.</span><span class="nx">contain</span><span class="p">(</span><span class="dl">'</span><span class="s1">sang</span><span class="dl">'</span><span class="p">));</span>
 
 </code></pre></div></div>
 
+<hr />
+
+<h2 id="4-object-확장의-위험">4. Object 확장의 위험</h2>
+<p><br />
+<br />
+확장의 위험성에 대해 알아보자. 확장을 함으로써 모든 객체에 영향을 주기때문에 주의해야한다.
+<br />
+<br />
+크롬 개발자 도구에서 아래 코드를입력후 for(var name in o){console.log(o[name]);}을 출력한 결과를 보자. 함수까지 출력된 상황이다. 이유는 contain이 포함되었기 때문이다. 개발자 도구에서 다시 코드를 작성해보자. for(var name in o){console.log(name)}의 결과는 name, city, contian이다.for(var name in a){console.log(name)}의 실행결과 역시 0,1,2,contain이다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">contain</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">neddle</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="k">this</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">===</span> <span class="nx">neddle</span><span class="p">){</span>
+            <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kd">var</span> <span class="nx">o</span> <span class="o">=</span> <span class="p">{</span><span class="dl">'</span><span class="s1">name</span><span class="dl">'</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">city</span><span class="dl">'</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">suwon</span><span class="dl">'</span><span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">o</span><span class="p">.</span><span class="nx">contain</span><span class="p">(</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">));</span>
+<span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sang</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">hyun</span><span class="dl">'</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">.</span><span class="nx">contain</span><span class="p">(</span><span class="dl">'</span><span class="s1">sang</span><span class="dl">'</span><span class="p">));</span>
+
+<span class="c1">// 개발자 도구에서 for(var name in o){console.log(name)}을 출력한 결과</span>
+<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="nx">o</span><span class="p">){</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">o</span><span class="p">[</span><span class="nx">name</span><span class="p">]);}</span>
+<span class="nl">VM693</span><span class="p">:</span><span class="mi">2</span> <span class="nx">ansang</span>
+<span class="nx">VM693</span><span class="p">:</span><span class="mi">2</span> <span class="nx">suwon</span>
+<span class="nx">VM693</span><span class="p">:</span><span class="mi">2</span> <span class="nx">ƒ</span> <span class="p">(</span><span class="nx">neddle</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="k">this</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">===</span> <span class="nx">neddle</span><span class="p">){</span>
+            <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="c1">// 개발자 도구에서 for(var name in a){console.log(name);}을 출력한 결과</span>
+
+<span class="mi">1</span>
+<span class="mi">2</span>
+<span class="nx">contain</span>
+
+</code></pre></div></div>
+
+<p>부모로 부터 contain이라는 프로퍼티까지 상속받았기 때문에 위와같은 결과가 나오는 것이다. 그렇다면 이런 문제를 해결할수 있는 메소드를 알아보자. a.hasOwnProperty(name)는 실행되는 객체가 인자로 전달된 값을 자신의 프로퍼티로 가지고 있는지 확인할 수 있는 메소드이다. contain은 부모로부터 상속받은 프로퍼티이기 때문에 어떠한 프로퍼티의 이름이 그객체의 직접적으로 정의되어있는지 확인하는 기능인 hasOwnProperty로 구별할 수 있다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">contain</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">neddle</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="k">this</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">===</span> <span class="nx">neddle</span><span class="p">){</span>
+            <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kd">var</span> <span class="nx">o</span> <span class="o">=</span> <span class="p">{</span><span class="dl">'</span><span class="s1">name</span><span class="dl">'</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">city</span><span class="dl">'</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">suwon</span><span class="dl">'</span><span class="p">}</span>
+<span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">ansang</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">sang</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">hyun</span><span class="dl">'</span><span class="p">];</span>
+
+<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="nx">o</span><span class="p">){</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">o</span><span class="p">.</span><span class="nx">hasOwnProperty</span><span class="p">(</span><span class="nx">name</span><span class="p">)){</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="c1">//name, city</span>
+<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">name</span> <span class="k">in</span> <span class="nx">a</span><span class="p">){</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">a</span><span class="p">.</span><span class="nx">hasOwnProperty</span><span class="p">(</span><span class="nx">name</span><span class="p">)){</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="c1">//0,1,2</span>
+</code></pre></div></div>
+
+<h2 id="5-prototype-vs-proto">5. prototype vs <strong>proto</strong></h2>
+<p><br />
+<br />
+이번엔 prototype과 _<em>proto__의 관계를 알아보자. 그전에 함수란 무엇인가를 확인해 보면. 함수는 javascript에서는 객체이다. function Person(){}는 var Person = new Function();으로 표현할수 있다. javascript에서 함수는 객체이기 때문에 프로퍼티를 가질 수 있다. 
+<br />
+<br />
+아래와 같은 함수를정의하면 객체이기 때문에 함수에 해당되는 Person이라고하는 객체가 생성되고 Person의 prototype이라는 객체가 하나 더 생긴다. 두개의 객체는 서로 연관되어 있기 때문에 Person이라고하는 객체는 내부적으로 prototype이라는 프로퍼티가 생기고 그 프로퍼티는 Person의 prototype객체를 의미한다. 그래서  Pserson.prototype이라 함은 Person의 prototype객체를 의미한다. Person의 prototype객체도 자신이 Person의 소속인것을 표시하기 위해서 어딘가에 기록해야한다. 그러기 위해서 Person의 prototype객체 안에 constructor라고하는 프로퍼티를 만들고 이 프로퍼티는 Person을 가르키게 된다. 서로간의 상호참조를 하고있는 것이다. Person은 prototype프로퍼티를 통해서 Person의 prototype객체를 가르키고 Person의 prototype객체는 constructor프로퍼티를 통해서 Person객체를 가르킨다는 것이다. 그다음person.prototype.sum = function(){} 를정의하게 되면 Person의 prototype객체에 sum이라는 함수가 없기때문에 생성하고 함수를 정의한다. var kim=new Person(‘kim’,10,20) 이렇게 객체를 생성하면 kim이라고하는 객체가 생성되고 kim이라는 객체 안에 프로퍼티 값으로 name,first,second 그리고 __proto__가 생성이 된다. kim객체의 __proto_</em> 프로퍼티는 Person의 prototype객체를 의미한다. 그렇다면 Person.prototype을통해서 Person의 prototype객체에 접근할 수 있고, kim.__proto__를 통해서도 접근 할 수 있다. var lee = new Person(‘lee’,10,10)를 통해서도 같은 접근을 할 수 있다. console.log(kim.name)을하면 name이라는 프로퍼티가 있는지를 확인하고 그값을 출력할 것이다. 만약 name이라는 값이 없다면 __proto__가 가르키는 객체에 name이 있는지 다시 찾아본다. kim.sum()을 하게 되면 kim이라는 객체에는 sum이라는 메소드가 없다. 그렇다면 javascript는 __proto__가 가르키는 Person의 prototype객체에 sum이 있는지 찾는다. 이런식으로 prototype이 동작하는 것이다.</p>
+
+<p><img src="https://media.vlpt.us/images/turtle601/post/93a9e49b-c4a0-428a-825b-b73adca66227/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-08-30%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%209.29.11.png" alt="프로토타입 설명" /></p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">function</span> <span class="nx">Person</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">first</span><span class="p">,</span> <span class="nx">second</span><span class="p">){</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">first</span> <span class="o">=</span> <span class="nx">first</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">second</span> <span class="o">=</span> <span class="nx">second</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">person</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">sum</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){}</span>
+
+<span class="kd">var</span> <span class="nx">kim</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="dl">'</span><span class="s1">kim</span><span class="dl">'</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
+<span class="kd">var</span> <span class="nx">lee</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="dl">'</span><span class="s1">lee</span><span class="dl">'</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">kim</span><span class="p">.</span><span class="nx">name</span><span class="p">)</span>
+<span class="nx">kim</span><span class="p">.</span><span class="nx">sum</span><span class="p">()</span>
+</code></pre></div></div>
 
                 </div>
             </section>
@@ -315,9 +418,9 @@ _sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 �
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            var this_page_url = 'https://AhnSang0915.github.io/javascript-basic15';
-                            var this_page_identifier = '/javascript-basic15';
-                            var this_page_title = 'Javascript - JavaScript 함수지향 - arguments';
+                            var this_page_url = 'https://AhnSang0915.github.io/javascript-basic23';
+                            var this_page_identifier = '/javascript-basic23';
+                            var this_page_title = 'Javascript - JavaScript 객체지향-Object';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -362,11 +465,6 @@ _sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 �
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/javascript-basic23">Javascript - JavaScript 객체지향-Object</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -391,12 +489,7 @@ _sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 �
                                     
                                         
                                         
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
+                                            <li><a href="/javascript-basic20">Javascript - JavaScript 객체지향 - this</a></li>
                                         
                                     
                                   
@@ -423,6 +516,16 @@ _sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 �
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                     
                                   
                                 
@@ -545,57 +648,6 @@ _sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 �
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/javascript-basic16">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/javascript-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/javascript-basic16">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Javascript</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Javascript - JavaScript 함수지향 - 함수의 호출</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>JavaScript 함수지향 - 함수의 호출
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.jpg" alt="AhnSang0915" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/AhnSang0915/">AhnSang0915</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      2 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -603,12 +655,12 @@ _sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 �
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/javascript-basic14">
+            <a class="post-card-image-link" href="/javascript-basic22">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/javascript-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/javascript-basic14">
+            <a class="post-card-content-link" href="/javascript-basic22">
                 <header class="post-card-header">
                     
                         
@@ -618,11 +670,11 @@ _sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 �
                         
                     
 
-                    <h2 class="post-card-title">Javascript - JavaScript 함수지향 - 클로저</h2>
+                    <h2 class="post-card-title">Javascript - JavaScript 객체지향-표준 내장객체의 확장</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>JavaScript 함수지향 - 클로저
+                        <p>JavaScript 객체지향-표준 내장객체의 확장
 
 </p>
                     
@@ -642,7 +694,7 @@ _sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 �
                 <span class="reading-time">
                     
                     
-                      4 min read
+                      1 min read
                     
                 </span>
             </footer>
@@ -664,18 +716,18 @@ _sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 �
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Javascript - JavaScript 함수지향 - arguments</div>
+    <div class="floating-header-title">Javascript - JavaScript 객체지향-Object</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Javascript+-+JavaScript+%ED%95%A8%EC%88%98%EC%A7%80%ED%96%A5+-+arguments&amp;url=https://AhnSang0915.github.iojavascript-basic15"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Javascript+-+JavaScript+%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-Object&amp;url=https://AhnSang0915.github.iojavascript-basic23"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iojavascript-basic15"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iojavascript-basic23"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
