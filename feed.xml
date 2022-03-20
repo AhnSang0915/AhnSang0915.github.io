@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-03-20T14:25:28+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Javascript - JavaScript 객체지향 - 데이터타입</title><link href="https://ahnsang0915.github.io/javascript-basic24" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 데이터타입" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic24</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic24">&lt;h1 id=&quot;javascript-객체지향-테이터-타입&quot;&gt;JavaScript 객체지향-테이터 타입&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-03-20T18:51:42+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Javascript - JavaScript 객체지향 - 데이터타입</title><link href="https://ahnsang0915.github.io/javascript-basic24" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 데이터타입" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic24</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic24">&lt;h1 id=&quot;javascript-객체지향-테이터-타입&quot;&gt;JavaScript 객체지향-테이터 타입&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;1-원시-데이터-타입과-객체&quot;&gt;1. 원시 데이터 타입과 객체&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
@@ -51,7 +56,116 @@
   &lt;li&gt;nudefined X&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;null과 nudefined은 래퍼객체가 존재하지 않는다. 객체화 시키려고 하면 타입에러가 발생할 것이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향-테이터 타입</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향-Object</title><link href="https://ahnsang0915.github.io/javascript-basic23" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향-Object" /><published>2022-03-19T23:10:00+09:00</published><updated>2022-03-19T23:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic23</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic23">&lt;h1 id=&quot;javascript-객체지향-object&quot;&gt;JavaScript 객체지향-Object&lt;/h1&gt;
+&lt;p&gt;null과 nudefined은 래퍼객체가 존재하지 않는다. 객체화 시키려고 하면 타입에러가 발생할 것이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향-테이터 타입</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 참조</title><link href="https://ahnsang0915.github.io/javascript-basic25" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 참조" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic25</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic25">&lt;h1 id=&quot;javascript-객체지향---참조&quot;&gt;JavaScript 객체지향 - 참조&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-복제란&quot;&gt;1. 복제란?&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+바로 이러한 특징이 소프트웨어를 기존의 산업과 구분하는 가장 큰 특징일 것이다. 프로그래밍에서 복제가 무엇인가를 살펴보자.
+&lt;br /&gt;
+&lt;br /&gt;
+아래 코드의 결과는 1이다. 2행에서 var b = a; 3행에서 b = 2;기떄문에 2가 아닌가 생각할 수 있지만 그렇지 않다. a와 b는 각각다른 데이터를 갖고있기 때문에 a의 값에는 영향을 주지 않는다. 두 변수는 연결되어 있지 않은 별도의 데이터이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//1&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/module/532/2226.png&quot; alt=&quot;복제&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-참조&quot;&gt;2. 참조&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+객체는 어떻게 동작하는지 알아보자. b = a;라고 했고 b에는 {‘id’:1};이런 값이 들어가게 될것이다. 그상태 에서 b.id로 b의 id값을 2로바꿨다. 그리고 a의 id값을 체크하면 값이 2가된다. 이말은 b의 프로퍼티 값을 변경하면 a의 프로퍼티 값이 변경 된다는 것이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//a라는 변수에 di가 1인 객체를 지정&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 2&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;아래의 예제는 1을 출력한다. b = {‘id’ : 2};로 새로운 객체를만들어 변수b에 할당을 한것이다. 그렇기 때문에 b라는 변수는 더이상 {‘id’:1};를 의미하지 않고 새롭게 만들어진 {‘id’ : 2};를 의미하게 되는 것이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt; 
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;//객체를 생성한것이다.&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//1&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//사실상 아래의 코드와 같다.&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//1&lt;/span&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;변수에 담겨진 값이 객체인경우 b = a;라고 했을때 b와 a는 똑같은 객체를 바라보게된다. 하지만 데이터가 원시 데이터 타입인 경우 b = a;라고하면 이순간에 a에 담겨있던 값이 복제되어 새로만들어지고 그값이 b에 담겨지게 되는것이다. 즉 참조건 복제건 상관없이, 원시데이터이건 객체건 상관없이 새로운 데이터를 만들어서 그것을 변수에 할당하면 새로운 데이터의 값을 바라보게 되지만 지만 객체는 b = a; 라고 했을 때 객체는 똑같은 객체를 각각의 변수들이 바라보게 되는것이고 원시데이터에서 b = a;라고 했을땐 a가 바라보던 값을 b가 만들어졌을땐 복제한 별개의 값을 바라보게 되는것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/module/532/2227.png&quot; alt=&quot;참조&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-함수와-참조&quot;&gt;3. 함수와 참조&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+그럼 일종의 변수할당이라고 할 수 있는 메소드의 매개변수는 어떻게 동작하는가를 살펴보자. 조금 복잡하므로 꼼꼼하게 살펴봐야 한다. 예제를 보자.
+&lt;br /&gt;
+&lt;br /&gt;
+다음은 원시 데이터 타입을 인자로 넘겼을 때의 동작 모습이다. a에 1이라는 값이 담겨있다. 그리고 함수를 정의했는데 매개변수(parameter)인 b의값을 2로 바꾸고있다. 그리고 함수를 호출할때 a를 전달했다. 이말은 b = a;라는 것과 같다. a=1인상태이고 b=a;, 그리고 b=2; 인것이다. 여기서 a=1이고 함수가 b = a;라는 의미이기 때문에 복제와 같다. a=1의 값이 함수 b에 들어가지만 함수내의 b=2;로 b=2가되고 개별의 데이터인 a는 그대로 1이되게 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// b = a; 라는것이다.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이번에는 변수에 담긴 값이 객체이다. a = {‘id’:1};이고 위 함수와 마찬가지로 b = a;를 의미하고 a는 객체이기 때문에 b와 a는 똑같은 객체를 바라보고 있는 상황이지만 b = {‘id’:2};가 새로운 객체를 만들었고 b에 새로운 객체를 할당했기 때문에 b는 {‘id’:2};를 바라보고 있다. 그렇기 때문에 b와 a가 같은 객체를 바라보지 않게 되는것이다. 따라서 결과는 1이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 1&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;아래는 결과가 다르다. 아래도 마찬가지로 b = a;를 함수로 나타내고 있지만 b.id = 2;로 b와a는 데이터가 객체이기 때문에 같은 객체를 바라보고 있다. b.id = 2;로 a의 값도 바뀌기 때문에 결과는 2가된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 2&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - 참조</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향-Object</title><link href="https://ahnsang0915.github.io/javascript-basic23" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향-Object" /><published>2022-03-19T23:10:00+09:00</published><updated>2022-03-19T23:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic23</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic23">&lt;h1 id=&quot;javascript-객체지향-object&quot;&gt;JavaScript 객체지향-Object&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;1-object란&quot;&gt;1. Object란?&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
@@ -214,6 +328,11 @@ Object.keys는 배열이 어떠한 인덱스값을 가지고 있는지 배열로
 &lt;span class=&quot;nx&quot;&gt;kim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향-표준 내장객체의 확장</title><link href="https://ahnsang0915.github.io/javascript-basic22" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향-표준 내장객체의 확장" /><published>2022-03-19T17:25:00+09:00</published><updated>2022-03-19T17:25:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic22</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic22">&lt;h1 id=&quot;javascript-객체지향-표준-내장객체의-확장&quot;&gt;JavaScript 객체지향-표준 내장객체의 확장&lt;/h1&gt;
 
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;1-표준-내장-객체란&quot;&gt;1. 표준 내장 객체란?&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -275,6 +394,11 @@ console.log(getRandomValueFromArray(arr))
 &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향-표준 내장객체의 확장</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 상속</title><link href="https://ahnsang0915.github.io/javascript-basic21" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 상속" /><published>2022-03-18T18:30:00+09:00</published><updated>2022-03-18T18:30:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic21</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic21">&lt;h1 id=&quot;javascript-객체지향---상속&quot;&gt;JavaScript 객체지향 - 상속&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;1-상속inheritance이란&quot;&gt;1. 상속(inheritance)이란?&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
@@ -545,6 +669,11 @@ beautiful&lt;br /&gt;
 
 &lt;p&gt;주의할점은 어떠한 객체 super를 sub가 상속받고 싶다면 Sub.prototype에는&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - 상속</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - this</title><link href="https://ahnsang0915.github.io/javascript-basic20" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - this" /><published>2022-03-17T22:10:00+09:00</published><updated>2022-03-17T22:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic20</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic20">&lt;h1 id=&quot;javascript-객체지향---this&quot;&gt;JavaScript 객체지향 - this&lt;/h1&gt;
 
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;1-함수와-this&quot;&gt;1. 함수와 this&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -688,6 +817,11 @@ switch는 괄호안의 어떤값이 들어가면 값과 같은 케이스 안에�
 
 &lt;p&gt;window, o, p라는 객체와 함수가 있었다. 함수를 어떻게 호출하느냐에 따라 즉 맥락에 따라 window에 소속되기도 하고 o와 p에 소속되기도 했다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - this</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 전역객체</title><link href="https://ahnsang0915.github.io/javascript-basic19" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 전역객체" /><published>2022-03-17T11:17:00+09:00</published><updated>2022-03-17T11:17:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic19</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic19">&lt;h1 id=&quot;javascript-객체지향---전역객체&quot;&gt;JavaScript 객체지향 - 전역객체&lt;/h1&gt;
 
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;1-전역객체란&quot;&gt;1. 전역객체란?&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -722,6 +856,11 @@ func();와 window.func();는 모두 실행이 된다. 모든 전역변수와 함
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 ECMAScript에서는 전역객체의 &lt;a href=&quot;https://opentutorials.org/course/50/44&quot;&gt;API&lt;/a&gt;.를 정의해두었다. 그 외의API는 호스트 환경에서 필요에 따라서 추가로 정의하고 있다. 이를테면 웹브라우저 자바스크립트에서는 alert()이라는 전역객체의 메소드가 존재하지만 node.js에는 존재하지 않는다. 또한 전역객체의 이름도 호스트환경에 따라서 다른데, 웹브라우저에서 전역객체는 window이지만 node.js에서는 global이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - 전역객체</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 생성자와 new</title><link href="https://ahnsang0915.github.io/javascript-basic18" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 생성자와 new" /><published>2022-03-16T18:17:00+09:00</published><updated>2022-03-16T18:17:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic18</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic18">&lt;h1 id=&quot;javascript-객체지향---생성자와-new&quot;&gt;JavaScript 객체지향 - 생성자와 new&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;1자바스트립트의-객체지향&quot;&gt;1.자바스트립트의 객체지향&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
@@ -854,6 +993,11 @@ person {}의 비어있는 객체가 만들어졌다.&lt;/p&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - 생성자와 new</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 객체지향 프로그래밍 소개</title><link href="https://ahnsang0915.github.io/javascript-basic17" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 객체지향 프로그래밍 소개" /><published>2022-03-16T17:17:00+09:00</published><updated>2022-03-16T17:17:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic17</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic17">&lt;h1 id=&quot;javascript-객체지향-프로그래밍-소개&quot;&gt;JavaScript 객체지향 프로그래밍 소개&lt;/h1&gt;
 
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;객체지향-프로그래밍&quot;&gt;객체지향 프로그래밍&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -920,6 +1064,11 @@ person {}의 비어있는 객체가 만들어졌다.&lt;/p&gt;
 컴퓨터와 모니터를 만드는 업체들은 HDMI케이블 규격을 공유한다. 각각의 부품은 미리 정해진 약속에 따라 신호의 입출력을 가능하게 해주는 연결점의 모양을 표준에 맞게 만들면 된다. 이러한 연결점을 인터페이스Interface)라고 한다. 즉 인터페이스는 부품들 간의 약속이다. 프로그래밍에서도 인터페이스에 해당하는것을 소프트웨어 적으로 제공하고 있다.  이러한 약속을 프로그램밍 적으로는 어떻게 구현하는가도 알아보자.
 &lt;br /&gt;
 지금까지 객체를 부품으로 비유해서 설명 했다. 그런데 비유는 비유일 뿐이다. 비유는 의도한 유사점 뿐만 아니라 의도하지 않은 차이점까지도 전달될 가능성이 있기 때문이다. 비유의 함정이라고 할 수 있다. 소프트웨어는 하드웨어가 아니다. 하드웨어가 할 수 없는 것을 소프트웨어는 할 수 있다. 그 중의 하나가 복제와 상속이다. 이러한 개념을 구체적인 문법 없이 설명하는 것은 효용이 크지 않을 뿐만 아니라 자칫 흥미를 저해할 위험이 있기 때문에 여기서는 설명하지 않았다. 소프트웨어가 있기 이전부터 하드웨어가 이룩한 성취를 잘 수용하면서 동시에 소프트웨어 다운 소프트웨어를 만드는 것은 우리게게 주워진 숙제라고 할 수 있다&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 프로그래밍 소개</summary></entry><entry><title type="html">Javascript - JavaScript 함수지향 - 함수의 호출</title><link href="https://ahnsang0915.github.io/javascript-basic16" rel="alternate" type="text/html" title="Javascript - JavaScript 함수지향 - 함수의 호출" /><published>2022-03-15T21:39:00+09:00</published><updated>2022-03-15T21:39:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic16</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic16">&lt;h1 id=&quot;javascript-함수지향---함수의-호출&quot;&gt;JavaScript 함수지향 - 함수의 호출&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;1-apply-소개&quot;&gt;1. apply 소개&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;
@@ -1011,61 +1160,4 @@ o2.sum()로 호출하고 이렇게 호출하면 for in문이 this를 열거하�
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;물론 위의 방법대로 해도 사용할 수 있겠지만 복잡하기 때문에 apply를 사용하게되면 함수가 호출되는 시점에서 this값을 프로그래밍적으로 변경해 함수가 o1이라는 객체의 속성인것처럼 실행되게 할수있다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 함수지향 - 함수의 호출</summary></entry><entry><title type="html">Javascript - JavaScript 함수지향 - arguments</title><link href="https://ahnsang0915.github.io/javascript-basic15" rel="alternate" type="text/html" title="Javascript - JavaScript 함수지향 - arguments" /><published>2022-03-14T21:50:00+09:00</published><updated>2022-03-14T21:50:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic15</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic15">&lt;h1 id=&quot;javascript-함수지향---arguments&quot;&gt;JavaScript 함수지향 - arguments&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-arguments-소개&quot;&gt;1. arguments 소개&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-arguments객체는 배열과 유사하다. arguments는 함수안에서 사용할 수 있도록 그 이름이나 특성이 약속되어 있는 일종의 배열이다. 몇개의 인자가 들어올지 모를떄 인자를 정의하지 않고 그함수 안에 arguments를 사용하여 결과를 알아내면 되겠다.
-&lt;br /&gt;
-&lt;br /&gt;
-아래의 예제는 매개변수가 없는 sum이라는 함수가 있다. javacsript는 관대한 언어이다. 매개변수가 없거나, 인자의 수와 매개변수의 수가 다르더라도 문제가 생기지 않는다.아래 for문에서의 arguments는 Javascript와 약속되어있는 특수한 이름의 변수명이다. arguments라는 배열이 담겨져 있다. 이 배열의 역할을 사용자가 전달한 인자(1,2,3,4)를 담는것이다. 그래서arguments.length는 4가되고 4만큼 for문이 반복되게된다.&lt;br /&gt;document.write(i+’ : ‘+arguments[i]+’&amp;lt;\br /&amp;gt;’);는 0 : 1(인덱스0) 부터 차례로 표시하게되고, 그후 _sum의 변수에 +=(a+=1;는a=a+1;과 같다) arguments[i];를 담았다. 이말은 (1,2,3,4)의 값을 
-_sum = _sum + arguments[i]이다. 즉, sum_에 1234를 차례로 더한다는 것이다. _sum의 초기값은 0이기 때문에 10이된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// i 루프를 위한 변수 _sum 출력할 결과를 담아낼 변수&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; 
-      &lt;span class=&quot;c1&quot;&gt;//arguments javascript와 약속되어있는 특수한 이름의 변수명&lt;/span&gt;
-        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; : &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;   
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;result : &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; 
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2-매개변수의-수---function-length&quot;&gt;2. 매개변수의 수 - function length&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-함수명.length는 몇개의 매개변수를 갖고있는지 알려주고, arguments.length는 함수를 호출할때 몇개의 인자, 몇개의 arguments를 담고있는지의 정보를 담고있다.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;zero&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;zero.length&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;zero&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;one&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;one.length&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;one&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;two&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;two.length&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;two&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;zero&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// zero.length 0 arguments 0 &lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;one&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;val1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;val2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// one.length 1 arguments 2 &lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;two&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;val1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// two.length 2 arguments 1&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 함수지향 - arguments</summary></entry></feed>
+&lt;p&gt;물론 위의 방법대로 해도 사용할 수 있겠지만 복잡하기 때문에 apply를 사용하게되면 함수가 호출되는 시점에서 this값을 프로그래밍적으로 변경해 함수가 o1이라는 객체의 속성인것처럼 실행되게 할수있다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 함수지향 - 함수의 호출</summary></entry></feed>
