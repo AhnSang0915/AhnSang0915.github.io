@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-03-20T18:51:42+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Javascript - JavaScript 객체지향 - 데이터타입</title><link href="https://ahnsang0915.github.io/javascript-basic24" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 데이터타입" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic24</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic24">&lt;h1 id=&quot;javascript-객체지향-테이터-타입&quot;&gt;JavaScript 객체지향-테이터 타입&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-03-21T19:55:19+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Python - Python 기본</title><link href="https://ahnsang0915.github.io/python-basic" rel="alternate" type="text/html" title="Python - Python 기본" /><published>2022-03-21T18:27:00+09:00</published><updated>2022-03-21T18:27:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;python은-세미콜론을-안붙여도-된다&quot;&gt;Python은 세미콜론(;)을 안붙여도 된다.&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;파이썬은 세미콜론이 없어도 된다. 세미콜론을 붙여도 문법적 오류가 발생하지 않는다. 하지만 필요없는 내용을 코드에 작성할 필요는 없을것 같다.&lt;/p&gt;
+&lt;h2 id=&quot;python의-주석&quot;&gt;Python의 주석&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+파이썬에서 사람만 알아볼 수 있도록 작성하는 부분을 주석(comment)라고 한다. 즉, 주석은 파이썬 인터프리터가 처리하지 않으므로 프로그램의 실행에는 영향을 주지 않는다. 아래는 파이썬의 주석처리 방법이다.
+&lt;br /&gt;
+&lt;br /&gt;
+한줄 주석의 경우 주석의 내용 앞에 #를 붙여준다. 일반적으로 #뒤에 한칸을 띄어쓰기하고 사용한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c1&quot;&gt;# print(&quot;파이썬 공부하자&quot;)
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;파이썬의 여러줄 주석은 ‘'’이나 “&quot;”을 앞뒤로 붙여주면 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;s&quot;&gt;'''
+print(&quot;파이썬 공부하자&quot;)
+print(&quot;파이썬 공부하자&quot;)
+print(&quot;파이썬 공부하자&quot;)
+'''&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+print(&quot;파이썬 공부하자&quot;)
+print(&quot;파이썬 공부하자&quot;)
+print(&quot;파이썬 공부하자&quot;)
+&quot;&quot;&quot;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;들여쓰기&quot;&gt;들여쓰기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;들여쓰기란 코드의 가독성을 높이기 위해 일정한 간격을 띄워서 작성하는 방법이다. 파이썬은 들여쓰기가 문법으로 되어있어 들여쓰기를 하지 않으면 문법 오류가 나오게 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'10입니다.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 들여쓰기 문법 에러
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#IndentationError: expected an indented block
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+   &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'10입니다.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;코드블록&quot;&gt;코드블록&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;특정한 동작을 위해 코드가 모여있는 상태를 코드블록 이라고 한다. 주의할 점은 같은 블록은 들여쓰기 칸수가 같아야고 공백과 tap을 같이 사용하면 안된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'10'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'입니다.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dojang.io/pluginfile.php/13388/mod_page/content/3/004002.png&quot; alt=&quot;코드블록(코딩도장)&quot; /&gt;&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 데이터타입</title><link href="https://ahnsang0915.github.io/javascript-basic24" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 데이터타입" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic24</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic24">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향-테이터-타입&quot;&gt;JavaScript 객체지향-테이터 타입&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -56,7 +161,35 @@
   &lt;li&gt;nudefined X&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;null과 nudefined은 래퍼객체가 존재하지 않는다. 객체화 시키려고 하면 타입에러가 발생할 것이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향-테이터 타입</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 참조</title><link href="https://ahnsang0915.github.io/javascript-basic25" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 참조" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic25</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic25">&lt;h1 id=&quot;javascript-객체지향---참조&quot;&gt;JavaScript 객체지향 - 참조&lt;/h1&gt;
+&lt;p&gt;null과 nudefined은 래퍼객체가 존재하지 않는다. 객체화 시키려고 하면 타입에러가 발생할 것이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 참조</title><link href="https://ahnsang0915.github.io/javascript-basic25" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 참조" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic25</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic25">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향---참조&quot;&gt;JavaScript 객체지향 - 참조&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -160,7 +293,35 @@
 &lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 2&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - 참조</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향-Object</title><link href="https://ahnsang0915.github.io/javascript-basic23" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향-Object" /><published>2022-03-19T23:10:00+09:00</published><updated>2022-03-19T23:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic23</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic23">&lt;h1 id=&quot;javascript-객체지향-object&quot;&gt;JavaScript 객체지향-Object&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향-Object</title><link href="https://ahnsang0915.github.io/javascript-basic23" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향-Object" /><published>2022-03-19T23:10:00+09:00</published><updated>2022-03-19T23:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic23</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic23">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향-object&quot;&gt;JavaScript 객체지향-Object&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -326,7 +487,35 @@ Object.keys는 배열이 어떠한 인덱스값을 가지고 있는지 배열로
 
 &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;kim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;kim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향-표준 내장객체의 확장</title><link href="https://ahnsang0915.github.io/javascript-basic22" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향-표준 내장객체의 확장" /><published>2022-03-19T17:25:00+09:00</published><updated>2022-03-19T17:25:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic22</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic22">&lt;h1 id=&quot;javascript-객체지향-표준-내장객체의-확장&quot;&gt;JavaScript 객체지향-표준 내장객체의 확장&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향-표준 내장객체의 확장</title><link href="https://ahnsang0915.github.io/javascript-basic22" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향-표준 내장객체의 확장" /><published>2022-03-19T17:25:00+09:00</published><updated>2022-03-19T17:25:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic22</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic22">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향-표준-내장객체의-확장&quot;&gt;JavaScript 객체지향-표준 내장객체의 확장&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -393,7 +582,35 @@ console.log(getRandomValueFromArray(arr))
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;seoul&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;new york&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;ladarkh&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;pusan&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Tsukuba&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향-표준 내장객체의 확장</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 상속</title><link href="https://ahnsang0915.github.io/javascript-basic21" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 상속" /><published>2022-03-18T18:30:00+09:00</published><updated>2022-03-18T18:30:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic21</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic21">&lt;h1 id=&quot;javascript-객체지향---상속&quot;&gt;JavaScript 객체지향 - 상속&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 상속</title><link href="https://ahnsang0915.github.io/javascript-basic21" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 상속" /><published>2022-03-18T18:30:00+09:00</published><updated>2022-03-18T18:30:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic21</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic21">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향---상속&quot;&gt;JavaScript 객체지향 - 상속&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -667,7 +884,35 @@ beautiful&lt;br /&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;주의할점은 어떠한 객체 super를 sub가 상속받고 싶다면 Sub.prototype에는&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - 상속</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - this</title><link href="https://ahnsang0915.github.io/javascript-basic20" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - this" /><published>2022-03-17T22:10:00+09:00</published><updated>2022-03-17T22:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic20</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic20">&lt;h1 id=&quot;javascript-객체지향---this&quot;&gt;JavaScript 객체지향 - this&lt;/h1&gt;
+&lt;p&gt;주의할점은 어떠한 객체 super를 sub가 상속받고 싶다면 Sub.prototype에는&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - this</title><link href="https://ahnsang0915.github.io/javascript-basic20" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - this" /><published>2022-03-17T22:10:00+09:00</published><updated>2022-03-17T22:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic20</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic20">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향---this&quot;&gt;JavaScript 객체지향 - this&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -815,7 +1060,35 @@ switch는 괄호안의 어떤값이 들어가면 값과 같은 케이스 안에�
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;window, o, p라는 객체와 함수가 있었다. 함수를 어떻게 호출하느냐에 따라 즉 맥락에 따라 window에 소속되기도 하고 o와 p에 소속되기도 했다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - this</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 전역객체</title><link href="https://ahnsang0915.github.io/javascript-basic19" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 전역객체" /><published>2022-03-17T11:17:00+09:00</published><updated>2022-03-17T11:17:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic19</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic19">&lt;h1 id=&quot;javascript-객체지향---전역객체&quot;&gt;JavaScript 객체지향 - 전역객체&lt;/h1&gt;
+&lt;p&gt;window, o, p라는 객체와 함수가 있었다. 함수를 어떻게 호출하느냐에 따라 즉 맥락에 따라 window에 소속되기도 하고 o와 p에 소속되기도 했다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 전역객체</title><link href="https://ahnsang0915.github.io/javascript-basic19" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 전역객체" /><published>2022-03-17T11:17:00+09:00</published><updated>2022-03-17T11:17:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic19</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic19">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향---전역객체&quot;&gt;JavaScript 객체지향 - 전역객체&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -855,7 +1128,35 @@ func();와 window.func();는 모두 실행이 된다. 모든 전역변수와 함
 &lt;h3 id=&quot;전역객체-api&quot;&gt;전역객체 API&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
-ECMAScript에서는 전역객체의 &lt;a href=&quot;https://opentutorials.org/course/50/44&quot;&gt;API&lt;/a&gt;.를 정의해두었다. 그 외의API는 호스트 환경에서 필요에 따라서 추가로 정의하고 있다. 이를테면 웹브라우저 자바스크립트에서는 alert()이라는 전역객체의 메소드가 존재하지만 node.js에는 존재하지 않는다. 또한 전역객체의 이름도 호스트환경에 따라서 다른데, 웹브라우저에서 전역객체는 window이지만 node.js에서는 global이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - 전역객체</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 생성자와 new</title><link href="https://ahnsang0915.github.io/javascript-basic18" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 생성자와 new" /><published>2022-03-16T18:17:00+09:00</published><updated>2022-03-16T18:17:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic18</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic18">&lt;h1 id=&quot;javascript-객체지향---생성자와-new&quot;&gt;JavaScript 객체지향 - 생성자와 new&lt;/h1&gt;
+ECMAScript에서는 전역객체의 &lt;a href=&quot;https://opentutorials.org/course/50/44&quot;&gt;API&lt;/a&gt;.를 정의해두었다. 그 외의API는 호스트 환경에서 필요에 따라서 추가로 정의하고 있다. 이를테면 웹브라우저 자바스크립트에서는 alert()이라는 전역객체의 메소드가 존재하지만 node.js에는 존재하지 않는다. 또한 전역객체의 이름도 호스트환경에 따라서 다른데, 웹브라우저에서 전역객체는 window이지만 node.js에서는 global이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 생성자와 new</title><link href="https://ahnsang0915.github.io/javascript-basic18" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 생성자와 new" /><published>2022-03-16T18:17:00+09:00</published><updated>2022-03-16T18:17:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic18</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향---생성자와-new&quot;&gt;JavaScript 객체지향 - 생성자와 new&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -991,7 +1292,35 @@ person {}의 비어있는 객체가 만들어졌다.&lt;/p&gt;
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;sanghyun&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 - 생성자와 new</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 객체지향 프로그래밍 소개</title><link href="https://ahnsang0915.github.io/javascript-basic17" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 객체지향 프로그래밍 소개" /><published>2022-03-16T17:17:00+09:00</published><updated>2022-03-16T17:17:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic17</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic17">&lt;h1 id=&quot;javascript-객체지향-프로그래밍-소개&quot;&gt;JavaScript 객체지향 프로그래밍 소개&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 객체지향 프로그래밍 소개</title><link href="https://ahnsang0915.github.io/javascript-basic17" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 객체지향 프로그래밍 소개" /><published>2022-03-16T17:17:00+09:00</published><updated>2022-03-16T17:17:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic17</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic17">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향-프로그래밍-소개&quot;&gt;JavaScript 객체지향 프로그래밍 소개&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -1063,101 +1392,4 @@ person {}의 비어있는 객체가 만들어졌다.&lt;/p&gt;
 &lt;br /&gt;
 컴퓨터와 모니터를 만드는 업체들은 HDMI케이블 규격을 공유한다. 각각의 부품은 미리 정해진 약속에 따라 신호의 입출력을 가능하게 해주는 연결점의 모양을 표준에 맞게 만들면 된다. 이러한 연결점을 인터페이스Interface)라고 한다. 즉 인터페이스는 부품들 간의 약속이다. 프로그래밍에서도 인터페이스에 해당하는것을 소프트웨어 적으로 제공하고 있다.  이러한 약속을 프로그램밍 적으로는 어떻게 구현하는가도 알아보자.
 &lt;br /&gt;
-지금까지 객체를 부품으로 비유해서 설명 했다. 그런데 비유는 비유일 뿐이다. 비유는 의도한 유사점 뿐만 아니라 의도하지 않은 차이점까지도 전달될 가능성이 있기 때문이다. 비유의 함정이라고 할 수 있다. 소프트웨어는 하드웨어가 아니다. 하드웨어가 할 수 없는 것을 소프트웨어는 할 수 있다. 그 중의 하나가 복제와 상속이다. 이러한 개념을 구체적인 문법 없이 설명하는 것은 효용이 크지 않을 뿐만 아니라 자칫 흥미를 저해할 위험이 있기 때문에 여기서는 설명하지 않았다. 소프트웨어가 있기 이전부터 하드웨어가 이룩한 성취를 잘 수용하면서 동시에 소프트웨어 다운 소프트웨어를 만드는 것은 우리게게 주워진 숙제라고 할 수 있다&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 객체지향 프로그래밍 소개</summary></entry><entry><title type="html">Javascript - JavaScript 함수지향 - 함수의 호출</title><link href="https://ahnsang0915.github.io/javascript-basic16" rel="alternate" type="text/html" title="Javascript - JavaScript 함수지향 - 함수의 호출" /><published>2022-03-15T21:39:00+09:00</published><updated>2022-03-15T21:39:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic16</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic16">&lt;h1 id=&quot;javascript-함수지향---함수의-호출&quot;&gt;JavaScript 함수지향 - 함수의 호출&lt;/h1&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-apply-소개&quot;&gt;1. apply 소개&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-Javascript에서 함수는 일종의 객체이다. 객체는 속성을 갖고있고 그 속성의 값을 가지고있으면 속성(property)라고 부르고 함수를 갖고있다면 메소드(method)라고 부른다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//func라는 함수는 객체이고 메소드를 갖고있다. func.apply func.call이라는 메소드에 접근할수 있다. 이것들이 하는역할은 func라는 객체를 호출하는 역할을 한다.&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;아래는 크롬 개발자 도구에서 실행한 코드이다. sum함수를 정의하고  arg1,arg2의 인자를 갖고있다. 여기서 특이한점은 sum(1,2), sum(4,2)를 실행한 결과와 sum.apply(null, [1,2]); sum.apply(null, [4,2]);를 한결과가 같다 이말은 .apply에 두번째 인자로 배열을 넣은 값들이 arg1, arg2가 되었다는 말이다. 다음 주제에서 왜 이렇게 복잡한 방법으로 함수를 호출하는지 그 이유를 배워보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arg2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arg2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apply&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;ƒ&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;native&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// apply라고 하는 메소드가 브라우저에서 제공하는 메소드이기때문에 코드를 보여줄수 없다는 말이다. 내장된 코드는 네이티브 코드라는 메세지를 보여주게 되어있다.&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2-apply-사용&quot;&gt;2. apply 사용&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-apply를 사용하는 구체적인 이유를 알아보자. 우선 아래 코드는 함수를 정의하고 있다. _sum이라는 변수를 0으로 초기화 시켰고, for in 문으로 this라는 객체에 담겨있는 값들을 하나씩 꺼내 _sum이라는 지역변수에 하나씩 더해 바깥으로 리턴해주고있다. this가 무엇인지는 javascript에서 상당히 중요하다. 이맥락에서 this가 무엇인지는 정해져 있지 않다. 이전의 예제와는 다르게 sum.apply(o1), 그리고 o2를 주었다. 이말은 sum이라는 메소드를 호출할때의 대상을 o1, o2로 준것이다. sum.apply(o1)을 하게되면 o1이 sum이라고 하는 함수의 this가 된다. 독립되어있는 함수가 sum.apply를 하고 o1, o2를 인자로 전달하게되면 o1.sum, o2.sum이라는 메소드가 된다는 것이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;nx&quot;&gt;o1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;val1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;val2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;val3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;o2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;v1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;v2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;v3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;v4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// sum.apply(o1)을 하게되면 var this = o1; 이되는거라고 생각하자.&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//이 맥락에서 this는 정해져 있지 않다.&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 6&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 185&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;위 코드를 aaply를 사용하지 않으면 아래 코드처럼 될것이다. 이렇게 작성하고 출력하게 되면 6과 185이후에 sum함수의 내용도 같이 출력이 된다. 우리가 sum이라는 함수를 o1, o2의 속성으로 추가했기 때문이다.&lt;br /&gt; sum : sum 의 왼쪽 sum은 o1, o2 객체의 속성(property)명이 되고 오른쪽 sum은 미리 만들어놓은 함수(function) sum이다. 그리고 객체를 호출하는데 객체의 접근방법은 속성명[property 또는 키값], 속성명.property 또는 키값으로 호출할수 있지만, 메서드의 경우 속성명.메소드명()로 접근한다. 따라서 o1.sum(),
-o2.sum()로 호출하고 이렇게 호출하면 for in문이 this를 열거하는 과정에서 sum이라는 함수도 더하고 있기때문에 숫자열을 더하고 문자열까지 더해 출력하게 되는것이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; 
-        &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;o1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;val1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;val2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;val3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;o2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;v1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;v2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;v3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;v4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;위 출력에서 함수내용을 출력하지 않으려면  if(typeof this[name] !=== ‘function’ )를 사용해 출력에 제한을 주면 되겠다. 조건문을 사용해 typeof로 함수와 같지 않은경우만 더할것이라고 추가하면 함수의 차례가 오면 그부분을 스킵할 수 있게된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!===&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;o1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;val1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;val2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;val3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;o2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;v1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;v2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;v3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;v4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;물론 위의 방법대로 해도 사용할 수 있겠지만 복잡하기 때문에 apply를 사용하게되면 함수가 호출되는 시점에서 this값을 프로그래밍적으로 변경해 함수가 o1이라는 객체의 속성인것처럼 실행되게 할수있다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">JavaScript 함수지향 - 함수의 호출</summary></entry></feed>
+지금까지 객체를 부품으로 비유해서 설명 했다. 그런데 비유는 비유일 뿐이다. 비유는 의도한 유사점 뿐만 아니라 의도하지 않은 차이점까지도 전달될 가능성이 있기 때문이다. 비유의 함정이라고 할 수 있다. 소프트웨어는 하드웨어가 아니다. 하드웨어가 할 수 없는 것을 소프트웨어는 할 수 있다. 그 중의 하나가 복제와 상속이다. 이러한 개념을 구체적인 문법 없이 설명하는 것은 효용이 크지 않을 뿐만 아니라 자칫 흥미를 저해할 위험이 있기 때문에 여기서는 설명하지 않았다. 소프트웨어가 있기 이전부터 하드웨어가 이룩한 성취를 잘 수용하면서 동시에 소프트웨어 다운 소프트웨어를 만드는 것은 우리게게 주워진 숙제라고 할 수 있다&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry></feed>
