@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>연습문제 - 나도코딩 예제</title>
+        
+          <description>&lt;h1 id=&quot;python-연습문제&quot;&gt;Python 연습문제&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Tue, 22 Mar 2022 21:27:00 +0900</pubDate>
+        <link>
+        https://AhnSang0915.github.io/practice-1</link>
+        <guid isPermaLink="true">https://AhnSang0915.github.io/practice-1</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Python - Python 기본</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
@@ -1052,7 +1067,7 @@
     
       
       <item>
-        <title>Python 강좌(1) - Python 기본</title>
+        <title>Python - Python 숫자 계산하기</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -1064,8 +1079,8 @@
         
         <pubDate>Sun, 27 Feb 2022 02:57:00 +0900</pubDate>
         <link>
-        https://AhnSang0915.github.io/python-st</link>
-        <guid isPermaLink="true">https://AhnSang0915.github.io/python-st</guid>
+        https://AhnSang0915.github.io/python-basic2</link>
+        <guid isPermaLink="true">https://AhnSang0915.github.io/python-basic2</guid>
       </item>
       
     
