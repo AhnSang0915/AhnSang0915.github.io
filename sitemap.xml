@@ -4,6 +4,38 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://AhnSang0915.github.io/python-basic4.html</loc>
+        
+        <lastmod>2022-03-26T10:20:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://AhnSang0915.github.io/python-basic3.html</loc>
+        
+        <lastmod>2022-03-24T10:20:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://AhnSang0915.github.io/python-basic2.html</loc>
         
         <lastmod>2022-03-23T10:20:00+09:00</lastmod>
