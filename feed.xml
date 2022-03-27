@@ -1,4 +1,290 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-03-27T02:22:56+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Python - Python 출력 방법 알아보기</title><link href="https://ahnsang0915.github.io/python-basic4" rel="alternate" type="text/html" title="Python - Python 출력 방법 알아보기" /><published>2022-03-26T10:20:00+09:00</published><updated>2022-03-26T10:20:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic4</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-03-27T17:36:24+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Python - Python 불과 비교, 논리 연산자</title><link href="https://ahnsang0915.github.io/python-basic5" rel="alternate" type="text/html" title="Python - Python 불과 비교, 논리 연산자" /><published>2022-03-27T17:20:00+09:00</published><updated>2022-03-27T17:20:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic5</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic5">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;python-불과-비교-논리-연산자&quot;&gt;Python 불과 비교, 논리 연산자&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1불과-비교-연산자-사용하기&quot;&gt;1.불과 비교 연산자 사용하기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;if, while문에서 많이 사용하게되는 논리 연산자와 참(True), 거짓(False)을 나타내는 불리언(boolean)의 사용방법을 알아보자.
+&lt;br /&gt;
+&lt;br /&gt;
+boolean은 True, False로 표현하며 1, 3.6, ‘Python’처럼 값의 일종이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;비교-연산자의-판단-결과&quot;&gt;비교 연산자의 판단 결과&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Python에서 비교 연산자와 논리 연산자의 판단 결과로 True, False를 사용한다. 즉, 비교 결과가 맞으면 True, 틀리면 False이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;숫자가-같은지-다른지-비교하기&quot;&gt;숫자가 같은지 다른지 비교하기&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;두 숫자가 같은지 다른지 비교하는 데에는 ==(equal), !=(not equal)을 사용한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;문자열이-같은지-다른지-비교하기&quot;&gt;문자열이 같은지 다른지 비교하기&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;문자열도 ==와 !=연산자로 비교 할 수 있다. 이때 문자열의 대소문자도 구분해야 한다. 같은 단어여도 대소문자가 다르면 다른 문자열로 판단한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'python'&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'python'&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;부등호-사용하기&quot;&gt;부등호 사용하기&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+부등호는 큰지, 작은지, 크거나 작거나 같은지를 판별한다. 기준은 첫번째 값이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 10이 20보다 큰지 비교
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 10이 20보다 작은지 비교
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 10이 10보다 크거나 같은지 비교
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 10이 10보다 작거나 같은지 비교
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;객체가-같은지-다른지-비교하기&quot;&gt;객체가 같은지 다른지 비교하기&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+객체가 같은지 다른지 비교할땐 is와 is not을 사용한다. ==, !=는 값 자체를 비교하고 is와 is not은 객체를 비교한다.
+&lt;br /&gt;
+&lt;br /&gt;
+1과 1.0은 정수와 실수이다. 데이터의 타입은 다르지만 값은 같기때문에 ==는 True가 나온다. 하지만 1과 1.0을 is로 비교해 보면 False가 나온다. 이유는 1은 정수 객체, 1.0은 실수객체이기 때문이다. 객체로서는 다르기 떄문에 is not으로 비교하면 True가 나온다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;정수객체와-실수객체가-서로-다른지-확인하기&quot;&gt;정수객체와 실수객체가 서로 다른지 확인하기&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+정수 객체와 실수 객체가 서로 다른지 확인하려면 id함수를 사용한다. id는 객체의 고유한 값(메모리 주소)를 구한다.(이 값은 파이썬을 실행하는 동안에는 계속 유지되며 다시 실행하면 달라진다)&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2156471124208&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2156509782960&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;값-비교에-is를-쓰지-않기&quot;&gt;값 비교에 is를 쓰지 않기&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+값 자체를 비교할때는 ==와 !=를 사용한다. 변수 a가 있는 상태에서 다른 값을 할당하면 메모리 주소가 달라질 수 있기 때문이다. 따라서 다른 객체가 되므로 값이 같더라고 is로 비교하면 False가 나온다. 값을 비교할 때는 is가 아닌 비교 연산자를 사용해야 한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-논리-연산자-사용하기&quot;&gt;2. 논리 연산자 사용하기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+논리 연산자는 and, or, not을 사용한다. and는 두값이 모두 True여야 True이다. 하나라도 False이면 False가 나온다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;or는 두 값 중 하나라도 True이면 True, 두값이 모두 False면 False가 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#True
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;not은 논리값을 뒤집는다. not True는 False가 되고, not False는 True가 된다. 여기서 and, or, not 논리 연산자가 식 하나에 들어있으면 not, and, or순으로 판단한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False and False or True
+# False or True
+# True
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;순서가 헷갈릴 때는 괄호로 판단 순서를 명확히 나타내 주는 것이 좋다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;논리-연산자와-비교-연산자를-함께-사용하기&quot;&gt;논리 연산자와 비교 연산자를 함께 사용하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+논리연산자와 비교 연산자를 함께 사용해보자. 이때는 비교 연산자(is, is not, ==, !=, &amp;lt;, &amp;gt;, &amp;lt;=, &amp;gt;=)를 먼저 판단하고 논리 연산자(not, and, or)를 판단하게된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# True and True
+# True
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;# True or False
+# True
+&lt;/span&gt;&lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;              &lt;span class=&quot;c1&quot;&gt;# not True
+# False
+&lt;/span&gt;&lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;# not False
+# True
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;정수-실수-문자열을-불로-만들기&quot;&gt;정수, 실수, 문자열을 불로 만들기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+정수, 실수, 문자열을 True, False로 만들어 보자. 정수1은 True 0은 False이다. 문자열의 내용이 ‘False’라도 불로 만들면 Ture가 된다. 문자열의 경우 값이 있으면 True로 나타낸다. 정수0, 0.0이외의 숫자는 모두 True, 빈문자열 ‘’, ““를 제외한 모든 문자열은 True가된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'False'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;단락-평가&quot;&gt;단락 평가&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+논리 연산에서 중요한 것이 단락 평가(short-circuit evalution)이다. 단락 평가는 첫번째 값만으로 결과가 확실할 때 두 번째 값은 평가하지 않는 방법이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c1&quot;&gt;# 첫 번째 값이 거짓이므로 두 번째 값은 확인하지 않고 거짓으로 결정
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# False
+# 첫 번째 값이 참이므로 두 번째 값은 확인하지 않고 참으로 결정
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;True and ‘Python’를 확인하면 True가 나올것 같지만 ‘Python’이 나온다. 파이썬에서 논리 연산자는 마지막 단락 평가를 실시한 값을 그대로 반환하기 때문이다. 마지막에 단락평가를 실시한 값이 불이면 불을 반환한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 'Python'
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ansang'&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 'ansang'
+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'ansang'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;여기서는 문자열 ‘Python’을 True로 쳐서 and 연산자가 두 번째 값까지 확인하므로 두 번째 값이 반환된다.만약 다음과 같이 and 연산자 앞에 False나 False로 치는 값이 와서 첫 번째 값 만으로 결과가 결정나는 경우에는 첫 번째 값이 반환된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#False
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 0은 False이므로 and 연산자는 두 번째 값을 평가하지 않음
+#0
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;or 연산자도 마찬가지로 마지막으로 단락 평가를 실시한 값이 반환된다. 다음은 or 연산자에서 첫 번째 값만으로 결과가 결정되므로 첫 번째 값이 반환된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# True
+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 'Python'
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;만약 두번째 값까지 판한해야 한다면 두 번째 값이 반환된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 'Python'
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# False
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기</summary></entry><entry><title type="html">Python - Python 출력 방법</title><link href="https://ahnsang0915.github.io/python-basic4" rel="alternate" type="text/html" title="Python - Python 출력 방법" /><published>2022-03-26T10:20:00+09:00</published><updated>2022-03-26T10:20:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic4</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -862,93 +1148,7 @@ print(&quot;파이썬 공부하자&quot;)
       &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'10'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'입니다.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 데이터타입</title><link href="https://ahnsang0915.github.io/javascript-basic24" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 데이터타입" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic24</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic24">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
-
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;javascript-객체지향-테이터-타입&quot;&gt;JavaScript 객체지향-테이터 타입&lt;/h1&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-원시-데이터-타입과-객체&quot;&gt;1. 원시 데이터 타입과 객체&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-데이터 타입은 크게 2가지로 구분할 수 있다. 원시 데이터 타입과 객체 데이터 타입이다. 원식 데이터 타입은 기본데이터 타입이라고도 하고 객체 데이터 타입은 참조 데이터 타입이라고도 한다. 객체가 아닌 데이터 타입을 원시 테이터 타입이라고 하고 아래와같다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;숫자&lt;/li&gt;
-  &lt;li&gt;문자열&lt;/li&gt;
-  &lt;li&gt;boolean(true/false)&lt;/li&gt;
-  &lt;li&gt;null&lt;/li&gt;
-  &lt;li&gt;nudefined&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;위 항목의 데이터 타입을 원시 데이터 타입 이라고 하고 이외의 모든 데이터 타입을 객체 데이터 타입이라고 한다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2-래퍼-객체&quot;&gt;2. 래퍼 객체&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-위와 같은 데이터 타입을 분류하는게 중요한것은 아니고 개발자 입장에서 이러한것이 효용을 갖기 위해서는 원시데이터 타입과 객체가 서로 다르게 동작할 때에 효용이 있는것 이다.
-&lt;br /&gt;
-&lt;br /&gt;
-아래 코드는 문자열을 변수에 담았다. 문자열의 길이와 문자열의 첫번째 값을 출력한다. 객체가 아닌것은 원시데이터 타입이다. 문자열은 원시데이터 타입인데 아래 console.log를보면 객체처럼 동작하고 있다. 이 .의 정식 명칭은 Object access operator이고 객체접근 연산자 라는 뜻이다. 이 .을썻다는것은 .앞에있는 것이 객체라는 것을 의미한다. 객체이기 때문에 length프로퍼티와 charAt(0)메소드가 존재하는것이다. 이말은 str에 담겨있는 무엇인가가 객체이고 문자열은 객체라는 것이다. Javascript에서 문자열이 원시데이터가 맞긴한데 그문자열을 우리가 제어하기 위해서, 여기서는 문자열의 길이와 첫번째 값을 구하기 위해서는 원시데이터 타입인 문자열이 마치 객체인 것 처럼 동작 해야지만 이런 작업을 할 수 있다. 그런 이유로 인해서 Javascript에서 문자열과 같은 원시데이터 타입은 그것을 객체로서 사용할때 그것을 임시로 객체데이터 타입으로 만들어준다. 우리가 str.length를 할때 그순간에 내부적으로 str = new String(‘coding’); 이라고하는 객체를 생성해 str변수에 담아준것과 같은 작업이 1행과 2행 사이에 생긴다고 보면 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;coding&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;// 6&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;charAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// &quot;C&quot;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘coding’이라는 문자열을 str변수에 담았고 str.prop로 prop라는 프로퍼티를 지정했다. 거기에 ‘everybody’라는 텍스트를 넣었다. console.log(str.prop);로 출력을 하려고하면 undefined가 출력된다. 이말은 우리가 우리가 str.prop = ‘everybody’를통해 문자열을 객체화 시킨후 그 다음행으로 문제없이 넘어갈 수 있게 되는데 이순간엔 객체가 만들어졌지만 끝난후에 그 객체를 제거하고 원래의 원시 데이터 타입으로 변경했기 때문에 prop라는 값이 존재하지 않는것이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;coding&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;everybody&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;// undefined&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;원시 데이터 타입은 객체처럼 사용하려고 할때 자동으로 만들어지는 객체를 래퍼객체(Wrapper Object)라고 한다. 원시 데이터 타입이 있을 때 그 원시 데이터 타입을 감싸주는 객체가 만들어져 객체화 시켜주는게 래퍼객체이다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;숫자 (Number)&lt;/li&gt;
-  &lt;li&gt;문자열 (String)&lt;/li&gt;
-  &lt;li&gt;boolean(true/false) (Boolean)&lt;/li&gt;
-  &lt;li&gt;null X&lt;/li&gt;
-  &lt;li&gt;nudefined X&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;null과 nudefined은 래퍼객체가 존재하지 않는다. 객체화 시키려고 하면 타입에러가 발생할 것이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 참조</title><link href="https://ahnsang0915.github.io/javascript-basic25" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 참조" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic25</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic25">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 참조</title><link href="https://ahnsang0915.github.io/javascript-basic25" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 참조" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic25</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic25">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
@@ -1080,7 +1280,93 @@ print(&quot;파이썬 공부하자&quot;)
 &lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 2&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향-Object</title><link href="https://ahnsang0915.github.io/javascript-basic23" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향-Object" /><published>2022-03-19T23:10:00+09:00</published><updated>2022-03-19T23:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic23</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic23">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 데이터타입</title><link href="https://ahnsang0915.github.io/javascript-basic24" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 데이터타입" /><published>2022-03-20T14:10:00+09:00</published><updated>2022-03-20T14:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic24</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic24">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;javascript-객체지향-테이터-타입&quot;&gt;JavaScript 객체지향-테이터 타입&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-원시-데이터-타입과-객체&quot;&gt;1. 원시 데이터 타입과 객체&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+데이터 타입은 크게 2가지로 구분할 수 있다. 원시 데이터 타입과 객체 데이터 타입이다. 원식 데이터 타입은 기본데이터 타입이라고도 하고 객체 데이터 타입은 참조 데이터 타입이라고도 한다. 객체가 아닌 데이터 타입을 원시 테이터 타입이라고 하고 아래와같다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;숫자&lt;/li&gt;
+  &lt;li&gt;문자열&lt;/li&gt;
+  &lt;li&gt;boolean(true/false)&lt;/li&gt;
+  &lt;li&gt;null&lt;/li&gt;
+  &lt;li&gt;nudefined&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;위 항목의 데이터 타입을 원시 데이터 타입 이라고 하고 이외의 모든 데이터 타입을 객체 데이터 타입이라고 한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-래퍼-객체&quot;&gt;2. 래퍼 객체&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+위와 같은 데이터 타입을 분류하는게 중요한것은 아니고 개발자 입장에서 이러한것이 효용을 갖기 위해서는 원시데이터 타입과 객체가 서로 다르게 동작할 때에 효용이 있는것 이다.
+&lt;br /&gt;
+&lt;br /&gt;
+아래 코드는 문자열을 변수에 담았다. 문자열의 길이와 문자열의 첫번째 값을 출력한다. 객체가 아닌것은 원시데이터 타입이다. 문자열은 원시데이터 타입인데 아래 console.log를보면 객체처럼 동작하고 있다. 이 .의 정식 명칭은 Object access operator이고 객체접근 연산자 라는 뜻이다. 이 .을썻다는것은 .앞에있는 것이 객체라는 것을 의미한다. 객체이기 때문에 length프로퍼티와 charAt(0)메소드가 존재하는것이다. 이말은 str에 담겨있는 무엇인가가 객체이고 문자열은 객체라는 것이다. Javascript에서 문자열이 원시데이터가 맞긴한데 그문자열을 우리가 제어하기 위해서, 여기서는 문자열의 길이와 첫번째 값을 구하기 위해서는 원시데이터 타입인 문자열이 마치 객체인 것 처럼 동작 해야지만 이런 작업을 할 수 있다. 그런 이유로 인해서 Javascript에서 문자열과 같은 원시데이터 타입은 그것을 객체로서 사용할때 그것을 임시로 객체데이터 타입으로 만들어준다. 우리가 str.length를 할때 그순간에 내부적으로 str = new String(‘coding’); 이라고하는 객체를 생성해 str변수에 담아준것과 같은 작업이 1행과 2행 사이에 생긴다고 보면 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;coding&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;// 6&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;charAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// &quot;C&quot;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘coding’이라는 문자열을 str변수에 담았고 str.prop로 prop라는 프로퍼티를 지정했다. 거기에 ‘everybody’라는 텍스트를 넣었다. console.log(str.prop);로 출력을 하려고하면 undefined가 출력된다. 이말은 우리가 우리가 str.prop = ‘everybody’를통해 문자열을 객체화 시킨후 그 다음행으로 문제없이 넘어갈 수 있게 되는데 이순간엔 객체가 만들어졌지만 끝난후에 그 객체를 제거하고 원래의 원시 데이터 타입으로 변경했기 때문에 prop라는 값이 존재하지 않는것이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;coding&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;everybody&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;// undefined&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;원시 데이터 타입은 객체처럼 사용하려고 할때 자동으로 만들어지는 객체를 래퍼객체(Wrapper Object)라고 한다. 원시 데이터 타입이 있을 때 그 원시 데이터 타입을 감싸주는 객체가 만들어져 객체화 시켜주는게 래퍼객체이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;숫자 (Number)&lt;/li&gt;
+  &lt;li&gt;문자열 (String)&lt;/li&gt;
+  &lt;li&gt;boolean(true/false) (Boolean)&lt;/li&gt;
+  &lt;li&gt;null X&lt;/li&gt;
+  &lt;li&gt;nudefined X&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;null과 nudefined은 래퍼객체가 존재하지 않는다. 객체화 시키려고 하면 타입에러가 발생할 것이다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향-Object</title><link href="https://ahnsang0915.github.io/javascript-basic23" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향-Object" /><published>2022-03-19T23:10:00+09:00</published><updated>2022-03-19T23:10:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic23</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic23">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
@@ -1369,306 +1655,4 @@ console.log(getRandomValueFromArray(arr))
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;seoul&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;new york&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;ladarkh&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;pusan&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Tsukuba&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry><entry><title type="html">Javascript - JavaScript 객체지향 - 상속</title><link href="https://ahnsang0915.github.io/javascript-basic21" rel="alternate" type="text/html" title="Javascript - JavaScript 객체지향 - 상속" /><published>2022-03-18T18:30:00+09:00</published><updated>2022-03-18T18:30:00+09:00</updated><id>https://ahnsang0915.github.io/javascript-basic21</id><content type="html" xml:base="https://ahnsang0915.github.io/javascript-basic21">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Javascript&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic&quot;&gt;JavaScript 기본 &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic2&quot;&gt;JavaScript 숫자와 문자 &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic3&quot;&gt;JavaScript 변수, 비교&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic4&quot;&gt;JavaScript 조건문&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic5&quot;&gt;JavaScript 반복문&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic6&quot;&gt;JavaScript 함수&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic7&quot;&gt;JavaScript 배열&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic8&quot;&gt;JavaScript 객체(Object)&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic9&quot;&gt;JavaScript 모듈&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic10&quot;&gt;JavaScript UI와 API&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic11&quot;&gt;JavaScript 정규표현식&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic12&quot;&gt;JavaScript 함수지향 - 유효범위&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic13&quot;&gt;JavaScript 함수지향 - 값으로서의 함수와 콜백&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic14&quot;&gt;JavaScript 함수지향 - 클로저&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic15&quot;&gt;JavaScript 함수지향 - arguments&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic16&quot;&gt;함수지향 - 함수의 호출&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic17&quot;&gt;객체지향 - 객체지향 프로그래밍 소개&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic18&quot;&gt;객체지향 - 생성자와 new&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic19&quot;&gt;객체지향 - 전역객체&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic20&quot;&gt;객체지향 - this&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic21&quot;&gt;객체지향 - 상속&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic22&quot;&gt;객체지향-표준 내장객체의 확장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javascript-basic23&quot;&gt;JavaScript 객체지향-Object&lt;/a&gt;&lt;/li&gt;
-
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;javascript-객체지향---상속&quot;&gt;JavaScript 객체지향 - 상속&lt;/h1&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-상속inheritance이란&quot;&gt;1. 상속(inheritance)이란?&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-우리가 객체라고 하는 것은 하나의 컨테이너고 변수나 메소드가 하나의 객체 안에 상속되어있다. 이런 객체의 특성으로 인해 객체를 그대로 물려받은 새로운 객체를 만들 수 있다. 이 객체는 부모에 해당 되는 객체의 변수의 메소드에 접근할 수 있게 된다. 즉 상속이란 오리지널 객체가 갖고있는 기능을 상속받는 객체가 동일하게 가질 수 있다는 것이다.
-&lt;br /&gt;
-&lt;br /&gt;
-Person이라고 하는 생성자를 만들었고 그 생성자에 new를 사용해 새로운 객체를 만들었다. 그 객체는 name이라고 하는 프로퍼티와 introduce라고 하는 프로퍼티를 가지고 있고, name의 값은 person에 인자로 전달된 값이 name으로 사용된다. 아래 코드를 실행하면 ‘My name is ansang’이 출력된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;My name is &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;   
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;ansang&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;아래도 마찬가지로 Person이라고 하는 생성자를 만들었고 그 아래 생성자에 portotype이라고 하는 특수한 프로퍼티에 name이라고 하는 프로퍼티를 준 것이다. 즉 Person이라고 하는 생성자에는 prototype 프로퍼티가 있는데 그 안에 어떤 객체가 들어가있다. 그객체 .name을 하게 되면 어떤 값을 줄 수 있게 되는것이고 그객체 .introduce하고 함수를 할당을 하게 되면 어떤 메소드를 지정할 수 있는 것이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;My name is &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;ansang&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2-상속의-사용법&quot;&gt;2. 상속의 사용법&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-아래는 우리가 처음에 본 예제에서 Programmer라는 생성자를 추가한 것이다. Programmer라는 생성자를 통해 만든 객체가 Person이라는 생성자를 통해서 만들어진 객체와 동일한 기능성을 갖도록 코드를 작성한 것이다.
-new Programmer(‘ansang’);를 통해서 Programmer라는 생성자를 호출했다. name이라는 프로퍼티 값을 ansang으로 지정을 했다. p1.introduce을 사용하려고 하는데 생성자 Programmer에는 introduce라는 메소드가 정의되어 있지 않다. introduce메소드는 Person이라고 하는 생성자에 정의되어 있는데 여기서 Programmer.prototype = new Person();로 Person 생성자의 프로퍼티와 메소드를 가져오게 된다. 우리는 Programmer에서 name의 값을 ansang으로 주었고 Programmer.prototype = new Person();에서 prototype 라는 어떠한 객체의 값이 생성자 Person과 같다고 했기 때문에 name은 ansang이되고 introduce메소드를 사용할 수 있는 것이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;My name is &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;ansang&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;3-기능의-추가&quot;&gt;3. 기능의 추가&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-상속을 받는 객체를 만들었다면 기능을 추하가는 기능을 알아보자. Person이라고하는 공통의 부모가 있고 Programmer, Designer라는 객체가 person이라는 객체를 상속받는 형식이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;My name is &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;coding&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello world&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Designer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Designer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Designer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;design&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;beautiful&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;ansang&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;coding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Designer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;nibagman&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;design&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;여기서 My name is를 My nickname is로 바꾸면 &lt;br /&gt;
-My nickname is ansang&lt;br /&gt;
-hello world&lt;br /&gt;
-My nickname is nibagman&lt;br /&gt;
-beautiful&lt;br /&gt;
-의 값을 출력하게 된다. 이말은 Person이라는 생성자를 상속받은 객체들의 값도 바뀐다는 말이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;My nickname is &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;coding&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello world&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Designer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Designer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Designer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;design&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;beautiful&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;ansang&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;coding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Designer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;nibagman&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;design&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;br /&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;4-prototype&quot;&gt;4. prototype&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-그럼 prototype이란 무엇인가? 한국어로는 원형정도로 번역되는 prototype은 말 그대로 객체의 원형이라고 할 수 있다. 함수는 객체다. 그러므로 생성자로 사용될 함수도 객체다. 객체는 프로퍼티를 가질 수 있는데 prototype이라는 프로퍼티는 그 용도가 약속되어 있는 특수한 프로퍼티다. prototype에 저장된 속성들은 생성자를 통해서 객체가 만들어질 때 그 객체에 연결된  다.
-&lt;br /&gt;
-&lt;br /&gt;
-생성자는 기본적으로 함수이다. 우리가 이 함 수를 호출할 때 new를 사용하면 생성자가 되는 것이고 그렇게 해서 실행된 결과로 새로운 객체를 만들고 이 객체는 o에 들어가게 된다. 그런데 비어있는 객체를 만드는 것만이 생성자의 역할이라고 한다면 그렇게 효율적이지 못하다. 생성자를 사용하는 이유는 우리가 객체를 생성했을 때 그 객체가 가져야 할 방법이나 프로퍼티 값을 가지고 우리에게 주어지기를 바라기 때문이다. 우리가 어떤 객체를 생성했을 때 객체가 가지고 있어야 하는 방법과 프로퍼티 prototype이라는 프로퍼티에 저장이 되는 것이다. 즉 prototype는 어떠한 객체가 정의가 되어있다는 것이다. 그렇게 하고 new를 이용해 생성자 함수를 생성하게 되면 Javascript는 생성자 함수의 prototype에 저장되어있는 객체를 꺼내서 그것을 돌려보내 주게 된다. 코드를 보자. 우리가 Sub.prototype = new Super(); 라고 하면 생성자 function Super(){} 이 만든 객체 Super.prototype = newUltra(); 이 만든 값이 들어가는 것이고 그리고 생성자 function Super(){}의 값은 Super.prototype = newUltra();로 만들어진 객체가 담긴다는 것이다. 생성자 function Ultra(){}의 값은 Ultra.prototype.ultra Prop = true; 이기 때문에 true가 출력된다. 이러한 개념은 prototype chain 이라고 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;5-prototype-chain&quot;&gt;5. prototype chain&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-전에 본 코드를 아래와 같이 바꾸면 1을 출력하게 된다. 그이유는 javascript가 기본적으로 동작할 떄 o라는 객체가 ultraprop라는 값을 가지고 있는지 확인하고 우리가 o.ultraProp = 1;로 지정했기 때문에 1을 출력하게 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;아래의 결과는 2가 된다. 코드를 실행하면 o라는 객체에 ultra Prop기 있는지 확인한다. 우리는 var o = new Sub();로 ultraProp에 대해선 정의한 바가 없다. 그래서 이 객체에 직접 ultraProp가 없다는 걸 확인하고, o라는 객체의 생성자를 알아내고(생성자를 알아내는 방법은 따로 있다.) Sub이라는 생성자의 prototype 객체를 확인해 그 객체의 프로퍼티 중에 ultraProp이 있는지 확인하고 그 값을 가져오게 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;아래의 결과는 3이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;아래의 값은 4이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;아래의 값은 true다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ultra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ultraProp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;주의할점은 어떠한 객체 super를 sub가 상속받고 싶다면 Sub.prototype에는&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="javascript" /><summary type="html">Javascript JavaScript 기본 JavaScript 숫자와 문자 JavaScript 변수, 비교 JavaScript 조건문 JavaScript 반복문 JavaScript 함수 JavaScript 배열 JavaScript 객체(Object) JavaScript 모듈 JavaScript UI와 API JavaScript 정규표현식 JavaScript 함수지향 - 유효범위 JavaScript 함수지향 - 값으로서의 함수와 콜백 JavaScript 함수지향 - 클로저 JavaScript 함수지향 - arguments 함수지향 - 함수의 호출 객체지향 - 객체지향 프로그래밍 소개 객체지향 - 생성자와 new 객체지향 - 전역객체 객체지향 - this 객체지향 - 상속 객체지향-표준 내장객체의 확장 JavaScript 객체지향-Object</summary></entry></feed>
