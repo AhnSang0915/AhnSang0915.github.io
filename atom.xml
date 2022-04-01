@@ -8,6 +8,34 @@
     
       
       <item>
+        <title>Python - Python  else를 사용하여 두 방향으로 분기하기</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 변수 만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 출력 방법&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 불과 비교, 논리 연산자&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 문자열 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 리스트와 튜플 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 01 Apr 2022 10:20:00 +0900</pubDate>
+        <link>
+        https://AhnSang0915.github.io/python-basic11</link>
+        <guid isPermaLink="true">https://AhnSang0915.github.io/python-basic11</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Python - Python  if 조건문으로 특정 조건일 때 코드 실행하기</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
@@ -22,6 +50,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -49,6 +78,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -76,6 +106,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -103,6 +134,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -130,6 +162,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -157,6 +190,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -184,6 +218,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -211,6 +246,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -238,6 +274,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -280,6 +317,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
