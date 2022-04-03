@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://ahnsang0915.github.io/author/AhnSang0915/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-04-03T17:18:19+09:00</updated>
+  <updated>2022-04-03T22:44:10+09:00</updated>
   <id>https://ahnsang0915.github.io/author/AhnSang0915/feed.xml</id>
 
   
@@ -32,8 +32,297 @@
 
   
     <entry>
+      <title type="html">Python - Python while 반복문</title>
+      <link href="https://ahnsang0915.github.io/python-basic13" rel="alternate" type="text/html" title="Python - Python while 반복문" />
+      <published>2022-04-03T17:35:00+09:00</published>
+      <updated>2022-04-03T17:35:00+09:00</updated>
+      <id>https://ahnsang0915.github.io/python-basic13</id>
+      <content type="html" xml:base="https://ahnsang0915.github.io/python-basic13">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 변수 만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 출력 방법&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 불과 비교, 논리 연산자&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 문자열 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 리스트와 튜플 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;while-반복문&quot;&gt;while 반복문&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+while 반복문은 조건식으로만 동작하며 반복할 코드 안에 조건식에 영향을 주는 변화식이 들어간다.여기서는 조건식 → 반복할 코드 및 변화식 → 조건식으로 순환하는 부분이 루프(loop)이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;                     &lt;span class=&quot;c1&quot;&gt;# 초기식
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;# while 조건식
+&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello, world!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 반복할 코드
+&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;                    &lt;span class=&quot;c1&quot;&gt;# 변화식
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;while반복문은 초기식부터 시작해 조건식을 판별하고 이때 조건식이 참(True)이면 반복할 코드와 변화식을 함께 수행한다. 그리고 다시 조건식을 판별하여 참(True)이면 코드를 계속 반복하고, 거짓(False)이면 반복문을 끝낸 뒤 다음 코드를 실행한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-while-반복문-사용하기&quot;&gt;1. while 반복문 사용하기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+다음과 같이 whil반복문은 조건식을 지정하고 끝에 :(클론)을 붙여준다. 그리도 다음줄에 반복할 코드와 변화식을 넣어준다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;초기식&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;조건식&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;반복할&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;코드&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;변화식&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;while 다음줄에 오는 코드는 반드시 들여쓰기를 해줘야한다. while 반복문으로 ‘Hello, world!’를 100번 출력해보자. 먼저 while 반복문에 변수 i에 0을 할당하고 조건식을 지정한다. 그리고 변화식을 정해줘야하는데 이때 조건식만 지정하고 변화식을 지정하지 않으면 무한루프가 되므로 변화식을 꼭 써야한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello, world!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# i를 1씩 증가시킨다. i = i + 1
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#출력
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;.....&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;초깃값을-1부터-시작하기&quot;&gt;초깃값을 1부터 시작하기&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+초기 값을 1로 할당하여 ‘Hello, world!’를 100번 출력해 보자. i가 0부터라면 99까지 나오면 100번이기 때문에 i &amp;lt; 100 이지만 1부터기 때문에 i &amp;lt;=100으로 작성해 줘야한다.
+i가 101이 되면 i &amp;lt;= 100은 거짓( False)이므로 반복문을 끝낸다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello, world!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#출력
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;생략&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;초깃값을-감소시키기&quot;&gt;초깃값을 감소시키기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+지금까지 초기값을 증가시키면서 루프를 실행했다. 반대로 초깃값을 크게주고, 변수를 감소시키면서 반복해 보자. 시작 값은 100이고 조건식을 i&amp;gt;0과 같이 지정해 1까지만 반복하도록 만들었다. 변화식은 i-=1로 지정해 변수의 값을 1씩 감소시킨다. i가 0이되면 i&amp;gt;0은 거짓(False)가 되기떄문에 반복이 종료된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello, world!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# i = i-1
+#출력
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;98&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;생략&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;입력한-횟수대로-반복하기&quot;&gt;입력한 횟수대로 반복하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+입력한 횟수대로 반복을 해보자. input입력값을 3으로 입력하고 반복을 실행하면 3번 반복하게된다. 반복문의 조건을 i &amp;lt; count로 지정해 count에 들어있는 값만큼 반복하도록 만들었다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'반복할 횟수를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+ 
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# i가 count보다 작을 때 반복
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello, world!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 출력
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;초깃값을 받은 뒤 초깃값만큼 출력하게 만들었다. 여기서는 변수 i 대신 count를 바로 사용하므로 변화식을 count -= 1로 지정하여 반복할 때마다 count를 감소시키고 count가 0이 되면 반복문을 끝낸다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'반복할 횟수를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# i가 count보다 작을 때 반복
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello, world!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 출력
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-반복-횟수가-정해지지-않은-경우&quot;&gt;2. 반복 횟수가 정해지지 않은 경우&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+지금까지 조건식에서 반복 횟수를 정한 뒤 변수 i를 증가시키거나 감소시켜 while 반복문을 사용했다. 하지만 while 반복문은 반복 횟수가 정해지지 않았을 때 주로 사용한다. 이번에는 난수를 생성해서 숫자에 따라 반복을 끝내 보자. 난수(random number)란 특정 주기로 반복되지 않으며 규칙 없이 무작위로 나열되는 숫자를 뜻한다.
+&lt;br /&gt;
+&lt;br /&gt;
+파이썬에서 난수를 생성하려면 random 모듈이 필요하다. 모듈은 다음과 같이 import 키워드를 사용하여 가져올 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;import 모듈&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# random 모듈을 가져옴
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;이제 random.random() 으로 random모듈의 random함수를 호출해 보자.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;0.6308359530867019&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;0.9884423768957599&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;0.526192298540528&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;숫자를 알아보기 쉽도록 정수를 생성하는 random모듈의 randint함수를 사용해보자. randint 함수는 난수를 생성할 범위를 지정하며, 범위에 지정한 숫자도 난수에 포함된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;random.randint(1, 6)과 while반복문을 사용해보자. 아래 코드는 1에서 6사이의 난수를 생성하고 3이 나오면 반복을 끝낸다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# i가 3이 아닐때 계속 반복
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 3이 나와 종료,
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;randomchoice&quot;&gt;random.choice&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+random.choice 함수를 사용하면 시퀀스 객체에서 요소를 무작위로 선택할 수 있다. 다음은 1, 2, 3, 4, 5, 6이 들어있는 리스트에서 무작위로 숫자를 선택한다. random.choice 함수는 시퀀스 객체를 받으므로 리스트뿐만 아니라 튜플, range, 문자열 등을 넣어도 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;dice&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;choice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;choice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;choice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-while-반복문으로-무한-루프-만들기&quot;&gt;3. while 반복문으로 무한 루프 만들기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+while 반복문으로 무한 루프를 만들어 보자.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# while에 True를 지정하면 무한 루프
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello, world!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 출력
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;생략&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;계속&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;반복&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;while에 True대신 True로 취급하는 값을 사용해도 무한 루프로 동작한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 0이 아닌 숫자는 True로 취급하여 무한 루프로 동작
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello, world!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 내용이 있는 문자열은 True로 취급하여 무한 루프로 동작
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello, world!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>AhnSang0915</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Python - Python for 반복문</title>
-      <link href="https://ahnsang0915.github.io/python-basic12" rel="alternate" type="text/html" title="Python - Python  for 반복문" />
+      <link href="https://ahnsang0915.github.io/python-basic12" rel="alternate" type="text/html" title="Python - Python for 반복문" />
       <published>2022-04-02T22:20:00+09:00</published>
       <updated>2022-04-02T22:20:00+09:00</updated>
       <id>https://ahnsang0915.github.io/python-basic12</id>
@@ -50,6 +339,8 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;for-반복문&quot;&gt;for 반복문&lt;/h1&gt;
@@ -303,7 +594,7 @@ for문에 range대신 시퀀스객체를 넣어 반복을 실행해 보자. rang
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
       
 
       
@@ -329,6 +620,8 @@ for문에 range대신 시퀀스객체를 넣어 반복을 실행해 보자. rang
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-else를-사용하여-두-방향으로-분기하기&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/h1&gt;
@@ -678,7 +971,7 @@ else는 if와 들여쓰기 규칙이 같다. 다음은 들여쓰기가 잘못된
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
       
 
       
@@ -704,6 +997,8 @@ else는 if와 들여쓰기 규칙이 같다. 다음은 들여쓰기가 잘못된
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-if-조건문으로-특정-조건일-때-코드-실행하기&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/h1&gt;
@@ -945,7 +1240,7 @@ if 를 여러번 사용하는 중첩 if 조건문을 사용해보자. 다음은 
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
       
 
       
@@ -971,6 +1266,8 @@ if 를 여러번 사용하는 중첩 if 조건문을 사용해보자. 다음은 
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-딕셔너리-사용하기&quot;&gt;Python 딕셔너리 사용하기&lt;/h1&gt;
@@ -1250,7 +1547,7 @@ dict는 다음과 같이 키와 값을 연결하거나, 리스트, 튜플, 딕�
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
       
 
       
@@ -1276,6 +1573,8 @@ dict는 다음과 같이 키와 값을 연결하거나, 리스트, 튜플, 딕�
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-시퀀스-자료형-활용하기&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/h1&gt;
@@ -2005,7 +2304,7 @@ len을 사용하여 리스트 전체를 가져올 수 있다. len(a)의 값은 1
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
       
 
       
@@ -2031,6 +2330,8 @@ len을 사용하여 리스트 전체를 가져올 수 있다. len(a)의 값은 1
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-리스트와-튜플-사용하기&quot;&gt;Python 리스트와 튜플 사용하기&lt;/h1&gt;
@@ -2315,7 +2616,7 @@ range를 사용해 리스트를 만들어 보자. range는 연속된 숫자를 �
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
       
 
       
@@ -2341,6 +2642,8 @@ range를 사용해 리스트를 만들어 보자. range는 연속된 숫자를 �
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-문자열-사용하기&quot;&gt;Python 문자열 사용하기&lt;/h1&gt;
@@ -2442,7 +2745,7 @@ range를 사용해 리스트를 만들어 보자. range는 연속된 숫자를 �
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
       
 
       
@@ -2468,6 +2771,8 @@ range를 사용해 리스트를 만들어 보자. range는 연속된 숫자를 �
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-불과-비교-논리-연산자&quot;&gt;Python 불과 비교, 논리 연산자&lt;/h1&gt;
@@ -2771,7 +3076,7 @@ boolean은 True, False로 표현하며 1, 3.6, ‘Python’처럼 값의 일종�
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
       
 
       
@@ -2797,6 +3102,8 @@ boolean은 True, False로 표현하며 1, 3.6, ‘Python’처럼 값의 일종�
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-출력-방법-알아보기&quot;&gt;Python 출력 방법 알아보기&lt;/h1&gt;
@@ -2941,437 +3248,7 @@ print는 기본적으로 출력하는 값 끝에 \n을 붙인다. 그래서 prin
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Python - Python 변수 만들기</title>
-      <link href="https://ahnsang0915.github.io/python-basic3" rel="alternate" type="text/html" title="Python - Python 변수 만들기" />
-      <published>2022-03-24T10:20:00+09:00</published>
-      <updated>2022-03-24T10:20:00+09:00</updated>
-      <id>https://ahnsang0915.github.io/python-basic3</id>
-      <content type="html" xml:base="https://ahnsang0915.github.io/python-basic3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 변수 만들기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 출력 방법&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 불과 비교, 논리 연산자&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 문자열 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 리스트와 튜플 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;python-변수-만들기&quot;&gt;Python 변수 만들기&lt;/h1&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1변수와-입력-사용하기&quot;&gt;1.변수와 입력 사용하기&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;변수(variable)을 만들고 결과를 저장하는 방법을 알아보자.
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;변수-만들기&quot;&gt;변수 만들기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;x = 100 이라고 입력하면 100이 들어있는 변수 x가 만들어진다. 즉, 변수이름 = 값 형식이다. 이렇게 하면 변수가 생성되는 동시에 값이 할당(저장)된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;영문 문자와 숫자를 사용할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;대소문자를 구분합니다.&lt;/li&gt;
-  &lt;li&gt;문자부터 시작해야 하며 숫자부터 시작하면 안 됩니다.&lt;/li&gt;
-  &lt;li&gt;_(밑줄 문자)로 시작할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;특수 문자(+, -, *, /, $, @, &amp;amp;, % 등)는 사용할 수 없습니다.&lt;/li&gt;
-  &lt;li&gt;파이썬의 키워드(if, for, while, and, or 등)는 사용할 수 없습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, world&quot;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;변수의-자료형-알아내기&quot;&gt;변수의 자료형 알아내기&lt;/h3&gt;
-
-&lt;p&gt;변수도 마찬가지로 type을 넣어 변수(객체)의 타입이 나온다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&amp;gt;
-type(y)
-&amp;lt;class '&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&amp;gt;
-
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;변수-여러-개를-한-번에-만들기&quot;&gt;변수 여러 개를 한 번에 만들기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;변수를 한번에 여러개 만드는 방법은 아래와 같다. 변수이름1, 변수이름2, 변수이름3 = 값1, 값2, 값3 형식으로 변수를 ,(콤마)로 구분한 뒤 각 변수에 할당될 값을 지정해주면 된다. 변수와 값의 갯수는 동일하게 맞춰주어야 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;z&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 10
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 20
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;z&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 30
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;여러개의 변수를 만들때 값이 같다면 = 같은 값을 지정할수 있다.변수1 = 변수2 = 변수3 = 값 형식으로 변수 여러 개를 =로 연결하고 마지막에 값을 할당해주면 같은 값을 가진 변수 3개가 만들어진다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;z&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#20
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#20
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;z&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#20
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;두 변수의 값을 바꿀 수 있다. 변수1, 변수2 = 변수2, 변수1 형식으로 두 변수의 값을 바꿀 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 20
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 10
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;변수를 삭제하려면 del을 사용하면 되고 확인 해 보면 아래와 같이 찾을수 없다고 나온다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;del&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;pyshell#20&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;NameError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'x'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;defined&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;값이 들어있지 않은 빈 변수도 만들 수 있다. 변수 = None형식으로 만든다. 파이썬에서 None은 아무것도 없는 상태를 말하고 다른 언어에서는 null이라고 표현한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 아무것도 출력되지 않는다.
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2변수로-계산하기&quot;&gt;2.변수로 계산하기&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-계산값을 변수로 지정해 저장하는 방법을 알아보자. 변수 a, b에 숫자를 할당한 뒤에 a와 b의 값을 더해서 변수 c에 할당했다. 이렇게 변수는 변수끼리 계산할 수 있고, 계산 결과를 다른 변수에 할당할 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;산술-연산-후-할당-연산자-사용하기&quot;&gt;산술 연산 후 할당 연산자 사용하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-변수의 값을 증가시키는 방법이다. a의 값에20을 더할뿐 결과를 저장히지는 않는다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;변수의 값을 저장하려면 결과를 다시 변수에 저장해야 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# a = a + 20
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;a를 다시 입력하지 않고 결과를 저장하는 방법이다. +=처럼 산술연신자 앞에 할당연산자(+)를 붙이면 연산 결과를 변수에 저장한다. -=, /=, //=, %=, *=도 사용 가능하다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;할당 연산자를 만들때 주의할 점이다. 변수d를 지정하지 않고 코드를 입력하면 아래와 같은 에러가 나온다. 변수를 지정하고 변수를 사용해 계산을 해야한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;pyshell#57&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;NameError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;defined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Did&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'id'&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;?&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;값을-실수로-만들기&quot;&gt;값을 실수로 만들기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-어떤 값을 강제로 실수로 만드는 방법을 알아보자.float는 부동소수점(floating point)에서 따왔으며 값을 실수로 만들어준다. 즉, 실수는 float 자료형이며 type에 실수를 넣어보면 &amp;lt;class ‘float’&amp;gt;가 나온다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#3.0
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'5'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 5.0
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;5.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 5.3
-&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&amp;gt;
-
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;계산을 하다보면 부호를 붙여야 할 때도 있다. 이때는 값이나 변수 앞에 양수, 음수 부호를 붙이면 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;복소수&quot;&gt;복소수&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-파이썬에서는 실수부와 허수부로 이루어진 복소수(complex number)도 사용할 수 있다. 이때 허수부는 숫자 뒤에 j를 붙인다(수학에서는 허수를 i로 표현하지만 공학에서는 j를 사용한다).두 실수를 복소수로 만들 때는 complex를 사용하면 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;mf&quot;&gt;1.2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.3j&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# (1.2+1.3j)
-#두 실수를 복소수로 만들 때
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;complex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# (1.2+1.3j)
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;3입력-값을-변수에-저장하기&quot;&gt;3.입력 값을 변수에 저장하기&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-매번 다른 값을 변수에 할당하는 방법을 알아보자. input()을 사용하면 사용자가 입력한 값을 가져올 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;'hello, world!'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;안상현&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;'안상현'&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;함수의-결과를-변수에-할당하기&quot;&gt;함수의 결과를 변수에 할당하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-input함수의 결과를 변수에 할당했다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;'hello world!'&lt;/span&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;위 코드에서 불편한점은 input함수가 실행된 다음에 아무 내용이 없어서 입력을 받는 상태인지 출력이 없는 상태인지 알 수가 없다는 점이다. 이때는 input의 괄호 안에 문자열을 지정해준다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'문자열을 입력하세요'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;문자열을&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입력하세요우리집&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;강아지는&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;보름이&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;'우리집 강아지는 보름이'&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;위 코드는 사용자에게 입력받는 값의 용도를 미리 알려줄 때 사용한다. 다른 말로는 prompt라고도 부른다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;두-숫자의-합-구하기&quot;&gt;두 숫자의 합 구하기&lt;/h3&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;숫자 두개를 입력받은 뒤에 두  숫자의 합을 구해보자. 아래 코드를 실행한 결과는 1020이다. input에서 입력받은 값은 항상 문자열 형태이기 때문이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'첫 번째 숫자를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;첫&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;번째&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;숫자를&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입력하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'두 번째 숫자를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;두&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;번째&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;숫자를&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입력하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;1020&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;변수에 값을 input으로 할당하고 데이터 타입을 확인하면 아래와 같이str(string)이 출력되게 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# &amp;lt;class 'str'&amp;gt;
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;입력-값을-정수로-변환하기&quot;&gt;입력 값을 정수로 변환하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-10 + 20의 결과가 30이 나오게 하려면 input에서 입력받은 문자열을 숫자(정수)로 들어주어야 한다. int로 문자열’10’을 정수 10으로 바꿔준다. 만약 실수를 더하려면 int대신 float를 사용한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'첫 번째 숫자를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# int를 사용하여 입력 값을 정수로 변환
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'두 번째 숫자를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# int를 사용하여 입력 값을 정수로 변환
-&lt;/span&gt; 
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;4-입력-값을-변수-두-개에-저장하기&quot;&gt;4. 입력 값을 변수 두 개에 저장하기&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-input 한번에 값을 여러 개 입력받는 방법을 알아보자. input에서 split을 사용하여 변수 여러 개에 저장해주면 된다. 공백으로 변수 a와 b의 값을 구분짓는다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'문자열 두 개를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;문자열&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;두&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;개를&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입력하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;an&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sang&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;an&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;sang&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;두-숫자의-합-구하기-1&quot;&gt;두 숫자의 합 구하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-두 숫자의 합을 구해보는 예제이다. 전 항목에서와 마찬가지로 input으로 입력받은 값은 문자열 이기 때문에 합의 값이 1020이 나온다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'숫자 두개를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;숫자&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;두개를&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입력하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;1020&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;입력-값을-정수로-변환하기-1&quot;&gt;입력 값을 정수로 변환하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-a = int(a)와 같이 int에 변수를 넣은 뒤 다시 변수에 저장해주면 변수가 정수 자료형으로 변환된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;print안에서 int로 바꾸어 정수값을 얻는 방법도 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 30
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;map을-사용하여-정수로-변환하기&quot;&gt;map을 사용하여 정수로 변환하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
- map에 int와 input().split()을 넣으면 int로 변환하지 않아도 split의 결과를 모두 int로 변환해준다(실수로 변환할 때는 int 대신 float를 넣는다.).&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'숫자 두 개를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;숫자&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;두&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;개를&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입력하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;### 입력받는 값을 콤마를 기준으로 분리하기
-&lt;br /&gt;
-&lt;br /&gt;
-split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값을 분리해 보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'숫자 두 개를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;','&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;숫자&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;두&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;개를&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입력하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>AhnSang0915</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
       
 
       
