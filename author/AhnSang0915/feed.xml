@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://ahnsang0915.github.io/author/AhnSang0915/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-04-03T22:44:10+09:00</updated>
+  <updated>2022-04-04T22:46:19+09:00</updated>
   <id>https://ahnsang0915.github.io/author/AhnSang0915/feed.xml</id>
 
   
@@ -32,6 +32,233 @@
 
   
     <entry>
+      <title type="html">Python - Python break, continue로 반복문 제어하기</title>
+      <link href="https://ahnsang0915.github.io/python-basic14" rel="alternate" type="text/html" title="Python - Python break, continue로 반복문 제어하기" />
+      <published>2022-04-04T22:35:00+09:00</published>
+      <updated>2022-04-04T22:35:00+09:00</updated>
+      <id>https://ahnsang0915.github.io/python-basic14</id>
+      <content type="html" xml:base="https://ahnsang0915.github.io/python-basic14">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 변수 만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 출력 방법&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 불과 비교, 논리 연산자&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 문자열 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 리스트와 튜플 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;break-continue로-반복문-제어하기&quot;&gt;break, continue로 반복문 제어하기&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+break와 continue를 사용해 반복문을 제어하는 방법을 알아보자. break는 for와 while의 문법에서 제어흐름을 벗어나기 위해 사용한다. 즉, 루프를 중단한다. continue는 제어흐름을 유지한 상태에서 코드의 실행만 건너뛴다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;break: 제어흐름 중단&lt;/li&gt;
+  &lt;li&gt;continue: 제어흐름 유지, 코드 실행만 건너뜀&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-break로-반복문-끝내기&quot;&gt;1. break로 반복문 끝내기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+break를 사용해 for와 while 에서 반복을 끝내는 방법을 알아보자.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;while에서-break로-반복문-끝내기&quot;&gt;while에서 break로 반복문 끝내기&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+while 무한 루프에서 숫자를 증가시키다 변수 i가 100일 때 반복문을 끝내도록 만들었다. i값을 출력하고 증가시키므로 99까지 출력하고 반복을 멈추게 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 무한 루프
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;          &lt;span class=&quot;c1&quot;&gt;# i를 1씩 증가시킴
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# i가 100일 때
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;# 반복문을 끝냄. while의 제어흐름을 벗어남
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#결과
+&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;생략&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;97&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;98&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;for에서-break로-반복문-끝내기&quot;&gt;for에서 break로 반복문 끝내기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+for에 range(10000)을 지정했다. 0부터 9999까지 반복하는데 i 가 100일때 break를 실행 함으로 0부터 100까지만 출력하고 반복문을 끝낸다. 100일때 100을 출력하고 반복을 멈추게 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 0부터 9999까지 반복
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# i가 100일 때
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;# 반복문을 끝냄. for의 제어흐름을 벗어남
+#출력
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;생략&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;98&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-continue로-코드-실행-건너뛰기&quot;&gt;2. continue로 코드 실행 건너뛰기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+continue를 사용해 일부 코드를 실행하지 않고 건너 뛰어 보자.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;for에서-continue로-코드-실행-건너뛰기&quot;&gt;for에서 continue로 코드 실행 건너뛰기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+for반복문에 range(100)를 사용해 0부터 99까지 반복한다. 그리고 if를 사용해 i가 짝수이면 continue를 실행한다. 마지막으로 print i의 값을 출력하고 99 까지 출력후 종료된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;# 0부터 99까지 증가하면서 100번 반복
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;# i를 2로 나누었을 때 나머지가 0면 짝수
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;           &lt;span class=&quot;c1&quot;&gt;# 아래 코드를 실행하지 않고 건너뜀
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 결과
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;생략&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;95&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;97&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;while-반복문에서-continue로-코드-실행-건너뛰기&quot;&gt;while 반복문에서 continue로 코드 실행 건너뛰기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+while i &amp;lt; 100 : 으로 0부터 99까지 반복한다. i값을 1씩증가시킨뒤 if를 사용해 i가 짝수이면 continue를 실행한다. i의 초기값은 0이고 i +=1로 1로증가시킨 값부터 시작한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;# i가 100보다 작을 때 반복. 0부터 99까지 증가하면서 100번 반복
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;# i를 1씩 증가시킴
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# i를 2로 나누었을 때 나머지가 0이면 짝수
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;# 아래 코드를 실행하지 않고 건너뜀
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;만약 무한루프에서 continue를 사용하면 홀수만 계속 출려될 뿐 반복문은 끝나지 않는다.&lt;/p&gt;
+
+&lt;h3 id=&quot;반복문과-pass&quot;&gt;반복문과 pass&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+for, while의 반복할 코드에서 아무 일도 하지 않지만, 반복문의 형태를 유지하고 싶다면 pass를 사용하면 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 10번 반복
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;               &lt;span class=&quot;c1&quot;&gt;# 아무 일도 하지 않음
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 무한 루프
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;# 아무 일도 하지 않음
+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-입력한-횟수대로-반복하기&quot;&gt;3. 입력한 횟수대로 반복하기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+count에 input으로 입력을 받아 count변수에 저장하고 i에 0을 항당해 while True를 지정한 무한 루프로 만든다. 반복문 안에서는 i의 값을 출력하고, 변화식 에서는 i를 1씩증가시킨다. i의 값이 count의 값과 같으면 break를 실행한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'반복할 횟수를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+ 
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 무한 루프
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# i가 입력받은 값과 같을 때
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;# 반복문을 끝냄
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#출력
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;반복할&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;횟수를&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입력하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;입력&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;입력한-숫자까지-홀수-출력하기&quot;&gt;입력한 숫자까지 홀수 출력하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for의 range에 count + 1을 지정하여 count에 들어있는 값만큼 반복하도록 만들었다. 왜냐하면 range(count)는 0부터 시작하므로 count의 값은 반복에 포함되지 않기 때문이다.반복문 안에서는 if를 사용하여 i가 짝수이면 continue를 실행한다. 그다음에 print를 사용하여 i의 값을 출력한다.여기서는 9를 입력했으므로 0부터 9까지 반복하면서 i가 짝수이면 print를 실행하지 않고 건너뛰며 i가 홀수이면 print를 사용하여 숫자를 출력한다. 따라서 1 3 5 7 9가 출력된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'반복할 횟수를 입력하세요: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;# 0부터 증가하면서 count까지 반복(count + 1)
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;               &lt;span class=&quot;c1&quot;&gt;# i를 2로 나누었을 때 나머지가 0이면 짝수
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;                 &lt;span class=&quot;c1&quot;&gt;# 아래 코드를 실행하지 않고 건너뜀
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;# 결과 
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;반복할&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;횟수를&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;입력하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;입력&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>AhnSang0915</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Python - Python while 반복문</title>
       <link href="https://ahnsang0915.github.io/python-basic13" rel="alternate" type="text/html" title="Python - Python while 반복문" />
       <published>2022-04-03T17:35:00+09:00</published>
@@ -52,6 +279,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;while-반복문&quot;&gt;while 반복문&lt;/h1&gt;
@@ -313,7 +541,7 @@ while 반복문으로 무한 루프를 만들어 보자.&lt;/p&gt;
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
       
 
       
@@ -341,6 +569,7 @@ while 반복문으로 무한 루프를 만들어 보자.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;for-반복문&quot;&gt;for 반복문&lt;/h1&gt;
@@ -594,7 +823,7 @@ for문에 range대신 시퀀스객체를 넣어 반복을 실행해 보자. rang
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
       
 
       
@@ -622,6 +851,7 @@ for문에 range대신 시퀀스객체를 넣어 반복을 실행해 보자. rang
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-else를-사용하여-두-방향으로-분기하기&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/h1&gt;
@@ -971,7 +1201,7 @@ else는 if와 들여쓰기 규칙이 같다. 다음은 들여쓰기가 잘못된
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
       
 
       
@@ -999,6 +1229,7 @@ else는 if와 들여쓰기 규칙이 같다. 다음은 들여쓰기가 잘못된
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-if-조건문으로-특정-조건일-때-코드-실행하기&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/h1&gt;
@@ -1240,7 +1471,7 @@ if 를 여러번 사용하는 중첩 if 조건문을 사용해보자. 다음은 
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
       
 
       
@@ -1268,6 +1499,7 @@ if 를 여러번 사용하는 중첩 if 조건문을 사용해보자. 다음은 
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-딕셔너리-사용하기&quot;&gt;Python 딕셔너리 사용하기&lt;/h1&gt;
@@ -1547,7 +1779,7 @@ dict는 다음과 같이 키와 값을 연결하거나, 리스트, 튜플, 딕�
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
       
 
       
@@ -1575,6 +1807,7 @@ dict는 다음과 같이 키와 값을 연결하거나, 리스트, 튜플, 딕�
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-시퀀스-자료형-활용하기&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/h1&gt;
@@ -2304,7 +2537,7 @@ len을 사용하여 리스트 전체를 가져올 수 있다. len(a)의 값은 1
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
       
 
       
@@ -2332,6 +2565,7 @@ len을 사용하여 리스트 전체를 가져올 수 있다. len(a)의 값은 1
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-리스트와-튜플-사용하기&quot;&gt;Python 리스트와 튜플 사용하기&lt;/h1&gt;
@@ -2616,7 +2850,7 @@ range를 사용해 리스트를 만들어 보자. range는 연속된 숫자를 �
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
       
 
       
@@ -2644,6 +2878,7 @@ range를 사용해 리스트를 만들어 보자. range는 연속된 숫자를 �
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-문자열-사용하기&quot;&gt;Python 문자열 사용하기&lt;/h1&gt;
@@ -2745,7 +2980,7 @@ range를 사용해 리스트를 만들어 보자. range는 연속된 숫자를 �
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
       
 
       
@@ -2773,6 +3008,7 @@ range를 사용해 리스트를 만들어 보자. range는 연속된 숫자를 �
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;python-불과-비교-논리-연산자&quot;&gt;Python 불과 비교, 논리 연산자&lt;/h1&gt;
@@ -3076,179 +3312,7 @@ boolean은 True, False로 표현하며 1, 3.6, ‘Python’처럼 값의 일종�
       
 
       
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Python - Python 출력 방법</title>
-      <link href="https://ahnsang0915.github.io/python-basic4" rel="alternate" type="text/html" title="Python - Python 출력 방법" />
-      <published>2022-03-26T10:20:00+09:00</published>
-      <updated>2022-03-26T10:20:00+09:00</updated>
-      <id>https://ahnsang0915.github.io/python-basic4</id>
-      <content type="html" xml:base="https://ahnsang0915.github.io/python-basic4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 변수 만들기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 출력 방법&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 불과 비교, 논리 연산자&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 문자열 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 리스트와 튜플 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-st&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;python-출력-방법-알아보기&quot;&gt;Python 출력 방법 알아보기&lt;/h1&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1값을-여러-개-출력하기&quot;&gt;1.값을 여러 개 출력하기&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;print 하나로 여러개의 값을 출력하는 방법을 알아보자.
-&lt;br /&gt;
-&lt;br /&gt;
-print에 변수나 값 여러개를 ,(콤마)로 구분하여 여러개를 넣을 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 1 2 3
-&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'python'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Hello python
-&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 20 30 40
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;sep로-값-사이에-문자-넣기&quot;&gt;sep로 값 사이에 문자 넣기&lt;/h3&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;그런데 값 사이에 공백이 아닌 다른 문자를 넣고 싶을 수도 있다. 이때는 다음과 같이 print의 sep에 문자 또는 문자열을 지정해주면 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;', '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# sep에 콤마와 공백을 지정
-# 1, 2, 3
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;','&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# sep에 콤마만 지정
-# 4,5,6
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Python'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# sep에 빈 문자열을 지정
-# HelloPython
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1920&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1080&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'x'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# sep에 x를 지정
-# 1920x1080
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2-줄바꿈-활용하기&quot;&gt;2. 줄바꿈 활용하기&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-출력되는 값을 줄바꿈 해 출력하는 방법을 알아보자. print의 sep에 개행 문자(\n)라는 특별한 문자를 지정하면 값을 한 줄에 하나씩 출력할 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;print에서도 여러줄로 출력이 가능하다.다음과 같이 문자열 안에 \n를 넣으면 1 2 3은 세 줄로 출력이 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'1&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;제어-문자&quot;&gt;제어 문자&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-제어 문자는 화면에 출력되지 않지만 출력 결과를 제어한다고해서 제어 문자라고 부른다. 제어 문자는 \로 시작하는 이스케이프 시퀀스 이다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;\n: 다음 줄로 이동하며 개행이라고도 부릅니다.&lt;/li&gt;
-  &lt;li&gt;\t: 탭 문자, 키보드의 Tab 키와 같으며 여러 칸을 띄웁니다.&lt;/li&gt;
-  &lt;li&gt;\: \ 문자 자체를 출력할 때는 \를 두 번 써야 합니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;end-사용하기&quot;&gt;end 사용하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-print는 기본적으로 출력하는 값 끝에 \n을 붙인다. 그래서 print를 여러 번 사용하면 값이 여러 줄에 출력된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 결과
-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;print를 여러 번 사용해서 print(1, 2, 3)처럼 한 줄에 여러 개의 값을 출력할 수 있다. 이때는 print의 end에 빈 문자열을 지정해주면 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# end에 빈 문자열을 지정하면 다음 번 출력이 바로 뒤에 오게 됨
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#결과
-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;즉, end는 현재 print가 끝난 뒤 그 다음에 오는 print 함수에 영향을 준다. 만약 1 2 3 사이를 띄워주고 싶다면 end에 공백 한 칸을 지정하면 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# end에 공백 한 칸 지정
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# 결과
-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>AhnSang0915</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문</summary>
+        <summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기</summary>
       
 
       
