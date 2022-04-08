@@ -57,7 +57,7 @@
     <meta property="og:site_name" content="My Coding Practice Gym" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Python으로 웹 스크래퍼 만들기-1" />
-    <meta property="og:description" content="Python으로 웹 스크래퍼 만들기-1 indeed.py파일 import requests from bs4 import BeautifulSoup LIMIT = 50 URL = f"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=python&amp;limit={LIMIT}&amp;radius=25&amp;start=0&amp;vjk=0699e6dbb5a0ec38" def extract_indeed_pages(): result = requests.get(URL) soup = BeautifulSoup(result.text,"html.parser") # html의 내용을 가져온다. pagination = soup.find("div",{"class" : "pagination"}) # html의 내용중 pagination을 찾는다. links = pagination.find_all('a') pages = [] #for반복문으로 찾은 link을 리스트에 담아주기" />
+    <meta property="og:description" content="Python으로 웹 스크래퍼 만들기-1 indeed.py파일 import requests from bs4 import BeautifulSoup LIMIT = 50 URL = f"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=python&amp;limit={LIMIT}&amp;radius=25&amp;start=0&amp;vjk=0699e6dbb5a0ec38" def get_last_page(): result = requests.get(URL) soup = BeautifulSoup(result.text,"html.parser") # html의 내용을 가져온다. pagination = soup.find("div",{"class" : "pagination"}) # html의 내용중 pagination을 찾는다. links = pagination.find_all('a') pages = [] #for반복문으로 찾은 link을 리스트에 담아주기" />
     <meta property="og:url" content="https://AhnSang0915.github.io/practice-2" />
     <meta property="og:image" content="https://AhnSang0915.github.io/assets/built/images/python-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -67,7 +67,7 @@
     <meta property="article:tag" content="Python" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Python으로 웹 스크래퍼 만들기-1" />
-    <meta name="twitter:description" content="Python으로 웹 스크래퍼 만들기-1 indeed.py파일 import requests from bs4 import BeautifulSoup LIMIT = 50 URL = f"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=python&amp;limit={LIMIT}&amp;radius=25&amp;start=0&amp;vjk=0699e6dbb5a0ec38" def extract_indeed_pages(): result = requests.get(URL) soup = BeautifulSoup(result.text,"html.parser") # html의 내용을 가져온다. pagination = soup.find("div",{"class" : "pagination"}) # html의 내용중 pagination을 찾는다. links = pagination.find_all('a') pages = [] #for반복문으로 찾은 link을 리스트에 담아주기" />
+    <meta name="twitter:description" content="Python으로 웹 스크래퍼 만들기-1 indeed.py파일 import requests from bs4 import BeautifulSoup LIMIT = 50 URL = f"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=python&amp;limit={LIMIT}&amp;radius=25&amp;start=0&amp;vjk=0699e6dbb5a0ec38" def get_last_page(): result = requests.get(URL) soup = BeautifulSoup(result.text,"html.parser") # html의 내용을 가져온다. pagination = soup.find("div",{"class" : "pagination"}) # html의 내용중 pagination을 찾는다. links = pagination.find_all('a') pages = [] #for반복문으로 찾은 link을 리스트에 담아주기" />
     <meta name="twitter:url" content="https://AhnSang0915.github.io/" />
     <meta name="twitter:image" content="https://AhnSang0915.github.io/assets/built/images/python-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -99,7 +99,7 @@
         "@type": "WebPage",
         "@id": "https://AhnSang0915.github.io/practice-2"
     },
-    "description": "Python으로 웹 스크래퍼 만들기-1 indeed.py파일 import requests from bs4 import BeautifulSoup LIMIT = 50 URL = f"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=python&amp;limit={LIMIT}&amp;radius=25&amp;start=0&amp;vjk=0699e6dbb5a0ec38" def extract_indeed_pages(): result = requests.get(URL) soup = BeautifulSoup(result.text,"html.parser") # html의 내용을 가져온다. pagination = soup.find("div",{"class" : "pagination"}) # html의 내용중 pagination을 찾는다. links = pagination.find_all('a') pages = [] #for반복문으로 찾은 link을 리스트에 담아주기"
+    "description": "Python으로 웹 스크래퍼 만들기-1 indeed.py파일 import requests from bs4 import BeautifulSoup LIMIT = 50 URL = f"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=python&amp;limit={LIMIT}&amp;radius=25&amp;start=0&amp;vjk=0699e6dbb5a0ec38" def get_last_page(): result = requests.get(URL) soup = BeautifulSoup(result.text,"html.parser") # html의 내용을 가져온다. pagination = soup.find("div",{"class" : "pagination"}) # html의 내용중 pagination을 찾는다. links = pagination.find_all('a') pages = [] #for반복문으로 찾은 link을 리스트에 담아주기"
 }
     </script>
 
@@ -205,7 +205,7 @@ into the {body} of the default.hbs template -->
 
 <span class="n">URL</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=python&amp;limit=</span><span class="si">{</span><span class="n">LIMIT</span><span class="si">}</span><span class="s">&amp;radius=25&amp;start=0&amp;vjk=0699e6dbb5a0ec38"</span>
 
-<span class="k">def</span> <span class="nf">extract_indeed_pages</span><span class="p">():</span>
+<span class="k">def</span> <span class="nf">get_last_page</span><span class="p">():</span>
   <span class="n">result</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">URL</span><span class="p">)</span>
   <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">text</span><span class="p">,</span><span class="s">"html.parser"</span><span class="p">)</span>
   <span class="c1"># html의 내용을 가져온다.
@@ -222,17 +222,26 @@ into the {body} of the default.hbs template -->
 <span class="k">def</span> <span class="nf">extract_job</span><span class="p">(</span><span class="n">html</span><span class="p">):</span>
     <span class="n">title</span> <span class="o">=</span> <span class="n">html</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">"span"</span><span class="p">,</span><span class="n">title</span><span class="o">=</span><span class="bp">True</span><span class="p">).</span><span class="n">text</span>
     <span class="n">company</span> <span class="o">=</span> <span class="n">html</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">"span"</span><span class="p">,</span> <span class="p">{</span><span class="s">"class"</span> <span class="p">:</span> <span class="s">"companyName"</span><span class="p">}).</span><span class="n">string</span>
-    <span class="k">return</span><span class="p">{</span><span class="s">'title'</span><span class="p">:</span> <span class="n">title</span><span class="p">,</span> <span class="s">'company'</span><span class="p">:</span> <span class="n">company</span><span class="p">}</span>
+    <span class="n">location</span> <span class="o">=</span> <span class="n">html</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">"div"</span><span class="p">,{</span><span class="s">"class"</span> <span class="p">:</span> <span class="s">"companyLocation"</span><span class="p">}).</span><span class="n">string</span>
+    <span class="n">job_id</span> <span class="o">=</span> <span class="n">html</span><span class="p">[</span><span class="s">"data-jk"</span><span class="p">]</span>
+    <span class="k">return</span><span class="p">{</span><span class="s">'title'</span><span class="p">:</span> <span class="n">title</span><span class="p">,</span> <span class="s">'company'</span><span class="p">:</span> <span class="n">company</span><span class="p">,</span> <span class="s">'location'</span><span class="p">:</span> <span class="n">location</span><span class="p">,</span><span class="s">'link'</span> <span class="p">:</span> <span class="sa">f</span><span class="s">"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=python&amp;radius=25&amp;start=50&amp;vjk=</span><span class="si">{</span><span class="n">job_id</span><span class="si">}</span><span class="s"> "</span><span class="p">}</span>
 
-<span class="k">def</span> <span class="nf">extract_indeed_jobs</span><span class="p">(</span><span class="n">last_pages</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">extract_jobs</span><span class="p">(</span><span class="n">last_pages</span><span class="p">):</span>
   <span class="n">jobs</span> <span class="o">=</span> <span class="p">[]</span>
-  <span class="c1">#for page in range(last_pages):
-</span>  <span class="n">result</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">URL</span><span class="si">}</span><span class="s">&amp;start=</span><span class="si">{</span><span class="mi">0</span><span class="o">*</span><span class="n">LIMIT</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
-  <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">text</span><span class="p">,</span><span class="s">"html.parser"</span><span class="p">)</span>
-  <span class="n">results</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">'a'</span><span class="p">,{</span><span class="s">"class"</span> <span class="p">:</span> <span class="s">"fs-unmask"</span><span class="p">}</span> <span class="p">)</span>
-  <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
-    <span class="n">job</span> <span class="o">=</span> <span class="n">extract_job</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-    <span class="n">jobs</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">job</span><span class="p">)</span>
+  <span class="k">for</span> <span class="n">page</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">last_pages</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Scrapping page </span><span class="si">{</span><span class="n">page</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">URL</span><span class="si">}</span><span class="s">&amp;start=</span><span class="si">{</span><span class="n">page</span><span class="o">*</span><span class="n">LIMIT</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">text</span><span class="p">,</span><span class="s">"html.parser"</span><span class="p">)</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">'a'</span><span class="p">,{</span><span class="s">"class"</span> <span class="p">:</span> <span class="s">"fs-unmask"</span><span class="p">}</span> <span class="p">)</span>
+    <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+      <span class="n">job</span> <span class="o">=</span> <span class="n">extract_job</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+      <span class="n">jobs</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">job</span><span class="p">)</span>
+  <span class="k">return</span><span class="p">(</span><span class="n">jobs</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">get_jobs</span><span class="p">():</span>
+  <span class="n">last_page</span> <span class="o">=</span> <span class="n">get_last_page</span><span class="p">()</span>
+  <span class="n">jobs</span> <span class="o">=</span> <span class="n">extract_jobs</span><span class="p">(</span><span class="n">last_page</span><span class="p">)</span>
   <span class="k">return</span> <span class="n">jobs</span>
 
 
@@ -241,14 +250,49 @@ into the {body} of the default.hbs template -->
 <p>main.py</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kn">from</span> <span class="nn">indeed</span> <span class="kn">import</span> <span class="n">extract_indeed_pages</span><span class="p">,</span> <span class="n">extract_indeed_jobs</span>
-<span class="c1"># 
+<span class="kn">from</span> <span class="nn">indeed</span> <span class="kn">import</span> <span class="n">get_jobs</span> <span class="k">as</span> <span class="n">get_indeed_jobs</span>
+<span class="kn">from</span> <span class="nn">so</span> <span class="kn">import</span> <span class="n">get_jobs</span> <span class="k">as</span> <span class="n">get_so_jobs</span>
+
+
+<span class="c1">#indeed_jobs = get_indeed_jobs()
+</span><span class="n">so_jobs</span> <span class="o">=</span> <span class="n">get_so_jobs</span><span class="p">()</span>
+<span class="c1">#print(indeed_jobs)
 </span>
-<span class="n">last_indeed_page</span> <span class="o">=</span> <span class="n">extract_indeed_pages</span><span class="p">()</span>
+</code></pre></div></div>
 
-<span class="n">extract_indeed_jobs</span><span class="p">(</span><span class="n">last_indeed_page</span><span class="p">)</span>
+<p>so.py</p>
 
-<span class="k">print</span><span class="p">(</span><span class="n">indeed_jobs</span><span class="p">)</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="c1"># s-pagination
+</span><span class="n">URL</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"https://stackoverflow.com/jobs/companies?q=python"</span>
+
+
+<span class="k">def</span> <span class="nf">get_last_page</span><span class="p">():</span>
+  <span class="n">result</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">URL</span><span class="p">)</span>
+  <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">text</span><span class="p">,</span> <span class="s">"html.parser"</span><span class="p">)</span>  
+  <span class="n">pages</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">"div"</span><span class="p">,</span> <span class="p">{</span><span class="s">"class"</span><span class="p">:</span><span class="s">"s-pagination"</span><span class="p">}).</span><span class="n">find_all</span><span class="p">(</span><span class="s">"a"</span><span class="p">)</span>
+  <span class="n">last_page</span> <span class="o">=</span> <span class="n">pages</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">].</span><span class="n">get_text</span><span class="p">(</span><span class="n">strip</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+  <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">last_page</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">extract_jobs</span><span class="p">(</span><span class="n">last_page</span><span class="p">):</span>
+  <span class="n">jobs</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="k">for</span> <span class="n">page</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">last_page</span><span class="p">):</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">URL</span><span class="si">}</span><span class="s">&amp;pg=</span><span class="si">{</span><span class="n">page</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">text</span><span class="p">,</span> <span class="s">"html.parser"</span><span class="p">)</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">"div"</span><span class="p">,</span> <span class="p">{</span><span class="s">"class"</span><span class="p">:</span><span class="s">"d-flex"</span><span class="p">})</span>
+    <span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+      <span class="k">print</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+      
+    
+
+
+<span class="k">def</span> <span class="nf">get_jobs</span><span class="p">():</span>
+  <span class="n">last_page</span> <span class="o">=</span> <span class="n">get_last_page</span><span class="p">()</span>
+  <span class="n">jobs</span> <span class="o">=</span> <span class="n">extract_jobs</span><span class="p">(</span><span class="n">last_page</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">jobs</span>
 
 </code></pre></div></div>
 
