@@ -879,7 +879,35 @@ d는 다음과 같이 %와 d 사이에 0과 숫자 개수를 넣어주면 자릿
 
 </code></pre></div></div>
 
-<h3 id="예제">예제</h3>
+<h3 id="예제1">예제1</h3>
+<p><br />
+<br />
+표준 입력으로 문자열이 입력됩니다. 입력된 문자열에서 ‘the’의 개수를 출력하는 프로그램을 만드세요(input에서 안내 문자열은 출력하지 않아야 합니다). 단, 모든 문자가 소문자인 ‘the’만 찾으면 되며 ‘them’, ‘there’, ‘their’ 등은 포함하지 않아야 합니다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1"># 입력
+</span><span class="n">the</span> <span class="n">grown</span><span class="o">-</span><span class="n">ups</span><span class="s">' response, this time, was to advise me to lay aside my drawings of boa constrictors, whether from the inside or the outside, and devote myself instead to geography, history, arithmetic, and grammar. That is why, at the, age of six, I gave up what might have been a magnificent career as a painter. I had been disheartened by the failure of my Drawing Number One and my Drawing Number Two. Grown-ups never understand anything by themselves, and it is tiresome for children to be always and forever explaining things to the.
+
+#결과
+6
+
+</span></code></pre></div></div>
+
+<p>내가 쓴답</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">paragraph</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="n">words</span> <span class="o">=</span> <span class="n">paragraph</span><span class="p">.</span><span class="n">split</span><span class="p">()</span>
+<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">i</span><span class="p">.</span><span class="n">strip</span><span class="p">(</span><span class="s">",.'"</span><span class="p">)</span> <span class="o">==</span> <span class="s">'the'</span><span class="p">:</span>
+         <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+         
+<span class="k">print</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<h3 id="예제2">예제2</h3>
 <p><br />
 <br />
 표준 입력으로 물품 가격 여러 개가 문자열 한 줄로 입력되고, 각 가격은 ;(세미콜론)으로 구분되어 있습니다. 입력된 가격을 높은 가격순으로 출력하는 프로그램을 만드세요(input에서 안내 문자열은 출력하지 않아야 합니다). 이때 가격은 길이를 9로 만든 뒤 오른쪽으로 정렬하고 천단위로 ,(콤마)를 넣으세요.</p>
