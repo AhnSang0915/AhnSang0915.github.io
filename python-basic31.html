@@ -11,7 +11,7 @@
 
 
 
-    <title>Python - Python 변수 만들기</title>
+    <title>Python - Python 클로저 사용하기</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -50,23 +50,23 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Learn Coding" />
     <link rel="shortcut icon" href="https://AhnSang0915.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://AhnSang0915.github.io/python-basic3" />
+    <link rel="canonical" href="https://AhnSang0915.github.io/python-basic31" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="My Coding Practice Gym" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Python - Python 변수 만들기" />
+    <meta property="og:title" content="Python - Python 클로저 사용하기" />
     <meta property="og:description" content="Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로" />
-    <meta property="og:url" content="https://AhnSang0915.github.io/python-basic3" />
+    <meta property="og:url" content="https://AhnSang0915.github.io/python-basic31" />
     <meta property="og:image" content="https://AhnSang0915.github.io/assets/built/images/python-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-03-24T10:20:00+09:00" />
-    <meta property="article:modified_time" content="2022-03-24T10:20:00+09:00" />
+    <meta property="article:published_time" content="2022-04-16T17:40:00+09:00" />
+    <meta property="article:modified_time" content="2022-04-16T17:40:00+09:00" />
     <meta property="article:tag" content="Python" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Python - Python 변수 만들기" />
+    <meta name="twitter:title" content="Python - Python 클로저 사용하기" />
     <meta name="twitter:description" content="Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로" />
     <meta name="twitter:url" content="https://AhnSang0915.github.io/" />
     <meta name="twitter:image" content="https://AhnSang0915.github.io/assets/built/images/python-logo.png" />
@@ -88,7 +88,7 @@
         "name": "My Coding Practice Gym",
         "logo": "https://AhnSang0915.github.io/"
     },
-    "url": "https://AhnSang0915.github.io/python-basic3",
+    "url": "https://AhnSang0915.github.io/python-basic31",
     "image": {
         "@type": "ImageObject",
         "url": "https://AhnSang0915.github.io/assets/built/images/python-logo.png",
@@ -97,7 +97,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://AhnSang0915.github.io/python-basic3"
+        "@id": "https://AhnSang0915.github.io/python-basic31"
     },
     "description": "Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로"
 }
@@ -112,7 +112,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Python - Python 변수 만들기" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Python - Python 클로저 사용하기" href="/feed.xml" />
 
 
 </head>
@@ -173,7 +173,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="24 March 2022">24 March 2022</time>
+                    <time class="post-full-meta-date" datetime="16 April 2022">16 April 2022</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -183,7 +183,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Python - Python 변수 만들기</h1>
+                <h1 class="post-full-title">Python - Python 클로저 사용하기</h1>
             </header>
 
             
@@ -229,388 +229,451 @@ into the {body} of the default.hbs template -->
 
 </ul>
 
-<h1 id="python-변수-만들기">Python 변수 만들기</h1>
+<h1 id="클로저-사용하기">클로저 사용하기</h1>
+
 <p><br />
-<br /></p>
+<br />
+변수의 사용범위와 함수를 클로저 형태로 만드는 방법을 알아보자.</p>
 
 <hr />
 
-<h2 id="1변수와-입력-사용하기">1.변수와 입력 사용하기</h2>
+<h2 id="1-변수의-사용-범위-알아보기">1. 변수의 사용 범위 알아보기</h2>
 <p><br />
-<br /></p>
-
-<p>변수(variable)을 만들고 결과를 저장하는 방법을 알아보자.
 <br />
-<br /></p>
+파이썬 스크립트에서 변수를 만들면 다음과 같이 함수 안에서도 사용할 수 있다.
+foo함수에서 함수 바깥에 있는 변수 x의 값을 출력할 수 있다. 이처럼 함수를 포함하여 스크립트 전체에서 접근할 수 있는 변수를 전역 변수(global variable)라고 한다. 특히 전역 변수에 접근할 수 있는 범위를 전역 범위(globla scope)라고 한다.</p>
 
-<h3 id="변수-만들기">변수 만들기</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>          <span class="c1"># 전역 변수
+</span><span class="k">def</span> <span class="nf">foo</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>    <span class="c1"># 전역 변수 출력
+</span> 
+<span class="n">foo</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>        <span class="c1"># 전역 변수 출력
+</span>
+<span class="c1">#결과
+</span><span class="mi">10</span>
+<span class="mi">10</span>
+
+</code></pre></div></div>
+
+<p>변수 x를 함수 foo안에서 만들고 실행을 해보면 x가 정의되지 않았다는 에러가 발생한다. 왜냐하면 변수 x는 함수 foo안에서 만들었기 때문에 foo의 지역 변수(local variable)이다. 따라서 지역 변수는 변수를 만든 함수 안에서만 접근할 수 있고, 함수 바깥에서는 접근할 수 없다. 특히 지역 변수를 접근할 수 있는 범위를 지역 범위(local scope)라고 한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">foo</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>      <span class="c1"># foo의 지역 변수
+</span>    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>    <span class="c1"># foo의 지역 변수 출력
+</span> 
+<span class="n">foo</span><span class="p">()</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>        <span class="c1"># 에러. foo의 지역 변수는 출력할 수 없음
+</span>
+<span class="c1">#결과
+</span><span class="mi">10</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">"C:\project\local_variable.py"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">6</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>        <span class="c1"># 에러. foo의 지역 변수는 출력할 수 없음
+</span><span class="nb">NameError</span><span class="p">:</span> <span class="n">name</span> <span class="s">'x'</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">defined</span>
+
+</code></pre></div></div>
+
+<h3 id="함수-안에서-전역-변수-변경하기">함수 안에서 전역 변수 변경하기</h3>
 <p><br />
-<br /></p>
+<br />
+함수 안에서 전역 변수의 값을 넣어보자. 분명 함수 foo 안에서 x = 20처럼 x의 값을 20으로 변경했다. 하지만 함수 바깥에서 print로 x의 값을 출력해보면 10이다. 겉으로 보기에는 foo 안의 x는 전역 변수인 것 같지만 실제로는 foo의 지역 변수다. 즉, 전역 변수 x가 있고, foo에서 지역 변수 x를 새로 만들게 된다. 이 둘은 이름만 같을 뿐 서로 다른 변수이다.</p>
 
-<p>x = 100 이라고 입력하면 100이 들어있는 변수 x가 만들어진다. 즉, 변수이름 = 값 형식이다. 이렇게 하면 변수가 생성되는 동시에 값이 할당(저장)된다.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>          <span class="c1"># 전역 변수
+</span><span class="k">def</span> <span class="nf">foo</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">20</span>      <span class="c1"># x는 foo의 지역 변수
+</span>    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>    <span class="c1"># foo의 지역 변수 출력
+</span> 
+<span class="n">foo</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>        <span class="c1"># 전역 변수 출력
+</span>
+<span class="c1">#결과
+</span><span class="mi">20</span>
+<span class="mi">10</span>
 
-<p><br /></p>
+</code></pre></div></div>
+
+<p>함수 안에서 전역 변수의 값을 변경하려면 global 키워드를 사용해야 한다. 다음과 같이 함수 안에서 global에 전역 변수의 이름을 지정해준다. 그리고 함수안에서 x를 20으로 변경하면 함수 바깥에서 x를 출력했어도 20이 나온다. 이렇게 함수안에서 변수를 global로 지정하면 전역 변수를 생성하게 된다.</p>
 
 <ul>
-  <li>영문 문자와 숫자를 사용할 수 있습니다.</li>
-  <li>대소문자를 구분합니다.</li>
-  <li>문자부터 시작해야 하며 숫자부터 시작하면 안 됩니다.</li>
-  <li>_(밑줄 문자)로 시작할 수 있습니다.</li>
-  <li>특수 문자(+, -, *, /, $, @, &amp;, % 등)는 사용할 수 없습니다.</li>
-  <li>파이썬의 키워드(if, for, while, and, or 등)는 사용할 수 없습니다.</li>
+  <li>global 전역변수</li>
 </ul>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">x</span> <span class="o">=</span> <span class="mi">100</span>
-
-<span class="n">y</span> <span class="o">=</span> <span class="s">"Hello, world"</span>
-
-</code></pre></div></div>
-
-<h3 id="변수의-자료형-알아내기">변수의 자료형 알아내기</h3>
-
-<p>변수도 마찬가지로 type을 넣어 변수(객체)의 타입이 나온다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="o">&lt;</span><span class="k">class</span> <span class="err">'</span><span class="nc">int</span><span class="s">'&gt;
-type(y)
-&lt;class '</span><span class="nb">str</span><span class="s">'&gt;
-
-</span></code></pre></div></div>
-
-<h3 id="변수-여러-개를-한-번에-만들기">변수 여러 개를 한 번에 만들기</h3>
-<p><br />
-<br /></p>
-
-<p>변수를 한번에 여러개 만드는 방법은 아래와 같다. 변수이름1, 변수이름2, 변수이름3 = 값1, 값2, 값3 형식으로 변수를 ,(콤마)로 구분한 뒤 각 변수에 할당될 값을 지정해주면 된다. 변수와 값의 갯수는 동일하게 맞춰주어야 한다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span>
-<span class="n">x</span>
-<span class="c1"># 10
-</span><span class="n">y</span>
-<span class="c1"># 20
-</span><span class="n">z</span>
-<span class="c1"># 30
-</span>
-</code></pre></div></div>
-
-<p>여러개의 변수를 만들때 값이 같다면 = 같은 값을 지정할수 있다.변수1 = 변수2 = 변수3 = 값 형식으로 변수 여러 개를 =로 연결하고 마지막에 값을 할당해주면 같은 값을 가진 변수 3개가 만들어진다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">x</span> <span class="o">=</span> <span class="n">y</span> <span class="o">=</span> <span class="n">z</span> <span class="o">=</span> <span class="mi">20</span>
-<span class="n">x</span>
-<span class="c1">#20
-</span><span class="n">y</span>
-<span class="c1">#20
-</span><span class="n">z</span>
-<span class="c1">#20
-</span>
-</code></pre></div></div>
-
-<p>두 변수의 값을 바꿀 수 있다. 변수1, 변수2 = 변수2, 변수1 형식으로 두 변수의 값을 바꿀 수 있다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span>
-<span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span>
-<span class="n">x</span>
-<span class="c1"># 20
-</span><span class="n">y</span>
-<span class="c1"># 10
-</span>
-</code></pre></div></div>
-
-<p>변수를 삭제하려면 del을 사용하면 되고 확인 해 보면 아래와 같이 찾을수 없다고 나온다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">del</span> <span class="n">x</span>
-<span class="n">x</span>
-<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
-  <span class="n">File</span> <span class="s">"&lt;pyshell#20&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-    <span class="n">x</span>
-<span class="nb">NameError</span><span class="p">:</span> <span class="n">name</span> <span class="s">'x'</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">defined</span>
-
-</code></pre></div></div>
-
-<p>값이 들어있지 않은 빈 변수도 만들 수 있다. 변수 = None형식으로 만든다. 파이썬에서 None은 아무것도 없는 상태를 말하고 다른 언어에서는 null이라고 표현한다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">x</span> <span class="o">=</span> <span class="bp">None</span>
-<span class="n">x</span>
-<span class="c1"># 아무것도 출력되지 않는다.
-</span></code></pre></div></div>
-
-<hr />
-
-<h2 id="2변수로-계산하기">2.변수로 계산하기</h2>
-<p><br />
-<br />
-계산값을 변수로 지정해 저장하는 방법을 알아보자. 변수 a, b에 숫자를 할당한 뒤에 a와 b의 값을 더해서 변수 c에 할당했다. 이렇게 변수는 변수끼리 계산할 수 있고, 계산 결과를 다른 변수에 할당할 수 있다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span><span class="o">=</span><span class="mi">10</span>
-<span class="n">b</span><span class="o">=</span><span class="mi">20</span>
-<span class="n">c</span><span class="o">=</span><span class="n">a</span><span class="o">+</span><span class="n">b</span>
-<span class="n">c</span>
-<span class="mi">30</span>
-
-</code></pre></div></div>
-
-<h3 id="산술-연산-후-할당-연산자-사용하기">산술 연산 후 할당 연산자 사용하기</h3>
-<p><br />
-<br />
-변수의 값을 증가시키는 방법이다. a의 값에20을 더할뿐 결과를 저장히지는 않는다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span><span class="o">=</span><span class="mi">10</span>
-<span class="n">a</span><span class="o">+</span><span class="mi">20</span>
-<span class="mi">30</span>
-<span class="n">a</span>
-<span class="mi">10</span>
-
-</code></pre></div></div>
-
-<p>변수의 값을 저장하려면 결과를 다시 변수에 저장해야 한다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">a</span> <span class="o">+=</span> <span class="mi">20</span> <span class="c1"># a = a + 20
-</span><span class="n">a</span>
-<span class="mi">30</span>
-
-</code></pre></div></div>
-
-<p>a를 다시 입력하지 않고 결과를 저장하는 방법이다. +=처럼 산술연신자 앞에 할당연산자(+)를 붙이면 연산 결과를 변수에 저장한다. -=, /=, //=, %=, *=도 사용 가능하다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span><span class="o">=</span><span class="mi">10</span>
-<span class="n">a</span><span class="o">=</span><span class="n">a</span><span class="o">+</span><span class="mi">20</span>
-<span class="n">a</span>
-<span class="mi">30</span>
-
-</code></pre></div></div>
-
-<p>할당 연산자를 만들때 주의할 점이다. 변수d를 지정하지 않고 코드를 입력하면 아래와 같은 에러가 나온다. 변수를 지정하고 변수를 사용해 계산을 해야한다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">d</span> <span class="o">=</span> <span class="n">d</span> <span class="o">+</span><span class="mi">10</span>
-<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
-  <span class="n">File</span> <span class="s">"&lt;pyshell#57&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-    <span class="n">d</span> <span class="o">=</span> <span class="n">d</span> <span class="o">+</span><span class="mi">10</span>
-<span class="nb">NameError</span><span class="p">:</span> <span class="n">name</span> <span class="s">'d'</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">defined</span><span class="p">.</span> <span class="n">Did</span> <span class="n">you</span> <span class="n">mean</span><span class="p">:</span> <span class="s">'id'</span><span class="err">?</span>
-
-</code></pre></div></div>
-
-<h3 id="값을-실수로-만들기">값을 실수로 만들기</h3>
-<p><br />
-<br />
-어떤 값을 강제로 실수로 만드는 방법을 알아보자.float는 부동소수점(floating point)에서 따왔으며 값을 실수로 만들어준다. 즉, 실수는 float 자료형이며 type에 실수를 넣어보면 &lt;class ‘float’&gt;가 나온다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nb">float</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="mi">2</span><span class="p">)</span>
-<span class="c1">#3.0
-</span><span class="nb">float</span><span class="p">(</span><span class="s">'5'</span><span class="p">)</span>
-<span class="c1"># 5.0
-</span><span class="nb">float</span><span class="p">(</span><span class="mf">5.3</span><span class="p">)</span>
-<span class="c1"># 5.3
-</span>
-<span class="nb">type</span><span class="p">(</span><span class="mf">3.5</span><span class="p">)</span>
-      
-<span class="o">&lt;</span><span class="k">class</span> <span class="err">'</span><span class="nc">float</span><span class="s">'&gt;
-
-</span></code></pre></div></div>
-
-<p>계산을 하다보면 부호를 붙여야 할 때도 있다. 이때는 값이나 변수 앞에 양수, 음수 부호를 붙이면 된다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">x</span> <span class="o">=</span> <span class="o">-</span><span class="mi">10</span>
-<span class="o">+</span><span class="n">x</span>
-<span class="o">-</span><span class="mi">10</span>
-<span class="o">-</span><span class="n">x</span>
-<span class="mi">10</span>
-
-</code></pre></div></div>
-
-<h3 id="복소수">복소수</h3>
-<p><br />
-<br />
-파이썬에서는 실수부와 허수부로 이루어진 복소수(complex number)도 사용할 수 있다. 이때 허수부는 숫자 뒤에 j를 붙인다(수학에서는 허수를 i로 표현하지만 공학에서는 j를 사용한다).두 실수를 복소수로 만들 때는 complex를 사용하면 된다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="mf">1.2</span><span class="o">+</span><span class="mf">1.3j</span>
-<span class="c1"># (1.2+1.3j)
-#두 실수를 복소수로 만들 때
-</span><span class="nb">complex</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mf">1.3</span><span class="p">)</span>
-<span class="c1"># (1.2+1.3j)
-</span>
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="3입력-값을-변수에-저장하기">3.입력 값을 변수에 저장하기</h2>
-<p><br />
-<br />
-매번 다른 값을 변수에 할당하는 방법을 알아보자. input()을 사용하면 사용자가 입력한 값을 가져올 수 있다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nb">input</span><span class="p">()</span>
-<span class="n">hello</span><span class="p">,</span> <span class="n">world</span><span class="err">!</span>
-<span class="s">'hello, world!'</span>
-<span class="nb">input</span><span class="p">()</span>
-<span class="n">안상현</span>
-<span class="s">'안상현'</span>
-
-</code></pre></div></div>
-
-<h3 id="함수의-결과를-변수에-할당하기">함수의 결과를 변수에 할당하기</h3>
-<p><br />
-<br />
-input함수의 결과를 변수에 할당했다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">x</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="n">hello</span> <span class="n">world</span><span class="err">!</span>
-<span class="n">x</span>
-<span class="s">'hello world!'</span>
-
-
-</code></pre></div></div>
-
-<p>위 코드에서 불편한점은 input함수가 실행된 다음에 아무 내용이 없어서 입력을 받는 상태인지 출력이 없는 상태인지 알 수가 없다는 점이다. 이때는 input의 괄호 안에 문자열을 지정해준다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">x</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'문자열을 입력하세요'</span><span class="p">)</span>
-<span class="n">문자열을</span> <span class="n">입력하세요우리집</span> <span class="n">강아지는</span> <span class="n">보름이</span>
-<span class="n">x</span>
-<span class="s">'우리집 강아지는 보름이'</span>
-
-</code></pre></div></div>
-
-<p>위 코드는 사용자에게 입력받는 값의 용도를 미리 알려줄 때 사용한다. 다른 말로는 prompt라고도 부른다.</p>
-
-<p><br />
-<br /></p>
-
-<h3 id="두-숫자의-합-구하기">두 숫자의 합 구하기</h3>
-
-<p><br />
-<br /></p>
-
-<p>숫자 두개를 입력받은 뒤에 두  숫자의 합을 구해보자. 아래 코드를 실행한 결과는 1020이다. input에서 입력받은 값은 항상 문자열 형태이기 때문이다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'첫 번째 숫자를 입력하세요: '</span><span class="p">)</span>
-<span class="n">첫</span> <span class="n">번째</span> <span class="n">숫자를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="mi">10</span>
-<span class="n">b</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'두 번째 숫자를 입력하세요: '</span><span class="p">)</span>
-<span class="n">두</span> <span class="n">번째</span> <span class="n">숫자를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="mi">20</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
-<span class="mi">1020</span>
-
-</code></pre></div></div>
-
-<p>변수에 값을 input으로 할당하고 데이터 타입을 확인하면 아래와 같이str(string)이 출력되게 된다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="mi">10</span>
-<span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-<span class="c1"># &lt;class 'str'&gt;
-</span>
-</code></pre></div></div>
-
-<p><br />
-<br /></p>
-
-<h3 id="입력-값을-정수로-변환하기">입력 값을 정수로 변환하기</h3>
-<p><br />
-<br />
-10 + 20의 결과가 30이 나오게 하려면 input에서 입력받은 문자열을 숫자(정수)로 들어주어야 한다. int로 문자열’10’을 정수 10으로 바꿔준다. 만약 실수를 더하려면 int대신 float를 사용한다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'첫 번째 숫자를 입력하세요: '</span><span class="p">))</span>    <span class="c1"># int를 사용하여 입력 값을 정수로 변환
-</span><span class="n">b</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'두 번째 숫자를 입력하세요: '</span><span class="p">))</span>    <span class="c1"># int를 사용하여 입력 값을 정수로 변환
+<span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>          <span class="c1"># 전역 변수
+</span><span class="k">def</span> <span class="nf">foo</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span>    <span class="c1"># 전역 변수 x를 사용하겠다고 설정
+</span>    <span class="n">x</span> <span class="o">=</span> <span class="mi">20</span>      <span class="c1"># x는 전역 변수
+</span>    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>    <span class="c1"># 전역 변수 출력
 </span> 
-<span class="k">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
+<span class="n">foo</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>        <span class="c1"># 전역 변수 출력
+</span>
+</code></pre></div></div>
+
+<p>만약 전역 변수가 없을 때 함수 안에서 global을 사용하면 해당 변수는 전역 변수가 된다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1"># 전역 변수 x가 없는 상태
+</span><span class="k">def</span> <span class="nf">foo</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">x</span>    <span class="c1"># x를 전역 변수로 만듦
+</span>    <span class="n">x</span> <span class="o">=</span> <span class="mi">20</span>      <span class="c1"># x는 전역 변수
+</span>    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>    <span class="c1"># 전역 변수 출력
+</span> 
+<span class="n">foo</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>        <span class="c1"># 전역 변수 출력
+</span>
+</code></pre></div></div>
+
+<h3 id="네임스페이스">네임스페이스</h3>
+<p><br />
+<br />
+파이썬에서 변수는 네임스페이스(namespace, 이름공간)에 저장된다. 다음과 같이 locals 함수를 사용하면 현재 네임스페이스를 딕셔너리 형태로 출력할 수 있다.
+<br />
+출력된 네임스페이스를 보면 ‘x’: 10처럼 변수 x와 값 10이 저장되어 있습니다. 여기서는 전역 범위에서 네임스페이스를 출력했으므로 전역 네임스페이스를 가져옵니다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="nb">locals</span><span class="p">()</span>
+<span class="p">{</span><span class="s">'__name__'</span><span class="p">:</span> <span class="s">'__main__'</span><span class="p">,</span> <span class="s">'__doc__'</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span> <span class="s">'__package__'</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span> <span class="s">'__loader__'</span><span class="p">:</span> <span class="o">&lt;</span><span class="k">class</span> <span class="err">'</span><span class="nc">_frozen_importlib</span><span class="p">.</span><span class="n">BuiltinImporter</span><span class="s">'&gt;, '</span><span class="n">__spec__</span><span class="s">': None, '</span><span class="n">__annotations__</span><span class="s">': {}, '</span><span class="n">__builtins__</span><span class="s">': &lt;module '</span><span class="n">builtins</span><span class="s">' (built-in)&gt;, '</span><span class="n">x</span><span class="s">': 10}
+
+</span></code></pre></div></div>
+
+<p>마찬가지로 함수 안에서 locals를 사용할 수 있다. 네임스페이스를 보면 ‘x’: 10만 저장되어 있다. 이때는 지역 범위에서 네임스페이스를 출력했으므로 지역 네임스페이스를 가져온다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">foo</span><span class="p">():</span>
+     <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+     <span class="k">print</span><span class="p">(</span><span class="nb">locals</span><span class="p">())</span>
+
+<span class="n">foo</span><span class="p">()</span>
+<span class="p">{</span><span class="s">'x'</span><span class="p">:</span> <span class="mi">10</span><span class="p">}</span>
 
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="4-입력-값을-변수-두-개에-저장하기">4. 입력 값을 변수 두 개에 저장하기</h2>
+<h2 id="2-함수-안에서-함수-만들기">2. 함수 안에서 함수 만들기</h2>
 <p><br />
 <br />
-input 한번에 값을 여러 개 입력받는 방법을 알아보자. input에서 split을 사용하여 변수 여러 개에 저장해주면 된다. 공백으로 변수 a와 b의 값을 구분짓는다.</p>
+이번에는 함수 안에서 함수를 만드는 방법을 알아보자. 다음과 같이 def로 함수를 만들고 그 안에서 다시 def로 함수를 만들면 된다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'문자열 두 개를 입력하세요: '</span><span class="p">).</span><span class="n">split</span><span class="p">()</span>
-<span class="n">문자열</span> <span class="n">두</span> <span class="n">개를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="n">an</span> <span class="n">sang</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-<span class="n">an</span>
-<span class="k">print</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
-<span class="n">sang</span>
+<span class="k">def</span> <span class="nf">함수이름1</span><span class="p">():</span>
+    <span class="n">코드</span>
+    <span class="k">def</span> <span class="nf">함수이름2</span><span class="p">():</span>
+        <span class="n">코드</span>
 
 </code></pre></div></div>
 
-<h3 id="두-숫자의-합-구하기-1">두 숫자의 합 구하기</h3>
-<p><br />
+<p>함수 안에서 문자열을 출력하는 함수를 만들고 호출해보자.
 <br />
-두 숫자의 합을 구해보는 예제이다. 전 항목에서와 마찬가지로 input으로 입력받은 값은 문자열 이기 때문에 합의 값이 1020이 나온다.</p>
+함수 print_hello 안에서 다시 def로 함수 print_message를 만들었다. 그리고 print_hello안에서 print_message()처럼 함수를 호출했다. 하미잔 아직 함수를 정의만 한 상태이므로 아무것도 출력되지 않는다. 두 함수가 실제로 동작하려면 바깥쪽에 있는 print_hello를 호출해주어야 한다. 즉, print_hello &gt; print_message 순으로 실행된다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'숫자 두개를 입력하세요: '</span><span class="p">).</span><span class="n">split</span><span class="p">()</span>
-<span class="n">숫자</span> <span class="n">두개를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="mi">10</span> <span class="mi">20</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
-<span class="mi">1020</span>
+<span class="k">def</span> <span class="nf">print_hello</span><span class="p">():</span>
+    <span class="n">hello</span> <span class="o">=</span> <span class="s">'Hello, world!'</span>
+    <span class="k">def</span> <span class="nf">print_message</span><span class="p">():</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
+    <span class="n">print_message</span><span class="p">()</span>
+ 
+<span class="n">print_hello</span><span class="p">()</span>
+
+<span class="c1"># 실행결과
+</span><span class="n">Hello</span><span class="p">,</span> <span class="n">world</span><span class="err">!</span>
 
 </code></pre></div></div>
 
-<h3 id="입력-값을-정수로-변환하기-1">입력 값을 정수로 변환하기</h3>
+<h3 id="지역-변수의-범위">지역 변수의 범위</h3>
 <p><br />
 <br />
-a = int(a)와 같이 int에 변수를 넣은 뒤 다시 변수에 저장해주면 변수가 정수 자료형으로 변환된다.</p>
+print_hello 함수와 print_message 함수에서 지역 변수의 범위를 살펴보자. 안쪽 함수 print_message에서는 바깥쪽 함수 print_hello의 지역 변수 hello를 사용할 수 있습니다.즉, 바깥쪽 함수의 지역 변수는 그 안에 속한 모든 함수에서 접근할 수 있다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-<span class="n">b</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
-<span class="mi">30</span>
-
-</code></pre></div></div>
-<p>print안에서 int로 바꾸어 정수값을 얻는 방법도 있다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">+</span> <span class="nb">int</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
-<span class="c1"># 30
+<span class="k">def</span> <span class="nf">print_hello</span><span class="p">():</span>
+    <span class="n">hello</span> <span class="o">=</span> <span class="s">'Hello, world!'</span>
+    <span class="k">def</span> <span class="nf">print_message</span><span class="p">():</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>    <span class="c1"># 바깥쪽 함수의 지역 변수를 사용
 </span>
 </code></pre></div></div>
 
-<h3 id="map을-사용하여-정수로-변환하기">map을 사용하여 정수로 변환하기</h3>
+<h3 id="지역-변수-변경하기">지역 변수 변경하기</h3>
 <p><br />
 <br />
- map에 int와 input().split()을 넣으면 int로 변환하지 않아도 split의 결과를 모두 int로 변환해준다(실수로 변환할 때는 int 대신 float를 넣는다.).</p>
+바깥쪽 함수의 지역 변수를 안쪽 함수에서 변경해보자. 다음과 같이 안쪽 함수 B에서 바깥쪽 함수 A의 지역 변수 x를 변경한다. 실행을 해보면 20이 나와야 할 것 같은데 10이 나온다. 왜냐하면 겉으로 보기에는 바깥쪽 함수 A의 지역 변수 x를 변경하는 것 같지만, 실제로는 안쪽 함수 B에서 이름이 같은 지역 변수 x를 새로 만들게 된다. 즉, 파이썬에서는 함수에서 변수를 만들면 항상 현재 함수의 지역 변수가 된다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">(</span><span class="s">'숫자 두 개를 입력하세요: '</span><span class="p">).</span><span class="n">split</span><span class="p">())</span>
-<span class="n">숫자</span> <span class="n">두</span> <span class="n">개를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="mi">10</span> <span class="mi">20</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
-<span class="mi">30</span>
+<span class="k">def</span> <span class="nf">A</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>        <span class="c1"># A의 지역 변수 x
+</span>    <span class="k">def</span> <span class="nf">B</span><span class="p">():</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="mi">20</span>    <span class="c1"># x에 20 할당
+</span> 
+    <span class="n">B</span><span class="p">()</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>      <span class="c1"># A의 지역 변수 x 출력
+</span> 
+<span class="n">A</span><span class="p">()</span>
+
+<span class="c1">#결과
+</span><span class="mi">10</span>
+
+<span class="c1">#
+</span><span class="k">def</span> <span class="nf">A</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>        <span class="c1"># A의 지역 변수 x
+</span>    <span class="k">def</span> <span class="nf">B</span><span class="p">():</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="mi">20</span>    <span class="c1"># B의 지역 변수 x를 새로 만듦
+</span>
+</code></pre></div></div>
+
+<p>현재 함수의 바깥쪽에 있는 지역 변수의 값을 변경하려면 nonlocal 키워드를 사용해야 한다. 다음과 같이 함수 안에서 nonlocal에 지역 변수의 이름을 지정해준다.</p>
+
+<ul>
+  <li>nonlocal 지역변수</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">A</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>        <span class="c1"># A의 지역 변수 x
+</span>    <span class="k">def</span> <span class="nf">B</span><span class="p">():</span>
+        <span class="k">nonlocal</span> <span class="n">x</span>    <span class="c1"># 현재 함수의 바깥쪽에 있는 지역 변수 사용
+</span>        <span class="n">x</span> <span class="o">=</span> <span class="mi">20</span>        <span class="c1"># A의 지역 변수 x에 20 할당
+</span> 
+    <span class="n">B</span><span class="p">()</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>      <span class="c1"># A의 지역 변수 x 출력
+</span> 
+<span class="n">A</span><span class="p">()</span>
+
+<span class="c1">#결과
+</span><span class="mi">20</span>
 
 </code></pre></div></div>
 
-<p>### 입력받는 값을 콤마를 기준으로 분리하기
+<h3 id="지역-변수-변경하기-1">지역 변수 변경하기</h3>
+<p><br />
 <br />
-<br />
-split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값을 분리해 보자.</p>
+nonlocal은 현재 함수의 바깥쪽에 있는 지역 변수를 찾을 때 가장 가까운 함수부터 먼저 찾는다. 이번에는 함수의 단계를 A, B, C로 만들었다. 함수 C에서 nonlocal x를 사용하면 가장 가까운 바깥쪽에 있는 함수 B의 지역 변수 x = 20을 사용하게 된다. 따라서 x = x + 30은 50이 나온다. 그리고 함수 C에서 nonlocal y를 사용하면 바깥쪽에 있는 함수의 지역 변수 y를 사용해야 하는데 함수 B에는 y가 없다. 이때는 한 단계 더 바깥으로 나가서 함수 A의 지역 변수 y를 사용하게 된다. 즉, 가까운 함수부터 지역 변수를 찾고, 지역 변수가 없으면 계속 바깥쪽으로 나가서 찾는다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">(</span><span class="s">'숫자 두 개를 입력하세요: '</span><span class="p">).</span><span class="n">split</span><span class="p">(</span><span class="s">','</span><span class="p">))</span>
-<span class="n">숫자</span> <span class="n">두</span> <span class="n">개를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span><span class="mi">20</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
-<span class="mi">30</span>
-
+<span class="k">def</span> <span class="nf">A</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mi">100</span>
+    <span class="k">def</span> <span class="nf">B</span><span class="p">():</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="mi">20</span>
+        <span class="k">def</span> <span class="nf">C</span><span class="p">():</span>
+            <span class="k">nonlocal</span> <span class="n">x</span>
+            <span class="k">nonlocal</span> <span class="n">y</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">30</span>
+            <span class="n">y</span> <span class="o">=</span> <span class="n">y</span> <span class="o">+</span> <span class="mi">300</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+        <span class="n">C</span><span class="p">()</span>
+    <span class="n">B</span><span class="p">()</span>
+ 
+<span class="n">A</span><span class="p">()</span>
 
 </code></pre></div></div>
+
+<h3 id="global로-전역-변수-사용하기">global로 전역 변수 사용하기</h3>
+<p><br />
+<br />
+함수가 몇 단계든 상관없이 global 키워드를 사용하면 무조건 전역 변수를 사용하게 된다. 함수 C에서 global x를 사용하면 전역 변수 x = 1을 사용하게 된다. 따라서 x = x + 30은 31이 나온다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">def</span> <span class="nf">A</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+    <span class="k">def</span> <span class="nf">B</span><span class="p">():</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="mi">20</span>
+        <span class="k">def</span> <span class="nf">C</span><span class="p">():</span>
+            <span class="k">global</span> <span class="n">x</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">30</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">C</span><span class="p">()</span>
+    <span class="n">B</span><span class="p">()</span>
+ 
+<span class="n">A</span><span class="p">()</span>
+
+<span class="c1"># 실행결과
+</span><span class="mi">31</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="3-클로저-사용하기">3. 클로저 사용하기</h2>
+<p><br />
+<br />
+함수를 클로저 형태로 만드는 방법을 알아보자. 다음은 함수 바깥쪽에 있는 지역 변수 a, b를 사용하여 a * x + b를 계산하는 함수 mul_add를 만든 뒤에 함수 mul_add자체를 반환한다. 먼저 calc에 지역 변수 a와 b를 만들고 3과 5를 저장했다. 그다음에 함수 mul_add에서 a와 b를 사용하여 a * x + b를 계산한 뒤 반환한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">calc</span><span class="p">():</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="k">def</span> <span class="nf">mul_add</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">b</span>    <span class="c1"># 함수 바깥쪽에 있는 지역 변수 a, b를 사용하여 계산
+</span>    <span class="k">return</span> <span class="n">mul_add</span>          <span class="c1"># mul_add 함수를 반환
+</span> 
+<span class="n">c</span> <span class="o">=</span> <span class="n">calc</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+
+<span class="c1">#실행 결과
+</span><span class="mi">8</span> <span class="mi">11</span> <span class="mi">14</span> <span class="mi">17</span> <span class="mi">20</span>
+
+</code></pre></div></div>
+
+<p>함수 mul_add를 만들고 calc함수를 바로 호출하지 않고 mul_add함수 자체를 return한다(함수를 반환할 때는 함수 이름만 반환해야 하며 ( )(괄호)를 붙이면 안 된다).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">return</span> <span class="n">mul_add</span> 
+
+</code></pre></div></div>
+
+<p>이제 클로저를 사용한다. 다음과 같이 함수 calc를 호출한 뒤 반환값을 c에 저장한다. calc에서 mul_add를 반환했음으로 c에는 함수 mul_add가 들어간다. 그리고 c에 숫자를 넣어서 호출해보면 a * x + b 계산식에 따라 값이 출력 된다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">c</span> <span class="o">=</span> <span class="n">calc</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+
+</code></pre></div></div>
+
+<p>코드를 보면 함수 calc가 끝났는데도 c는 calc의 지역 변수 a, b를 사용해서 계산을 하고 있다. 이렇게 함수를 둘러싼 환경(지역 변수, 코드 등)을 계속 유지하다가, 함수를 호출할 때 다시 꺼내서 사용하는 함수를 클로저(closure)라고 한다. 여기서는 c에 저장된 함수가 클로저다.</p>
+
+<h3 id="lambda로-클로저-만들기">lambda로 클로저 만들기</h3>
+<p><br />
+<br />
+클로저는 다음과 같이 lambda로도 만들 수 있다. return lambda x: a * x + b처럼 람다 표현식을 만든 뒤 람다 표현식 자체를 반환했다. 이렇게 람다를 사용하면 클로저를 좀 더 간단하게 만들 수 있다.
+보통 클로저는 람다 표현식과 함께 사용하는 경우가 많아 둘을 혼동하기 쉽다. 람다는 이름이 없는 익명 함수를 뜻하고, 클로저는 함수를 둘러싼 환경을 유지했다가 나중에 다시 사용하는 함수를 뜻한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">calc</span><span class="p">():</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="k">return</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">a</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">b</span>    <span class="c1"># 람다 표현식을 반환
+</span> 
+<span class="n">c</span> <span class="o">=</span> <span class="n">calc</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+
+<span class="c1">#실행 결과
+</span><span class="mi">8</span> <span class="mi">11</span> <span class="mi">14</span> <span class="mi">17</span> <span class="mi">20</span>
+
+</code></pre></div></div>
+
+<h3 id="클로저의-지역-변수-변경하기">클로저의 지역 변수 변경하기</h3>
+<p><br />
+<br />
+지금까지 클로저의 지역 변수를 가져오기만 했는데, 클로저의 지역 변수를 변경하고 싶다면 nonlocal을 사용하면 된다. 다음은 a * x + b의 결과를 함수 calc의 지역 변수 total에 누한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">calc</span><span class="p">():</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">def</span> <span class="nf">mul_add</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+        <span class="k">nonlocal</span> <span class="n">total</span>
+        <span class="n">total</span> <span class="o">=</span> <span class="n">total</span> <span class="o">+</span> <span class="n">a</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">b</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">mul_add</span>
+ 
+<span class="n">c</span> <span class="o">=</span> <span class="n">calc</span><span class="p">()</span>
+<span class="n">c</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">c</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">c</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="c1"># 실행 결과
+</span><span class="mi">8</span>
+<span class="mi">19</span>
+<span class="mi">33</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="예제1">예제1</h3>
+<p><br />
+<br />
+다음 소스 코드를 완성하여 함수 c를 호출할 때마다 호출 횟수가 출력되게 만드세요. 여기서는 함수를 클로저로 만들어야 합니다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">counter</span><span class="p">():</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">def</span> <span class="nf">count</span><span class="p">():</span>
+                       
+        <span class="p">...</span>
+                       
+ 
+<span class="n">c</span> <span class="o">=</span> <span class="n">counter</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">(),</span> <span class="n">end</span><span class="o">=</span><span class="s">' '</span><span class="p">)</span>
+
+<span class="c1"># 결과
+</span><span class="mi">1</span> <span class="mi">2</span> <span class="mi">3</span> <span class="mi">4</span> <span class="mi">5</span> <span class="mi">6</span> <span class="mi">7</span> <span class="mi">8</span> <span class="mi">9</span> <span class="mi">10</span> 
+
+</code></pre></div></div>
+
+<p>답</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+        <span class="k">nonlocal</span> <span class="n">i</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="n">i</span>
+    <span class="k">return</span> <span class="n">count</span>
+
+</code></pre></div></div>
+
+<p>함수 counter를 호출해서 반환값을 c에 저장한 뒤에 c를 호출하고 있다. 그리고 c를 호출할 때마다 값이 계속 유지되게 하려면 함수를 클로저로 만들어야 한다.
+함수 counter에서는 지역 변수 i에 0이 할당되어 있고, 함수 count가 만들어져 있다. 따라서 count에서 i에 1을 더한 값을 저장한 뒤 i를 반환한다. 이때 nonlocal을 사용하여 함수 바깥쪽의 지역 변수 i를 변경할 수 있도록 만들어야 한다.
+마지막으로 함수 counter에서 함수 count를 반환하면 된다(함수를 반환할 때는 함수 이름만 반환해야 하며 ( )(괄호)를 붙이면 안 된다).</p>
+
+<h3 id="예제2">예제2</h3>
+<p><br />
+<br />
+표준 입력으로 정수가 입력됩니다. 다음 소스 코드를 완성하여 함수 c를 호출할 때마다 숫자가 1씩 줄어들게 만드세요. 여기서는 함수를 클로저로 만들어야 합니다. 정답에 코드를 작성할 때는 def countdown(n):에 맞춰서 들여쓰기를 해주세요.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">countdown</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+
+<span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+ 
+<span class="n">c</span> <span class="o">=</span> <span class="n">countdown</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">(),</span> <span class="n">end</span><span class="o">=</span><span class="s">' '</span><span class="p">)</span>
+
+<span class="c1">#입력
+</span><span class="mi">10</span>
+
+<span class="c1">#결과
+</span><span class="mi">10</span> <span class="mi">9</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span> <span class="mi">5</span> <span class="mi">4</span> <span class="mi">3</span> <span class="mi">2</span> <span class="mi">1</span> 
+
+<span class="c1">#입력
+</span><span class="mi">20</span>
+
+<span class="c1">#결과
+</span><span class="mi">20</span> <span class="mi">19</span> <span class="mi">18</span> <span class="mi">17</span> <span class="mi">16</span> <span class="mi">15</span> <span class="mi">14</span> <span class="mi">13</span> <span class="mi">12</span> <span class="mi">11</span> <span class="mi">10</span> <span class="mi">9</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span> <span class="mi">5</span> <span class="mi">4</span> <span class="mi">3</span> <span class="mi">2</span> <span class="mi">1</span> 
+
+</code></pre></div></div>
+
+<p>답</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">n</span> <span class="o">+</span><span class="mi">1</span>
+    <span class="k">def</span> <span class="nf">count</span><span class="p">():</span>
+        <span class="k">nonlocal</span> <span class="n">i</span>
+        <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="n">i</span>
+    <span class="k">return</span> <span class="n">count</span>
+
+</code></pre></div></div>
+
+<p>반환 값을 c에 저장하고 c를 호출한다.  먼저 함수 countdown에 지역변수를 만들고 매개변수 n에 1을 더해서 할당한다. 여기선느 입력값이 10이면 10부터 숫자가 1씩 줄어들고 있으므로 처음 시작할 값은 11로 만든다(n = 10일때 for i in ragne(11)이어야 10부터 출력). 그리고 count 함수로 지역 변수 i를 변경하기 위해 nonlacal을 사용하고 i를 호출될때마다 1씩 감소하게 한다. i를 반환하게 만든 후 count함수를 다시 리턴하게 만든다.</p>
 
                 </div>
             </section>
@@ -674,9 +737,9 @@ split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값�
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            var this_page_url = 'https://AhnSang0915.github.io/python-basic3';
-                            var this_page_identifier = '/python-basic3';
-                            var this_page_title = 'Python - Python 변수 만들기';
+                            var this_page_url = 'https://AhnSang0915.github.io/python-basic31';
+                            var this_page_identifier = '/python-basic31';
+                            var this_page_title = 'Python - Python 클로저 사용하기';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -721,11 +784,6 @@ split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값�
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/python-basic31">Python - Python 클로저 사용하기</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -750,12 +808,7 @@ split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값�
                                     
                                         
                                         
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
+                                            <li><a href="/python-basic28">Python - Python 함수에서 위치 인수와 키워드 인수 사용하기</a></li>
                                         
                                     
                                   
@@ -929,6 +982,16 @@ split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값�
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                     
                                   
                                 
@@ -1018,55 +1081,6 @@ split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값�
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/python-basic4">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic4">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Python</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Python - Python 출력 방법</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.jpg" alt="AhnSang0915" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/AhnSang0915/">AhnSang0915</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -1074,12 +1088,12 @@ split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값�
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/python-basic2">
+            <a class="post-card-image-link" href="/python-basic30">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic2">
+            <a class="post-card-content-link" href="/python-basic30">
                 <header class="post-card-header">
                     
                         
@@ -1089,7 +1103,7 @@ split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값�
                         
                     
 
-                    <h2 class="post-card-title">Python - Python 숫자 계산하기</h2>
+                    <h2 class="post-card-title">Python - Python 람다 표현식 사용하기</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -1111,7 +1125,7 @@ split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값�
                 <span class="reading-time">
                     
                     
-                      3 min read
+                      8 min read
                     
                 </span>
             </footer>
@@ -1133,18 +1147,18 @@ split에 기준 문자열을 지정하여 공백이 아닌 다른 문자로 값�
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Python - Python 변수 만들기</div>
+    <div class="floating-header-title">Python - Python 클로저 사용하기</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Python+-+Python+%EB%B3%80%EC%88%98+%EB%A7%8C%EB%93%A4%EA%B8%B0&amp;url=https://AhnSang0915.github.iopython-basic3"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Python+-+Python+%ED%81%B4%EB%A1%9C%EC%A0%80+%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&amp;url=https://AhnSang0915.github.iopython-basic31"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iopython-basic3"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iopython-basic31"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
