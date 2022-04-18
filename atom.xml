@@ -43,7 +43,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -93,7 +96,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -143,7 +149,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -193,7 +202,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -243,7 +255,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -293,7 +308,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -343,7 +361,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -393,7 +414,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -443,7 +467,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -493,7 +520,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -543,7 +573,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -593,7 +626,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -643,7 +679,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -693,7 +732,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -743,7 +785,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -793,7 +838,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -858,7 +906,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -908,7 +959,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -958,7 +1012,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1008,7 +1065,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1058,7 +1118,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1108,7 +1171,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1158,7 +1224,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1208,7 +1277,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1258,7 +1330,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1308,7 +1383,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1358,7 +1436,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1408,7 +1489,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1458,7 +1542,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1508,7 +1595,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1558,7 +1648,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1608,7 +1701,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1658,7 +1754,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -1723,7 +1822,10 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
