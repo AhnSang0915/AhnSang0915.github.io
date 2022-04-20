@@ -11,7 +11,7 @@
 
 
 
-    <title>Python - Python break, continue로 반복문 제어하기</title>
+    <title>Python - Python 제너레이터 사용하기</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -50,23 +50,23 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Learn Coding" />
     <link rel="shortcut icon" href="https://AhnSang0915.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://AhnSang0915.github.io/python-basic15" />
+    <link rel="canonical" href="https://AhnSang0915.github.io/python-basic38" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="My Coding Practice Gym" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Python - Python break, continue로 반복문 제어하기" />
+    <meta property="og:title" content="Python - Python 제너레이터 사용하기" />
     <meta property="og:description" content="Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로" />
-    <meta property="og:url" content="https://AhnSang0915.github.io/python-basic15" />
+    <meta property="og:url" content="https://AhnSang0915.github.io/python-basic38" />
     <meta property="og:image" content="https://AhnSang0915.github.io/assets/built/images/python-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-04-05T08:35:00+09:00" />
-    <meta property="article:modified_time" content="2022-04-05T08:35:00+09:00" />
+    <meta property="article:published_time" content="2022-04-20T13:00:00+09:00" />
+    <meta property="article:modified_time" content="2022-04-20T13:00:00+09:00" />
     <meta property="article:tag" content="Python" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Python - Python break, continue로 반복문 제어하기" />
+    <meta name="twitter:title" content="Python - Python 제너레이터 사용하기" />
     <meta name="twitter:description" content="Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로" />
     <meta name="twitter:url" content="https://AhnSang0915.github.io/" />
     <meta name="twitter:image" content="https://AhnSang0915.github.io/assets/built/images/python-logo.png" />
@@ -88,7 +88,7 @@
         "name": "My Coding Practice Gym",
         "logo": "https://AhnSang0915.github.io/"
     },
-    "url": "https://AhnSang0915.github.io/python-basic15",
+    "url": "https://AhnSang0915.github.io/python-basic38",
     "image": {
         "@type": "ImageObject",
         "url": "https://AhnSang0915.github.io/assets/built/images/python-logo.png",
@@ -97,7 +97,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://AhnSang0915.github.io/python-basic15"
+        "@id": "https://AhnSang0915.github.io/python-basic38"
     },
     "description": "Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로"
 }
@@ -112,7 +112,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Python - Python break, continue로 반복문 제어하기" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Python - Python 제너레이터 사용하기" href="/feed.xml" />
 
 
 </head>
@@ -173,7 +173,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime=" 5 April 2022"> 5 April 2022</time>
+                    <time class="post-full-meta-date" datetime="20 April 2022">20 April 2022</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -183,7 +183,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Python - Python break, continue로 반복문 제어하기</h1>
+                <h1 class="post-full-title">Python - Python 제너레이터 사용하기</h1>
             </header>
 
             
@@ -237,181 +237,425 @@ into the {body} of the default.hbs template -->
 
 </ul>
 
-<h1 id="break-continue로-반복문-제어하기">break, continue로 반복문 제어하기</h1>
+<h1 id="제너레이터-사용하기">제너레이터 사용하기</h1>
+
 <p><br />
 <br />
-break와 continue를 사용해 반복문을 제어하는 방법을 알아보자. break는 for와 while의 문법에서 제어흐름을 벗어나기 위해 사용한다. 즉, 루프를 중단한다. continue는 제어흐름을 유지한 상태에서 코드의 실행만 건너뛴다.</p>
-
-<ul>
-  <li>break: 제어흐름 중단</li>
-  <li>continue: 제어흐름 유지, 코드 실행만 건너뜀</li>
-</ul>
+제너레이터는 이터레이터를 생서해주는 함수다. 이터레이터는 클래스에 __iter__, __next__ 또는 __getitem__ 메서드를 구현해야 하지만 제너레이터는 함수 안에서 yield라는 키워드만 사용하면 끝난다. 그래서 제너레이터는 이터레이터보다 훨씬 간단하게 작성할 수 있다. 제너레이터는 발생자 라고 부르기도 한다.</p>
 
 <hr />
 
-<h2 id="1-break로-반복문-끝내기">1. break로 반복문 끝내기</h2>
+<h2 id="1제너레이터와-yield-알아보기">1.제너레이터와 yield 알아보기</h2>
 <p><br />
 <br />
-break를 사용해 for와 while 에서 반복을 끝내는 방법을 알아보자.</p>
+함수 안에서 yield를 사용하면 함수는 제너레이터가 되며 yield에는 값(변수)을 지정한다.</p>
 
-<p><br />
-<br /></p>
+<ul>
+  <li>yield 값</li>
+</ul>
 
-<h3 id="while에서-break로-반복문-끝내기">while에서 break로 반복문 끝내기</h3>
+<p>yield를 사용해서 제너레이터를 만들고 for 반복문에 0, 1, 2숫자 세 개를 출력해 보자.</p>
 
-<p><br />
-<br />
-while 무한 루프에서 숫자를 증가시키다 변수 i가 100일 때 반복문을 끝내도록 만들었다. i값을 출력하고 증가시키므로 99까지 출력하고 반복을 멈추게 된다.</p>
+<p>for 반복문에 number_generator()를 지정해서 값을 출력해보면 yield에 지정했던 0, 1, 2가 나온다. 이터레이터와 사용 방법이 똑같다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>    <span class="c1"># 무한 루프
-</span>    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>          <span class="c1"># i를 1씩 증가시킴
-</span>    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">100</span><span class="p">:</span>    <span class="c1"># i가 100일 때
-</span>        <span class="k">break</span>       <span class="c1"># 반복문을 끝냄. while의 제어흐름을 벗어남
-</span>
-<span class="c1">#결과
-</span>
-<span class="mi">0</span>
-<span class="mi">1</span>
-<span class="mi">2</span>
-<span class="p">...</span> <span class="p">(</span><span class="n">생략</span><span class="p">)</span>
-<span class="mi">97</span>
-<span class="mi">98</span>
-<span class="mi">99</span>
+<span class="k">def</span> <span class="nf">number_generator</span><span class="p">():</span>
+    <span class="k">yield</span> <span class="mi">0</span>
+    <span class="k">yield</span> <span class="mi">1</span>
+    <span class="k">yield</span> <span class="mi">2</span>
+ 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">number_generator</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 
-</code></pre></div></div>
-
-<h3 id="for에서-break로-반복문-끝내기">for에서 break로 반복문 끝내기</h3>
-<p><br />
-<br />
-for에 range(10000)을 지정했다. 0부터 9999까지 반복하는데 i 가 100일때 break를 실행 함으로 0부터 100까지만 출력하고 반복문을 끝낸다. 100일때 100을 출력하고 반복을 멈추게 된다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10000</span><span class="p">):</span>    <span class="c1"># 0부터 9999까지 반복
-</span>    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">100</span><span class="p">:</span>    <span class="c1"># i가 100일 때
-</span>        <span class="k">break</span>       <span class="c1"># 반복문을 끝냄. for의 제어흐름을 벗어남
-#출력
+<span class="c1"># 실행 결과
 </span><span class="mi">0</span>
 <span class="mi">1</span>
 <span class="mi">2</span>
-<span class="p">...</span> <span class="p">(</span><span class="n">생략</span><span class="p">)</span>
-<span class="mi">98</span>
-<span class="mi">99</span>
-<span class="mi">100</span>
 
 </code></pre></div></div>
 
-<hr />
-
-<h2 id="2-continue로-코드-실행-건너뛰기">2. continue로 코드 실행 건너뛰기</h2>
+<h3 id="제너레이터-객체가-이터레이터인지-확인하기">제너레이터 객체가 이터레이터인지 확인하기</h3>
 <p><br />
 <br />
-continue를 사용해 일부 코드를 실행하지 않고 건너 뛰어 보자.
-<br />
+그럼 number_generator 함수로 만든 객체가 정말 이터레이터인지 살펴보자. 다음과 같이 dir 함수로 메서드 목록을 확인한다. number_generator 함수를 호출하면 제너레이터 객체(generator object)가 반환된다. 이 객체를 dir 함수로 살펴보면 이터레이터에서 볼 수 있는 <strong>iter</strong>, <strong>next</strong> 메서드가 들어있다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">number_generator</span><span class="p">():</span>
+    <span class="k">yield</span> <span class="mi">0</span>
+    <span class="k">yield</span> <span class="mi">1</span>
+    <span class="k">yield</span> <span class="mi">2</span>
+ 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">number_generator</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+<span class="n">g</span> <span class="o">=</span> <span class="n">number_generator</span><span class="p">()</span>
+<span class="n">g</span>
+<span class="o">&lt;</span><span class="n">generator</span> <span class="nb">object</span> <span class="n">number_generator</span> <span class="n">at</span> <span class="mh">0x03A190F0</span><span class="o">&gt;</span>
+<span class="nb">dir</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="p">[</span><span class="s">'__class__'</span><span class="p">,</span> <span class="s">'__del__'</span><span class="p">,</span> <span class="s">'__delattr__'</span><span class="p">,</span> <span class="s">'__dir__'</span><span class="p">,</span> <span class="s">'__doc__'</span><span class="p">,</span> <span class="s">'__eq__'</span><span class="p">,</span> <span class="s">'__format__'</span><span class="p">,</span> <span class="s">'__ge__'</span><span class="p">,</span> <span class="s">'__getattribute__'</span><span class="p">,</span> <span class="s">'__gt__'</span><span class="p">,</span> <span class="s">'__hash__'</span><span class="p">,</span> <span class="s">'__init__'</span><span class="p">,</span> <span class="s">'__init_subclass__'</span><span class="p">,</span> <span class="s">'__iter__'</span><span class="p">,</span> <span class="s">'__le__'</span><span class="p">,</span> <span class="s">'__lt__'</span><span class="p">,</span> <span class="s">'__name__'</span><span class="p">,</span> <span class="s">'__ne__'</span><span class="p">,</span> <span class="s">'__new__'</span><span class="p">,</span> <span class="s">'__next__'</span><span class="p">,</span> <span class="s">'__qualname__'</span><span class="p">,</span> <span class="s">'__reduce__'</span><span class="p">,</span> <span class="s">'__reduce_ex__'</span><span class="p">,</span> <span class="s">'__repr__'</span><span class="p">,</span> <span class="s">'__setattr__'</span><span class="p">,</span> <span class="s">'__sizeof__'</span><span class="p">,</span> <span class="s">'__str__'</span><span class="p">,</span> <span class="s">'__subclasshook__'</span><span class="p">,</span> <span class="s">'close'</span><span class="p">,</span> <span class="s">'gi_code'</span><span class="p">,</span> <span class="s">'gi_frame'</span><span class="p">,</span> <span class="s">'gi_running'</span><span class="p">,</span> <span class="s">'gi_yieldfrom'</span><span class="p">,</span> <span class="s">'send'</span><span class="p">,</span> <span class="s">'throw'</span><span class="p">]</span>
+
+</code></pre></div></div>
+
+<p>실제로 제너레이터 객체의 __next__를 호출해보면 숫자 0, 1, 2가 나오다가 StopIteration 예외가 발생한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
+<span class="mi">0</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
+<span class="mi">1</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
+<span class="mi">2</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">"&lt;pyshell#29&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
+<span class="nb">StopIteration</span>
+
+</code></pre></div></div>
+
+<p>위코드를 보면 제너레이터와 이터레이터의 동작이 같은걸 알 수 있다. 이렇게 yield를 사용해 간단한게 이터레이터를 구현할 수 있다. 단, 이터레이터는 __next__메서드 안에서 직접 return으로 값을 반환했지만 제너레이터는 yield에 지정한 값이 __next__ 메서드(next 함수)의 반환값으로 나온다. 또한, 이터레이터는 raise로 StopIteration 예외를 직접 발생시켰지만 제너레이터는 함수의 끝까지 도달하면 StopIteration 예외가 자동으로 발생한다. 제너레이터는 제너레이터 객체에서 __next__ 메서드를 호출할 때마다 함수 안의 yield까지 코드를 실행하며 yield에서 값을 발생시킨다(generate). 그래서 이름이 제너레이터(generator)이다.</p>
+
+<h3 id="for와-제너레이터">for와 제너레이터</h3>
+<p><br />
 <br /></p>
 
-<h3 id="for에서-continue로-코드-실행-건너뛰기">for에서 continue로 코드 실행 건너뛰기</h3>
+<p>for 반복문과 제너레이터를 살펴보자. for 반복문은 반복할 때마다 __next__를 호출하므로 yield에서 발생시킨 값을 가져온다. 그리고 StopIteration 예외가 발생하면 반복을 끝낸다.
+참고로 제너레이터 객체에서 __iter__를 호출하면 self를 반환하므로 같은 객체가 나온다(제너레이터 함수 호출 &gt; 제너레이터 객체 &gt; __iter__는 self 반환 &gt; 제너레이터 객체).
+(yield는 생산하다라는 뜻과 함께 양보하다라는 뜻도 가지고 있다. 즉, yield를 사용하면 값을 함수 바깥으로 전달하면서 코드 실행을 함수 바깥에 양보한다. 따라서 yield는 현재 함수를 잠시 중단하고 함수 바깥의 코드가 실행되도록 만든다.)</p>
+
+<h3 id="yield의-동작-과정-알아보기">yield의 동작 과정 알아보기</h3>
 <p><br />
-<br />
-for반복문에 range(100)를 사용해 0부터 99까지 반복한다. 그리고 if를 사용해 i가 짝수이면 continue를 실행한다. 마지막으로 print i의 값을 출력하고 99 까지 출력후 종료된다.</p>
+<br /></p>
+
+<p>yield의 동작 과정을 알아보기 위해 for반복문 대신 next함수로 __next__메서드를 직접 호출해 보자.</p>
+
+<ul>
+  <li>변수 = next(제너레이터객체)</li>
+</ul>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">):</span>       <span class="c1"># 0부터 99까지 증가하면서 100번 반복
-</span>    <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>         <span class="c1"># i를 2로 나누었을 때 나머지가 0면 짝수
-</span>        <span class="k">continue</span>           <span class="c1"># 아래 코드를 실행하지 않고 건너뜀
-</span>    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-
-<span class="c1"># 결과
-</span><span class="mi">1</span>
-<span class="mi">3</span>
-<span class="mi">5</span>
-<span class="p">...</span> <span class="p">(</span><span class="n">생략</span><span class="p">)</span>
-<span class="mi">95</span>
-<span class="mi">97</span>
-<span class="mi">99</span>
-
+<span class="k">def</span> <span class="nf">number_generator</span><span class="p">():</span>
+    <span class="k">yield</span> <span class="mi">0</span>    <span class="c1"># 0을 함수 바깥으로 전달하면서 코드 실행을 함수 바깥에 양보
+</span>    <span class="k">yield</span> <span class="mi">1</span>    <span class="c1"># 1을 함수 바깥으로 전달하면서 코드 실행을 함수 바깥에 양보
+</span>    <span class="k">yield</span> <span class="mi">2</span>    <span class="c1"># 2를 함수 바깥으로 전달하면서 코드 실행을 함수 바깥에 양보
+</span> 
+<span class="n">g</span> <span class="o">=</span> <span class="n">number_generator</span><span class="p">()</span>
+ 
+<span class="n">a</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>    <span class="c1"># yield를 사용하여 함수 바깥으로 전달한 값은 next의 반환값으로 나옴
+</span><span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>       <span class="c1"># 0
+</span> 
+<span class="n">b</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>       <span class="c1"># 1
+</span> 
+<span class="n">c</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>       <span class="c1"># 2
+</span>
 </code></pre></div></div>
 
-<h3 id="while-반복문에서-continue로-코드-실행-건너뛰기">while 반복문에서 continue로 코드 실행 건너뛰기</h3>
+<p>yield를 사용하여 바깥으로 전달한 값은 next 함수(__next__ 메서드)의 반환값으로 나온다고 했다. 따라서 next(g)의 반환값을 출력해보면 yield에 지정한 값 0, 1, 2가 차례대로 나옵니다. 즉, 제너레이터 함수가 실행되는 중간에 next로 값을 가져온다.</p>
+
+<h3 id="제너레이터와-return">제너레이터와 return</h3>
 <p><br />
 <br />
-while i &lt; 100 : 으로 0부터 99까지 반복한다. i값을 1씩증가시킨뒤 if를 사용해 i가 짝수이면 continue를 실행한다. i의 초기값은 0이고 i +=1로 1로증가시킨 값부터 시작한다.</p>
+제너레이터는 함수 끝까지 도달하면 StopIteration 예외가 발생한다. 마찬가지로 return도 함수를 끝내므로 return을 사용해서 함수 중간에 빠져나오면 StopIteration 예외가 발생한다.</p>
+
+<p>특히 제너레이터 안에서 return에 반환값을 지정하면 StopIteration 예외의 에러 메시지로 들어간다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">:</span>        <span class="c1"># i가 100보다 작을 때 반복. 0부터 99까지 증가하면서 100번 반복
-</span>    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>            <span class="c1"># i를 1씩 증가시킴
-</span>    <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>    <span class="c1"># i를 2로 나누었을 때 나머지가 0이면 짝수
-</span>        <span class="k">continue</span>      <span class="c1"># 아래 코드를 실행하지 않고 건너뜀
-</span>    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-
-</code></pre></div></div>
-
-<p>만약 무한루프에서 continue를 사용하면 홀수만 계속 출려될 뿐 반복문은 끝나지 않는다.</p>
-
-<h3 id="반복문과-pass">반복문과 pass</h3>
-<p><br />
-<br />
-for, while의 반복할 코드에서 아무 일도 하지 않지만, 반복문의 형태를 유지하고 싶다면 pass를 사용하면 된다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>    <span class="c1"># 10번 반복
-</span>    <span class="k">pass</span>               <span class="c1"># 아무 일도 하지 않음
+<span class="k">def</span> <span class="nf">one_generator</span><span class="p">():</span>
+    <span class="k">yield</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="s">'return에 지정한 값'</span>
+ 
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">g</span> <span class="o">=</span> <span class="n">one_generator</span><span class="p">()</span>
+    <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+    <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="k">except</span> <span class="nb">StopIteration</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>    <span class="c1"># return에 지정한 값
 </span>
-<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>    <span class="c1"># 무한 루프
-</span>    <span class="k">pass</span>       <span class="c1"># 아무 일도 하지 않음
-</span>
+<span class="c1">#실행 결과
+</span><span class="n">return에</span> <span class="n">지정한</span> <span class="n">값</span>
+
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="3-입력한-횟수대로-반복하기">3. 입력한 횟수대로 반복하기</h2>
+<h2 id="2제너레이터-만들기">2.제너레이터 만들기</h2>
 <p><br />
 <br />
-count에 input으로 입력을 받아 count변수에 저장하고 i에 0을 항당해 while True를 지정한 무한 루프로 만든다. 반복문 안에서는 i의 값을 출력하고, 변화식 에서는 i를 1씩증가시킨다. i의 값이 count의 값과 같으면 break를 실행한다.</p>
+range(횟수)처럼 동작을 하는 제너레이터를 만들어 보자. 
+제너레이터 안에서 변수n을 만들고 초기값으로 0을 저장한다. 그리고 while n &lt; stop:과 같이 반복을 끝낼 숫자보다 작을 때 반복하도록 만든다. 반복문 안에서는 yield n으로 숫자를 바깥으로 전달한 뒤 n을 1 증가시키게 한다. 여기서 stop에 3이들어가기 떄문에 for 반복문도 3번 반복한다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">count</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'반복할 횟수를 입력하세요: '</span><span class="p">))</span>
- 
-<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>    <span class="c1"># 무한 루프
-</span>    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="n">count</span><span class="p">:</span>    <span class="c1"># i가 입력받은 값과 같을 때
-</span>        <span class="k">break</span>         <span class="c1"># 반복문을 끝냄
-</span>
-<span class="c1">#출력
-</span><span class="n">반복할</span> <span class="n">횟수를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="mi">3</span> <span class="p">(</span><span class="n">입력</span><span class="p">)</span>
-<span class="mi">0</span>
+<span class="k">def</span> <span class="nf">number_generator</span><span class="p">(</span><span class="n">stop</span><span class="p">):</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>              <span class="c1"># 숫자는 0부터 시작
+</span>    <span class="k">while</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="n">stop</span><span class="p">:</span>    <span class="c1"># 현재 숫자가 반복을 끝낼 숫자보다 작을 때 반복
+</span>        <span class="k">yield</span> <span class="n">n</span>        <span class="c1"># 현재 숫자를 바깥으로 전달
+</span>        <span class="n">n</span> <span class="o">+=</span> <span class="mi">1</span>         <span class="c1"># 현재 숫자를 증가시킴
+</span> 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">number_generator</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+<span class="c1"># 실행 결과
+</span><span class="mi">0</span>
 <span class="mi">1</span>
 <span class="mi">2</span>
 
 </code></pre></div></div>
 
-<h3 id="입력한-숫자까지-홀수-출력하기">입력한 숫자까지 홀수 출력하기</h3>
-<p><br />
-<br />
-input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for의 range에 count + 1을 지정하여 count에 들어있는 값만큼 반복하도록 만들었다. 왜냐하면 range(count)는 0부터 시작하므로 count의 값은 반복에 포함되지 않기 때문이다.반복문 안에서는 if를 사용하여 i가 짝수이면 continue를 실행한다. 그다음에 print를 사용하여 i의 값을 출력한다.여기서는 9를 입력했으므로 0부터 9까지 반복하면서 i가 짝수이면 print를 실행하지 않고 건너뛰며 i가 홀수이면 print를 사용하여 숫자를 출력한다. 따라서 1 3 5 7 9가 출력된다.</p>
+<p>next 함수(__next__ 메서드)도 3번 사용할 수 있다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">count</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'반복할 횟수를 입력하세요: '</span><span class="p">))</span>
- 
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">count</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>       <span class="c1"># 0부터 증가하면서 count까지 반복(count + 1)
-</span>    <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>               <span class="c1"># i를 2로 나누었을 때 나머지가 0이면 짝수
-</span>        <span class="k">continue</span>                 <span class="c1"># 아래 코드를 실행하지 않고 건너뜀
-</span>    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-
-
-<span class="c1"># 결과 
-</span><span class="n">반복할</span> <span class="n">횟수를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="mi">9</span> <span class="p">(</span><span class="n">입력</span><span class="p">)</span>
+<span class="n">g</span> <span class="o">=</span> <span class="n">number_generator</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="mi">0</span>
+<span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
 <span class="mi">1</span>
+<span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="mi">2</span>
+<span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">"&lt;pyshell#100&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="nb">StopIteration</span>
+
+</code></pre></div></div>
+
+<h3 id="yield에서-함수-호출하기">yield에서 함수 호출하기</h3>
+<p><br />
+<br /></p>
+
+<p>yield에 함수(메서드)를 호출해보자.
+yield i.upper()와 같이 yield에서 함수(메서드)를 호출하면 해당 함수의 반환값을 바깥으로 전달한다. upper는 호출했을 때 대문자로 된 문자열을 반환하므로 yield는 이 문자열을 바깥으로 전달한다. 즉, yield에 무엇을 지정하든 결과만 바깥으로 전달한다(함수의 반환값, 식의 결과).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">upper_generator</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+        <span class="k">yield</span> <span class="n">i</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>    <span class="c1"># 함수의 반환값을 바깥으로 전달
+</span> 
+<span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">'apple'</span><span class="p">,</span> <span class="s">'pear'</span><span class="p">,</span> <span class="s">'grape'</span><span class="p">,</span> <span class="s">'pineapple'</span><span class="p">,</span> <span class="s">'orange'</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">upper_generator</span><span class="p">(</span><span class="n">fruits</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+<span class="c1"># 실행 결과
+</span><span class="n">APPLE</span>
+<span class="n">PEAR</span>
+<span class="n">GRAPE</span>
+<span class="n">PINEAPPLE</span>
+<span class="n">ORANGE</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="3yield-from으로-값을-여러-번-바깥으로-전달하기">3.yield from으로 값을 여러 번 바깥으로 전달하기</h2>
+<p><br />
+<br />
+값을 여러 번 바깥으로 전달할 때는 for 또는 while 반복문으로 반복하면서 yield를 사용했다. 아래 코드는 리스트의 요소를 바깥으로 전달한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">number_generator</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+        <span class="k">yield</span> <span class="n">i</span>
+ 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">number_generator</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+<span class="c1">#실행 결과
+</span><span class="mi">1</span>
+<span class="mi">2</span>
 <span class="mi">3</span>
-<span class="mi">5</span>
-<span class="mi">7</span>
-<span class="mi">9</span>
+</code></pre></div></div>
+
+<p>위와 같은 경우엔 매번 반복문을 사용하지 않고, yield from을 사용하면 된다. yield from에는 반복 가능한 객체, 이터레이터, 제너레이터 객체를 지정한다.</p>
+
+<ul>
+  <li>yield from 반복가능한객체</li>
+  <li>yield from 이터레이터</li>
+  <li>yield from 제너레이터객체</li>
+</ul>
+
+<p>그럼 yield from에 리스트를 지정해서 숫자 1, 2, 3을 바깥으로 전달해 보자. yield from x와 같이 yield from에 리스트(반복 가능한 객체)를 지정했다. 이렇게 하면 리스트에 들어있는 요소를 한 개씩 바깥으로 전달한다. 즉, yield from을 한 번 사용하여 값을 세 번 바깥으로 전달한다. 따라서 next 함수(__next__ 메서드)를 세 번 호출할 수 있다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">number_generator</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+    <span class="k">yield</span> <span class="k">from</span> <span class="n">x</span>    <span class="c1"># 리스트에 들어있는 요소를 한 개씩 바깥으로 전달
+</span> 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">number_generator</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+<span class="c1"># 실행 결과
+</span><span class="mi">1</span>
+<span class="mi">2</span>
+<span class="mi">3</span>
+
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span> <span class="o">=</span> <span class="n">number_generator</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="mi">1</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="mi">2</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">"&lt;pyshell#105&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="nb">next</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="nb">StopIteration</span>
+
+</code></pre></div></div>
+
+<h3 id="yield-from에-제너레이터-객체-지정하기">yield from에 제너레이터 객체 지정하기</h3>
+<p><br />
+<br />
+yield from에 제너레이터 객체를 지정해보자. 제너레이터 number_generator는 매개변수로 받은 숫자 직전까지 숫자를 만들어낸다. three_generator에서는 yield from number_generator(3)과 같이 yield from에 제너레이터 객체를 지정했다.number_generator(3)은 숫자를 세 개를 만들어내므로 yield from number_generator(3)은 숫자를 세 번 바깥으로 전달한다. 따라서 for 반복문에 three_generator()를 사용하면 숫자를 세 번 출력한다(next 함수 또는 <strong>next</strong> 메서드도 세 번 호출 가능).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">number_generator</span><span class="p">(</span><span class="n">stop</span><span class="p">):</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="n">stop</span><span class="p">:</span>
+        <span class="k">yield</span> <span class="n">n</span>
+        <span class="n">n</span> <span class="o">+=</span> <span class="mi">1</span>
+ 
+<span class="k">def</span> <span class="nf">three_generator</span><span class="p">():</span>
+    <span class="k">yield</span> <span class="k">from</span> <span class="n">number_generator</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>    <span class="c1"># 숫자를 세 번 바깥으로 전달
+</span> 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">three_generator</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+<span class="c1">#실행 결과
+</span><span class="mi">0</span>
+<span class="mi">1</span>
+<span class="mi">2</span>
+
+</code></pre></div></div>
+
+<h3 id="제너레이터-표현식">제너레이터 표현식</h3>
+<p><br />
+<br />
+리스트 표현식을 사용할 때 <a href="대괄호"> </a>를 사용했다. 같은 리스트 표현식을 ( )(괄호)로 묶으면 제너레이터 표현식이 된다. 리스트 표현식은 처음부터 리스트의 요소를 만들어내지만 제너레이터 표현식은 필요할 때 요소를 만들어내므로 메모리를 절약할 수 있다.</p>
+
+<ul>
+  <li>(식 for 변수 in 반복가능한객체)</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="o">&gt;&gt;&gt;</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span> <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+<span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="mi">26</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mi">36</span><span class="p">,</span> <span class="mi">38</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">44</span><span class="p">,</span> <span class="mi">46</span><span class="p">,</span> <span class="mi">48</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="p">(</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span> <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+<span class="o">&lt;</span><span class="n">generator</span> <span class="nb">object</span> <span class="o">&lt;</span><span class="n">genexpr</span><span class="o">&gt;</span> <span class="n">at</span> <span class="mh">0x024F02A0</span><span class="o">&gt;</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="예제1">예제1</h3>
+<p><br />
+<br />
+다음 소스 코드에서 words.txt 파일을 한 줄씩 읽은 뒤 내용을 함수 바깥에 전달하는 제너레이터를 작성하세요. 파일의 내용을 출력할 때 파일에서 읽은 \n은 출력되지 않아야 합니다(단어 사이에 줄바꿈이 두 번 일어나면 안 됨).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1"># words.txt
+</span><span class="n">compatibility</span>
+<span class="n">experience</span>
+<span class="n">photography</span>
+<span class="n">spotlight</span>
+
+
+<span class="k">def</span> <span class="nf">file_read</span><span class="p">():</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'words.txt'</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
+        <span class="n">______________________</span>                          
+        <span class="p">...</span>
+        <span class="n">______________________</span>                           
+ 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">file_read</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+                                                     
+ 
+
+<span class="c1">#실행 결과
+</span><span class="n">compatibility</span>
+<span class="n">experience</span>
+<span class="n">photography</span>
+<span class="n">spotlight</span>
+
+</code></pre></div></div>
+
+<p>답</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="n">line</span> <span class="o">=</span> <span class="nb">file</span><span class="p">.</span><span class="n">readline</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">line</span> <span class="o">==</span> <span class="s">''</span><span class="p">:</span>
+        <span class="k">break</span>
+    <span class="k">yield</span> <span class="n">line</span><span class="p">.</span><span class="n">strip</span><span class="p">(</span><span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<h3 id="예제2">예제2</h3>
+<p><br />
+<br />
+표준 입력으로 정수 두 개가 입력됩니다(첫 번째 입력 값의 범위는 10~1000, 두 번째 입력 값의 범위는 100~1000이며 첫 번째 입력 값은 두 번째 입력 값보다 항상 작습니다). 다음 소스 코드에서 첫 번째 정수부터 두 번째 정수 사이의 소수(prime number)를 생성하는 제너레이터를 만드세요. 소수는 1과 자기자신만으로 나누어 떨어지는 1보다 큰 양의 정수입니다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+<span class="n">________________</span>
+
+<span class="n">start</span><span class="p">,</span> <span class="n">stop</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">().</span><span class="n">split</span><span class="p">())</span>
+ 
+<span class="n">g</span> <span class="o">=</span> <span class="n">prime_number_generator</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">stop</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">g</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">g</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s">' '</span><span class="p">)</span>
+
+<span class="c1">#입력
+</span><span class="mi">50</span> <span class="mi">100</span>
+<span class="c1">#결과
+</span><span class="o">&lt;</span><span class="k">class</span> <span class="err">'</span><span class="nc">generator</span><span class="s">'&gt;
+53 59 61 67 71 73 79 83 89 97 
+#입력
+950 1000
+#결과
+&lt;class '</span><span class="n">generator</span><span class="s">'&gt;
+953 967 971 977 983 991 997 
+
+</span></code></pre></div></div>
+
+<p>답</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="k">def</span> <span class="nf">isPrime</span><span class="p">(</span><span class="n">number</span><span class="p">):</span> <span class="c1"># 아래 prime_number_generator함수에서 i의 값이 매개변수로 들어간다.
+</span>    <span class="k">if</span> <span class="n">number</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">False</span> <span class="c1">#소수는 1보다 큰 자연수 중 1과 자기자신만을 약수로 가지는 수이다. 
+</span>                     <span class="c1">#1은 1보다 크지 않기 때문에 소수가 아니다.
+</span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">number</span><span class="p">):</span> <span class="c1"># 2부터 전달된 number의 값까지 i에 전달하고 
+</span>        <span class="k">if</span> <span class="n">number</span> <span class="o">%</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># 전달된 number를 number전의 수까지로 나누어 0이 되면 소수가 아니다.
+</span>            <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="bp">True</span>
+
+<span class="k">def</span> <span class="nf">prime_number_generator</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">stop</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">stop</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">isPrime</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+            <span class="k">yield</span> <span class="n">i</span>
+
 </code></pre></div></div>
 
 
@@ -477,9 +721,9 @@ input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for�
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            var this_page_url = 'https://AhnSang0915.github.io/python-basic15';
-                            var this_page_identifier = '/python-basic15';
-                            var this_page_title = 'Python - Python break, continue로 반복문 제어하기';
+                            var this_page_url = 'https://AhnSang0915.github.io/python-basic38';
+                            var this_page_identifier = '/python-basic38';
+                            var this_page_title = 'Python - Python 제너레이터 사용하기';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -524,11 +768,6 @@ input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for�
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/python-basic38">Python - Python 제너레이터 사용하기</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -553,12 +792,7 @@ input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for�
                                     
                                         
                                         
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
+                                            <li><a href="/python-basic35">Python - Python 두 점 사이의 거리 구하기</a></li>
                                         
                                     
                                   
@@ -697,6 +931,16 @@ input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for�
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                     
                                   
                                 
@@ -870,55 +1114,6 @@ input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for�
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/python-basic16">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic16">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Python</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Python - Python 중첩루프</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.jpg" alt="AhnSang0915" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/AhnSang0915/">AhnSang0915</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      2 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -926,12 +1121,12 @@ input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for�
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/python-basic14">
+            <a class="post-card-image-link" href="/python-basic37">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic14">
+            <a class="post-card-content-link" href="/python-basic37">
                 <header class="post-card-header">
                     
                         
@@ -941,7 +1136,7 @@ input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for�
                         
                     
 
-                    <h2 class="post-card-title">Python - Python while 반복문</h2>
+                    <h2 class="post-card-title">Python - Python 이터레이터 사용하기</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -963,7 +1158,7 @@ input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for�
                 <span class="reading-time">
                     
                     
-                      4 min read
+                      11 min read
                     
                 </span>
             </footer>
@@ -985,18 +1180,18 @@ input으로 입력 값을 받아서 count 변수에 저장했다. 그리고 for�
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Python - Python break, continue로 반복문 제어하기</div>
+    <div class="floating-header-title">Python - Python 제너레이터 사용하기</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Python+-+Python+break%2C+continue%EB%A1%9C+%EB%B0%98%EB%B3%B5%EB%AC%B8+%EC%A0%9C%EC%96%B4%ED%95%98%EA%B8%B0&amp;url=https://AhnSang0915.github.iopython-basic15"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Python+-+Python+%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0+%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&amp;url=https://AhnSang0915.github.iopython-basic38"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iopython-basic15"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iopython-basic38"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
