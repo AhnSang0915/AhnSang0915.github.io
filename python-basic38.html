@@ -299,13 +299,13 @@ into the {body} of the default.hbs template -->
 <p>실제로 제너레이터 객체의 __next__를 호출해보면 숫자 0, 1, 2가 나오다가 StopIteration 예외가 발생한다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
+<span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
 <span class="mi">0</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
+<span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
 <span class="mi">1</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
+<span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
 <span class="mi">2</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
+<span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
 <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
   <span class="n">File</span> <span class="s">"&lt;pyshell#29&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
     <span class="n">g</span><span class="p">.</span><span class="n">__next__</span><span class="p">()</span>
