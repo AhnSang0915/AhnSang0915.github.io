@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>Python - Python 정규표현식 사용하기</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic3&quot;&gt;Python 변수 만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic4&quot;&gt;Python 출력 방법&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic5&quot;&gt;Python 불과 비교, 논리 연산자&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic6&quot;&gt;Python 문자열 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic7&quot;&gt;Python 리스트와 튜플 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic8&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic9&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic10&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic11&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic12&quot;&gt;Python elif를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic13&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic14&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic15&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic16&quot;&gt;Python 중첩루프&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic17&quot;&gt;Python FizzBuzz 문제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic18&quot;&gt;Python 터틀 그래픽스로 그림 그리기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic19&quot;&gt;Python 리스트와 튜플 응용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic20&quot;&gt;Python 리스트와 튜플 응용하기 - 2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic21&quot;&gt;Python 2차원 리스트 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic22&quot;&gt;Python 문자열 응용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic23&quot;&gt;Python 딕셔너리 응용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic24&quot;&gt;Python 세트 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic25&quot;&gt;Python 파일 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic26&quot;&gt;Python 회문 판별과 N-gram 만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic27&quot;&gt;Python 함수 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic28&quot;&gt;Python 함수에서 위치 인수와 키워드 인수 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic36&quot;&gt;Python 예외 처리 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic37&quot;&gt;Python 이터레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 24 Apr 2022 16:00:00 +0900</pubDate>
+        <link>
+        https://AhnSang0915.github.io/python-basic41</link>
+        <guid isPermaLink="true">https://AhnSang0915.github.io/python-basic41</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Python - Python 데코레이터 사용하기</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
@@ -52,6 +112,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -111,6 +172,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -170,6 +232,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -229,6 +292,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -288,6 +352,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -347,6 +412,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -406,6 +472,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -465,6 +532,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -524,6 +592,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -583,6 +652,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -642,6 +712,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -701,6 +772,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -760,6 +832,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -819,6 +892,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -878,6 +952,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -937,6 +1012,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -996,6 +1072,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1055,6 +1132,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1114,6 +1192,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1173,6 +1252,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1232,6 +1312,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1291,6 +1372,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1365,6 +1447,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1424,6 +1507,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1483,6 +1567,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1542,6 +1627,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1601,6 +1687,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1660,6 +1747,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1719,6 +1807,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1778,6 +1867,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1837,6 +1927,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1896,6 +1987,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1955,6 +2047,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -2014,6 +2107,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -2073,6 +2167,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -2132,6 +2227,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -2191,6 +2287,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -2250,6 +2347,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -2309,6 +2407,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -2383,6 +2482,7 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
