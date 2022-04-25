@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-04-24T21:17:47+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Python - Python 정규표현식 사용하기</title><link href="https://ahnsang0915.github.io/python-basic41" rel="alternate" type="text/html" title="Python - Python 정규표현식 사용하기" /><published>2022-04-24T16:00:00+09:00</published><updated>2022-04-24T16:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic41</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic41">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ahnsang0915.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ahnsang0915.github.io/" rel="alternate" type="text/html" /><updated>2022-04-25T22:12:20+09:00</updated><id>https://ahnsang0915.github.io/feed.xml</id><title type="html">My Coding Practice Gym</title><subtitle>Learn Coding</subtitle><entry><title type="html">Python - Python 모듈과 패키지 사용하기</title><link href="https://ahnsang0915.github.io/python-basic41" rel="alternate" type="text/html" title="Python - Python 모듈과 패키지 사용하기" /><published>2022-04-25T15:00:00+09:00</published><updated>2022-04-25T15:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic41</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic41">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -41,11 +41,12 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;정규표현식-사용하기&quot;&gt;정규표현식 사용하기&lt;/h1&gt;
+&lt;h1 id=&quot;모듈과-패키지-사용하기&quot;&gt;모듈과 패키지 사용하기&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
@@ -73,8 +74,9 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;문자열이-맨-앞에-오는지-맨-뒤에-오는지-판단하기&quot;&gt;문자열이 맨 앞에 오는지 맨 뒤에 오는지 판단하기&lt;/h3&gt;
-
-&lt;p&gt;정규표현식은 특정 문자열이 맨 앞에 오는지 맨 뒤에 오는지 판단할 수 있다.
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+정규표현식은 특정 문자열이 맨 앞에 오는지 맨 뒤에 오는지 판단할 수 있다.
 문자열 앞에 ^를 붙이면 문자열이 맨 앞에 오는지 판단하고, 문자열 뒤에 $를 붙이면 문자열이 맨 뒤에 오는지 판단힌다(특정 문자열로 끝나는지).&lt;/p&gt;
 
 &lt;ul&gt;
@@ -708,7 +710,7 @@
 
 &lt;p&gt;도메인 이하 경로는 영문 대소문자, 숫자, -, _, ., ?, =을 사용한다고 했으므로 [a-zA-Z0-9-_/.?=]*와 같이 만들어줍니다. 특히 하위 경로가 더 나올 수 있으므로 범위 안에 /를 넣어야 합니다.&lt;/p&gt;
 
-&lt;p&gt;지금까지 만든 정규표현식을 차례대로 연결해서 re.match 함수로 url을 판단해주면 됩니다. 그리고 re.match 함수의 반환값이 있으면(None이 아니면) True를 출력하고, None이면 False를 출력하면 됩니다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry><entry><title type="html">Python - Python 데코레이터 사용하기</title><link href="https://ahnsang0915.github.io/python-basic40" rel="alternate" type="text/html" title="Python - Python 데코레이터 사용하기" /><published>2022-04-23T16:00:00+09:00</published><updated>2022-04-23T16:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic40</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic40">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;지금까지 만든 정규표현식을 차례대로 연결해서 re.match 함수로 url을 판단해주면 됩니다. 그리고 re.match 함수의 반환값이 있으면(None이 아니면) True를 출력하고, None이면 False를 출력하면 됩니다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry><entry><title type="html">Python - Python 정규표현식 사용하기</title><link href="https://ahnsang0915.github.io/python-basic42" rel="alternate" type="text/html" title="Python - Python 정규표현식 사용하기" /><published>2022-04-24T16:00:00+09:00</published><updated>2022-04-24T16:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic42</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic42">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -751,6 +753,526 @@
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;정규표현식-사용하기&quot;&gt;정규표현식 사용하기&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+파이썬 내장함수로는 할 수 있는게 별로없다. 그래서 좀 더 복잡한 프로그램을 만들려면 파이썬의 모듈과 패키지를 사용해야 한다. 중간에 사용했던 random, turtle, pickle 등이 바로 모듈과 패키지이다.&lt;/p&gt;
+
+&lt;p&gt;모듈(module)은 각종 변수, 함수, 클래스를 담고 있는 파일이고, 패키지(package)는 여러 모듈을 묶은 것이다. 파이썬을 설치할 때 다양한 모듈과 패키지가 기본으로 설치된다. 만약 기본 모듈과 패키지로 부족하다면 다른 사람이 만든 유명 모듈과 패키지를 설치해서 쓸 수도 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;모듈: 특정 기능을 .py 파일 단위로 작성한 것입니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;패키지: 특정 기능과 관련된 여러 모듈을 묶은 것입니다. 패키지는 모듈에 네임스페이스(namespace, 이름공간)를 제공합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;파이썬 표준 라이브러리: 파이썬에 기본으로 설치된 모듈과 패키지, 내장 함수를 묶어서 파이썬 표준 라이브러리(Python Standard Library, PSL)라 부릅니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1import로-모듈-가져오기&quot;&gt;1.import로 모듈 가져오기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+모듈은 import 키워드로 가져올 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;import 모듈&lt;/li&gt;
+  &lt;li&gt;import 모듈1, 모듈2&lt;/li&gt;
+  &lt;li&gt;모듈.변수&lt;/li&gt;
+  &lt;li&gt;모듈.함수()&lt;/li&gt;
+  &lt;li&gt;모듈.클래스()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;그럼 간단한 파이썬 표준 라이브러리의 수학 모듈 math를 가져와 원주율을 출력해보자.
+import에 모듈 이름을 지정하면 해당 모듈을 가져올 수 있으며 math.pi와 같이 모듈.변수 형식으로 모듈의 변수를 사용한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;3.141592653589793&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이번에는 math 모듈의 제곱근 함수 sqrt를 사용해보자.
+모듈의 함수는 math.sqrt(4.0)와 같이 모듈.함수() 형식으로 사용한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;1.4142135623730951&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;import-as로-모듈-이름-지정하기&quot;&gt;import as로 모듈 이름 지정하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;모듈의 함수를 사용할 때 매번 math를 입력하지 않아도 impor as로 모듈의 이름을 지정할 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;import 모듈 as 이름&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이제 math 모듈을 m으로 줄여보자. import math as m과 같이 모듈을 가져오면서 as 뒤에 이름을 지정해준다. 이후 math 모듈을 사용할 때 m으로 줄여서 사용할 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# math 모듈을 가져오면서 이름을 m으로 지정
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;# m으로 제곱근 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;# m으로 제곱근 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.4142135623730951&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;from-import로-모듈의-일부만-가져오기&quot;&gt;from import로 모듈의 일부만 가져오기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+from math import pi와 같이 from 뒤에 모듈 이름을 지정하고 import 뒤에 가져올 변수를 입력한다. 이후 가져온 변수를 사용할 때는 pi와 같이 모듈 이름을 붙이지 않고 바로 사용하면된다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from 모듈 import 변수&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다음은 math 모듈에서 변수 pi만 가져온다. from math import pi와 같이 from 뒤에 모듈 이름을 지정하고 import 뒤에 가져올 변수를 입력한다. 이후 가져온 변수를 사용할 때는 pi와 같이 모듈 이름을 붙이지 않고 바로 사용하면 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# math 모듈에서 변수 pi만 가져옴
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;                     &lt;span class=&quot;c1&quot;&gt;# pi를 바로 사용하여 원주율 출력
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3.141592653589793&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이번에는 모듈의 함수를 가져와보자.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from 모듈 import 함수&lt;/li&gt;
+  &lt;li&gt;from 모듈 import 클래스&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다음은 math 모듈에서 sqrt 함수만 가져왔다. math 모듈에서 sqrt 함수만 가져왔으므로 sqrt(4.0)처럼 앞에 math를 붙이지 않고 함수를 바로 사용할 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# math 모듈에서 sqrt 함수만 가져옴
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                &lt;span class=&quot;c1&quot;&gt;# sqrt 함수를 바로 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                &lt;span class=&quot;c1&quot;&gt;# sqrt 함수를 바로 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.4142135623730951&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;변수나 함수 하나를 가져오는게 아닌 여러개를 import 뒤에 가져올 변수, 함수, 클래스를 콤마로 구분하여 한번에 불러올 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from 모듈 import 변수, 함수, 클래스&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다음은 math 모듈에서 pi, sqrt를 가져온다. from math import pi, sqrt와 같이 pi와 sqrt 두 개를 가져왔다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# math 모듈에서 pi, sqrt를 가져옴
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;                           &lt;span class=&quot;c1&quot;&gt;# pi로 원주율 출력
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3.141592653589793&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                    &lt;span class=&quot;c1&quot;&gt;# sqrt 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                    &lt;span class=&quot;c1&quot;&gt;# sqrt 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.4142135623730951&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;변수, 함수, 클래스가 수십가지라면 위의 방법으로 입력하기 불편하다. for import를 사용하면 모듈의 모든 변수, 함수, 클래스를 가져올 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from 모듈 import *&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다음은 math 모듈의 모든 변수, 함수, 클래스를 가져온다. from math import *와 같이 지정하면 math 모듈의 모든 함수, 변수, 클래스를 가져온다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# math 모듈의 모든 변수, 함수, 클래스를 가져옴
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;                    &lt;span class=&quot;c1&quot;&gt;# pi로 원주율 출력
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3.141592653589793&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;             &lt;span class=&quot;c1&quot;&gt;# sqrt 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;             &lt;span class=&quot;c1&quot;&gt;# sqrt 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.4142135623730951&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;from-import로-모듈의-일부만-가져오기-1&quot;&gt;from import로 모듈의 일부만 가져오기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+이번에는 from import로 변수, 함수, 클래스를 가져온 뒤 이름을 지정해보자.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from 모듈 import 변수 as 이름&lt;/li&gt;
+  &lt;li&gt;from 모듈 import 함수 as 이름&lt;/li&gt;
+  &lt;li&gt;from 모듈 import 클래스 as 이름&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다음은 math 모듈에서 sqrt 함수를 가져오면서 이름을 s로 지정한다. from import로 가져온 변수, 함수, 클래스 뒤에 as로 이름을 지정해주면 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# math 모듈에서 sqrt 함수를 가져오면서 이름을 s로 지정
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                        &lt;span class=&quot;c1&quot;&gt;# s로 sqrt 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                        &lt;span class=&quot;c1&quot;&gt;# s로 sqrt 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.4142135623730951&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;여러개를 가져올 경우 각 변수, 함수, 클래스 등을 콤마로 구분하여 as를 여러 개 지정하면 된다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from 모듈 import 변수 as 이름1, 함수 as 이름2, 클래스 as 이름3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다음은 math 모듈의 pi를 가져오면서 이름을 p로, sqrt를 가져오면서 이름을 s로 지정한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;# p로 원주율 출력
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3.141592653589793&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# s로 sqrt 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# s로 sqrt 함수 사용
+&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.4142135623730951&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;가져온-모듈-해제하기-다시-가져오기&quot;&gt;가져온 모듈 해제하기, 다시 가져오기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+import로 가져온 모듈(변수, 함수, 클래스)은 del로 해제할 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;del&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;모듈을 다시 가져오려면 importlib.reload를 사용한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;importlib&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;importlib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;h2 id=&quot;2import로-패키지-가져오기&quot;&gt;2.import로 패키지 가져오기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+패키지는 특정 기능과 관련된 여러 모듈을 묶은 것인데, 패키지에 들어있는 모듈도 import를 사용하여 가져온다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;import 패키지.모듈&lt;/li&gt;
+  &lt;li&gt;import 패키지.모듈1, 패키지.모듈2&lt;/li&gt;
+  &lt;li&gt;패키지.모듈.변수&lt;/li&gt;
+  &lt;li&gt;패키지.모듈.함수()&lt;/li&gt;
+  &lt;li&gt;패키지.모듈.클래스()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;파이썬 표준 라이브러리에서 urllib 패키지의 request 모듈을 가져와 url주소의 응답을 받아왔다.
+패키지에 들어있는 모듈은 import urllib.request와 같이 패키지.모듈 형식으로 가져온다. 마찬가지로 모듈의 함수를 사용할 때도 urllib.request.urlopen()과 같이 패키지.모듈.함수() 형식으로 패키지 이름과 모듈 이름을 모두 입력해준다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib.request&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'http://www.google.co.kr'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;import-as로-패키지-모듈-이름-지정하기&quot;&gt;import as로 패키지 모듈 이름 지정하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+패키지 안에 들어있는 모듈도 import as를 사용하여 이름을 지정할 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;import 패키지.모듈 as 이름&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다음은 urllib 패키지의 request 모듈을 가져오면서 이름을 r로 지정한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib.request&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# urllib 패키지의 request 모듈을 가져오면서 이름을 r로 지정
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'http://www.google.co.kr'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# r로 urlopen 함수 사용
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;from-import로-패키지의-모듈에서-일부만-가져오기&quot;&gt;from import로 패키지의 모듈에서 일부만 가져오기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+패키지도 from import를 사용하여 모듈에서 변수, 함수, 클래스를 가져올 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from 패키지.모듈 import 변수&lt;/li&gt;
+  &lt;li&gt;from 패키지.모듈 import 함수&lt;/li&gt;
+  &lt;li&gt;from 패키지.모듈 import 클래스&lt;/li&gt;
+  &lt;li&gt;from 패키지.모듈 import 변수, 함수, 클래스&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다시 urllib 패키지의 request 모듈에서 urlopen 함수와 Request 클래스를 가져와 보겠자.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib.request&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# urlopen 함수, Request 클래스를 가져옴
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;req&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'http://www.google.co.kr'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;# Request 클래스를 사용하여 req 생성
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                        &lt;span class=&quot;c1&quot;&gt;# urlopen 함수 사용
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;참고로 urlopen 함수에 URL을 바로 넣어도 되고, Request(‘http://www.google.co.kr’)와 같이 Request 클래스에 URL을 넣은 뒤에 req를 생성해서 urlopen 함수에 넣어도 된다.&lt;/p&gt;
+
+&lt;p&gt;패키지의 모듈에서 모든 변수, 함수, 클래스를 가져오는 방법은 다음과 같다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from 패키지.모듈 import *&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다음은 urllib의 request 모듈에서 모든 변수, 함수, 클래스를 가져온다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib.request&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;# urllib의 request 모듈에서 모든 변수, 함수, 클래스를 가져옴
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;req&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'http://www.google.co.kr'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# Request를 사용하여 req 생성
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;                     &lt;span class=&quot;c1&quot;&gt;# urlopen 함수 사용
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-파이썬-패키지-인덱스에서-패키지-설치하기&quot;&gt;3. 파이썬 패키지 인덱스에서 패키지 설치하기&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+파이썬은 파이썬 표준 라이브러리(Python Standard Library, PSL) 이외에도 파이썬 패키지 인덱스(Python Package Index, PyPI)를 통해 다양한 패키지를 사용할 수 있다. 특히 명령만 입력하면 원하는 패키지를 인터넷에서 다운로드하여 설치해줄 뿐만 아니라 관련된 패키지(의존성)까지 자동으로 설치해주므로 매우 편리하다.&lt;/p&gt;
+
+&lt;h3 id=&quot;pip-설치하기&quot;&gt;pip 설치하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+pip는 파이썬 패키지 인덱스의 패키지 관리 명령어이며 Windows용 파이썬에는 기본으로 내장되어 있다. 리눅스와 macOS에서는 콘솔(터미널)에서 다음과 같은 방법으로 설치하면 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bootstrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pypa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;pip로-패키지-설치하기&quot;&gt;pip로 패키지 설치하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+이제 pip install 명령으로 패키지를 설치해보자.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pip install 패키지&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Windows에서는 명령 프롬프트를 실행(윈도우 키+R을 누른 뒤 cmd를 입력)하고, 리눅스와 macOS에서는 콘솔(터미널)을 실행한 뒤 pip install requests 명령을 입력한다(pip 명령은 파이썬 셸 »&amp;gt;에 입력하면 안 된다. 반드시 명령 프롬프트, 콘솔, 터미널에 입력).&lt;/p&gt;
+
+&lt;p&gt;참고로 requests는 파이썬 표준 라이브러리의 urllib.request와 비슷한 역할을 하는 패키지인데 좀 더 기능이 많고 편리하다.&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;Users&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;dojang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;리눅스, macOS에서는 앞에 sudo를 붙여서 관리자 권한으로 실행합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;또는, python에 -m 옵션을 지정해서 pip를 실행할 수도 있다. -m 옵션은 모듈을 실행하는 옵션이며 pip도 모듈이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;Users&lt;/span&gt;\&lt;span class=&quot;n&quot;&gt;dojang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;리눅스, macOS에서는 python3으로 실행하고, 앞에 sudo를 붙여서 관리자 권한으로 실행한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;명령을 입력하면 패키지 다운로드 및 설치 상황이 표시되는데, 다음과 같이 출력되면 정상적으로 설치된 것이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;Collecting&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;Downloading&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;whl&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;501&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;################################| 503kB 974kB/s
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collected&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Successfully&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;installed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;import로-패키지-가져오기&quot;&gt;import로 패키지 가져오기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+이제 파이썬 코드에서 패키지를 사용해보자.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;import 패키지&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;보통 pip install 명령으로 설치한 패키지는 import 패키지 또는 import 패키지.모듈 형식으로 사용하면 된다. 단, 패키지마다 구성이 다를 수 있으므로 해당 패키지의 웹 사이트에서 사용 방법을 찾아봐야한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;requests&lt;/span&gt;                                &lt;span class=&quot;c1&quot;&gt;# pip로 설치한 requests 패키지를 가져옴
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'http://www.google.co.kr'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# requests.get 함수 사용
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;예제1&quot;&gt;예제1&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+다음 소스 코드를 완성하여 소수점 이하를 올림, 버림한 숫자가 출력되게 만드세요. 올림 함수는 math 모듈의 ceil, 버림 함수는 math 모듈의 floor 함수입니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+ &lt;span class=&quot;n&quot;&gt;_______________________&lt;/span&gt;                               
+ 
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.5&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ceil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;floor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#실행 결과
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;답&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ceil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;floor&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;예제2&quot;&gt;예제2&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+표준 입력으로 URL 문자열이 입력 입력됩니다. 입력된 URL이 올바르면 True, 잘못되었으면 False를 출력하는 프로그램을 만드세요. 이 심사문제에서 판단해야 할 URL의 규칙은 다음과 같습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http:// 또는 https://로 시작&lt;/li&gt;
+  &lt;li&gt;도메인은 도메인.최상위도메인 형식이며 영문 대소문자, 숫자, -로 되어 있어야 함&lt;/li&gt;
+  &lt;li&gt;도메인 이하 경로는 /로 구분하고, 영문 대소문자, 숫자, -, _, ., ?, =을 사용함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;n&quot;&gt;________________&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;________________&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;________________&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;# 입력
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;www&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;do&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 결과
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 입력
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 결과
+&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;내가 쓴 답&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;re&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'^[a-zA-Z0-9]+\:\/\/[a-zA-Z0-9.]+\.[a-zA-Z0-9.-_?=/]'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;답&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;re&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'^(http?://)[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+/[a-zA-Z0-9-_/.?=]*'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;먼저 URL은 http:// 또는 https://로 시작한다고 했으므로 정규표현식은 ^https?://로 시작합니다. 여기서 맨 앞에 ^를 붙였으므로 http 또는 https로 시작하는지 판단합니다. 그리고 https?와 같이 만들면 s가 0개 또는 1개 있어야 합니다. 따라서 http와 https를 둘 다 판별할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이제 도메인을 판단합니다. 도메인 부분은 [a-zA-Z0-9-]+.[a-zA-Z0-9-.]+/와 같이 만들어줍니다. 먼저 [a-zA-Z0-9-]+와 같이 영문 대소문자, 숫자, -이면서 문자 1개 이상인지 판단합니다. 그리고 중간에 .를 넣어서 도메인.최상위도메인 형식인지 판단합니다. 여기서 .은 정규표현식에 사용하는 특수 문자이므로 앞에 반드시 \를 붙여야 합니다. 특히 최상위 도메인은 여러 단계일 수도 있으므로 [a-zA-Z0-9-.]+/와 같이 범위에 .을 넣어줍니다. 그리고 도메인과 도메인 이하 경로를 구분할 수 있도록 /를 붙여줍니다.&lt;/p&gt;
+
+&lt;p&gt;도메인 이하 경로는 영문 대소문자, 숫자, -, _, ., ?, =을 사용한다고 했으므로 [a-zA-Z0-9-_/.?=]*와 같이 만들어줍니다. 특히 하위 경로가 더 나올 수 있으므로 범위 안에 /를 넣어야 합니다.&lt;/p&gt;
+
+&lt;p&gt;지금까지 만든 정규표현식을 차례대로 연결해서 re.match 함수로 url을 판단해주면 됩니다. 그리고 re.match 함수의 반환값이 있으면(None이 아니면) True를 출력하고, None이면 False를 출력하면 됩니다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry><entry><title type="html">Python - Python 데코레이터 사용하기</title><link href="https://ahnsang0915.github.io/python-basic40" rel="alternate" type="text/html" title="Python - Python 데코레이터 사용하기" /><published>2022-04-23T16:00:00+09:00</published><updated>2022-04-23T16:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic40</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic40">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic3&quot;&gt;Python 변수 만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic4&quot;&gt;Python 출력 방법&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic5&quot;&gt;Python 불과 비교, 논리 연산자&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic6&quot;&gt;Python 문자열 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic7&quot;&gt;Python 리스트와 튜플 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic8&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic9&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic10&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic11&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic12&quot;&gt;Python elif를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic13&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic14&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic15&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic16&quot;&gt;Python 중첩루프&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic17&quot;&gt;Python FizzBuzz 문제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic18&quot;&gt;Python 터틀 그래픽스로 그림 그리기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic19&quot;&gt;Python 리스트와 튜플 응용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic20&quot;&gt;Python 리스트와 튜플 응용하기 - 2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic21&quot;&gt;Python 2차원 리스트 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic22&quot;&gt;Python 문자열 응용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic23&quot;&gt;Python 딕셔너리 응용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic24&quot;&gt;Python 세트 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic25&quot;&gt;Python 파일 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic26&quot;&gt;Python 회문 판별과 N-gram 만들기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic27&quot;&gt;Python 함수 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic28&quot;&gt;Python 함수에서 위치 인수와 키워드 인수 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic36&quot;&gt;Python 예외 처리 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic37&quot;&gt;Python 이터레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -1564,7 +2086,7 @@ def add(a, b):는 매개변수의 개수가 고정된 함수다. 그러면 매�
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wrapper&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;real_decorator&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry><entry><title type="html">Python - Python 코루틴 사용하기</title><link href="https://ahnsang0915.github.io/python-basic39" rel="alternate" type="text/html" title="Python - Python 코루틴 사용하기" /><published>2022-04-22T16:00:00+09:00</published><updated>2022-04-22T16:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic39</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic39">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry><entry><title type="html">Python - Python 코루틴 사용하기</title><link href="https://ahnsang0915.github.io/python-basic39" rel="alternate" type="text/html" title="Python - Python 코루틴 사용하기" /><published>2022-04-22T16:00:00+09:00</published><updated>2022-04-22T16:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic39</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic39">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -1607,6 +2129,7 @@ def add(a, b):는 매개변수의 개수가 고정된 함수다. 그러면 매�
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -2189,7 +2712,7 @@ def add(a, b):는 매개변수의 개수가 고정된 함수다. 그러면 매�
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;코루틴으로 무한루프를 만들고 (yield 변수) 형식으로 바깥으로 값을 전달한다. 전달한 값은 next(c)함수와 send메서드의 반환값으로 들어가게 된다. expressions에 입력 받은 값을 split 함수로 각 문자열로 쪼개면 expressions[0].split()-&amp;gt;[‘1’, ‘+’, ‘2’] 이런 형태가 되는데 a, y, b = x.split()로 각 요소를 a, y, b변수에 할당해 준다. 그리고 if와 elif 조건문으로 y의 값이 특정 값일때의 조건을 넣어주면 된다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry><entry><title type="html">Python - Python 제너레이터 사용하기</title><link href="https://ahnsang0915.github.io/python-basic38" rel="alternate" type="text/html" title="Python - Python 제너레이터 사용하기" /><published>2022-04-21T13:00:00+09:00</published><updated>2022-04-21T13:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic38</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic38">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;코루틴으로 무한루프를 만들고 (yield 변수) 형식으로 바깥으로 값을 전달한다. 전달한 값은 next(c)함수와 send메서드의 반환값으로 들어가게 된다. expressions에 입력 받은 값을 split 함수로 각 문자열로 쪼개면 expressions[0].split()-&amp;gt;[‘1’, ‘+’, ‘2’] 이런 형태가 되는데 a, y, b = x.split()로 각 요소를 a, y, b변수에 할당해 준다. 그리고 if와 elif 조건문으로 y의 값이 특정 값일때의 조건을 넣어주면 된다.&lt;/p&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry><entry><title type="html">Python - Python 제너레이터 사용하기</title><link href="https://ahnsang0915.github.io/python-basic38" rel="alternate" type="text/html" title="Python - Python 제너레이터 사용하기" /><published>2022-04-21T13:00:00+09:00</published><updated>2022-04-21T13:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic38</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic38">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -2232,6 +2755,7 @@ def add(a, b):는 매개변수의 개수가 고정된 함수다. 그러면 매�
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -2655,7 +3179,7 @@ yield from에 제너레이터 객체를 지정해보자. 제너레이터 number_
         &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isPrime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
             &lt;span class=&quot;k&quot;&gt;yield&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry><entry><title type="html">Python - Python 이터레이터 사용하기</title><link href="https://ahnsang0915.github.io/python-basic37" rel="alternate" type="text/html" title="Python - Python 이터레이터 사용하기" /><published>2022-04-20T18:00:00+09:00</published><updated>2022-04-20T18:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic37</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic37">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry><entry><title type="html">Python - Python 이터레이터 사용하기</title><link href="https://ahnsang0915.github.io/python-basic37" rel="alternate" type="text/html" title="Python - Python 이터레이터 사용하기" /><published>2022-04-20T18:00:00+09:00</published><updated>2022-04-20T18:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic37</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic37">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -2698,6 +3222,7 @@ yield from에 제너레이터 객체를 지정해보자. 제너레이터 number_
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -3207,7 +3732,7 @@ __next__ 메서드에서 배수를 구한다. 배수는 self.current와 self.mul
     &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;IndexError&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry><entry><title type="html">Python - Python 예외 처리 사용하기</title><link href="https://ahnsang0915.github.io/python-basic36" rel="alternate" type="text/html" title="Python - Python 예외 처리 사용하기" /><published>2022-04-19T17:00:00+09:00</published><updated>2022-04-19T17:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic36</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic36">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry><entry><title type="html">Python - Python 예외 처리 사용하기</title><link href="https://ahnsang0915.github.io/python-basic36" rel="alternate" type="text/html" title="Python - Python 예외 처리 사용하기" /><published>2022-04-19T17:00:00+09:00</published><updated>2022-04-19T17:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic36</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic36">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -3250,6 +3775,7 @@ __next__ 메서드에서 배수를 구한다. 배수는 self.current와 self.mul
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -3830,7 +4356,7 @@ try except에서 처리한 예외를 다시 발생시키는 방법이다. except
         &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NotPalindromeError&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry><entry><title type="html">Python - Python 두 점 사이의 거리 구하기</title><link href="https://ahnsang0915.github.io/python-basic35" rel="alternate" type="text/html" title="Python - Python 두 점 사이의 거리 구하기" /><published>2022-04-19T01:00:00+09:00</published><updated>2022-04-19T01:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic35</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic35">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry><entry><title type="html">Python - Python 두 점 사이의 거리 구하기</title><link href="https://ahnsang0915.github.io/python-basic35" rel="alternate" type="text/html" title="Python - Python 두 점 사이의 거리 구하기" /><published>2022-04-19T01:00:00+09:00</published><updated>2022-04-19T01:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic35</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic35">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -3873,6 +4399,7 @@ try except에서 처리한 예외를 다시 발생시키는 방법이다. except
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -4146,7 +4673,7 @@ n  값을 지수만큼 거듭제곱한 값을 반환&lt;/li&gt;
     &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry><entry><title type="html">Python - Python 클래스 상속 사용하기</title><link href="https://ahnsang0915.github.io/python-basic34" rel="alternate" type="text/html" title="Python - Python 클래스 상속 사용하기" /><published>2022-04-18T23:50:00+09:00</published><updated>2022-04-18T23:50:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic34</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic34">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry><entry><title type="html">Python - Python 클래스 상속 사용하기</title><link href="https://ahnsang0915.github.io/python-basic34" rel="alternate" type="text/html" title="Python - Python 클래스 상속 사용하기" /><published>2022-04-18T23:50:00+09:00</published><updated>2022-04-18T23:50:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic34</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic34">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -4189,6 +4716,7 @@ n  값을 지수만큼 거듭제곱한 값을 반환&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -4820,7 +5348,7 @@ x.greeting()    # 안녕하세요. B입니다.
     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fly&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
         &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'날다'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry><entry><title type="html">Python - Python 클래스 속성과 정적, 클래스 메서드 사용하기</title><link href="https://ahnsang0915.github.io/python-basic33" rel="alternate" type="text/html" title="Python - Python 클래스 속성과 정적, 클래스 메서드 사용하기" /><published>2022-04-18T18:00:00+09:00</published><updated>2022-04-18T18:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic33</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic33">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry><entry><title type="html">Python - Python 클래스 속성과 정적, 클래스 메서드 사용하기</title><link href="https://ahnsang0915.github.io/python-basic33" rel="alternate" type="text/html" title="Python - Python 클래스 속성과 정적, 클래스 메서드 사용하기" /><published>2022-04-18T18:00:00+09:00</published><updated>2022-04-18T18:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic33</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic33">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
@@ -4863,6 +5391,7 @@ x.greeting()    # 안녕하세요. B입니다.
     &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic42&quot;&gt;Python 모듈과 패키지 사용하기&lt;/a&gt;&lt;/li&gt;
 
 
 &lt;/ul&gt;
@@ -5338,679 +5867,4 @@ x.greeting()    # 안녕하세요. B입니다.
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'잘못된 시간 형식입니다.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry><entry><title type="html">Python - Python 클래스 사용하기</title><link href="https://ahnsang0915.github.io/python-basic32" rel="alternate" type="text/html" title="Python - Python 클래스 사용하기" /><published>2022-04-17T15:00:00+09:00</published><updated>2022-04-17T15:00:00+09:00</updated><id>https://ahnsang0915.github.io/python-basic32</id><content type="html" xml:base="https://ahnsang0915.github.io/python-basic32">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 숫자 계산하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic3&quot;&gt;Python 변수 만들기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic4&quot;&gt;Python 출력 방법&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic5&quot;&gt;Python 불과 비교, 논리 연산자&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic6&quot;&gt;Python 문자열 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic7&quot;&gt;Python 리스트와 튜플 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic8&quot;&gt;Python 시퀀스 자료형 활용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic9&quot;&gt;Python 딕셔너리 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic10&quot;&gt;Python if 조건문으로 특정 조건일 때 코드 실행하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic11&quot;&gt;Python else를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic12&quot;&gt;Python elif를 사용하여 두 방향으로 분기하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic13&quot;&gt;Python for 반복문&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic14&quot;&gt;Python while 반복문&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic15&quot;&gt;Python break, continue로 반복문 제어하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic16&quot;&gt;Python 중첩루프&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic17&quot;&gt;Python FizzBuzz 문제&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic18&quot;&gt;Python 터틀 그래픽스로 그림 그리기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic19&quot;&gt;Python 리스트와 튜플 응용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic20&quot;&gt;Python 리스트와 튜플 응용하기 - 2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic21&quot;&gt;Python 2차원 리스트 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic22&quot;&gt;Python 문자열 응용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic23&quot;&gt;Python 딕셔너리 응용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic24&quot;&gt;Python 세트 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic25&quot;&gt;Python 파일 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic26&quot;&gt;Python 회문 판별과 N-gram 만들기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic27&quot;&gt;Python 함수 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic28&quot;&gt;Python 함수에서 위치 인수와 키워드 인수 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic29&quot;&gt;Python 함수에서 재귀호출 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic30&quot;&gt;Python 람다 표현식 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic31&quot;&gt;Python 클로저 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic32&quot;&gt;Python 클래스 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic33&quot;&gt;Python 클래스 속성과 정적, 클래스 메서드 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic34&quot;&gt;Python 클래스 상속 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic35&quot;&gt;Python 두 점 사이의 거리 구하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic36&quot;&gt;Python 예외 처리 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic37&quot;&gt;Python 이터레이터 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic38&quot;&gt;Python 제너레이터 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic39&quot;&gt;Python 코루틴 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic40&quot;&gt;Python 데코레이터 사용하기&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic41&quot;&gt;Python 정규표현식 사용하기&lt;/a&gt;&lt;/li&gt;
-
-
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;클래스-사용하기&quot;&gt;클래스 사용하기&lt;/h1&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-클래스는 객체를 표현하기 위한 문법이다. 예를들어 게임을 만든다고 한다면 기사, 마법사, 궁수, 사제등 직업별로 클래스를 만들어 표현할 수 있다. 이처럼 특정한 개념이나 모양으로 존재하는 것을 객체(object)라고 부른다. 그리고 프로그래밍으로 객체를 만들때 사용하는 것이 클래스이다. 게임의 기사 캐릭터를 클래스로 표현해보자. 일단 게임 캐릭터는 체력, 마나, 물리 공격력, 주문력 등이 필요합니다. 그리고 기사 캐릭터는 칼로 베기, 찌르기 등의 스킬이 있어야 한다. 여기서 체력, 마나, 물리 공격력, 주문력 등의 데이터를 클래스의 속성(attribute)이라 부르고, 베기, 찌르기 등의 기능을 메서드(method)라고 부른다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-이런 식의 프로그래밍을 객체지향(object oriented) 프로그래밍이라고 한다. 객체지향 프로그래밍은 복잡한 문제를 잘게 나누어 객체로 만들고, 객체를 조합해서 문제를 해결한다. 따라서 현실 세계의 복잡한 문제를 처리하는데 유용하며 기능을 개선하고 발전시킬 때도 해당 클래스만 수정하면 되므로 유지 보수에도 효율적이다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-클래스와-메서드-만들기&quot;&gt;1. 클래스와 메서드 만들기&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-클래스는 class에 클래스 이름을 지정하고:(콜론)을 붙인 뒤 다음 줄부터 def로 메서드를 작성한다. 여기서 메서드는 클래스 안에 들어있는 함수를 뜻한다.
-&lt;br /&gt;
-클래스 이름을 짓는 방법은 변수와 같다. 보통 파이썬에서 클래스의 이름은 대문자로 시작한다. 그리고 메서드 작성 방법은 함수와 같으며 코드는 반드시 들여쓰기를 해야한다. 특히 메서드의 첫 번째 매개변수는 반드시 self를 지정해야 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;클래스이름&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;메서드&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;코드&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 메서드의 첫 번째 매개변수를 self로 지정하지 않았을때.
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;takes&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;positional&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arguments&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;but&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;was&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;given&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;간단한&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;사람&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;클래스를&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;작성했다&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;~~~&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-         &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-         
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이렇게 만든 클래스를 사용하려면 클래스에 ()를 붙인 뒤 변수에 할당한다. Person으로 변수 james를 만들었는데 이 james가 Person의 인스턴스(instance)다. 클래스는 특정 개념을 표현만 할뿐 사용을 하려면 인스턴스를 생성해야 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;메서드-호출하기&quot;&gt;메서드 호출하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-메서드는 클래스가 아니라 인스턴트를 통해 호출한다. 다음과 같이 이스턴스 뒤에 .을 붙이고 메서드를 호출하면 된다. james.greeting()을 호출하니 ‘Hello’가 출력되었다. 이렇게 인스턴트를 통해 호출하는 메서드를 인스턴트 메서드라고 부른다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;파이썬에서-흔히-볼-수-있는-클래스&quot;&gt;파이썬에서 흔히 볼 수 있는 클래스&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;지금까지 사용한 int, list, dict 등도 사실 클래스다. 우리는 이 클래스로 인스턴스를 만들고 메서드를 사용했다. int 클래스에 10을 넣어서 인스턴스 a를 만들었다. 마찬가지로 list 클래스에 range(10)을 넣어서 인스턴스 b를 만들고, dict 클래스에 x=10, y=20을 넣어서 인스턴스 c를 만들었다. 잘 보면 Person으로 인스턴스를 만드는 방법과 똑같다. 물론 정수는 매우 자주 사용하므로 int를 생략하고 10을 바로 넣는다. 그리고 리스트와 딕셔너리도 자주 사용하므로 축약된 문법인 [ ]과 { }를 제공하지만 클래스인 것은 같다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'x'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'y'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;인스턴스 b에서 메서드 append를 호출해서 값을 추가한다. 이 부분도 지금까지 메서드를 만들고 사용한 것과 같은 방식이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;즉, 파이썬에서는 자료형도 클래스이다. 다음과 같이 type을 사용하면 객체(인스턴스)가 어떤 클래스인지 확인할 수 있다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;type(객체)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&amp;gt;
-b = [0, 1, 2]
-type(b)
-&amp;lt;class '&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&amp;gt;
-c = {'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;':10, '&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;':20}
-type(c)
-&amp;lt;class '&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&amp;gt;
-maria = Person()
-type(maria)
-&amp;lt;class '&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__main__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&amp;gt;
-
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;인스턴스와-객체의-차이점&quot;&gt;인스턴스와 객체의 차이점?&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-클래스는 객체를 표현하는 문법이라고 했는데, 클래스로 인스턴스를 만든다고 하니 좀 헷갈린다. 사실 인스턴스와 객체는 같은 것을 뜻한다. 보통 객체만 지칭할 때는 그냥 객체(object)라고 부른다. 하지만 클래스와 연관지어서 말할 때는 인스턴스(instance)라고 부른다. 그래서 다음과 같이 리스트 변수 a, b가 있으면 a, b는 객체이다. 그리고 a와 b는 list클래스의 인스턴스이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;빈-클래스-만들기&quot;&gt;빈 클래스 만들기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-내용이 없는 빈 클래스를 만들 때는 코드 부분에 pass를 넣어준다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;메서드-안에서-메서드-호출하기&quot;&gt;메서드 안에서 메서드 호출하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-메서드 안에서 메서드를 호출할 때는 다음과 같이 self.메서드() 형식으로 호출해야 한다. self 없이 메서드 이름만 사용하면 클래스 바깥쪽에 있는 함수를 호출한다는 뜻이 되므로 주의해야 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
- 
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# self.메서드() 형식으로 클래스 안의 메서드를 호출
-&lt;/span&gt; 
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# Hello
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;특정-클래스의-인스턴스인지-확인하기&quot;&gt;특정 클래스의 인스턴스인지 확인하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-현재 인스턴스가 특정 클래스의 인스턴스인지 확인할 때는 isinstance 함수를 사용한다. 특정 클래스의 인스턴스가 맞으면 True, 아니면 False를 반환한다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;isinstance(인스턴스, 클래스)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-     &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;isinstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;isinstance는 주로 객체의 자료형을 판단할 때 사용한다. 예를 들어 팩토리얼 함수는 1부터 n까지 양의 정수를 차례대로 곱해야 하는데, 실수와 음의 정수는 계산할 수 없다. 이런 경우에 isinstance를 사용하여 숫자(객체)가 정수일 때만 계산하도록 만들 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;factorial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;isinstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# n이 정수가 아니거나 음수이면 함수를 끝냄
-&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;factorial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2-속성-사용하기&quot;&gt;2. 속성 사용하기&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-지금까지 클래스에서 메서드를 만들고 호출해봤다. 이번엔 클래스에서 속성을 만들고 사용해보자. 속성(attribute)을 만들 때는 __init__ 메서드 안에서 self.속성에 값을 할당한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;클래스이름&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;속성&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;값&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;다음 코드를 실행해 보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'안녕하세요.'&lt;/span&gt;
- 
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
- 
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;#실행결과
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;안녕하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Person 클래스의 __init__ 메서드에서 self.hello에 ‘안녕하세요.’ 인사말을 넣었다. __init__ 메서드는 james = Person()처럼 클래스에 ( )(괄호)를 붙여서 인스턴스를 만들 때 호출되는 특별한 메서드다. 즉, __init__(initialize)이라는 이름 그대로 인스턴스(객체)를 초기화한다. 특히 이렇게 앞 뒤로 __(밑줄 두 개)가 붙은 메서드는 파이썬이 자동으로 호출해주는 메서드인데 스페셜 메서드(special method) 또는 매직 메서드(magic method)라고 부른다. 앞으로 파이썬의 여러 가지 기능을 사용할 때 이 스페셜 메서드를 채우는 식으로 사용하게 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'안녕하세요.'&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이제 greeting 메서드를 살펴보자. greeting 메서드에서는 print로 self.hello를 출력하게 만들었다. 그다음에 Person 클래스로 인스턴스를 만들고, greeting 메서드를 호출해보면 self.hello에 저장된 ‘안녕하세요.’가 출력된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 안녕하세요.
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;self의-의미&quot;&gt;self의 의미&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-self는 인스턴스 자기 자신을 의미한다. 우리는 인스턴스가 생성될 때 self.hello = ‘안녕하세요.’처럼 자기 자신에 속성을 추가했다. 여기서 __init의 매개변수 self에 들어가는 값은 person()이라 할 수 있다. 그리고 self가 완성된 뒤 james에 할당된다. 이후 메서드를 호출하면 현재 인스턴스가 자동으로 매개변수 self에 들어오게 된다. 그래서 greeting메서드에서 print(self.hello)처럼 속성을 출력할 수 있었던 것이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;인스턴스를-만들-때-값-받기&quot;&gt;인스턴스를 만들 때 값 받기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-이번에는 클래스로 인스턴스를 만들 때 값을 받는 방법을 알아보겠습니다. 다음과 같이 &lt;strong&gt;init&lt;/strong&gt; 메서드에서 self 다음에 값을 받을 매개변수를 지정합니다. 그리고 매개변수를 self.속성에 넣어줍니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;클래스이름&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;매개변수1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;매개변수2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;속성1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;매개변수1&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;속성2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;매개변수2&lt;/span&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;그럼 Person 클래스로 인스턴스를 만들 때 이름, 나이, 주소를 받아보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'안녕하세요.'&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;
- 
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'{0} 저는 {1}입니다.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
- 
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 안녕하세요. 저는 마리아입니다.
-&lt;/span&gt; 
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'이름:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;# 마리아
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'나이:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;# 20
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'주소:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 서울시 서초구 반포동
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#실행 결과
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;안녕하세요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;저는&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;마리아입니다&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;이름&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;마리아&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;나이&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;주소&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;서울시&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;서초구&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;반포동&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;__init__ 메서드를 보면 self 다음에 name, age, address를 지정했습니다. 그리고 메서드 안에서는 self.name = name처럼 매개변수를 그대로 self에 넣어서 속성으로 만들었다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'안녕하세요.'&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;greeting 메서드는 인사를 하고 이름을 출력하도록 수정했다. 물론 name 속성에 접근할 때는 self.name처럼 사용해야한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'{0} 저는 {1}입니다.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이제 Person의 ( )(괄호) 안에 이름, 나이, 주소를 콤마로 구분해서 넣은 뒤에 변수에 할당한다. 이렇게 하면 이름은 ‘마리아’, 나이는 20, 주소는 ‘서울시 서초구 반포동’인 maria 인스턴스가 만들어진다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;maria 인스턴스의 greeting 메서드를 호출해보면 ‘안녕하세요. 저는 마리아입니다.’처럼 인삿말과 함께 이름도 출력된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 안녕하세요. 저는 마리아입니다.
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;클래스 안에서 속성에 접근할 때는 self.속성 형식이 있었다. 클래스 바깥에서 속성에 접근할 때는 인스턴스.속성 형식으로 접근한다. 다음과 같이 maria.name, maria.age, maria.address의 값을 출력해보면 Person으로 인스턴스를 만들 때 넣었던 값이 출력된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'이름:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;# 마리아
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'나이:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;# 20
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'주소:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 서울시 서초구 반포동
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;클래스의-위치-인수-키워드-인수&quot;&gt;클래스의 위치 인수, 키워드 인수&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-클래스로 인스턴스를 만들 때 위치 인수와 키워드 인수를 사용할 수 있다. 규칙은 함수와 같다. 위치 인수와 리스트 언패킹을 사용하려면 다음과 같이 *args를 사용하면 됩니다. 이때 매개변수에서 값을 가져오려면 args[0]처럼 사용해야 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
- 
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;키워드 인수와 딕셔너리 언패킹을 사용하려면 다음과 같이 **kwargs를 사용하면 됩니다. 이때 매개변수에서 값을 가져오려면 kwargs[‘name’]처럼 사용해야 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 키워드 인수
-&lt;/span&gt;        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'age'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'address'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
- 
-&lt;span class=&quot;n&quot;&gt;maria1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'age'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'address'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;인스턴스를-생성한-뒤에-속성-추가하기-특정-속성만-허용하기&quot;&gt;인스턴스를 생성한 뒤에 속성 추가하기, 특정 속성만 허용하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-지금까지 클래스의 인스턴스 속성은 &lt;strong&gt;init&lt;/strong&gt; 메서드에서 추가한 뒤 사용했다. 하지만 클래스로 인스턴스를 만든 뒤에도 인스턴스.속성 = 값 형식으로 속성을 계속 추가할 수 있다. 다음 Person 클래스는 빈 클래스이지만 인스턴스를 만든 뒤 name 속성을 추가한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-     &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;# 인스턴스 생성
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 인스턴스를 만든 뒤 속성 추가
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이렇게 추가한 속성은 해당 인스턴스에만 생성된다. 따라서 클래스로 다른 인스턴스를 만들었을 때는 추가한 속성이 생성되지 않는다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# james 인스턴스 생성
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# maria 인스턴스에만 name 속성을 추가했으므로 james 인스턴스에는 name 속성이 없음
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;pyshell#11&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;james&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;AttributeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Person'&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;no&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;인스턴스는 생성한 뒤에 속성을 추가할 수 있으므로 &lt;strong&gt;init&lt;/strong&gt; 메서드가 아닌 다른 메서드에서도 속성을 추가할 수 있다. 단, 이때는 메서드를 호출해야 속성이 생성된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-         &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'안녕하세요'&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# greeting 메서드에서 hello 속성 추가
-&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 아직 hello 속성이 없음
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;pyshell#22&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;AttributeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Person'&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;no&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'hello'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# greeting 메서드를 호출해야
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;# hello 속성이 생성됨
-&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'안녕하세요'&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;인스턴스는 자유롭게 속성을 추가할 수 있지만 특정 속성만 허용하고 다른 속성은 제한하고 싶을 수도 있다. 이때는 클래스에서 __slots__에 허용할 속성 이름을 리스트로 넣어주면 된다. 특히 속성 이름은 반드시 문자열로 지정해준다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;__slots__ = [‘속성이름1, ‘속성이름2’]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-     &lt;span class=&quot;n&quot;&gt;__slots__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'age'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# name, age만 허용(다른 속성은 생성 제한)
-&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;                     &lt;span class=&quot;c1&quot;&gt;# 허용된 속성
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;                            &lt;span class=&quot;c1&quot;&gt;# 허용된 속성
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 허용되지 않은 속성은 추가할 때 에러가 발생함
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;pyshell#32&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;AttributeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Person'&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;no&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'address'&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;3-비공개-속성-사용하기&quot;&gt;3. 비공개 속성 사용하기&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-위에서 만든 person클래스에는 hello, name, age, address 속성이 있었다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'안녕하세요.'&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이 속성들은 메서드에서 self로 접근할 수 있고, &lt;strong&gt;인스턴스.속성&lt;/strong&gt; 형식으로 클래스 바깥에서도 접근할 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이번에는 클래스 바깥에서는 접근할 수 없고 클래스 안에서만 사용할 수 있는 비공개 속성(private attribute)을 사용해보자.&lt;/p&gt;
-
-&lt;p&gt;비공개 속성은 &lt;strong&gt;__속성&lt;/strong&gt;과 같이 이름이 &lt;strong&gt;(밑줄 두 개)로 시작해야 한다. 단, **__속성&lt;/strong&gt;**처럼 밑줄 두 개가 양 옆에 왔을 때는 비공개 속성이 아니므로 주의해야 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;클래스이름&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;매개변수&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__속성&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;값&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Person 클래스에 지갑 속성 __wallet을 넣어 봤다. 다음 내용을 IDLE의 소스 코드 편집 창에 입력한 뒤 실행해보자. 실행을 해보면 에러가 발생한다. self.__wallet처럼 앞에 밑줄 두 개를 붙여서 비공개 속성으로 만들었으므로 클래스 바깥에서 maria.__wallet으로는 접근할 수 없다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wallet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__wallet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wallet&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 변수 앞에 __를 붙여서 비공개 속성으로 만듦
-&lt;/span&gt; 
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__wallet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10000&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 클래스 바깥에서 비공개 속성에 접근하면 에러가 발생함
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#실행결과
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C:\project\class_private_attribute_error.py&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__wallet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10000&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 클래스 바깥에서 비공개 속성에 접근하면 에러가 발생함
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;AttributeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Person'&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;no&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'__wallet'&lt;/span&gt; 
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;비공개 속성은 클래스 안의 메서드에서만 접근할 수 있다. 다음과 같이 돈을 내는 pay 메서드를 만들어보자. pay는 돈을 내면 해당 금액을 지갑에서 빼도록 만들었다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wallet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;address&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__wallet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wallet&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 변수 앞에 __를 붙여서 비공개 속성으로 만듦
-&lt;/span&gt; 
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;pay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__wallet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# 비공개 속성은 클래스 안의 메서드에서만 접근할 수 있음
-&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'이제 {0}원 남았네요.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__wallet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
- 
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'마리아'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'서울시 서초구 반포동'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;maria&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# 실행결과
-&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;이제&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7000&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;원&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;남았네요&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;물론 지갑에 든 돈은 굳이 밝힐 필요가 없으므로 print로 출력하지 않아도 된다. 보통은 다음과 같이 지갑에 든 돈이 얼마인지 확인하고 돈이 모자라면 쓰지 못하는 식으로 만든다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;pay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__wallet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 사용하려고 하는 금액보다 지갑에 든 돈이 적을 때
-&lt;/span&gt;            &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'돈이 모자라네...'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__wallet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이처럼 비공개 속성은 클래스 바깥으로 드러내고 싶지 않은 값에 사용한다. 즉, 중요한 값인데 바깥에서 함부로 바꾸면 안될 때 비공개 속성을 주로 사용한다. 비공개 속성을 바꾸는 경우는 클래스의 메서드로 한정한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;공개-속성과-비공개-속성&quot;&gt;공개 속성과 비공개 속성&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-클래스 바깥에서 접근할 수 있는 속성을 공개 속성(public attribute)이라 부르고, 클래스 안에서만 접근할 수 있는 속성을 비공개 속성(private attribute)이라 부른다.&lt;/p&gt;
-
-&lt;h3 id=&quot;비공개-메서드-사용하기&quot;&gt;비공개 메서드 사용하기&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-속성뿐만 아니라 메서드도 이름이 __(밑줄 두 개)로 시작하면 클래스 안에서만 호출할 수 있는 비공개 메서드가 된다. 비공개 메서드도 메서드를 클래스 바깥으로 드러내고 싶지 않을 때 사용한다. 보통 내부에서만 호출되어야 하는 메서드를 비공개 메서드로 만든다. 예를 들어 게임 캐릭터가 마나를 소비해서 스킬을 쓴다고 치면 마나 소비량을 계산해서 차감하는 메서드는 비공개 메서드로 만들고, 스킬을 쓰는 메서드는 공개 메서드로 만든다. 만약 마나를 차감하는 메서드가 공개되어 있다면 마음대로 마나를 차감시킬 수 있으므로 잘못된 클래스 설계가 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
- 
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 클래스 안에서는 비공개 메서드를 호출할 수 있음
-&lt;/span&gt; 
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;james&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__greeting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# 에러: 클래스 바깥에서는 비공개 메서드를 호출할 수 없음
-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;예제1&quot;&gt;예제1&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-다음 소스 코드에서 클래스를 작성하여 게임 캐릭터의 능력치와 ‘베기’가 출력되게 만드세요.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
- &lt;span class=&quot;n&quot;&gt;______________&lt;/span&gt;                                           
-&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
- &lt;span class=&quot;n&quot;&gt;______________&lt;/span&gt;                                          
- 
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Knight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;542.4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;210.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;armor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;38&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;armor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;slash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;#결과
-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;542.4&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;210.3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;38&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;베기&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;답&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Knight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;armor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;armor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;armor&lt;/span&gt;
- 
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;slash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'베기'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;x = Knight(health=542.4, mana=210.3, armor=38)와 같이 클래스에 값을 넣어서 인스턴스를 생성하고, print(x.health, x.mana, x.armor)와 같이 인스턴스 속성을 출력하고 있다. 따라서 class로 Knight 클래스를 만들고 __init__ 메서드에 매개변수로 self, health, mana, armor를 지정한다. 이때 반드시 첫 번째 매개변수는 self어야 한다. 함수 안에서는 self.health = health처럼 모든 매개변수를 그대로 속성으로 만들어준다.&lt;/p&gt;
-
-&lt;p&gt;그다음에 x.slash()와 같이 인스턴스로 메서드를 호출하고 있으므로 Knight 클래스 안에 slash 메서드를 만들고 print로 ‘베기’를 출력하도록 만들면 되겠다.&lt;/p&gt;
-
-&lt;h3 id=&quot;예제2&quot;&gt;예제2&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-표준 입력으로 게임 캐릭터 능력치(체력, 마나, AP)가 입력됩니다. 다음 소스 코드에서 애니(Annie) 클래스를 작성하여 티버(tibbers) 스킬의 피해량이 출력되게 만드세요. 티버의 피해량은 AP * 0.65 + 400이며 AP(Ability Power, 주문력)는 마법 능력치를 뜻합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;________________&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;________________&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;________________&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;________________&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;________________&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;________________&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ability_power&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
- 
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Annie&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ability_power&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ability_power&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tibbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;#입력
-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;511.68&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;334.0&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;298&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;#결과
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;티버&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;피해량&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;593.7&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;#입력
-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1803.68&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1184.0&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;645&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;#결과
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;티버&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;피해량&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;819.25&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;내가 쓴 답&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Annie&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'health'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'mana'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ability_power&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kwargs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'ability_power'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;tibbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;티버: 피해량&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ability_power&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.65&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;코딩도장 풀이&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Annie&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ability_power&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mana&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ability_power&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ability_power&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;tibbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;티버: 피해량 {0} &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ability_power&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.65&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AhnSang0915</name></author><category term="python" /><summary type="html">Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로 분기하기 Python for 반복문 Python while 반복문 Python break, continue로 반복문 제어하기 Python 중첩루프 Python FizzBuzz 문제 Python 터틀 그래픽스로 그림 그리기 Python 리스트와 튜플 응용하기 Python 리스트와 튜플 응용하기 - 2 Python 2차원 리스트 사용하기 Python 문자열 응용하기 Python 딕셔너리 응용하기 Python 세트 사용하기 Python 파일 사용하기 Python 회문 판별과 N-gram 만들기 Python 함수 사용하기 Python 함수에서 위치 인수와 키워드 인수 사용하기 Python 함수에서 재귀호출 사용하기 Python 람다 표현식 사용하기 Python 클로저 사용하기 Python 클래스 사용하기 Python 클래스 속성과 정적, 클래스 메서드 사용하기 Python 클래스 상속 사용하기 Python 두 점 사이의 거리 구하기 Python 예외 처리 사용하기 Python 이터레이터 사용하기 Python 제너레이터 사용하기 Python 코루틴 사용하기 Python 데코레이터 사용하기 Python 정규표현식 사용하기 Python 모듈과 패키지 사용하기</summary></entry></feed>

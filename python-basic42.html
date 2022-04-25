@@ -11,7 +11,7 @@
 
 
 
-    <title>Python - Python 회문 판별과 N-gram 만들기</title>
+    <title>Python - Python 정규표현식 사용하기</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -50,23 +50,23 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Learn Coding" />
     <link rel="shortcut icon" href="https://AhnSang0915.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://AhnSang0915.github.io/python-basic26" />
+    <link rel="canonical" href="https://AhnSang0915.github.io/python-basic42" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="My Coding Practice Gym" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Python - Python 회문 판별과 N-gram 만들기" />
+    <meta property="og:title" content="Python - Python 정규표현식 사용하기" />
     <meta property="og:description" content="Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로" />
-    <meta property="og:url" content="https://AhnSang0915.github.io/python-basic26" />
+    <meta property="og:url" content="https://AhnSang0915.github.io/python-basic42" />
     <meta property="og:image" content="https://AhnSang0915.github.io/assets/built/images/python-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-04-13T19:00:00+09:00" />
-    <meta property="article:modified_time" content="2022-04-13T19:00:00+09:00" />
+    <meta property="article:published_time" content="2022-04-24T16:00:00+09:00" />
+    <meta property="article:modified_time" content="2022-04-24T16:00:00+09:00" />
     <meta property="article:tag" content="Python" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Python - Python 회문 판별과 N-gram 만들기" />
+    <meta name="twitter:title" content="Python - Python 정규표현식 사용하기" />
     <meta name="twitter:description" content="Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로" />
     <meta name="twitter:url" content="https://AhnSang0915.github.io/" />
     <meta name="twitter:image" content="https://AhnSang0915.github.io/assets/built/images/python-logo.png" />
@@ -88,7 +88,7 @@
         "name": "My Coding Practice Gym",
         "logo": "https://AhnSang0915.github.io/"
     },
-    "url": "https://AhnSang0915.github.io/python-basic26",
+    "url": "https://AhnSang0915.github.io/python-basic42",
     "image": {
         "@type": "ImageObject",
         "url": "https://AhnSang0915.github.io/assets/built/images/python-logo.png",
@@ -97,7 +97,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://AhnSang0915.github.io/python-basic26"
+        "@id": "https://AhnSang0915.github.io/python-basic42"
     },
     "description": "Python Python 기본 Python 숫자 계산하기 Python 변수 만들기 Python 출력 방법 Python 불과 비교, 논리 연산자 Python 문자열 사용하기 Python 리스트와 튜플 사용하기 Python 시퀀스 자료형 활용하기 Python 딕셔너리 사용하기 Python if 조건문으로 특정 조건일 때 코드 실행하기 Python else를 사용하여 두 방향으로 분기하기 Python elif를 사용하여 두 방향으로"
 }
@@ -112,7 +112,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Python - Python 회문 판별과 N-gram 만들기" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Python - Python 정규표현식 사용하기" href="/feed.xml" />
 
 
 </head>
@@ -173,7 +173,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="13 April 2022">13 April 2022</time>
+                    <time class="post-full-meta-date" datetime="24 April 2022">24 April 2022</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -183,7 +183,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Python - Python 회문 판별과 N-gram 만들기</h1>
+                <h1 class="post-full-title">Python - Python 정규표현식 사용하기</h1>
             </header>
 
             
@@ -241,280 +241,478 @@ into the {body} of the default.hbs template -->
 
 </ul>
 
-<h1 id="회문-판별과-n-gram-만들기">회문 판별과 N-gram 만들기</h1>
+<h1 id="정규표현식-사용하기">정규표현식 사용하기</h1>
 
 <p><br />
 <br />
-문자열을 응용해 회문을 판별하는 방법과 N-gram을 만드는 방법을 알아보자.<br />
-회문은 유전자 염기서열 분석에서 많이 쓰고, N-gram은 빅 데이터 분석, 검색 엔진에서 많이 쓰인다. 특히 구글은 책들을 스캔해서 N-gram viewer를 만들었는데 사람들의 언어 패턴을 시대별로 분석하기도 했다.</p>
+파이썬 내장함수로는 할 수 있는게 별로없다. 그래서 좀 더 복잡한 프로그램을 만들려면 파이썬의 모듈과 패키지를 사용해야 한다. 중간에 사용했던 random, turtle, pickle 등이 바로 모듈과 패키지이다.</p>
+
+<p>모듈(module)은 각종 변수, 함수, 클래스를 담고 있는 파일이고, 패키지(package)는 여러 모듈을 묶은 것이다. 파이썬을 설치할 때 다양한 모듈과 패키지가 기본으로 설치된다. 만약 기본 모듈과 패키지로 부족하다면 다른 사람이 만든 유명 모듈과 패키지를 설치해서 쓸 수도 있다.</p>
+
+<ul>
+  <li>
+    <p>모듈: 특정 기능을 .py 파일 단위로 작성한 것입니다.</p>
+  </li>
+  <li>
+    <p>패키지: 특정 기능과 관련된 여러 모듈을 묶은 것입니다. 패키지는 모듈에 네임스페이스(namespace, 이름공간)를 제공합니다.</p>
+  </li>
+  <li>
+    <p>파이썬 표준 라이브러리: 파이썬에 기본으로 설치된 모듈과 패키지, 내장 함수를 묶어서 파이썬 표준 라이브러리(Python Standard Library, PSL)라 부릅니다.</p>
+  </li>
+</ul>
 
 <hr />
 
-<h2 id="1-파일에-문자열-쓰기-읽기">1. 파일에 문자열 쓰기, 읽기</h2>
+<h2 id="1import로-모듈-가져오기">1.import로 모듈 가져오기</h2>
+<p><br />
+<br />
+모듈은 import 키워드로 가져올 수 있다.</p>
+
+<ul>
+  <li>import 모듈</li>
+  <li>import 모듈1, 모듈2</li>
+  <li>모듈.변수</li>
+  <li>모듈.함수()</li>
+  <li>모듈.클래스()</li>
+</ul>
+
+<p>그럼 간단한 파이썬 표준 라이브러리의 수학 모듈 math를 가져와 원주율을 출력해보자.
+import에 모듈 이름을 지정하면 해당 모듈을 가져올 수 있으며 math.pi와 같이 모듈.변수 형식으로 모듈의 변수를 사용한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="n">math</span><span class="p">.</span><span class="n">pi</span>
+<span class="mf">3.141592653589793</span>
+
+</code></pre></div></div>
+
+<p>이번에는 math 모듈의 제곱근 함수 sqrt를 사용해보자.
+모듈의 함수는 math.sqrt(4.0)와 같이 모듈.함수() 형식으로 사용한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="n">math</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>
+<span class="mf">2.0</span>
+<span class="n">math</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">2.0</span><span class="p">)</span>
+<span class="mf">1.4142135623730951</span>
+
+</code></pre></div></div>
+
+<h3 id="import-as로-모듈-이름-지정하기">import as로 모듈 이름 지정하기</h3>
 <p><br />
 <br /></p>
 
-<h3 id="회문-판별하기">회문 판별하기</h3>
-<p><br />
-<br />
-회문(palindrome)은 순서를 거꾸로 읽어도 제대로 읽은 것과 같은 단어와 문장을 말한다. 예를 들면 “level”, “SOS”, “rotator”, “nurses run”과 같은 단어와 문장이 있다.</p>
+<p>모듈의 함수를 사용할 때 매번 math를 입력하지 않아도 impor as로 모듈의 이름을 지정할 수 있다.</p>
 
-<h3 id="반복문으로-문자-검사하기">반복문으로 문자 검사하기</h3>
-<p><br />
-<br />
-이제 반복문으로 문자열의 각 문자를 검사해보자. 여기서 가장 중요한 부분은 문자열(단어)의 길이이다. 회문 판별은 문자열의 길이를 기준으로 하기 때문에 문자열을 절반으로 나누어서 왼쪽 문자와 오른쪽 문자가 같은지 판별해야한다. 그리고 if 판별문에서 첫번쨰 글자와 마지막 글자를 비교해준다. 마지막 글자는 -1을 넣어 인덱스 0일때 마지막의 첫번째 글자인 인덱스 -1의 글자를 비교하게 만들었다. word[-(1 + i)]와 같이 숫자를 i만큼 증가시킨 뒤 음수로 바꾸는 방식으로도 표현할 수 있다.</p>
+<ul>
+  <li>import 모듈 as 이름</li>
+</ul>
+
+<p>이제 math 모듈을 m으로 줄여보자. import math as m과 같이 모듈을 가져오면서 as 뒤에 이름을 지정해준다. 이후 math 모듈을 사용할 때 m으로 줄여서 사용할 수 있다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">word</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'단어를 입력하세요: '</span><span class="p">)</span>
- 
-<span class="n">is_palindrome</span> <span class="o">=</span> <span class="bp">True</span>                 <span class="c1"># 회문 판별값을 저장할 변수, 초깃값은 True
-</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">word</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span><span class="p">):</span>      <span class="c1"># 0부터 문자열 길이의 절반만큼 반복
-</span>    <span class="k">if</span> <span class="n">word</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="n">word</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span> <span class="o">-</span> <span class="n">i</span><span class="p">]:</span>      <span class="c1"># 왼쪽 문자와 오른쪽 문자를 비교하여 문자가 다르면
-</span>        <span class="n">is_palindrome</span> <span class="o">=</span> <span class="bp">False</span>        <span class="c1"># 회문이 아님
-</span>        <span class="k">break</span>
- 
-<span class="k">print</span><span class="p">(</span><span class="n">is_palindrome</span><span class="p">)</span>                 <span class="c1"># 회문 판별값 출력
-</span>
-<span class="c1"># 실행결과
-</span><span class="n">단어를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="n">level</span> <span class="p">(</span><span class="n">입력</span><span class="p">)</span>
-<span class="bp">True</span>
-
-<span class="c1"># 실행결과
-</span><span class="n">단어를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="n">hello</span> <span class="p">(</span><span class="n">입력</span><span class="p">)</span>
-<span class="bp">False</span>
+<span class="kn">import</span> <span class="nn">math</span> <span class="k">as</span> <span class="n">m</span>    <span class="c1"># math 모듈을 가져오면서 이름을 m으로 지정
+</span><span class="n">m</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>         <span class="c1"># m으로 제곱근 함수 사용
+</span><span class="mf">2.0</span>
+<span class="n">m</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">2.0</span><span class="p">)</span>         <span class="c1"># m으로 제곱근 함수 사용
+</span><span class="mf">1.4142135623730951</span>
 
 </code></pre></div></div>
 
-<h3 id="시퀀스-뒤집기로-문자-검사하기">시퀀스 뒤집기로 문자 검사하기</h3>
+<h3 id="from-import로-모듈의-일부만-가져오기">from import로 모듈의 일부만 가져오기</h3>
 <p><br />
 <br />
-문자열을 반대로 뒤집어 판별할 수 있다. 객체 슬라이스를 활용해 간단하게 판별해 보자. word[::-1]은 문자열 전체에서 인덱스를 1씩 감소시키면서 요소를 가져오므로 문자열을 반대로 뒤집는다. 회문은 순서를 거꾸로 읽어도 제대로 읽은 것과 같은 문자열이므로 원래 문자열 word와 뒤집은 문자열 word[::-1]이 같으면 회문이다.</p>
+from math import pi와 같이 from 뒤에 모듈 이름을 지정하고 import 뒤에 가져올 변수를 입력한다. 이후 가져온 변수를 사용할 때는 pi와 같이 모듈 이름을 붙이지 않고 바로 사용하면된다.</p>
+
+<ul>
+  <li>from 모듈 import 변수</li>
+</ul>
+
+<p>다음은 math 모듈에서 변수 pi만 가져온다. from math import pi와 같이 from 뒤에 모듈 이름을 지정하고 import 뒤에 가져올 변수를 입력한다. 이후 가져온 변수를 사용할 때는 pi와 같이 모듈 이름을 붙이지 않고 바로 사용하면 된다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">word</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'단어를 입력하세요: '</span><span class="p">)</span>
- 
-<span class="k">print</span><span class="p">(</span><span class="n">word</span> <span class="o">==</span> <span class="n">word</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>    <span class="c1"># 원래 문자열과 반대로 뒤집은 문자열을 비교
-</span>
-<span class="c1">#실행결과
-</span><span class="n">단어를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="n">level</span> <span class="p">(</span><span class="n">입력</span><span class="p">)</span>
-<span class="bp">True</span>
-<span class="n">단어를</span> <span class="n">입력하세요</span><span class="p">:</span> <span class="n">hello</span> <span class="p">(</span><span class="n">입력</span><span class="p">)</span>
-<span class="bp">False</span>
+<span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">pi</span>    <span class="c1"># math 모듈에서 변수 pi만 가져옴
+</span><span class="n">pi</span>                     <span class="c1"># pi를 바로 사용하여 원주율 출력
+</span><span class="mf">3.141592653589793</span>
 
 </code></pre></div></div>
 
-<h3 id="리스트와-reversed-사용하기">리스트와 reversed 사용하기</h3>
-<p><br />
-<br />
-다음과 같이 반복 가능한 객체의 요소 순서를 반대로 뒤집는 reversed를 사용해도 된다. list에 문자열을 넣으면 문자 하나 하나가 리스트의 요소로 들어간다. 여기서 reversed로 문자열을 반대로 뒤집어서 list에 넣어 두 리스트를 ==로 비교하면 회문판별이 가능하다.</p>
+<p>이번에는 모듈의 함수를 가져와보자.</p>
+
+<ul>
+  <li>from 모듈 import 함수</li>
+  <li>from 모듈 import 클래스</li>
+</ul>
+
+<p>다음은 math 모듈에서 sqrt 함수만 가져왔다. math 모듈에서 sqrt 함수만 가져왔으므로 sqrt(4.0)처럼 앞에 math를 붙이지 않고 함수를 바로 사용할 수 있다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">word</span> <span class="o">=</span> <span class="s">'level'</span>
-<span class="nb">list</span><span class="p">(</span><span class="n">word</span><span class="p">)</span> <span class="o">==</span> <span class="nb">list</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">word</span><span class="p">))</span> <span class="c1">#reversed는 새로운 객체를 만들어 반환한다.
-</span><span class="bp">True</span>
-
-<span class="nb">list</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
-<span class="p">[</span><span class="s">'l'</span><span class="p">,</span> <span class="s">'e'</span><span class="p">,</span> <span class="s">'v'</span><span class="p">,</span> <span class="s">'e'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">]</span>
-<span class="nb">list</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">word</span><span class="p">))</span>
-<span class="p">[</span><span class="s">'l'</span><span class="p">,</span> <span class="s">'e'</span><span class="p">,</span> <span class="s">'v'</span><span class="p">,</span> <span class="s">'e'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">]</span>
+<span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span>    <span class="c1"># math 모듈에서 sqrt 함수만 가져옴
+</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>                <span class="c1"># sqrt 함수를 바로 사용
+</span><span class="mf">2.0</span>
+<span class="n">sqrt</span><span class="p">(</span><span class="mf">2.0</span><span class="p">)</span>                <span class="c1"># sqrt 함수를 바로 사용
+</span><span class="mf">1.4142135623730951</span>
 
 </code></pre></div></div>
 
-<h3 id="문자열의-join-메서드와-reversed-사용하기">문자열의 join 메서드와 reversed 사용하기</h3>
-<p><br />
-<br />
-문자열의 join메서드를 사용해서 회문을 판별할 수 있다. join은 구분자 문자열과 문자열 리스트의 요소를 연결한다. 여기서는 빈 문자열’‘에 reversed(word)의 요소를 연결했으므로 문자 순서가 반대로 된 문자열을 얻을 수 있다. 즉,  join은 요소 사이에 구분자를 넣지만 빈문자열 ‘‘을 활용하여 각문자를 그대로 연결하는 방식이다.</p>
+<p>변수나 함수 하나를 가져오는게 아닌 여러개를 import 뒤에 가져올 변수, 함수, 클래스를 콤마로 구분하여 한번에 불러올 수 있다.</p>
+
+<ul>
+  <li>from 모듈 import 변수, 함수, 클래스</li>
+</ul>
+
+<p>다음은 math 모듈에서 pi, sqrt를 가져온다. from math import pi, sqrt와 같이 pi와 sqrt 두 개를 가져왔다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">word</span> <span class="o">=</span> <span class="s">'level'</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">word</span> <span class="o">==</span> <span class="s">''</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">word</span><span class="p">))</span>
-<span class="bp">True</span>
+<span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">pi</span><span class="p">,</span> <span class="n">sqrt</span>    <span class="c1"># math 모듈에서 pi, sqrt를 가져옴
+</span><span class="n">pi</span>                           <span class="c1"># pi로 원주율 출력
+</span><span class="mf">3.141592653589793</span>
+<span class="n">sqrt</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>                    <span class="c1"># sqrt 함수 사용
+</span><span class="mf">2.0</span>
+<span class="n">sqrt</span><span class="p">(</span><span class="mf">2.0</span><span class="p">)</span>                    <span class="c1"># sqrt 함수 사용
+</span><span class="mf">1.4142135623730951</span>
 
-<span class="o">&gt;&gt;&gt;</span> <span class="n">word</span>
-<span class="s">'level'</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="s">''</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">word</span><span class="p">))</span>
-<span class="s">'level'</span>
+</code></pre></div></div>
+
+<p>변수, 함수, 클래스가 수십가지라면 위의 방법으로 입력하기 불편하다. for import를 사용하면 모듈의 모든 변수, 함수, 클래스를 가져올 수 있다.</p>
+
+<ul>
+  <li>from 모듈 import *</li>
+</ul>
+
+<p>다음은 math 모듈의 모든 변수, 함수, 클래스를 가져온다. from math import *와 같이 지정하면 math 모듈의 모든 함수, 변수, 클래스를 가져온다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="o">*</span>    <span class="c1"># math 모듈의 모든 변수, 함수, 클래스를 가져옴
+</span><span class="n">pi</span>                    <span class="c1"># pi로 원주율 출력
+</span><span class="mf">3.141592653589793</span>
+<span class="n">sqrt</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>             <span class="c1"># sqrt 함수 사용
+</span><span class="mf">2.0</span>
+<span class="n">sqrt</span><span class="p">(</span><span class="mf">2.0</span><span class="p">)</span>             <span class="c1"># sqrt 함수 사용
+</span><span class="mf">1.4142135623730951</span>
+
+</code></pre></div></div>
+
+<h3 id="from-import로-모듈의-일부만-가져오기-1">from import로 모듈의 일부만 가져오기</h3>
+<p><br />
+<br />
+이번에는 from import로 변수, 함수, 클래스를 가져온 뒤 이름을 지정해보자.</p>
+
+<ul>
+  <li>from 모듈 import 변수 as 이름</li>
+  <li>from 모듈 import 함수 as 이름</li>
+  <li>from 모듈 import 클래스 as 이름</li>
+</ul>
+
+<p>다음은 math 모듈에서 sqrt 함수를 가져오면서 이름을 s로 지정한다. from import로 가져온 변수, 함수, 클래스 뒤에 as로 이름을 지정해주면 된다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">sqrt</span> <span class="k">as</span> <span class="n">s</span>    <span class="c1"># math 모듈에서 sqrt 함수를 가져오면서 이름을 s로 지정
+</span><span class="n">s</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>                        <span class="c1"># s로 sqrt 함수 사용
+</span><span class="mf">2.0</span>
+<span class="n">s</span><span class="p">(</span><span class="mf">2.0</span><span class="p">)</span>                        <span class="c1"># s로 sqrt 함수 사용
+</span><span class="mf">1.4142135623730951</span>
+
+</code></pre></div></div>
+
+<p>여러개를 가져올 경우 각 변수, 함수, 클래스 등을 콤마로 구분하여 as를 여러 개 지정하면 된다.</p>
+
+<ul>
+  <li>from 모듈 import 변수 as 이름1, 함수 as 이름2, 클래스 as 이름3</li>
+</ul>
+
+<p>다음은 math 모듈의 pi를 가져오면서 이름을 p로, sqrt를 가져오면서 이름을 s로 지정한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">pi</span> <span class="k">as</span> <span class="n">p</span><span class="p">,</span> <span class="n">sqrt</span> <span class="k">as</span> <span class="n">s</span>
+<span class="n">p</span>         <span class="c1"># p로 원주율 출력
+</span><span class="mf">3.141592653589793</span>
+<span class="n">s</span><span class="p">(</span><span class="mf">4.0</span><span class="p">)</span>    <span class="c1"># s로 sqrt 함수 사용
+</span><span class="mf">2.0</span>
+<span class="n">s</span><span class="p">(</span><span class="mf">2.0</span><span class="p">)</span>    <span class="c1"># s로 sqrt 함수 사용
+</span><span class="mf">1.4142135623730951</span>
+
+</code></pre></div></div>
+
+<h3 id="가져온-모듈-해제하기-다시-가져오기">가져온 모듈 해제하기, 다시 가져오기</h3>
+<p><br />
+<br />
+import로 가져온 모듈(변수, 함수, 클래스)은 del로 해제할 수 있다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="k">del</span> <span class="n">math</span>
+
+</code></pre></div></div>
+
+<p>모듈을 다시 가져오려면 importlib.reload를 사용한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="nn">importlib</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="n">importlib</span><span class="p">.</span><span class="nb">reload</span><span class="p">(</span><span class="n">math</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<p>–</p>
+
+<h2 id="2import로-패키지-가져오기">2.import로 패키지 가져오기</h2>
+<p><br />
+<br />
+패키지는 특정 기능과 관련된 여러 모듈을 묶은 것인데, 패키지에 들어있는 모듈도 import를 사용하여 가져온다.</p>
+
+<ul>
+  <li>import 패키지.모듈</li>
+  <li>import 패키지.모듈1, 패키지.모듈2</li>
+  <li>패키지.모듈.변수</li>
+  <li>패키지.모듈.함수()</li>
+  <li>패키지.모듈.클래스()</li>
+</ul>
+
+<p>파이썬 표준 라이브러리에서 urllib 패키지의 request 모듈을 가져와 url주소의 응답을 받아왔다.
+패키지에 들어있는 모듈은 import urllib.request와 같이 패키지.모듈 형식으로 가져온다. 마찬가지로 모듈의 함수를 사용할 때도 urllib.request.urlopen()과 같이 패키지.모듈.함수() 형식으로 패키지 이름과 모듈 이름을 모두 입력해준다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="nn">urllib.request</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">urllib</span><span class="p">.</span><span class="n">request</span><span class="p">.</span><span class="n">urlopen</span><span class="p">(</span><span class="s">'http://www.google.co.kr'</span><span class="p">)</span>
+<span class="n">response</span><span class="p">.</span><span class="n">status</span>
+<span class="mi">200</span>
+
+</code></pre></div></div>
+
+<h3 id="import-as로-패키지-모듈-이름-지정하기">import as로 패키지 모듈 이름 지정하기</h3>
+<p><br />
+<br />
+패키지 안에 들어있는 모듈도 import as를 사용하여 이름을 지정할 수 있다.</p>
+
+<ul>
+  <li>import 패키지.모듈 as 이름</li>
+</ul>
+
+<p>다음은 urllib 패키지의 request 모듈을 가져오면서 이름을 r로 지정한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="nn">urllib.request</span> <span class="k">as</span> <span class="n">r</span>    <span class="c1"># urllib 패키지의 request 모듈을 가져오면서 이름을 r로 지정
+</span><span class="n">response</span> <span class="o">=</span> <span class="n">r</span><span class="p">.</span><span class="n">urlopen</span><span class="p">(</span><span class="s">'http://www.google.co.kr'</span><span class="p">)</span>    <span class="c1"># r로 urlopen 함수 사용
+</span><span class="n">response</span><span class="p">.</span><span class="n">status</span>
+<span class="mi">200</span>
+
+</code></pre></div></div>
+
+<h3 id="from-import로-패키지의-모듈에서-일부만-가져오기">from import로 패키지의 모듈에서 일부만 가져오기</h3>
+<p><br />
+<br />
+패키지도 from import를 사용하여 모듈에서 변수, 함수, 클래스를 가져올 수 있다.</p>
+
+<ul>
+  <li>from 패키지.모듈 import 변수</li>
+  <li>from 패키지.모듈 import 함수</li>
+  <li>from 패키지.모듈 import 클래스</li>
+  <li>from 패키지.모듈 import 변수, 함수, 클래스</li>
+</ul>
+
+<p>다시 urllib 패키지의 request 모듈에서 urlopen 함수와 Request 클래스를 가져와 보겠자.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">from</span> <span class="nn">urllib.request</span> <span class="kn">import</span> <span class="n">Request</span><span class="p">,</span> <span class="n">urlopen</span>    <span class="c1"># urlopen 함수, Request 클래스를 가져옴
+</span><span class="n">req</span> <span class="o">=</span> <span class="n">Request</span><span class="p">(</span><span class="s">'http://www.google.co.kr'</span><span class="p">)</span>       <span class="c1"># Request 클래스를 사용하여 req 생성
+</span><span class="n">response</span> <span class="o">=</span> <span class="n">urlopen</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>                        <span class="c1"># urlopen 함수 사용
+</span><span class="n">response</span><span class="p">.</span><span class="n">status</span>
+<span class="mi">200</span>
+
+</code></pre></div></div>
+
+<p>참고로 urlopen 함수에 URL을 바로 넣어도 되고, Request(‘http://www.google.co.kr’)와 같이 Request 클래스에 URL을 넣은 뒤에 req를 생성해서 urlopen 함수에 넣어도 된다.</p>
+
+<p>패키지의 모듈에서 모든 변수, 함수, 클래스를 가져오는 방법은 다음과 같다.</p>
+
+<ul>
+  <li>from 패키지.모듈 import *</li>
+</ul>
+
+<p>다음은 urllib의 request 모듈에서 모든 변수, 함수, 클래스를 가져온다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">from</span> <span class="nn">urllib.request</span> <span class="kn">import</span> <span class="o">*</span>     <span class="c1"># urllib의 request 모듈에서 모든 변수, 함수, 클래스를 가져옴
+</span><span class="n">req</span> <span class="o">=</span> <span class="n">Request</span><span class="p">(</span><span class="s">'http://www.google.co.kr'</span><span class="p">)</span>    <span class="c1"># Request를 사용하여 req 생성
+</span><span class="n">response</span> <span class="o">=</span> <span class="n">urlopen</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>                     <span class="c1"># urlopen 함수 사용
+</span><span class="n">response</span><span class="p">.</span><span class="n">status</span>
+<span class="mi">200</span>
 
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="2-n-gram-만들기">2. N-gram 만들기</h2>
+<h2 id="3-파이썬-패키지-인덱스에서-패키지-설치하기">3. 파이썬 패키지 인덱스에서 패키지 설치하기</h2>
 <p><br />
 <br />
-N-gram은 문자열에서 N개의 연속된 요소를 추출하는 방법이다. 만약 ‘Hello’라는 문자열을 문자(글자) 단위 2-gram으로 추출하면 다음과 같이 된다. 즉, 문자열의 처음부터 문자열 끝까지 한 글자씩 이동하면서 2글자를 추출한다. 3-gram은 3글자, 4-gram은 4글자를 추출하게 된다.</p>
+파이썬은 파이썬 표준 라이브러리(Python Standard Library, PSL) 이외에도 파이썬 패키지 인덱스(Python Package Index, PyPI)를 통해 다양한 패키지를 사용할 수 있다. 특히 명령만 입력하면 원하는 패키지를 인터넷에서 다운로드하여 설치해줄 뿐만 아니라 관련된 패키지(의존성)까지 자동으로 설치해주므로 매우 편리하다.</p>
+
+<h3 id="pip-설치하기">pip 설치하기</h3>
+<p><br />
+<br />
+pip는 파이썬 패키지 인덱스의 패키지 관리 명령어이며 Windows용 파이썬에는 기본으로 내장되어 있다. 리눅스와 macOS에서는 콘솔(터미널)에서 다음과 같은 방법으로 설치하면 된다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">He</span>
-<span class="n">el</span>
-<span class="n">ll</span>
-<span class="n">lo</span>
+<span class="err">$</span> <span class="n">curl</span> <span class="o">-</span><span class="n">O</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">bootstrap</span><span class="p">.</span><span class="n">pypa</span><span class="p">.</span><span class="n">io</span><span class="o">/</span><span class="n">get</span><span class="o">-</span><span class="n">pip</span><span class="p">.</span><span class="n">py</span>
+<span class="err">$</span> <span class="n">sudo</span> <span class="n">python3</span> <span class="n">get</span><span class="o">-</span><span class="n">pip</span><span class="p">.</span><span class="n">py</span>
 
 </code></pre></div></div>
 
-<h3 id="반복문으로-n-gram-출력하기">반복문으로 N-gram 출력하기</h3>
+<h3 id="pip로-패키지-설치하기">pip로 패키지 설치하기</h3>
 <p><br />
 <br />
-이제 반복문으로 문자 단위 2-gram을 출력해보자. 만약 3-gram이라면 반복 횟수는 range(len(text) - 2))와 같이 되고, 문자열 끝에서 두 글자 앞까지 반복하면 된다. 문자열을 출력할 때는 print(text[i], text[i + 1], text[i + 2], sep=’‘)가 된다. 여기서 문자열의 끝까지 반복하면 text[i + 1], text[i + 2]는 문자열의 범위를 벗어난 접근을 하게 되므로 주의해야 한다.</p>
+이제 pip install 명령으로 패키지를 설치해보자.</p>
+
+<ul>
+  <li>pip install 패키지</li>
+</ul>
+
+<p>Windows에서는 명령 프롬프트를 실행(윈도우 키+R을 누른 뒤 cmd를 입력)하고, 리눅스와 macOS에서는 콘솔(터미널)을 실행한 뒤 pip install requests 명령을 입력한다(pip 명령은 파이썬 셸 »&gt;에 입력하면 안 된다. 반드시 명령 프롬프트, 콘솔, 터미널에 입력).</p>
+
+<p>참고로 requests는 파이썬 표준 라이브러리의 urllib.request와 비슷한 역할을 하는 패키지인데 좀 더 기능이 많고 편리하다.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">C</span><span class="p">:</span>\<span class="n">Users</span>\<span class="n">dojang</span><span class="o">&gt;</span><span class="n">pip</span> <span class="n">install</span> <span class="n">requests</span>
+
+</code></pre></div></div>
+
+<p>리눅스, macOS에서는 앞에 sudo를 붙여서 관리자 권한으로 실행합니다.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">text</span> <span class="o">=</span> <span class="s">'Hello'</span>
+<span class="err">$</span> <span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">requests</span>
+
+</code></pre></div></div>
+
+<p>또는, python에 -m 옵션을 지정해서 pip를 실행할 수도 있다. -m 옵션은 모듈을 실행하는 옵션이며 pip도 모듈이다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">C</span><span class="p">:</span>\<span class="n">Users</span>\<span class="n">dojang</span><span class="o">&gt;</span><span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">requests</span>
+
+</code></pre></div></div>
+
+<p>리눅스, macOS에서는 python3으로 실행하고, 앞에 sudo를 붙여서 관리자 권한으로 실행한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="err">$</span> <span class="n">sudo</span> <span class="n">python3</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">requests</span>
+
+</code></pre></div></div>
+
+<p>명령을 입력하면 패키지 다운로드 및 설치 상황이 표시되는데, 다음과 같이 출력되면 정상적으로 설치된 것이다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">Collecting</span> <span class="n">requests</span>
+  <span class="n">Downloading</span> <span class="n">requests</span><span class="o">-</span><span class="mf">2.9</span><span class="p">.</span><span class="mi">1</span><span class="o">-</span><span class="n">py2</span><span class="p">.</span><span class="n">py3</span><span class="o">-</span><span class="n">none</span><span class="o">-</span><span class="nb">any</span><span class="p">.</span><span class="n">whl</span> <span class="p">(</span><span class="mi">501</span><span class="n">kB</span><span class="p">)</span>
+    <span class="mi">100</span><span class="o">%</span> <span class="o">|</span><span class="c1">################################| 503kB 974kB/s
+</span><span class="n">Installing</span> <span class="n">collected</span> <span class="n">packages</span><span class="p">:</span> <span class="n">requests</span>
+<span class="n">Successfully</span> <span class="n">installed</span> <span class="n">requests</span><span class="o">-</span><span class="mf">2.9</span><span class="p">.</span><span class="mi">1</span>
+
+</code></pre></div></div>
+
+<h3 id="import로-패키지-가져오기">import로 패키지 가져오기</h3>
+<p><br />
+<br />
+이제 파이썬 코드에서 패키지를 사용해보자.</p>
+
+<ul>
+  <li>import 패키지</li>
+</ul>
+
+<p>보통 pip install 명령으로 설치한 패키지는 import 패키지 또는 import 패키지.모듈 형식으로 사용하면 된다. 단, 패키지마다 구성이 다를 수 있으므로 해당 패키지의 웹 사이트에서 사용 방법을 찾아봐야한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">import</span> <span class="nn">requests</span>                                <span class="c1"># pip로 설치한 requests 패키지를 가져옴
+</span><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'http://www.google.co.kr'</span><span class="p">)</span>    <span class="c1"># requests.get 함수 사용
+</span><span class="n">r</span><span class="p">.</span><span class="n">status_code</span>
+<span class="mi">200</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="예제1">예제1</h3>
+<p><br />
+<br />
+다음 소스 코드를 완성하여 소수점 이하를 올림, 버림한 숫자가 출력되게 만드세요. 올림 함수는 math 모듈의 ceil, 버림 함수는 math 모듈의 floor 함수입니다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+ <span class="n">_______________________</span>                               
  
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>             <span class="c1"># 2-gram이므로 문자열의 끝에서 한 글자 앞까지만 반복함 range(4)
-</span>    <span class="k">print</span><span class="p">(</span><span class="n">text</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">text</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">sep</span><span class="o">=</span><span class="s">''</span><span class="p">)</span>    <span class="c1"># 현재 문자와 그다음 문자 출력 
-</span>    <span class="c1">#인덱스 01,12,23,34를 반복
-</span>
-</code></pre></div></div>
+<span class="n">x</span> <span class="o">=</span> <span class="mf">1.5</span>
+ 
+<span class="k">print</span><span class="p">(</span><span class="n">ceil</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">floor</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
 
-<p>글자 단위 N-gram이 있다면 단어 단위 N-gram도 있다. 다음은 문자열을 공백으로 구분하여 단어 단위 2-gram을 출력한다. 예를 들어 ‘this is python script’는 ‘this is’, ‘is python’, ‘python script’가 된다. 단어 단위 2-gram도 간단하다. split을 사용하여 공백을 기준으로 문자열을 분리하여 리스트로 만든다. 그리고 2-gram이므로 words 리스트의 마지막에서 요소 한 개 앞까지만 반복하면서 현재 문자열과 그다음 문자열을 출력하면 된다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">text</span> <span class="o">=</span> <span class="s">'this is python script'</span>
-<span class="n">words</span> <span class="o">=</span> <span class="n">text</span><span class="p">.</span><span class="n">split</span><span class="p">()</span>                 <span class="c1"># 공백을 기준으로 문자열을 분리하여 리스트로 만듦
-</span> 
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>      <span class="c1"># 2-gram이므로 리스트의 마지막에서 요소 한 개 앞까지만 반복함
-</span>    <span class="k">print</span><span class="p">(</span><span class="n">words</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">words</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>    <span class="c1"># 현재 문자열과 그다음 문자열 출력
-</span>
 <span class="c1">#실행 결과
-</span>
-<span class="n">this</span> <span class="ow">is</span>
-<span class="ow">is</span> <span class="n">python</span>
-<span class="n">python</span> <span class="n">script</span>
+</span><span class="mi">2</span> <span class="mi">1</span>
 
 </code></pre></div></div>
 
-<h3 id="zip으로-2-gram-만들기">zip으로 2-gram 만들기</h3>
+<p>답</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">ceil</span><span class="p">,</span> <span class="n">floor</span>
+
+</code></pre></div></div>
+
+<h3 id="예제2">예제2</h3>
 <p><br />
 <br />
-zip함수로 2-gram을 만들수 있다. 지금까지 zip함수는 리스트 두 개를 딕셔너리로 만들 때 사용했는데, zip함수는 반복 가능한 객체의 각 요소를 튜플로 묶어준다.</p>
+표준 입력으로 URL 문자열이 입력 입력됩니다. 입력된 URL이 올바르면 True, 잘못되었으면 False를 출력하는 프로그램을 만드세요. 이 심사문제에서 판단해야 할 URL의 규칙은 다음과 같습니다.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">text</span> <span class="o">=</span> <span class="s">'hello'</span>
- 
-<span class="n">two_gram</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">text</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">two_gram</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">i</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">sep</span><span class="o">=</span><span class="s">''</span><span class="p">)</span>
-
-<span class="c1"># 실행결과
-</span>
-<span class="n">He</span>
-<span class="n">el</span>
-<span class="n">ll</span>
-<span class="n">lo</span>
-
-</code></pre></div></div>
-
-<p>zip(text, text[1:])은 문자열 text와 text[1:]의 각 요소를 묶어서 튜플로 만든다. text[1:]은 인덱스 1(두 번째 문자)부터 마지막 문자까지 가져온다. 따라서  text와 text[1:]을 zip으로 묶으면 문자 하나가 밀린 상태로 각 문자를 묶게 된다. zip()함수는 반복 가능한 객체의 길이가 다를경우 뒤에 부분은 생략되어 출력된다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">text</span> <span class="o">=</span> <span class="s">'hello'</span>
-<span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">text</span><span class="p">[</span><span class="mi">1</span><span class="p">:]))</span>
-<span class="p">[(</span><span class="s">'h'</span><span class="p">,</span> <span class="s">'e'</span><span class="p">),</span> <span class="p">(</span><span class="s">'e'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">),</span> <span class="p">(</span><span class="s">'l'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">),</span> <span class="p">(</span><span class="s">'l'</span><span class="p">,</span> <span class="s">'o'</span><span class="p">)]</span>
-
-<span class="c1"># 이 리스트를 출력할 때는 for i in two_gram:와 같이 for로 반복하면서 print(i[0], i[1], sep='')로 튜플의 요소를 출력해주면 된다.
-</span>
-</code></pre></div></div>
-
-<p>단어 단위 2-gram도 같은 방법으로 만들면 된다. 문자열을 공백으로 분리하여 리스트로 만드는 것 말고는 앞과 같다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">text</span> <span class="o">=</span> <span class="s">'this is python script'</span>
-<span class="n">words</span> <span class="o">=</span> <span class="n">text</span><span class="p">.</span><span class="n">split</span><span class="p">()</span>
-<span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">words</span><span class="p">,</span> <span class="n">words</span><span class="p">[</span><span class="mi">1</span><span class="p">:]))</span>
-<span class="p">[(</span><span class="s">'this'</span><span class="p">,</span> <span class="s">'is'</span><span class="p">),</span> <span class="p">(</span><span class="s">'is'</span><span class="p">,</span> <span class="s">'python'</span><span class="p">),</span> <span class="p">(</span><span class="s">'python'</span><span class="p">,</span> <span class="s">'script'</span><span class="p">)]</span>
-
-</code></pre></div></div>
-
-<h3 id="zip과-리스트-표현식으로-n-gram-만들기">zip과 리스트 표현식으로 N-gram 만들기</h3>
-<p><br />
-<br />
-N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식을 사용해 만들어 보자. [text[i:] for i in range(3)]처럼 for로 3번 반복하면서 text[i:]로 리스트를 생성했다. 여기서 for i in range(3)은 0, 1, 2까지 반복하므로 text[i:]는 text[0:], text[1:], text[2:]가 된다. 3-gram에 필요한 슬라이스다. text[0:]은 text와 같으므로 지금까지 zip에 넣었던 모양이다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">text</span> <span class="o">=</span> <span class="s">'hello'</span>
-<span class="p">[</span><span class="n">text</span><span class="p">[</span><span class="n">i</span><span class="p">:]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">)]</span>
-<span class="p">[</span><span class="s">'hello'</span><span class="p">,</span> <span class="s">'ello'</span><span class="p">,</span> <span class="s">'llo'</span><span class="p">]</span>
-
-</code></pre></div></div>
-
-<p>리스트[‘hello’, ‘ello’, ‘llo’]를 zip에 넣어보자. 결과를 보면 원하는 3-gram이 아니다. zip은 반복 가능한 객체 여러 개를 콤마고 구분해서 넣어줘야 한다. 하지만 [‘hello’, ‘ello’, ‘llo’]는 요소가 3개 들어있는 리스트 1개이기 때문이다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">([</span><span class="s">'hello'</span><span class="p">,</span> <span class="s">'ello'</span><span class="p">,</span> <span class="s">'llo'</span><span class="p">]))</span>
-<span class="p">[(</span><span class="s">'hello'</span><span class="p">,),</span> <span class="p">(</span><span class="s">'ello'</span><span class="p">,),</span> <span class="p">(</span><span class="s">'llo'</span><span class="p">,)]</span>
-
-</code></pre></div></div>
-
-<p>zip에 리스트의 각 요소를 콤마로 구분해서 넣어주려면 리스트 앞에 *를 붙여야 한다. 이제 3-gram 리스트가 만들어졌다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="s">'hello'</span><span class="p">,</span> <span class="s">'ello'</span><span class="p">,</span> <span class="s">'llo'</span><span class="p">]))</span>
-<span class="p">[(</span><span class="s">'h'</span><span class="p">,</span> <span class="s">'e'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">),</span> <span class="p">(</span><span class="s">'e'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">),</span> <span class="p">(</span><span class="s">'l'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">,</span> <span class="s">'o'</span><span class="p">)]</span>
-
-</code></pre></div></div>
-
-<p>물론 리스트 표현식을 바로 zip에 넣어주려면 리스트 표현식 앞에 *를 붙이면 된다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="n">text</span><span class="p">[</span><span class="n">i</span><span class="p">:]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">)]))</span>
-<span class="p">[(</span><span class="s">'h'</span><span class="p">,</span> <span class="s">'e'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">),</span> <span class="p">(</span><span class="s">'e'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">),</span> <span class="p">(</span><span class="s">'l'</span><span class="p">,</span> <span class="s">'l'</span><span class="p">,</span> <span class="s">'o'</span><span class="p">)]</span>
-
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="예제">예제</h3>
-<p><br />
-<br />
-단어가 줄 단위로 저장된 words.txt 파일이 주어집니다. words.txt 파일에서 회문인 단어를 각 줄에 출력하는 프로그램을 만드세요. 단어를 출력할 때는 등장한 순서대로 출력해야 합니다. 그리고 파일에서 읽은 단어는 \n이 붙어있으므로 \n을 제외한 뒤 회문인지 판단해야 하며 단어를 출력할 때도 \n이 출력되면 안 됩니다(단어 사이에 줄바꿈이 두 번 일어나면 안 됨).</p>
+<ul>
+  <li>http:// 또는 https://로 시작</li>
+  <li>도메인은 도메인.최상위도메인 형식이며 영문 대소문자, 숫자, -로 되어 있어야 함</li>
+  <li>도메인 이하 경로는 /로 구분하고, 영문 대소문자, 숫자, -, _, ., ?, =을 사용함</li>
+</ul>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="n">________________</span>
 <span class="n">________________</span>
 <span class="n">________________</span>
-<span class="n">________________</span>
-<span class="n">________________</span>
-<span class="n">________________</span>
 
-<span class="c1">#words.txt
-</span>
-<span class="n">apache</span>
-<span class="n">decal</span>
-<span class="n">did</span>
-<span class="n">neep</span>
-<span class="n">noon</span>
-<span class="n">refer</span>
-<span class="n">river</span>
 
-<span class="c1">#표준출력
-</span><span class="n">did</span>
-<span class="n">noon</span>
-<span class="n">refer</span>
+<span class="c1"># 입력
+</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="p">.</span><span class="n">example</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">hello</span><span class="o">/</span><span class="n">world</span><span class="p">.</span><span class="n">do</span><span class="err">?</span><span class="n">key</span><span class="o">=</span><span class="n">python</span>
+<span class="c1"># 결과
+</span><span class="bp">True</span>
+<span class="c1"># 입력
+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">example</span><span class="o">/</span><span class="n">hello</span><span class="o">/</span><span class="n">world</span><span class="p">.</span><span class="n">html</span>
+<span class="c1"># 결과
+</span><span class="bp">False</span>
 
 </code></pre></div></div>
 
 <p>내가 쓴 답</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'words.txt'</span><span class="p">,</span> <span class="s">'r'</span><span class="p">)</span><span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
-    <span class="n">words</span> <span class="o">=</span> <span class="nb">file</span><span class="p">.</span><span class="n">readlines</span><span class="p">()</span>
-    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
-        <span class="k">if</span> <span class="nb">list</span><span class="p">(</span><span class="n">word</span><span class="p">.</span><span class="n">strip</span><span class="p">(</span><span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">))</span> <span class="o">==</span> <span class="nb">list</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">word</span><span class="p">.</span><span class="n">strip</span><span class="p">(</span><span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">)))</span> <span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="n">word</span><span class="p">.</span><span class="n">strip</span><span class="p">(</span><span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">))</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="n">url</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+
+<span class="n">p</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="s">'^[a-zA-Z0-9]+\:\/\/[a-zA-Z0-9.]+\.[a-zA-Z0-9.-_?=/]'</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">match</span><span class="p">(</span><span class="n">url</span><span class="p">)</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s">' '</span><span class="p">)</span>
 
 </code></pre></div></div>
 
-<p>더 좋은 답</p>
+<p>답</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'words.txt'</span><span class="p">,</span> <span class="s">'r'</span><span class="p">)</span><span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
-    <span class="n">words</span> <span class="o">=</span> <span class="nb">file</span><span class="p">.</span><span class="n">readlines</span><span class="p">()</span>
-    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
-        <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="p">.</span><span class="n">strip</span><span class="p">(</span><span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">word</span> <span class="o">==</span> <span class="n">word</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="n">p</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="s">'^(http?://)[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+/[a-zA-Z0-9-_/.?=]*'</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">match</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">)</span>
+
 
 </code></pre></div></div>
+
+<p>먼저 URL은 http:// 또는 https://로 시작한다고 했으므로 정규표현식은 ^https?://로 시작합니다. 여기서 맨 앞에 ^를 붙였으므로 http 또는 https로 시작하는지 판단합니다. 그리고 https?와 같이 만들면 s가 0개 또는 1개 있어야 합니다. 따라서 http와 https를 둘 다 판별할 수 있습니다.</p>
+
+<p>이제 도메인을 판단합니다. 도메인 부분은 [a-zA-Z0-9-]+.[a-zA-Z0-9-.]+/와 같이 만들어줍니다. 먼저 [a-zA-Z0-9-]+와 같이 영문 대소문자, 숫자, -이면서 문자 1개 이상인지 판단합니다. 그리고 중간에 .를 넣어서 도메인.최상위도메인 형식인지 판단합니다. 여기서 .은 정규표현식에 사용하는 특수 문자이므로 앞에 반드시 \를 붙여야 합니다. 특히 최상위 도메인은 여러 단계일 수도 있으므로 [a-zA-Z0-9-.]+/와 같이 범위에 .을 넣어줍니다. 그리고 도메인과 도메인 이하 경로를 구분할 수 있도록 /를 붙여줍니다.</p>
+
+<p>도메인 이하 경로는 영문 대소문자, 숫자, -, _, ., ?, =을 사용한다고 했으므로 [a-zA-Z0-9-_/.?=]*와 같이 만들어줍니다. 특히 하위 경로가 더 나올 수 있으므로 범위 안에 /를 넣어야 합니다.</p>
+
+<p>지금까지 만든 정규표현식을 차례대로 연결해서 re.match 함수로 url을 판단해주면 됩니다. 그리고 re.match 함수의 반환값이 있으면(None이 아니면) True를 출력하고, None이면 False를 출력하면 됩니다.</p>
 
                 </div>
             </section>
@@ -578,9 +776,9 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            var this_page_url = 'https://AhnSang0915.github.io/python-basic26';
-                            var this_page_identifier = '/python-basic26';
-                            var this_page_title = 'Python - Python 회문 판별과 N-gram 만들기';
+                            var this_page_url = 'https://AhnSang0915.github.io/python-basic42';
+                            var this_page_identifier = '/python-basic42';
+                            var this_page_title = 'Python - Python 정규표현식 사용하기';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -634,11 +832,6 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/python-basic42">Python - Python 정규표현식 사용하기</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -654,12 +847,7 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
                                     
                                         
                                         
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
+                                            <li><a href="/python-basic39">Python - Python 코루틴 사용하기</a></li>
                                         
                                     
                                   
@@ -742,6 +930,16 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                     
                                   
                                 
@@ -1003,12 +1201,12 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/python-basic27">
+            <a class="post-card-image-link" href="/python-basic41">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic27">
+            <a class="post-card-content-link" href="/python-basic41">
                 <header class="post-card-header">
                     
                         
@@ -1018,7 +1216,7 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
                         
                     
 
-                    <h2 class="post-card-title">Python - Python 함수 사용하기</h2>
+                    <h2 class="post-card-title">Python - Python 모듈과 패키지 사용하기</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -1040,7 +1238,7 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
                 <span class="reading-time">
                     
                     
-                      8 min read
+                      11 min read
                     
                 </span>
             </footer>
@@ -1055,12 +1253,12 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/python-basic25">
+            <a class="post-card-image-link" href="/python-basic40">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic25">
+            <a class="post-card-content-link" href="/python-basic40">
                 <header class="post-card-header">
                     
                         
@@ -1070,7 +1268,7 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
                         
                     
 
-                    <h2 class="post-card-title">Python - Python 파일 사용하기</h2>
+                    <h2 class="post-card-title">Python - Python 데코레이터 사용하기</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -1092,7 +1290,7 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
                 <span class="reading-time">
                     
                     
-                      7 min read
+                      14 min read
                     
                 </span>
             </footer>
@@ -1114,18 +1312,18 @@ N-gram을 만들때 일일이 슬라이스를 넣지않고 리스트 표현식�
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Python - Python 회문 판별과 N-gram 만들기</div>
+    <div class="floating-header-title">Python - Python 정규표현식 사용하기</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Python+-+Python+%ED%9A%8C%EB%AC%B8+%ED%8C%90%EB%B3%84%EA%B3%BC+N-gram+%EB%A7%8C%EB%93%A4%EA%B8%B0&amp;url=https://AhnSang0915.github.iopython-basic26"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Python+-+Python+%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D+%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&amp;url=https://AhnSang0915.github.iopython-basic42"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iopython-basic26"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://AhnSang0915.github.iopython-basic42"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
